@@ -1,13 +1,5 @@
-
 import scrapy
 from scrapy_playwright.page import PageMethod
-
-DOWNLOAD_HANDLERS = {
-    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-}
-TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
-
 
 class ZillowSpider(scrapy.Spider):
     name = "zill"
@@ -22,6 +14,7 @@ class ZillowSpider(scrapy.Spider):
             ]
         ))
     async def parse(self, response):
-        yield{
-            'text': response.text
-        }
+        for item in response.css('div.Grid-c11n-8-101-3__sc-18zzowe-0.iyaBVr'):
+            yield{
+                'names': item.css('div.Flex-c11n-8-101-3__sc-n94bjd-0.hkCnxD h2::text').get()
+            }
