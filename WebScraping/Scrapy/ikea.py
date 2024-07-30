@@ -7,9 +7,8 @@ class IkeaSpider(scrapy.Spider):
     def parse(self, response):
         for item in response.css('div.plp-product-list__products div'):
             yield{
-                'product-code': item.css('::attr(data-product-number)').get(),
-                'name': item.css('::attr(data-product-name)').get(),
-                'price': item.css('::attr(data-price)').get(),
+                'product-code': item.css('::attr(data-ref-id)').get(),
+                'name': item.css('h3.plp-price-module__name span::text').get(),
+                'price': item.css('span.plp-price__integer::text').get(),
             }
-        newxtpage = response.css('div.plp-catalog-bottom-container a::attr(href)').get()
-        response.follow_all 
+        yield from response.follow_all(css='div.plp-catalog-bottom-container a::attr(href)', callback =self.parse)
