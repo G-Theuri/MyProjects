@@ -1,0 +1,42 @@
+[
+    {
+        "name": "TDAmeritrade/stumpy",
+        "github": "https://github.com/TDAmeritrade/stumpy",
+        "website": "https://stumpy.readthedocs.io/en/latest/",
+        "description": "STUMPY is a powerful and scalable Python library for modern time series analysis",
+        "language": "Python",
+        "stars": "3.2k",
+        "forks": "293",
+        "trendshiftid": 11309
+    },
+    {
+        "name": "randombit/botan",
+        "github": "https://github.com/randombit/botan",
+        "website": "https://botan.randombit.net",
+        "description": "Cryptography Toolkit",
+        "language": "C++",
+        "stars": "2.5k",
+        "forks": "554",
+        "trendshiftid": 11310
+    },
+    {
+        "name": "tgrapperon/swift-dependencies-additions",
+        "github": "https://github.com/tgrapperon/swift-dependencies-additions",
+        "website": null,
+        "description": "More dependencies for `swift-dependencies` ",
+        "language": "Swift",
+        "stars": "288",
+        "forks": "36",
+        "trendshiftid": 11311
+    },
+    {
+        "name": "canxin121/app_rhyme",
+        "github": "https://github.com/canxin121/app_rhyme",
+        "website": null,
+        "description": "\u4f7f\u7528Flutter\u548cRust\u6784\u5efa\u7684\u5f00\u6e90\u514d\u8d39\u97f3\u4e50\u8f6f\u4ef6",
+        "language": "Dart",
+        "stars": "456",
+        "forks": "24",
+        "trendshiftid": 11312
+    }
+]

@@ -1,26 +1,26 @@
 import scrapy
-import requests
 
 class TrendshiftSpider(scrapy.Spider):
     name = 'tshift'
-    for i in range(start=11315):
-        url = [f'https://trendshift.io/repositories/{i}']
-        response = requests.get(url)
-        if response.status_code != 200:
-            response = None
-            break
-        
+    start_urls = ['https://trendshift.io/repositories/11309']
+    countn = 11309 
+
     def parse(self, response):
-        for detail in response.css('div.max-w-4xl.mx-auto div'):
-            yield{
-                'name': detail.css('div::text').get(),
-                'github': detail.css('div.mb-4 div div a::attr(href)').get(),
-                'website': detail.css('div.mb-4 div div:nth-child(2) a::attr(href)').get(),
-                'description': detail.css('div.text-sm.text-gray-500 ::text').get(),
-                'language': detail.css('div:nth-child(2)::text').get(),
-                'stars': detail.css('div.mb-2 div div::text').get(),
-                'forks': detail.css('div.mb-2 div div:nth-child(2)::text').get(),                
-                #'trendshiftid': detail.css("").get(),
+        
+        yield{
+                'name': response.css('div.max-w-4xl.mx-auto div div::text').get(),
+                'github': response.css('div.mb-4 div div a::attr(href)').get(),
+                'website': response.css('div.mb-4 div div:nth-child(2) a::attr(href)').get(),
+                'description': response.css('div.text-sm.text-gray-500 ::text').get(),
+                'language': response.css('div:nth-child(2)::text').get(),
+                'stars': response.css('div.mb-2 div div::text').get(),
+                'forks': response.css('div.mb-2 div div:nth-child(2)::text').get(),                
+                'trendshiftid': self.countn,
                 #'rankdate': detail.css("").get(),
                 #'rank': detail.css("").get(),
             }
+        self.countn +=1
+        for i in range(11310, 11313):
+            next_url = f'https://trendshift.io/repositories/{i}'
+            yield response.follow(url=next_url, callback=self.parse)
+            
