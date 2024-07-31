@@ -20,7 +20,7 @@ class TrendshiftSpider(scrapy.Spider):
                 'language': detail.css('div:nth-child(2)::text').get(),
                 'stars': detail.css('div.mb-2 div div::text').get(),
                 'forks': detail.css('div.mb-2 div div:nth-child(2)::text').get(),                
-                'trendshiftid': detail.css("").get(),
-                'rankdate': detail.css("").get(),
-                'rank': detail.css("").get(),
+                #'trendshiftid': detail.css("").get(),
+                #'rankdate': detail.css("").get(),
+                #'rank': detail.css("").get(),
             }
