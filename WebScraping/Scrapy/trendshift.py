@@ -2,8 +2,8 @@ import scrapy
 
 class TrendshiftSpider(scrapy.Spider):
     name = 'tshift'
-    start_urls = ['https://trendshift.io/repositories/11309']
-    countn = 11309 
+    start_urls = ['https://trendshift.io/repositories/1']
+    countn = 1 
 
     def parse(self, response):
         
@@ -20,7 +20,7 @@ class TrendshiftSpider(scrapy.Spider):
                 #'rank': detail.css("").get(),
             }
         self.countn +=1
-        for i in range(11310, 11313):
+        for i in range(2, 111):
             next_url = f'https://trendshift.io/repositories/{i}'
             yield response.follow(url=next_url, callback=self.parse)
             
