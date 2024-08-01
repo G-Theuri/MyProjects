@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 r = requests.get('https://trendshift.io/repositories/1')
-data = r.text
-soup = BeautifulSoup(data, 'html.parser')
-rank = soup.find(id='\"rank\"')
-print(rank)
+soup = BeautifulSoup(r.content, 'html.parser')
+scripts= soup.find_all('script')
+text = scripts[-2].get_text()
+print(soup.prettify())
