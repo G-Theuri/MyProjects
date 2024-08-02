@@ -1,0 +1,3421 @@
+[{
+    "name": "Azure/azure-cli-extensions",
+    "github": "https://github.com/Azure/azure-cli-extensions",
+    "website": "https://docs.microsoft.com/en-us/cli/azure",
+    "description": "Public Repository for Extensions of Azure CLI.",
+    "language": "Python",
+    "stars": "377",
+    "forks": "1.2k",
+    "trendshiftid": "359"
+},
+{
+    "name": "TryGhost/Ghost",
+    "github": "https://github.com/TryGhost/Ghost",
+    "website": "https://ghost.org",
+    "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+    "language": "JavaScript",
+    "stars": "46.4k",
+    "forks": "10.1k",
+    "trendshiftid": "358"
+},
+{
+    "name": "googleapis/google-api-php-client",
+    "github": "https://github.com/googleapis/google-api-php-client",
+    "website": null,
+    "description": "A PHP client library for accessing Google APIs",
+    "language": "PHP",
+    "stars": "9.2k",
+    "forks": "3.5k",
+    "trendshiftid": "357"
+},
+{
+    "name": "ddosify/alaz",
+    "github": "https://github.com/ddosify/alaz",
+    "website": "https://getanteon.com",
+    "description": "Alaz: Advanced eBPF Agent for Kubernetes Observability \u2013 Effortlessly monitor K8s service interactions and performance metrics in your K8s environment. Gain in-depth insights with service maps, metrics, distributed tracing, and more, while staying alert to crucial system anomalies \ud83d\udc1d",
+    "language": "C",
+    "stars": "605",
+    "forks": "27",
+    "trendshiftid": "356"
+},
+{
+    "name": "codex-team/editor.js",
+    "github": "https://github.com/codex-team/editor.js",
+    "website": "https://editorjs.io",
+    "description": "A block-style editor with clean JSON output",
+    "language": "TypeScript",
+    "stars": "27.8k",
+    "forks": "2k",
+    "trendshiftid": "355"
+},
+{
+    "name": "drizzle-team/drizzle-orm",
+    "github": "https://github.com/drizzle-team/drizzle-orm",
+    "website": "https://orm.drizzle.team",
+    "description": "Headless TypeScript ORM with a head. Runs on Node, Bun and Deno. Lives on the Edge and yes, it's a JavaScript ORM too \ud83d\ude05",
+    "language": "TypeScript",
+    "stars": "22.2k",
+    "forks": "515",
+    "trendshiftid": "354"
+},
+{
+    "name": "grpc/grpc-go",
+    "github": "https://github.com/grpc/grpc-go",
+    "website": "https://grpc.io",
+    "description": "The Go language implementation of gRPC. HTTP/2 based RPC",
+    "language": "Go",
+    "stars": "20.6k",
+    "forks": "4.3k",
+    "trendshiftid": "353"
+},
+{
+    "name": "grpc/grpc",
+    "github": "https://github.com/grpc/grpc",
+    "website": "https://grpc.io",
+    "description": "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
+    "language": "C++",
+    "stars": "41.3k",
+    "forks": "10.4k",
+    "trendshiftid": "352"
+},
+{
+    "name": "apache/iceberg",
+    "github": "https://github.com/apache/iceberg",
+    "website": "https://iceberg.apache.org/",
+    "description": "Apache Iceberg",
+    "language": "Java",
+    "stars": "6k",
+    "forks": "2.1k",
+    "trendshiftid": "351"
+},
+{
+    "name": "golang/go",
+    "github": "https://github.com/golang/go",
+    "website": "https://go.dev",
+    "description": "The Go programming language",
+    "language": "Go",
+    "stars": "121.6k",
+    "forks": "17.4k",
+    "trendshiftid": "350"
+},
+{
+    "name": "rook/rook",
+    "github": "https://github.com/rook/rook",
+    "website": "https://rook.io",
+    "description": "Storage Orchestration for Kubernetes",
+    "language": "Go",
+    "stars": "12.2k",
+    "forks": "2.7k",
+    "trendshiftid": "349"
+},
+{
+    "name": "jpmorganchase/python-training",
+    "github": "https://github.com/jpmorganchase/python-training",
+    "website": null,
+    "description": "Python training for business analysts and traders",
+    "language": "Jupyter Notebook",
+    "stars": "4.6k",
+    "forks": "905",
+    "trendshiftid": "348"
+},
+{
+    "name": "apache/arrow",
+    "github": "https://github.com/apache/arrow",
+    "website": "https://arrow.apache.org/",
+    "description": "Apache Arrow is a multi-language toolbox for accelerated data interchange and in-memory processing",
+    "language": "C++",
+    "stars": "14k",
+    "forks": "3.4k",
+    "trendshiftid": "347"
+},
+{
+    "name": "mingrammer/diagrams",
+    "github": "https://github.com/mingrammer/diagrams",
+    "website": "https://diagrams.mingrammer.com",
+    "description": "\ud83c\udfdb\ufe0f Diagram as Code for prototyping cloud system architectures",
+    "language": "Python",
+    "stars": "36.3k",
+    "forks": "2.4k",
+    "trendshiftid": "346"
+},
+{
+    "name": "kubesphere/kubesphere",
+    "github": "https://github.com/kubesphere/kubesphere",
+    "website": "https://kubesphere.io",
+    "description": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management \u2388 \ud83d\udda5 \u2601\ufe0f",
+    "language": "Go",
+    "stars": "14.8k",
+    "forks": "2.1k",
+    "trendshiftid": "345"
+},
+{
+    "name": "hashicorp/vagrant",
+    "github": "https://github.com/hashicorp/vagrant",
+    "website": "https://www.vagrantup.com",
+    "description": "Vagrant is a tool for building and distributing development environments.",
+    "language": "Ruby",
+    "stars": "26.1k",
+    "forks": "4.4k",
+    "trendshiftid": "344"
+},
+{
+    "name": "pmndrs/zustand",
+    "github": "https://github.com/pmndrs/zustand",
+    "website": "https://zustand-demo.pmnd.rs/",
+    "description": "\ud83d\udc3b Bear necessities for state management in React",
+    "language": "TypeScript",
+    "stars": "45.1k",
+    "forks": "1.4k",
+    "trendshiftid": "343"
+},
+{
+    "name": "paritytech/polkadot-sdk",
+    "github": "https://github.com/paritytech/polkadot-sdk",
+    "website": "https://polkadot.network/",
+    "description": "The Parity Polkadot Blockchain SDK",
+    "language": "Rust",
+    "stars": "1.7k",
+    "forks": "595",
+    "trendshiftid": "342"
+},
+{
+    "name": "rust-lang/mdBook",
+    "github": "https://github.com/rust-lang/mdBook",
+    "website": "https://rust-lang.github.io/mdBook/",
+    "description": "Create book from markdown files. Like Gitbook but implemented in Rust",
+    "language": "Rust",
+    "stars": "17.4k",
+    "forks": "1.6k",
+    "trendshiftid": "341"
+},
+{
+    "name": "bitwarden/clients",
+    "github": "https://github.com/bitwarden/clients",
+    "website": "https://bitwarden.com",
+    "description": "Bitwarden client apps (web, browser extension, desktop, and cli).",
+    "language": "TypeScript",
+    "stars": "8.8k",
+    "forks": "1.1k",
+    "trendshiftid": "340"
+},
+{
+    "name": "NVIDIA/FasterTransformer",
+    "github": "https://github.com/NVIDIA/FasterTransformer",
+    "website": null,
+    "description": "Transformer related optimization, including BERT, GPT",
+    "language": "C++",
+    "stars": "5.7k",
+    "forks": "879",
+    "trendshiftid": "339"
+},
+{
+    "name": "webpack/webpack",
+    "github": "https://github.com/webpack/webpack",
+    "website": "https://webpack.js.org",
+    "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+    "language": "JavaScript",
+    "stars": "64.4k",
+    "forks": "8.7k",
+    "trendshiftid": "338"
+},
+{
+    "name": "shopware/platform",
+    "github": "https://github.com/shopware/platform",
+    "website": "https://shopware.com",
+    "description": "Shopware 6 is an open commerce platform based on Symfony Framework and Vue and supported by a worldwide community and more than 1.500 community extensions",
+    "language": "PHP",
+    "stars": "2.7k",
+    "forks": "991",
+    "trendshiftid": "337"
+},
+{
+    "name": "gorilla/websocket",
+    "github": "https://github.com/gorilla/websocket",
+    "website": "https://gorilla.github.io",
+    "description": "Package gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go.",
+    "language": "Go",
+    "stars": "21.8k",
+    "forks": "3.5k",
+    "trendshiftid": "336"
+},
+{
+    "name": "nestjs/nest",
+    "github": "https://github.com/nestjs/nest",
+    "website": "https://nestjs.com",
+    "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript \ud83d\ude80",
+    "language": "TypeScript",
+    "stars": "66k",
+    "forks": "7.5k",
+    "trendshiftid": "335"
+},
+{
+    "name": "developer-job-simulation/javascript-login-form",
+    "github": "https://github.com/developer-job-simulation/javascript-login-form",
+    "website": null,
+    "description": null,
+    "language": "JavaScript",
+    "stars": "218",
+    "forks": "318",
+    "trendshiftid": "334"
+},
+{
+    "name": "Planshit/Tai",
+    "github": "https://github.com/Planshit/Tai",
+    "website": null,
+    "description": "\ud83d\udc7b \u5728Windows\u4e0a\u7edf\u8ba1\u8f6f\u4ef6\u4f7f\u7528\u65f6\u957f\u548c\u7f51\u7ad9\u6d4f\u89c8\u65f6\u957f",
+    "language": "C#",
+    "stars": "3.7k",
+    "forks": "173",
+    "trendshiftid": "333"
+},
+{
+    "name": "containerd/containerd",
+    "github": "https://github.com/containerd/containerd",
+    "website": "https://containerd.io",
+    "description": "An open and reliable container runtime",
+    "language": "Go",
+    "stars": "16.9k",
+    "forks": "3.3k",
+    "trendshiftid": "332"
+},
+{
+    "name": "dmlc/xgboost",
+    "github": "https://github.com/dmlc/xgboost",
+    "website": "https://xgboost.readthedocs.io/en/stable/",
+    "description": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow",
+    "language": "C++",
+    "stars": "25.9k",
+    "forks": "8.7k",
+    "trendshiftid": "331"
+},
+{
+    "name": "caddyserver/caddy",
+    "github": "https://github.com/caddyserver/caddy",
+    "website": "https://caddyserver.com",
+    "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+    "language": "Go",
+    "stars": "56k",
+    "forks": "3.9k",
+    "trendshiftid": "330"
+},
+{
+    "name": "chatchat-space/Langchain-Chatchat",
+    "github": "https://github.com/chatchat-space/Langchain-Chatchat",
+    "website": null,
+    "description": "Langchain-Chatchat\uff08\u539fLangchain-ChatGLM\uff09\u57fa\u4e8e Langchain \u4e0e ChatGLM, Qwen \u4e0e Llama \u7b49\u8bed\u8a00\u6a21\u578b\u7684 RAG \u4e0e Agent \u5e94\u7528 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
+    "language": "TypeScript",
+    "stars": "30.3k",
+    "forks": "5.3k",
+    "trendshiftid": "329"
+},
+{
+    "name": "aripiprazole/rinha-de-compiler",
+    "github": "https://github.com/aripiprazole/rinha-de-compiler",
+    "website": null,
+    "description": "\ud83e\udd56 | Rinha de compiladores (ou interpretadores kkkk",
+    "language": "Rust",
+    "stars": "918",
+    "forks": "225",
+    "trendshiftid": "328"
+},
+{
+    "name": "predis/predis",
+    "github": "https://github.com/predis/predis",
+    "website": "https://github.com/predis/predis/wiki",
+    "description": "A flexible and feature-complete Redis client for PHP.",
+    "language": "PHP",
+    "stars": "7.6k",
+    "forks": "980",
+    "trendshiftid": "327"
+},
+{
+    "name": "aoao-eth/wechat-ai-summarize-bot",
+    "github": "https://github.com/aoao-eth/wechat-ai-summarize-bot",
+    "website": "https://zhinang.ai",
+    "description": "\u5fae\u4fe1\u7fa4\u804a\u603b\u7ed3\u52a9\u624b JS \u7248",
+    "language": "TypeScript",
+    "stars": "128",
+    "forks": "21",
+    "trendshiftid": "326"
+},
+{
+    "name": "baichuan-inc/Baichuan2",
+    "github": "https://github.com/baichuan-inc/Baichuan2",
+    "website": "https://huggingface.co/baichuan-inc",
+    "description": "A series of large language models developed by Baichuan Intelligent Technology",
+    "language": "Python",
+    "stars": "4k",
+    "forks": "290",
+    "trendshiftid": "325"
+},
+{
+    "name": "hotwired/turbo",
+    "github": "https://github.com/hotwired/turbo",
+    "website": "https://turbo.hotwired.dev",
+    "description": "The speed of a single-page web application without having to write any JavaScript",
+    "language": "JavaScript",
+    "stars": "6.6k",
+    "forks": "415",
+    "trendshiftid": "324"
+},
+{
+    "name": "modelscope/modelscope-agent",
+    "github": "https://github.com/modelscope/modelscope-agent",
+    "website": "https://modelscope-agent.readthedocs.io/en/latest/",
+    "description": "ModelScope-Agent: An agent framework connecting models in ModelScope with the world",
+    "language": "Python",
+    "stars": "2.3k",
+    "forks": "261",
+    "trendshiftid": "323"
+},
+{
+    "name": "apache/cassandra",
+    "github": "https://github.com/apache/cassandra",
+    "website": "http://cassandra.apache.org",
+    "description": "Mirror of Apache Cassandra",
+    "language": "Java",
+    "stars": "8.6k",
+    "forks": "3.6k",
+    "trendshiftid": "322"
+},
+{
+    "name": "openssl/openssl",
+    "github": "https://github.com/openssl/openssl",
+    "website": "https://www.openssl.org",
+    "description": "TLS/SSL and crypto library",
+    "language": "C",
+    "stars": "25.1k",
+    "forks": "10k",
+    "trendshiftid": "321"
+},
+{
+    "name": "ogham/exa",
+    "github": "https://github.com/ogham/exa",
+    "website": "https://the.exa.website/",
+    "description": "A modern replacement for \u2018ls\u2019.",
+    "language": "Rust",
+    "stars": "23.5k",
+    "forks": "659",
+    "trendshiftid": "320"
+},
+{
+    "name": "moby/moby",
+    "github": "https://github.com/moby/moby",
+    "website": "https://mobyproject.org/",
+    "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+    "language": "Go",
+    "stars": "68.3k",
+    "forks": "18.6k",
+    "trendshiftid": "319"
+},
+{
+    "name": "bazelbuild/bazel",
+    "github": "https://github.com/bazelbuild/bazel",
+    "website": "https://bazel.build",
+    "description": "a fast, scalable, multi-language and extensible build system",
+    "language": "Java",
+    "stars": "22.8k",
+    "forks": "4k",
+    "trendshiftid": "318"
+},
+{
+    "name": "hotwired/stimulus",
+    "github": "https://github.com/hotwired/stimulus",
+    "website": "https://stimulus.hotwired.dev/",
+    "description": "A modest JavaScript framework for the HTML you already have",
+    "language": "TypeScript",
+    "stars": "12.6k",
+    "forks": "419",
+    "trendshiftid": "317"
+},
+{
+    "name": "dromara/hutool",
+    "github": "https://github.com/dromara/hutool",
+    "website": "https://hutool.cn",
+    "description": "\ud83c\udf6cA set of tools that keep Java sweet.",
+    "language": "Java",
+    "stars": "28.8k",
+    "forks": "7.5k",
+    "trendshiftid": "316"
+},
+{
+    "name": "rspec/rspec-core",
+    "github": "https://github.com/rspec/rspec-core",
+    "website": "http://rspec.info",
+    "description": "RSpec runner and formatters",
+    "language": "Ruby",
+    "stars": "1.2k",
+    "forks": "761",
+    "trendshiftid": "315"
+},
+{
+    "name": "pterodactyl/panel",
+    "github": "https://github.com/pterodactyl/panel",
+    "website": "https://pterodactyl.io",
+    "description": "Pterodactyl\u00ae is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive UI to end users.",
+    "language": "PHP",
+    "stars": "6.4k",
+    "forks": "1.6k",
+    "trendshiftid": "314"
+},
+{
+    "name": "golang/mock",
+    "github": "https://github.com/golang/mock",
+    "website": null,
+    "description": "GoMock is a mocking framework for the Go programming language.",
+    "language": "Go",
+    "stars": "9.3k",
+    "forks": "608",
+    "trendshiftid": "313"
+},
+{
+    "name": "deployphp/deployer",
+    "github": "https://github.com/deployphp/deployer",
+    "website": "https://deployer.org",
+    "description": "The PHP deployment tool with support for popular frameworks out of the box",
+    "language": "PHP",
+    "stars": "10.5k",
+    "forks": "1.5k",
+    "trendshiftid": "312"
+},
+{
+    "name": "twigphp/Twig",
+    "github": "https://github.com/twigphp/Twig",
+    "website": "https://twig.symfony.com/",
+    "description": "Twig, the flexible, fast, and secure template language for PHP",
+    "language": "PHP",
+    "stars": "8.1k",
+    "forks": "1.2k",
+    "trendshiftid": "311"
+},
+{
+    "name": "lsd-rs/lsd",
+    "github": "https://github.com/lsd-rs/lsd",
+    "website": null,
+    "description": "The next gen ls command",
+    "language": "Rust",
+    "stars": "12.9k",
+    "forks": "421",
+    "trendshiftid": "310"
+},
+{
+    "name": "aws/aws-sdk-go",
+    "github": "https://github.com/aws/aws-sdk-go",
+    "website": "http://aws.amazon.com/sdk-for-go/",
+    "description": "AWS SDK for the Go programming language.",
+    "language": "Go",
+    "stars": "8.6k",
+    "forks": "2.1k",
+    "trendshiftid": "309"
+},
+{
+    "name": "uber-go/zap",
+    "github": "https://github.com/uber-go/zap",
+    "website": "https://pkg.go.dev/go.uber.org/zap",
+    "description": "Blazing fast, structured, leveled logging in Go.",
+    "language": "Go",
+    "stars": "21.4k",
+    "forks": "1.4k",
+    "trendshiftid": "308"
+},
+{
+    "name": "prometheus/prometheus",
+    "github": "https://github.com/prometheus/prometheus",
+    "website": "https://prometheus.io/",
+    "description": "The Prometheus monitoring system and time series database.",
+    "language": "Go",
+    "stars": "54.1k",
+    "forks": "9k",
+    "trendshiftid": "307"
+},
+{
+    "name": "PaddlePaddle/Paddle",
+    "github": "https://github.com/PaddlePaddle/Paddle",
+    "website": "http://www.paddlepaddle.org/",
+    "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice \uff08\u300e\u98de\u6868\u300f\u6838\u5fc3\u6846\u67b6\uff0c\u6df1\u5ea6\u5b66\u4e60&\u673a\u5668\u5b66\u4e60\u9ad8\u6027\u80fd\u5355\u673a\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u548c\u8de8\u5e73\u53f0\u90e8\u7f72\uff09",
+    "language": "C++",
+    "stars": "21.9k",
+    "forks": "5.5k",
+    "trendshiftid": "306"
+},
+{
+    "name": "redis/redis",
+    "github": "https://github.com/redis/redis",
+    "website": "http://redis.io",
+    "description": "Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.",
+    "language": "C",
+    "stars": "65.8k",
+    "forks": "23.6k",
+    "trendshiftid": "305"
+},
+{
+    "name": "gitlabhq/gitlabhq",
+    "github": "https://github.com/gitlabhq/gitlabhq",
+    "website": "https://about.gitlab.com/getting-help/",
+    "description": "GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com",
+    "language": "Ruby",
+    "stars": "23.7k",
+    "forks": "5.7k",
+    "trendshiftid": "304"
+},
+{
+    "name": "dotnet/csharplang",
+    "github": "https://github.com/dotnet/csharplang",
+    "website": null,
+    "description": "The official repo for the design of the C# programming language",
+    "language": "C#",
+    "stars": "11.2k",
+    "forks": "1k",
+    "trendshiftid": "303"
+},
+{
+    "name": "hashicorp/vault",
+    "github": "https://github.com/hashicorp/vault",
+    "website": "https://www.vaultproject.io/",
+    "description": "A tool for secrets management, encryption as a service, and privileged access management",
+    "language": "Go",
+    "stars": "30.6k",
+    "forks": "4.1k",
+    "trendshiftid": "302"
+},
+{
+    "name": "gorilla/mux",
+    "github": "https://github.com/gorilla/mux",
+    "website": "https://gorilla.github.io",
+    "description": "Package gorilla/mux is a powerful HTTP router and URL matcher for building Go web servers with \ud83e\udd8d",
+    "language": "Go",
+    "stars": "20.5k",
+    "forks": "1.8k",
+    "trendshiftid": "301"
+},
+{
+    "name": "minkphp/Mink",
+    "github": "https://github.com/minkphp/Mink",
+    "website": "https://mink.behat.org/",
+    "description": "PHP web browser emulator abstraction",
+    "language": "PHP",
+    "stars": "1.6k",
+    "forks": "277",
+    "trendshiftid": "300"
+},
+{
+    "name": "ceph/ceph",
+    "github": "https://github.com/ceph/ceph",
+    "website": "https://ceph.io",
+    "description": "Ceph is a distributed object, block, and file storage platform ",
+    "language": "C++",
+    "stars": "13.6k",
+    "forks": "5.9k",
+    "trendshiftid": "299"
+},
+{
+    "name": "dapr/dapr",
+    "github": "https://github.com/dapr/dapr",
+    "website": "https://dapr.io",
+    "description": "Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.",
+    "language": "Go",
+    "stars": "23.7k",
+    "forks": "1.9k",
+    "trendshiftid": "298"
+},
+{
+    "name": "fent/node-ytdl-core",
+    "github": "https://github.com/fent/node-ytdl-core",
+    "website": null,
+    "description": "YouTube video downloader in javascript.",
+    "language": "JavaScript",
+    "stars": "4.4k",
+    "forks": "750",
+    "trendshiftid": "297"
+},
+{
+    "name": "editablejs/editable",
+    "github": "https://github.com/editablejs/editable",
+    "website": "https://docs.editablejs.com",
+    "description": "\ud83c\udf31 A collaborative rich-text editor framework that focuses on stability, controllability, extensibility, and performance. \u4e00\u6b3e\u5f3a\u5230\u79bb\u8c31\u7684\u5bcc\u6587\u672c\u7f16\u8f91\u5668\u6846\u67b6\uff0c\u4e13\u6ce8\u4e8e\u7a33\u5b9a\u6027\u3001\u53ef\u63a7\u6027\u3001\u6269\u5c55\u6027\u548c\u6027\u80fd\u3002",
+    "language": "TypeScript",
+    "stars": "1.8k",
+    "forks": "120",
+    "trendshiftid": "296"
+},
+{
+    "name": "MisterBooo/LeetCodeAnimation",
+    "github": "https://github.com/MisterBooo/LeetCodeAnimation",
+    "website": null,
+    "description": "Demonstrate all the questions on LeetCode in the form of animation.\uff08\u7528\u52a8\u753b\u7684\u5f62\u5f0f\u5448\u73b0\u89e3LeetCode\u9898\u76ee\u7684\u601d\u8def\uff09",
+    "language": "Java",
+    "stars": "75.2k",
+    "forks": "14k",
+    "trendshiftid": "295"
+},
+{
+    "name": "egametang/ET",
+    "github": "https://github.com/egametang/ET",
+    "website": null,
+    "description": "Unity3D Client And C# Server Framework",
+    "language": "C#",
+    "stars": "8.6k",
+    "forks": "3k",
+    "trendshiftid": "294"
+},
+{
+    "name": "rubyforgood/casa",
+    "github": "https://github.com/rubyforgood/casa",
+    "website": "https://casavolunteertracking.org/",
+    "description": "Volunteer management system for nonprofit CASA, which serves foster youth in counties across America.",
+    "language": "Ruby",
+    "stars": "291",
+    "forks": "465",
+    "trendshiftid": "293"
+},
+{
+    "name": "etcd-io/etcd",
+    "github": "https://github.com/etcd-io/etcd",
+    "website": "https://etcd.io",
+    "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+    "language": "Go",
+    "stars": "47k",
+    "forks": "9.7k",
+    "trendshiftid": "292"
+},
+{
+    "name": "mob-sakai/ParticleEffectForUGUI",
+    "github": "https://github.com/mob-sakai/ParticleEffectForUGUI",
+    "website": null,
+    "description": "Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas.",
+    "language": "C#",
+    "stars": "4.1k",
+    "forks": "609",
+    "trendshiftid": "291"
+},
+{
+    "name": "IBM/sarama",
+    "github": "https://github.com/IBM/sarama",
+    "website": null,
+    "description": "Sarama is a Go library for Apache Kafka.",
+    "language": "Go",
+    "stars": "11.3k",
+    "forks": "1.7k",
+    "trendshiftid": "290"
+},
+{
+    "name": "cweagans/composer-patches",
+    "github": "https://github.com/cweagans/composer-patches",
+    "website": "https://www.cweagans.net/project/composer-patches",
+    "description": "Simple patches plugin for Composer",
+    "language": "PHP",
+    "stars": "1.5k",
+    "forks": "239",
+    "trendshiftid": "289"
+},
+{
+    "name": "cockpit-project/cockpit",
+    "github": "https://github.com/cockpit-project/cockpit",
+    "website": "http://www.cockpit-project.org/",
+    "description": "Cockpit is a web-based graphical interface for servers.",
+    "language": "C",
+    "stars": "10.7k",
+    "forks": "1.1k",
+    "trendshiftid": "288"
+},
+{
+    "name": "StarRocks/starrocks",
+    "github": "https://github.com/StarRocks/starrocks",
+    "website": "https://starrocks.io",
+    "description": "StarRocks, a Linux Foundation project, is a next-generation sub-second MPP OLAP database for full analytics scenarios, including multi-dimensional analytics, real-time analytics, and ad-hoc queries.  ",
+    "language": "Java",
+    "stars": "8.4k",
+    "forks": "1.7k",
+    "trendshiftid": "287"
+},
+{
+    "name": "Kyome22/RunCat_for_windows",
+    "github": "https://github.com/Kyome22/RunCat_for_windows",
+    "website": null,
+    "description": "A cute running cat animation on your windows taskbar.",
+    "language": "C#",
+    "stars": "6.4k",
+    "forks": "583",
+    "trendshiftid": "286"
+},
+{
+    "name": "PHP-CS-Fixer/PHP-CS-Fixer",
+    "github": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer",
+    "website": "https://cs.symfony.com",
+    "description": "A tool to automatically fix PHP Coding Standards issues",
+    "language": "PHP",
+    "stars": "12.7k",
+    "forks": "1.6k",
+    "trendshiftid": "285"
+},
+{
+    "name": "snail007/goproxy",
+    "github": "https://github.com/snail007/goproxy",
+    "website": "https://snail007.host900.com/goproxy/manual/zh/",
+    "description": "\ud83d\udd25  Proxy is a high performance HTTP(S) proxies, SOCKS5 proxies,WEBSOCKET, TCP, UDP proxy server implemented by golang. Now, it supports chain-style proxies,nat forwarding in different lan,TCP/UDP port forwarding, SSH forwarding.Proxy\u662fgolang\u5b9e\u73b0\u7684\u9ad8\u6027\u80fdhttp,https,websocket,tcp,socks5\u4ee3\u7406\u670d\u52a1\u5668,\u652f\u6301\u5185\u7f51\u7a7f\u900f,\u94fe\u5f0f\u4ee3\u7406,\u901a\u8baf\u52a0\u5bc6,\u667a\u80fdHTTP,SOCKS5\u4ee3\u7406,\u9ed1\u767d\u540d\u5355,\u9650\u901f,\u9650\u6d41\u91cf,\u9650\u8fde\u63a5\u6570,\u8de8\u5e73\u53f0,KCP\u652f\u6301,\u8ba4\u8bc1API\u3002",
+    "language": "Go",
+    "stars": "15.5k",
+    "forks": "3k",
+    "trendshiftid": "284"
+},
+{
+    "name": "TheRamU/Fay",
+    "github": "https://github.com/TheRamU/Fay",
+    "website": null,
+    "description": "Fay is an open-source digital human framework integrating language models and digital characters. It offers retail, assistant, and agent versions for diverse applications like virtual shopping guides, broadcasters, assistants, waiters, teachers, and voice or text-based mobile assistants.",
+    "language": "1.7k",
+    "stars": "8.7k",
+    "forks": "1.7k",
+    "trendshiftid": "283"
+},
+{
+    "name": "snipe/snipe-it",
+    "github": "https://github.com/snipe/snipe-it",
+    "website": "https://snipeitapp.com",
+    "description": "A free open source IT asset/license management system",
+    "language": "PHP",
+    "stars": "10.5k",
+    "forks": "3.1k",
+    "trendshiftid": "282"
+},
+{
+    "name": "evanw/esbuild",
+    "github": "https://github.com/evanw/esbuild",
+    "website": "https://esbuild.github.io/",
+    "description": "An extremely fast bundler for the web",
+    "language": "Go",
+    "stars": "37.7k",
+    "forks": "1.1k",
+    "trendshiftid": "281"
+},
+{
+    "name": "pytorch/pytorch",
+    "github": "https://github.com/pytorch/pytorch",
+    "website": "https://pytorch.org",
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "language": "Python",
+    "stars": "80.9k",
+    "forks": "21.7k",
+    "trendshiftid": "280"
+},
+{
+    "name": "rails-api/active_model_serializers",
+    "github": "https://github.com/rails-api/active_model_serializers",
+    "website": null,
+    "description": "ActiveModel::Serializer implementation and Rails hooks",
+    "language": "Ruby",
+    "stars": "5.3k",
+    "forks": "1.4k",
+    "trendshiftid": "279"
+},
+{
+    "name": "rust-lang/rustlings",
+    "github": "https://github.com/rust-lang/rustlings",
+    "website": "https://rustlings.cool",
+    "description": "\ud83e\udd80 Small exercises to get you used to reading and writing Rust code!",
+    "language": "Rust",
+    "stars": "51.7k",
+    "forks": "9.9k",
+    "trendshiftid": "278"
+},
+{
+    "name": "protocolbuffers/protobuf",
+    "github": "https://github.com/protocolbuffers/protobuf",
+    "website": "https://protobuf.dev",
+    "description": "Protocol Buffers - Google's data interchange format",
+    "language": "C++",
+    "stars": "64.8k",
+    "forks": "15.4k",
+    "trendshiftid": "277"
+},
+{
+    "name": "espressif/arduino-esp32",
+    "github": "https://github.com/espressif/arduino-esp32",
+    "website": null,
+    "description": "Arduino core for the ESP32",
+    "language": "C++",
+    "stars": "13.1k",
+    "forks": "7.3k",
+    "trendshiftid": "276"
+},
+{
+    "name": "rails/rails",
+    "github": "https://github.com/rails/rails",
+    "website": "https://rubyonrails.org",
+    "description": "Ruby on Rails",
+    "language": "Ruby",
+    "stars": "55.4k",
+    "forks": "21.5k",
+    "trendshiftid": "275"
+},
+{
+    "name": "apache/tomcat",
+    "github": "https://github.com/apache/tomcat",
+    "website": "https://tomcat.apache.org",
+    "description": "Apache Tomcat",
+    "language": "Java",
+    "stars": "7.4k",
+    "forks": "5k",
+    "trendshiftid": "274"
+},
+{
+    "name": "facebook/react",
+    "github": "https://github.com/facebook/react",
+    "website": "https://react.dev",
+    "description": "The library for web and native user interfaces.",
+    "language": "JavaScript",
+    "stars": "225.9k",
+    "forks": "46.1k",
+    "trendshiftid": "273"
+},
+{
+    "name": "google/go-github",
+    "github": "https://github.com/google/go-github",
+    "website": "https://pkg.go.dev/github.com/google/go-github/v63/github",
+    "description": "Go library for accessing the GitHub v3 API",
+    "language": "Go",
+    "stars": "10.2k",
+    "forks": "2k",
+    "trendshiftid": "272"
+},
+{
+    "name": "greenplum-db/gpdb",
+    "github": "https://github.com/greenplum-db/gpdb",
+    "website": null,
+    "description": null,
+    "language": "0",
+    "stars": "0",
+    "forks": "0",
+    "trendshiftid": "271"
+},
+{
+    "name": "reactiveui/refit",
+    "github": "https://github.com/reactiveui/refit",
+    "website": "https://reactiveui.github.io/refit/",
+    "description": "The automatic type-safe REST library for .NET Core, Xamarin and .NET. Heavily inspired by Square's Retrofit library, Refit turns your REST API into a live interface.",
+    "language": "C#",
+    "stars": "8.3k",
+    "forks": "739",
+    "trendshiftid": "270"
+},
+{
+    "name": "apache/echarts",
+    "github": "https://github.com/apache/echarts",
+    "website": "https://echarts.apache.org",
+    "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+    "language": "TypeScript",
+    "stars": "59.8k",
+    "forks": "19.6k",
+    "trendshiftid": "269"
+},
+{
+    "name": "pybind/pybind11",
+    "github": "https://github.com/pybind/pybind11",
+    "website": "https://pybind11.readthedocs.io/",
+    "description": "Seamless operability between C++11 and Python",
+    "language": "C++",
+    "stars": "15.2k",
+    "forks": "2.1k",
+    "trendshiftid": "268"
+},
+{
+    "name": "EsotericSoftware/spine-runtimes",
+    "github": "https://github.com/EsotericSoftware/spine-runtimes",
+    "website": "http://esotericsoftware.com/",
+    "description": "2D skeletal animation runtimes for Spine.",
+    "language": "C++",
+    "stars": "4.3k",
+    "forks": "2.9k",
+    "trendshiftid": "267"
+},
+{
+    "name": "elastic/beats",
+    "github": "https://github.com/elastic/beats",
+    "website": "https://www.elastic.co/products/beats",
+    "description": "\ud83d\udc20 Beats - Lightweight shippers for Elasticsearch & Logstash ",
+    "language": "Go",
+    "stars": "12.1k",
+    "forks": "4.9k",
+    "trendshiftid": "266"
+},
+{
+    "name": "googleads/googleads-mobile-unity",
+    "github": "https://github.com/googleads/googleads-mobile-unity",
+    "website": "https://developers.google.com/admob/unity",
+    "description": "Official Unity Plugin for the Google Mobile Ads SDK",
+    "language": "C#",
+    "stars": "1.3k",
+    "forks": "1.1k",
+    "trendshiftid": "265"
+},
+{
+    "name": "facebook/create-react-app",
+    "github": "https://github.com/facebook/create-react-app",
+    "website": "https://create-react-app.dev",
+    "description": "Set up a modern web app by running one command.",
+    "language": "JavaScript",
+    "stars": "102.3k",
+    "forks": "26.7k",
+    "trendshiftid": "264"
+},
+{
+    "name": "run-llama/sec-insights",
+    "github": "https://github.com/run-llama/sec-insights",
+    "website": "https://www.secinsights.ai/",
+    "description": "A real world full-stack application using LlamaIndex",
+    "language": "TypeScript",
+    "stars": "2.2k",
+    "forks": "603",
+    "trendshiftid": "263"
+},
+{
+    "name": "getsentry/sentry-ruby",
+    "github": "https://github.com/getsentry/sentry-ruby",
+    "website": "https://sentry.io/for/ruby",
+    "description": "Sentry SDK for Ruby",
+    "language": "Ruby",
+    "stars": "927",
+    "forks": "486",
+    "trendshiftid": "262"
+},
+{
+    "name": "apache/hadoop",
+    "github": "https://github.com/apache/hadoop",
+    "website": "https://hadoop.apache.org/",
+    "description": "Apache Hadoop",
+    "language": "Java",
+    "stars": "14.6k",
+    "forks": "8.8k",
+    "trendshiftid": "261"
+},
+{
+    "name": "dotnet/sdk",
+    "github": "https://github.com/dotnet/sdk",
+    "website": "https://dot.net/core",
+    "description": "Core functionality needed to create .NET Core projects, that is shared between Visual Studio and CLI",
+    "language": "C#",
+    "stars": "2.6k",
+    "forks": "1k",
+    "trendshiftid": "260"
+},
+{
+    "name": "facebook/folly",
+    "github": "https://github.com/facebook/folly",
+    "website": "https://groups.google.com/forum/?fromgroups#!forum/facebook-folly",
+    "description": "An open-source C++ library developed and used at Facebook.",
+    "language": "C++",
+    "stars": "27.8k",
+    "forks": "5.5k",
+    "trendshiftid": "259"
+},
+{
+    "name": "trufflesecurity/trufflehog",
+    "github": "https://github.com/trufflesecurity/trufflehog",
+    "website": "https://trufflesecurity.com",
+    "description": "Find and verify secrets",
+    "language": "Go",
+    "stars": "14.9k",
+    "forks": "1.6k",
+    "trendshiftid": "258"
+},
+{
+    "name": "aras-p/UnityGaussianSplatting",
+    "github": "https://github.com/aras-p/UnityGaussianSplatting",
+    "website": null,
+    "description": "Toy Gaussian Splatting visualization in Unity",
+    "language": "C#",
+    "stars": "2k",
+    "forks": "220",
+    "trendshiftid": "257"
+},
+{
+    "name": "Flipper-XFW/Xtreme-Firmware",
+    "github": "https://github.com/Flipper-XFW/Xtreme-Firmware",
+    "website": "https://flipper-xtre.me",
+    "description": "The Dom amongst the Flipper Zero Firmware. Give your Flipper the power and freedom it is really craving. Let it show you its true form. Dont delay, switch to the one and only true Master today!    ",
+    "language": "C",
+    "stars": "9.3k",
+    "forks": "664",
+    "trendshiftid": "256"
+},
+{
+    "name": "dotnet/aspnetcore",
+    "github": "https://github.com/dotnet/aspnetcore",
+    "website": "https://asp.net",
+    "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+    "language": "C#",
+    "stars": "34.9k",
+    "forks": "9.9k",
+    "trendshiftid": "255"
+},
+{
+    "name": "FlagAlpha/Llama2-Chinese",
+    "github": "https://github.com/FlagAlpha/Llama2-Chinese",
+    "website": "https://llama.family",
+    "description": "Llama\u4e2d\u6587\u793e\u533a\uff0cLlama3\u5728\u7ebf\u4f53\u9a8c\u548c\u5fae\u8c03\u6a21\u578b\u5df2\u5f00\u653e\uff0c\u5b9e\u65f6\u6c47\u603b\u6700\u65b0Llama3\u5b66\u4e60\u8d44\u6599\uff0c\u5df2\u5c06\u6240\u6709\u4ee3\u7801\u66f4\u65b0\u9002\u914dLlama3\uff0c\u6784\u5efa\u6700\u597d\u7684\u4e2d\u6587Llama\u5927\u6a21\u578b\uff0c\u5b8c\u5168\u5f00\u6e90\u53ef\u5546\u7528",
+    "language": "Python",
+    "stars": "13.2k",
+    "forks": "1.2k",
+    "trendshiftid": "254"
+},
+{
+    "name": "dotnet/roslyn",
+    "github": "https://github.com/dotnet/roslyn",
+    "website": "https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/",
+    "description": "The Roslyn .NET compiler provides C# and Visual Basic languages with rich code analysis APIs.",
+    "language": "C#",
+    "stars": "18.8k",
+    "forks": "4k",
+    "trendshiftid": "253"
+},
+{
+    "name": "risingwavelabs/risingwave",
+    "github": "https://github.com/risingwavelabs/risingwave",
+    "website": "https://www.risingwave.com/slack",
+    "description": "SQL stream processing, analytics, and management. We decouple storage and compute to offer efficient joins, instant failover, dynamic scaling, speedy bootstrapping, and concurrent query serving.",
+    "language": "Rust",
+    "stars": "6.7k",
+    "forks": "547",
+    "trendshiftid": "252"
+},
+{
+    "name": "ascpixi/smolsharp",
+    "github": "https://github.com/ascpixi/smolsharp",
+    "website": null,
+    "description": "\ud83d\udc1c Extremely small standalone C# executables using NativeAOT",
+    "language": "C#",
+    "stars": "212",
+    "forks": "8",
+    "trendshiftid": "251"
+},
+{
+    "name": "ramsey/uuid",
+    "github": "https://github.com/ramsey/uuid",
+    "website": "https://uuid.ramsey.dev",
+    "description": "\u2744\ufe0f A PHP library for generating universally unique identifiers (UUIDs).",
+    "language": "PHP",
+    "stars": "12.4k",
+    "forks": "501",
+    "trendshiftid": "250"
+},
+{
+    "name": "gonum/gonum",
+    "github": "https://github.com/gonum/gonum",
+    "website": "https://www.gonum.org/",
+    "description": "Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more",
+    "language": "Go",
+    "stars": "7.4k",
+    "forks": "533",
+    "trendshiftid": "249"
+},
+{
+    "name": "ffmpegwasm/ffmpeg.wasm",
+    "github": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+    "website": "https://ffmpegwasm.netlify.app",
+    "description": "FFmpeg for browser, powered by WebAssembly",
+    "language": "C",
+    "stars": "13.7k",
+    "forks": "793",
+    "trendshiftid": "248"
+},
+{
+    "name": "github/gh-actions-importer",
+    "github": "https://github.com/github/gh-actions-importer",
+    "website": null,
+    "description": "GitHub Actions Importer helps you plan and automate the migration of Azure DevOps, Bamboo, Bitbucket, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions.",
+    "language": "C#",
+    "stars": "976",
+    "forks": "675",
+    "trendshiftid": "247"
+},
+{
+    "name": "flipperdevices/flipperzero-firmware",
+    "github": "https://github.com/flipperdevices/flipperzero-firmware",
+    "website": "https://flipperzero.one",
+    "description": "Flipper Zero firmware source code",
+    "language": "C",
+    "stars": "11.9k",
+    "forks": "2.6k",
+    "trendshiftid": "246"
+},
+{
+    "name": "ggerganov/llama.cpp",
+    "github": "https://github.com/ggerganov/llama.cpp",
+    "website": null,
+    "description": "LLM inference in C/C++",
+    "language": "C++",
+    "stars": "62.9k",
+    "forks": "9k",
+    "trendshiftid": "245"
+},
+{
+    "name": "flutter/codelabs",
+    "github": "https://github.com/flutter/codelabs",
+    "website": null,
+    "description": "Flutter codelab examples",
+    "language": "C",
+    "stars": "1.8k",
+    "forks": "1.3k",
+    "trendshiftid": "244"
+},
+{
+    "name": "riok/mapperly",
+    "github": "https://github.com/riok/mapperly",
+    "website": "https://mapperly.riok.app",
+    "description": "A .NET source generator for generating object mappings. No runtime reflection.",
+    "language": "C#",
+    "stars": "2.5k",
+    "forks": "130",
+    "trendshiftid": "243"
+},
+{
+    "name": "apache/rocketmq",
+    "github": "https://github.com/apache/rocketmq",
+    "website": "https://rocketmq.apache.org/",
+    "description": "Apache RocketMQ is a cloud native messaging and streaming platform, making it simple to build event-driven applications.",
+    "language": "Java",
+    "stars": "20.9k",
+    "forks": "11.6k",
+    "trendshiftid": "242"
+},
+{
+    "name": "Cysharp/UniTask",
+    "github": "https://github.com/Cysharp/UniTask",
+    "website": null,
+    "description": "Provides an efficient allocation free async/await integration for Unity.",
+    "language": "C#",
+    "stars": "7.8k",
+    "forks": "790",
+    "trendshiftid": "241"
+},
+{
+    "name": "forem/forem",
+    "github": "https://github.com/forem/forem",
+    "website": "https://forem.com",
+    "description": "For empowering community \ud83c\udf31",
+    "language": "Ruby",
+    "stars": "21.8k",
+    "forks": "4k",
+    "trendshiftid": "240"
+},
+{
+    "name": "gothinkster/realworld",
+    "github": "https://github.com/gothinkster/realworld",
+    "website": "https://main--realworld-docs.netlify.app/",
+    "description": "\"The mother of all demo apps\" \u2014 Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more",
+    "language": "TypeScript",
+    "stars": "80k",
+    "forks": "7.3k",
+    "trendshiftid": "239"
+},
+{
+    "name": "filamentphp/filament",
+    "github": "https://github.com/filamentphp/filament",
+    "website": "https://filamentphp.com",
+    "description": "A collection of beautiful full-stack components for Laravel. The perfect starting point for your next app. Using Livewire, Alpine.js and Tailwind CSS.",
+    "language": "PHP",
+    "stars": "16.5k",
+    "forks": "2.6k",
+    "trendshiftid": "238"
+},
+{
+    "name": "google/benchmark",
+    "github": "https://github.com/google/benchmark",
+    "website": null,
+    "description": "A microbenchmark support library",
+    "language": "C++",
+    "stars": "8.7k",
+    "forks": "1.6k",
+    "trendshiftid": "237"
+},
+{
+    "name": "apitable/apitable",
+    "github": "https://github.com/apitable/apitable",
+    "website": "https://aitable.ai",
+    "description": "\ud83d\ude80\ud83c\udf89\ud83d\udcda APITable, an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. ",
+    "language": "TypeScript",
+    "stars": "12.8k",
+    "forks": "1.1k",
+    "trendshiftid": "236"
+},
+{
+    "name": "gabime/spdlog",
+    "github": "https://github.com/gabime/spdlog",
+    "website": null,
+    "description": "Fast C++ logging library.",
+    "language": "C++",
+    "stars": "23.4k",
+    "forks": "4.4k",
+    "trendshiftid": "235"
+},
+{
+    "name": "fastlane/fastlane",
+    "github": "https://github.com/fastlane/fastlane",
+    "website": "https://fastlane.tools",
+    "description": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps",
+    "language": "Ruby",
+    "stars": "38.9k",
+    "forks": "5.7k",
+    "trendshiftid": "234"
+},
+{
+    "name": "rigdev/rig",
+    "github": "https://github.com/rigdev/rig",
+    "website": "https://rig.dev",
+    "description": "The DevEx & Application-layer for your Internal Developer Platform \u26f5",
+    "language": "Go",
+    "stars": "1k",
+    "forks": "42",
+    "trendshiftid": "233"
+},
+{
+    "name": "emirpasic/gods",
+    "github": "https://github.com/emirpasic/gods",
+    "website": null,
+    "description": "GoDS (Go Data Structures) - Sets, Lists, Stacks, Maps, Trees, Queues, and much more",
+    "language": "Go",
+    "stars": "15.9k",
+    "forks": "1.7k",
+    "trendshiftid": "232"
+},
+{
+    "name": "rasta-mouse/SCMUACBypass",
+    "github": "https://github.com/rasta-mouse/SCMUACBypass",
+    "website": null,
+    "description": null,
+    "language": "C++",
+    "stars": "92",
+    "forks": "17",
+    "trendshiftid": "231"
+},
+{
+    "name": "argoproj/argo-cd",
+    "github": "https://github.com/argoproj/argo-cd",
+    "website": "https://argo-cd.readthedocs.io",
+    "description": "Declarative Continuous Deployment for Kubernetes",
+    "language": "Go",
+    "stars": "16.9k",
+    "forks": "5.2k",
+    "trendshiftid": "230"
+},
+{
+    "name": "electerm/electerm",
+    "github": "https://github.com/electerm/electerm",
+    "website": "https://electerm.html5beta.com",
+    "description": "\ud83d\udcfbTerminal/ssh/telnet/serialport/RDP/VNC/sftp client(linux, mac, win)",
+    "language": "JavaScript",
+    "stars": "10.8k",
+    "forks": "927",
+    "trendshiftid": "229"
+},
+{
+    "name": "github-linguist/linguist",
+    "github": "https://github.com/github-linguist/linguist",
+    "website": null,
+    "description": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
+    "language": "Ruby",
+    "stars": "12k",
+    "forks": "4.2k",
+    "trendshiftid": "228"
+},
+{
+    "name": "ggerganov/ggml",
+    "github": "https://github.com/ggerganov/ggml",
+    "website": null,
+    "description": "Tensor library for machine learning",
+    "language": "C++",
+    "stars": "10.5k",
+    "forks": "973",
+    "trendshiftid": "227"
+},
+{
+    "name": "cypress-io/cypress",
+    "github": "https://github.com/cypress-io/cypress",
+    "website": "https://cypress.io",
+    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "language": "JavaScript",
+    "stars": "46.5k",
+    "forks": "3.1k",
+    "trendshiftid": "226"
+},
+{
+    "name": "protobufjs/protobuf.js",
+    "github": "https://github.com/protobufjs/protobuf.js",
+    "website": null,
+    "description": "Protocol Buffers for JavaScript & TypeScript.",
+    "language": "JavaScript",
+    "stars": "9.8k",
+    "forks": "1.4k",
+    "trendshiftid": "225"
+},
+{
+    "name": "dotnet/maui",
+    "github": "https://github.com/dotnet/maui",
+    "website": "https://dot.net/maui",
+    "description": ".NET MAUI is the .NET Multi-platform App UI, a framework for building native device applications spanning mobile, tablet, and desktop.",
+    "language": "C#",
+    "stars": "21.9k",
+    "forks": "1.7k",
+    "trendshiftid": "224"
+},
+{
+    "name": "rails/sprockets",
+    "github": "https://github.com/rails/sprockets",
+    "website": null,
+    "description": "Rack-based asset packaging system",
+    "language": "Ruby",
+    "stars": "935",
+    "forks": "791",
+    "trendshiftid": "223"
+},
+{
+    "name": "dusty-nv/jetson-inference",
+    "github": "https://github.com/dusty-nv/jetson-inference",
+    "website": "https://developer.nvidia.com/embedded/twodaystoademo",
+    "description": "Hello AI World guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.",
+    "language": "C++",
+    "stars": "7.6k",
+    "forks": "2.9k",
+    "trendshiftid": "222"
+},
+{
+    "name": "fighting41love/funNLP",
+    "github": "https://github.com/fighting41love/funNLP",
+    "website": "https://zhuanlan.zhihu.com/yangyangfuture",
+    "description": "\u4e2d\u82f1\u6587\u654f\u611f\u8bcd\u3001\u8bed\u8a00\u68c0\u6d4b\u3001\u4e2d\u5916\u624b\u673a/\u7535\u8bdd\u5f52\u5c5e\u5730/\u8fd0\u8425\u5546\u67e5\u8be2\u3001\u540d\u5b57\u63a8\u65ad\u6027\u522b\u3001\u624b\u673a\u53f7\u62bd\u53d6\u3001\u8eab\u4efd\u8bc1\u62bd\u53d6\u3001\u90ae\u7bb1\u62bd\u53d6\u3001\u4e2d\u65e5\u6587\u4eba\u540d\u5e93\u3001\u4e2d\u6587\u7f29\u5199\u5e93\u3001\u62c6\u5b57\u8bcd\u5178\u3001\u8bcd\u6c47\u60c5\u611f\u503c\u3001\u505c\u7528\u8bcd\u3001\u53cd\u52a8\u8bcd\u8868\u3001\u66b4\u6050\u8bcd\u8868\u3001\u7e41\u7b80\u4f53\u8f6c\u6362\u3001\u82f1\u6587\u6a21\u62df\u4e2d\u6587\u53d1\u97f3\u3001\u6c6a\u5cf0\u6b4c\u8bcd\u751f\u6210\u5668\u3001\u804c\u4e1a\u540d\u79f0\u8bcd\u5e93\u3001\u540c\u4e49\u8bcd\u5e93\u3001\u53cd\u4e49\u8bcd\u5e93\u3001\u5426\u5b9a\u8bcd\u5e93\u3001\u6c7d\u8f66\u54c1\u724c\u8bcd\u5e93\u3001\u6c7d\u8f66\u96f6\u4ef6\u8bcd\u5e93\u3001\u8fde\u7eed\u82f1\u6587\u5207\u5272\u3001\u5404\u79cd\u4e2d\u6587\u8bcd\u5411\u91cf\u3001\u516c\u53f8\u540d\u5b57\u5927\u5168\u3001\u53e4\u8bd7\u8bcd\u5e93\u3001IT\u8bcd\u5e93\u3001\u8d22\u7ecf\u8bcd\u5e93\u3001\u6210\u8bed\u8bcd\u5e93\u3001\u5730\u540d\u8bcd\u5e93\u3001\u5386\u53f2\u540d\u4eba\u8bcd\u5e93\u3001\u8bd7\u8bcd\u8bcd\u5e93\u3001\u533b\u5b66\u8bcd\u5e93\u3001\u996e\u98df\u8bcd\u5e93\u3001\u6cd5\u5f8b\u8bcd\u5e93\u3001\u6c7d\u8f66\u8bcd\u5e93\u3001\u52a8\u7269\u8bcd\u5e93\u3001\u4e2d\u6587\u804a\u5929\u8bed\u6599\u3001\u4e2d\u6587\u8c23\u8a00\u6570\u636e\u3001\u767e\u5ea6\u4e2d\u6587\u95ee\u7b54\u6570\u636e\u96c6\u3001\u53e5\u5b50\u76f8\u4f3c\u5ea6\u5339\u914d\u7b97\u6cd5\u96c6\u5408\u3001bert\u8d44\u6e90\u3001\u6587\u672c\u751f\u6210&\u6458\u8981\u76f8\u5173\u5de5\u5177\u3001cocoNLP\u4fe1\u606f\u62bd\u53d6\u5de5\u5177\u3001\u56fd\u5185\u7535\u8bdd\u53f7\u7801\u6b63\u5219...",
+    "language": "Python",
+    "stars": "66.7k",
+    "forks": "14.3k",
+    "trendshiftid": "221"
+},
+{
+    "name": "Expensify/App",
+    "github": "https://github.com/Expensify/App",
+    "website": "https://new.expensify.com",
+    "description": "Welcome to New Expensify: a complete re-imagination of financial collaboration, centered around chat. Help us build the next generation of Expensify by sharing feedback and contributing to the code.",
+    "language": "TypeScript",
+    "stars": "3.2k",
+    "forks": "2.7k",
+    "trendshiftid": "220"
+},
+{
+    "name": "dockersamples/example-voting-app",
+    "github": "https://github.com/dockersamples/example-voting-app",
+    "website": null,
+    "description": "Example distributed app composed of multiple containers for Docker, Compose, Swarm, and Kubernetes",
+    "language": "C#",
+    "stars": "4.6k",
+    "forks": "10.1k",
+    "trendshiftid": "219"
+},
+{
+    "name": "microsoft/onnxruntime",
+    "github": "https://github.com/microsoft/onnxruntime",
+    "website": "https://onnxruntime.ai",
+    "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+    "language": "C++",
+    "stars": "13.7k",
+    "forks": "2.8k",
+    "trendshiftid": "218"
+},
+{
+    "name": "faker-ruby/faker",
+    "github": "https://github.com/faker-ruby/faker",
+    "website": null,
+    "description": "A library for generating fake data such as names, addresses, and phone numbers.",
+    "language": "Ruby",
+    "stars": "11.2k",
+    "forks": "3.2k",
+    "trendshiftid": "217"
+},
+{
+    "name": "fluent/fluentd",
+    "github": "https://github.com/fluent/fluentd",
+    "website": "https://www.fluentd.org",
+    "description": "Fluentd: Unified Logging Layer (project under CNCF)",
+    "language": "Ruby",
+    "stars": "12.7k",
+    "forks": "1.3k",
+    "trendshiftid": "216"
+},
+{
+    "name": "facebook/react-native",
+    "github": "https://github.com/facebook/react-native",
+    "website": "https://reactnative.dev",
+    "description": "A framework for building native applications using React",
+    "language": "C++",
+    "stars": "117.4k",
+    "forks": "24.1k",
+    "trendshiftid": "215"
+},
+{
+    "name": "fuhao0536/box-im-master",
+    "github": "https://github.com/fuhao0536/box-im-master",
+    "website": null,
+    "description": null,
+    "language": "Java",
+    "stars": "215",
+    "forks": "20",
+    "trendshiftid": "214"
+},
+{
+    "name": "MystenLabs/sui",
+    "github": "https://github.com/MystenLabs/sui",
+    "website": "https://sui.io",
+    "description": " Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language",
+    "language": "Rust",
+    "stars": "5.9k",
+    "forks": "11.1k",
+    "trendshiftid": "213"
+},
+{
+    "name": "evershopcommerce/evershop",
+    "github": "https://github.com/evershopcommerce/evershop",
+    "website": "https://evershop.io/",
+    "description": "\ud83d\udecd\ufe0f NodeJS E-commerce Platform",
+    "language": "JavaScript",
+    "stars": "3.9k",
+    "forks": "1.1k",
+    "trendshiftid": "212"
+},
+{
+    "name": "Docile-Alligator/Infinity-For-Reddit",
+    "github": "https://github.com/Docile-Alligator/Infinity-For-Reddit",
+    "website": "https://play.google.com/store/apps/details?id=ml.docilealligator.infinityforreddit",
+    "description": "A Reddit client for Android",
+    "language": "Java",
+    "stars": "4.1k",
+    "forks": "406",
+    "trendshiftid": "211"
+},
+{
+    "name": "freescout-helpdesk/freescout",
+    "github": "https://github.com/freescout-helpdesk/freescout",
+    "website": "https://freescout.net",
+    "description": "FreeScout \u2014 Free self-hosted help desk & shared mailbox (Zendesk / Help Scout alternative)",
+    "language": "PHP",
+    "stars": "2.8k",
+    "forks": "473",
+    "trendshiftid": "210"
+},
+{
+    "name": "Netflix/eureka",
+    "github": "https://github.com/Netflix/eureka",
+    "website": null,
+    "description": "AWS Service registry for resilient mid-tier load balancing and failover.",
+    "language": "Java",
+    "stars": "12.3k",
+    "forks": "3.7k",
+    "trendshiftid": "209"
+},
+{
+    "name": "analogdevicesinc/no-OS",
+    "github": "https://github.com/analogdevicesinc/no-OS",
+    "website": "http://analogdevicesinc.github.io/no-OS/",
+    "description": "Software drivers in C for systems without an operating system",
+    "language": "C",
+    "stars": "886",
+    "forks": "1.6k",
+    "trendshiftid": "208"
+},
+{
+    "name": "emilk/egui",
+    "github": "https://github.com/emilk/egui",
+    "website": "https://www.egui.rs/",
+    "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+    "language": "Rust",
+    "stars": "21k",
+    "forks": "1.5k",
+    "trendshiftid": "207"
+},
+{
+    "name": "pancakeswap/pancake-frontend",
+    "github": "https://github.com/pancakeswap/pancake-frontend",
+    "website": "https://pancakeswap.finance",
+    "description": "\ud83e\udd5e Pancake main features (farms, pools, IFO, lottery, profiles)",
+    "language": "TypeScript",
+    "stars": "2.7k",
+    "forks": "3.5k",
+    "trendshiftid": "206"
+},
+{
+    "name": "devopshydclub/vprofile-project",
+    "github": "https://github.com/devopshydclub/vprofile-project",
+    "website": null,
+    "description": null,
+    "language": "Java",
+    "stars": "2.2k",
+    "forks": "8.4k",
+    "trendshiftid": "205"
+},
+{
+    "name": "microsoft/promptflow",
+    "github": "https://github.com/microsoft/promptflow",
+    "website": "https://microsoft.github.io/promptflow/",
+    "description": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring.",
+    "language": "Python",
+    "stars": "8.9k",
+    "forks": "804",
+    "trendshiftid": "204"
+},
+{
+    "name": "Netflix/conductor",
+    "github": "https://github.com/Netflix/conductor",
+    "website": null,
+    "description": "Conductor is a microservices orchestration engine.",
+    "language": "Java",
+    "stars": "12.9k",
+    "forks": "2.3k",
+    "trendshiftid": "203"
+},
+{
+    "name": "alibaba/easyexcel",
+    "github": "https://github.com/alibaba/easyexcel",
+    "website": "https://easyexcel.opensource.alibaba.com",
+    "description": "\u5feb\u901f\u3001\u7b80\u6d01\u3001\u89e3\u51b3\u5927\u6587\u4ef6\u5185\u5b58\u6ea2\u51fa\u7684java\u5904\u7406Excel\u5de5\u5177",
+    "language": "Java",
+    "stars": "31.6k",
+    "forks": "7.5k",
+    "trendshiftid": "202"
+},
+{
+    "name": "projectdiscovery/naabu",
+    "github": "https://github.com/projectdiscovery/naabu",
+    "website": "https://projectdiscovery.io",
+    "description": "A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
+    "language": "Go",
+    "stars": "4.5k",
+    "forks": "531",
+    "trendshiftid": "201"
+},
+{
+    "name": "pmmp/PocketMine-MP",
+    "github": "https://github.com/pmmp/PocketMine-MP",
+    "website": "https://pmmp.io",
+    "description": "A server software for Minecraft: Bedrock Edition in PHP",
+    "language": "PHP",
+    "stars": "3.2k",
+    "forks": "1.5k",
+    "trendshiftid": "200"
+},
+{
+    "name": "PHPOffice/PhpSpreadsheet",
+    "github": "https://github.com/PHPOffice/PhpSpreadsheet",
+    "website": "https://phpspreadsheet.readthedocs.io",
+    "description": "A pure PHP library for reading and writing spreadsheet files",
+    "language": "PHP",
+    "stars": "13.2k",
+    "forks": "3.4k",
+    "trendshiftid": "199"
+},
+{
+    "name": "allegro/bigcache",
+    "github": "https://github.com/allegro/bigcache",
+    "website": "http://allegro.tech/2016/03/writing-fast-cache-service-in-go.html",
+    "description": "Efficient cache for gigabytes of data written in Go.",
+    "language": "Go",
+    "stars": "7.4k",
+    "forks": "592",
+    "trendshiftid": "198"
+},
+{
+    "name": "directus/directus",
+    "github": "https://github.com/directus/directus",
+    "website": "https://directus.io",
+    "description": "The Modern Data Stack \ud83d\udc30 \u2014 Directus is an instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.",
+    "language": "TypeScript",
+    "stars": "26.7k",
+    "forks": "3.7k",
+    "trendshiftid": "197"
+},
+{
+    "name": "neovide/neovide",
+    "github": "https://github.com/neovide/neovide",
+    "website": "https://neovide.dev",
+    "description": "No Nonsense Neovim Client in Rust",
+    "language": "Rust",
+    "stars": "12.5k",
+    "forks": "510",
+    "trendshiftid": "196"
+},
+{
+    "name": "open-metadata/OpenMetadata",
+    "github": "https://github.com/open-metadata/OpenMetadata",
+    "website": "https://open-metadata.org",
+    "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+    "language": "TypeScript",
+    "stars": "4.9k",
+    "forks": "943",
+    "trendshiftid": "195"
+},
+{
+    "name": "pimcore/pimcore",
+    "github": "https://github.com/pimcore/pimcore",
+    "website": "http://www.pimcore.com",
+    "description": "Core Framework for the Open Source Data & Experience Management Platform (PIM, MDM, CDP, DAM, DXP/CMS & Digital Commerce)",
+    "language": "PHP",
+    "stars": "3.3k",
+    "forks": "1.4k",
+    "trendshiftid": "194"
+},
+{
+    "name": "cookpete/react-player",
+    "github": "https://github.com/cookpete/react-player",
+    "website": "https://cookpete.github.io/react-player",
+    "description": "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia and DailyMotion",
+    "language": "JavaScript",
+    "stars": "9.1k",
+    "forks": "1.1k",
+    "trendshiftid": "193"
+},
+{
+    "name": "alibaba/canal",
+    "github": "https://github.com/alibaba/canal",
+    "website": null,
+    "description": "\u963f\u91cc\u5df4\u5df4 MySQL binlog \u589e\u91cf\u8ba2\u9605&\u6d88\u8d39\u7ec4\u4ef6 ",
+    "language": "Java",
+    "stars": "28.2k",
+    "forks": "7.6k",
+    "trendshiftid": "192"
+},
+{
+    "name": "paper-trail-gem/paper_trail",
+    "github": "https://github.com/paper-trail-gem/paper_trail",
+    "website": null,
+    "description": "Track changes to your rails models",
+    "language": "Ruby",
+    "stars": "6.7k",
+    "forks": "883",
+    "trendshiftid": "191"
+},
+{
+    "name": "matter-labs/zksync-era",
+    "github": "https://github.com/matter-labs/zksync-era",
+    "website": null,
+    "description": "zkSync era",
+    "language": "Rust",
+    "stars": "3.1k",
+    "forks": "2.1k",
+    "trendshiftid": "190"
+},
+{
+    "name": "aigc-apps/sd-webui-EasyPhoto",
+    "github": "https://github.com/aigc-apps/sd-webui-EasyPhoto",
+    "website": null,
+    "description": "\ud83d\udcf7 EasyPhoto | Your Smart AI Photo Generator.",
+    "language": "Python",
+    "stars": "4.8k",
+    "forks": "378",
+    "trendshiftid": "189"
+},
+{
+    "name": "alexlenail/NN-SVG",
+    "github": "https://github.com/alexlenail/NN-SVG",
+    "website": "http://alexlenail.me/NN-SVG/",
+    "description": "Publication-ready NN-architecture schematics. ",
+    "language": "JavaScript",
+    "stars": "4.5k",
+    "forks": "578",
+    "trendshiftid": "188"
+},
+{
+    "name": "pola-rs/polars",
+    "github": "https://github.com/pola-rs/polars",
+    "website": "https://docs.pola.rs",
+    "description": "Dataframes powered by a multithreaded, vectorized query engine, written in Rust",
+    "language": "Rust",
+    "stars": "28.4k",
+    "forks": "1.8k",
+    "trendshiftid": "187"
+},
+{
+    "name": "markdownlint/markdownlint",
+    "github": "https://github.com/markdownlint/markdownlint",
+    "website": null,
+    "description": "Markdown lint tool",
+    "language": "Ruby",
+    "stars": "1.8k",
+    "forks": "228",
+    "trendshiftid": "186"
+},
+{
+    "name": "krayin/laravel-crm",
+    "github": "https://github.com/krayin/laravel-crm",
+    "website": "https://krayincrm.com",
+    "description": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.",
+    "language": "PHP",
+    "stars": "8k",
+    "forks": "524",
+    "trendshiftid": "185"
+},
+{
+    "name": "adrianseeley/FastMJPG",
+    "github": "https://github.com/adrianseeley/FastMJPG",
+    "website": null,
+    "description": null,
+    "language": "0",
+    "stars": "0",
+    "forks": "0",
+    "trendshiftid": "184"
+},
+{
+    "name": "OpenZeppelin/openzeppelin-contracts",
+    "github": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+    "website": "https://openzeppelin.com/contracts",
+    "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
+    "language": "JavaScript",
+    "stars": "24.6k",
+    "forks": "11.7k",
+    "trendshiftid": "183"
+},
+{
+    "name": "pret/pokeemerald",
+    "github": "https://github.com/pret/pokeemerald",
+    "website": null,
+    "description": "Decompilation of Pok\u00e9mon Emerald",
+    "language": "C",
+    "stars": "2.1k",
+    "forks": "2.2k",
+    "trendshiftid": "182"
+},
+{
+    "name": "Klipper3d/klipper",
+    "github": "https://github.com/Klipper3d/klipper",
+    "website": null,
+    "description": "Klipper is a 3d-printer firmware",
+    "language": "C",
+    "stars": "9.1k",
+    "forks": "5.2k",
+    "trendshiftid": "181"
+},
+{
+    "name": "LaravelCollective/html",
+    "github": "https://github.com/LaravelCollective/html",
+    "website": null,
+    "description": "HTML and Form Builders for the Laravel Framework",
+    "language": "PHP",
+    "stars": "4k",
+    "forks": "768",
+    "trendshiftid": "180"
+},
+{
+    "name": "NVIDIA/TensorRT",
+    "github": "https://github.com/NVIDIA/TensorRT",
+    "website": "https://developer.nvidia.com/tensorrt",
+    "description": "NVIDIA\u00ae TensorRT\u2122 is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT.",
+    "language": "C++",
+    "stars": "10.4k",
+    "forks": "2.1k",
+    "trendshiftid": "179"
+},
+{
+    "name": "mas-elkhanza/SIMRS-Khanza",
+    "github": "https://github.com/mas-elkhanza/SIMRS-Khanza",
+    "website": "https://www.yaski.or.id",
+    "description": "Software untuk rumah sakit, klinik, puskesmas, dokter pribadi yang sudah digunakan di lebih dari 1000 rumah sakit di sluruh indonesia",
+    "language": "Java",
+    "stars": "553",
+    "forks": "780",
+    "trendshiftid": "178"
+},
+{
+    "name": "jestjs/jest",
+    "github": "https://github.com/jestjs/jest",
+    "website": "https://jestjs.io",
+    "description": "Delightful JavaScript Testing.",
+    "language": "TypeScript",
+    "stars": "43.9k",
+    "forks": "6.4k",
+    "trendshiftid": "177"
+},
+{
+    "name": "pcottle/learnGitBranching",
+    "github": "https://github.com/pcottle/learnGitBranching",
+    "website": "https://pcottle.github.io/learnGitBranching/",
+    "description": "An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!",
+    "language": "JavaScript",
+    "stars": "30.2k",
+    "forks": "5.7k",
+    "trendshiftid": "176"
+},
+{
+    "name": "omerbt/TokenFlow",
+    "github": "https://github.com/omerbt/TokenFlow",
+    "website": "https://diffusion-tokenflow.github.io",
+    "description": "Official Pytorch Implementation for \"TokenFlow: Consistent Diffusion Features for Consistent Video Editing\" presenting \"TokenFlow\" (ICLR 2024)",
+    "language": "Python",
+    "stars": "1.5k",
+    "forks": "135",
+    "trendshiftid": "175"
+},
+{
+    "name": "partykit/partykit",
+    "github": "https://github.com/partykit/partykit",
+    "website": "https://docs.partykit.io/",
+    "description": "PartyKit simplifies developing multiplayer applications",
+    "language": "TypeScript",
+    "stars": "4.4k",
+    "forks": "149",
+    "trendshiftid": "174"
+},
+{
+    "name": "oklog/ulid",
+    "github": "https://github.com/oklog/ulid",
+    "website": null,
+    "description": "Universally Unique Lexicographically Sortable Identifier (ULID) in Go",
+    "language": "Go",
+    "stars": "4.4k",
+    "forks": "161",
+    "trendshiftid": "173"
+},
+{
+    "name": "lm-sys/FastChat",
+    "github": "https://github.com/lm-sys/FastChat",
+    "website": null,
+    "description": "An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena.",
+    "language": "Python",
+    "stars": "36k",
+    "forks": "4.4k",
+    "trendshiftid": "172"
+},
+{
+    "name": "deepfence/ThreatMapper",
+    "github": "https://github.com/deepfence/ThreatMapper",
+    "website": "https://deepfence.io",
+    "description": "Open Source Cloud Native Application Protection Platform (CNAPP)",
+    "language": "TypeScript",
+    "stars": "4.7k",
+    "forks": "570",
+    "trendshiftid": "171"
+},
+{
+    "name": "macrozheng/mall",
+    "github": "https://github.com/macrozheng/mall",
+    "website": "https://www.macrozheng.com/admin/",
+    "description": "mall\u9879\u76ee\u662f\u4e00\u5957\u7535\u5546\u7cfb\u7edf\uff0c\u5305\u62ec\u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u53ca\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u57fa\u4e8eSpringBoot+MyBatis\u5b9e\u73b0\uff0c\u91c7\u7528Docker\u5bb9\u5668\u5316\u90e8\u7f72\u3002 \u524d\u53f0\u5546\u57ce\u7cfb\u7edf\u5305\u542b\u9996\u9875\u95e8\u6237\u3001\u5546\u54c1\u63a8\u8350\u3001\u5546\u54c1\u641c\u7d22\u3001\u5546\u54c1\u5c55\u793a\u3001\u8d2d\u7269\u8f66\u3001\u8ba2\u5355\u6d41\u7a0b\u3001\u4f1a\u5458\u4e2d\u5fc3\u3001\u5ba2\u6237\u670d\u52a1\u3001\u5e2e\u52a9\u4e2d\u5fc3\u7b49\u6a21\u5757\u3002 \u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\u5305\u542b\u5546\u54c1\u7ba1\u7406\u3001\u8ba2\u5355\u7ba1\u7406\u3001\u4f1a\u5458\u7ba1\u7406\u3001\u4fc3\u9500\u7ba1\u7406\u3001\u8fd0\u8425\u7ba1\u7406\u3001\u5185\u5bb9\u7ba1\u7406\u3001\u7edf\u8ba1\u62a5\u8868\u3001\u8d22\u52a1\u7ba1\u7406\u3001\u6743\u9650\u7ba1\u7406\u3001\u8bbe\u7f6e\u7b49\u6a21\u5757\u3002",
+    "language": "Java",
+    "stars": "76.8k",
+    "forks": "28.6k",
+    "trendshiftid": "170"
+},
+{
+    "name": "pedroslopez/whatsapp-web.js",
+    "github": "https://github.com/pedroslopez/whatsapp-web.js",
+    "website": "https://wwebjs.dev",
+    "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
+    "language": "JavaScript",
+    "stars": "14.8k",
+    "forks": "3.5k",
+    "trendshiftid": "169"
+},
+{
+    "name": "CMU-Perceptual-Computing-Lab/openpose",
+    "github": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+    "website": "https://cmu-perceptual-computing-lab.github.io/openpose",
+    "description": "OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation",
+    "language": "C++",
+    "stars": "30.5k",
+    "forks": "7.8k",
+    "trendshiftid": "168"
+},
+{
+    "name": "wpilibsuite/allwpilib",
+    "github": "https://github.com/wpilibsuite/allwpilib",
+    "website": "https://wpilib.org/",
+    "description": "Official Repository of WPILibJ and WPILibC",
+    "language": "C++",
+    "stars": "1k",
+    "forks": "609",
+    "trendshiftid": "167"
+},
+{
+    "name": "opentffoundation/opentf",
+    "github": "https://github.com/opentffoundation/opentf",
+    "website": "https://opentofu.org",
+    "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+    "language": "Go",
+    "stars": "22k",
+    "forks": "823",
+    "trendshiftid": "166"
+},
+{
+    "name": "KillianLucas/open-interpreter",
+    "github": "https://github.com/KillianLucas/open-interpreter",
+    "website": "http://openinterpreter.com/",
+    "description": "A natural language interface for computers",
+    "language": "Python",
+    "stars": "51.3k",
+    "forks": "4.5k",
+    "trendshiftid": "165"
+},
+{
+    "name": "NVIDIA/nccl",
+    "github": "https://github.com/NVIDIA/nccl",
+    "website": null,
+    "description": "Optimized primitives for collective multi-GPU communication",
+    "language": "C++",
+    "stars": "3k",
+    "forks": "763",
+    "trendshiftid": "164"
+},
+{
+    "name": "nlohmann/json",
+    "github": "https://github.com/nlohmann/json",
+    "website": "https://json.nlohmann.me",
+    "description": "JSON for Modern C++",
+    "language": "C++",
+    "stars": "41.7k",
+    "forks": "6.6k",
+    "trendshiftid": "163"
+},
+{
+    "name": "jhipster/generator-jhipster",
+    "github": "https://github.com/jhipster/generator-jhipster",
+    "website": "https://www.jhipster.tech",
+    "description": "JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.",
+    "language": "TypeScript",
+    "stars": "21.4k",
+    "forks": "4k",
+    "trendshiftid": "162"
+},
+{
+    "name": "libuv/libuv",
+    "github": "https://github.com/libuv/libuv",
+    "website": "https://libuv.org/",
+    "description": "Cross-platform asynchronous I/O",
+    "language": "C",
+    "stars": "23.7k",
+    "forks": "3.6k",
+    "trendshiftid": "161"
+},
+{
+    "name": "Intervention/image",
+    "github": "https://github.com/Intervention/image",
+    "website": "https://image.intervention.io",
+    "description": "PHP Image Processing",
+    "language": "PHP",
+    "stars": "13.8k",
+    "forks": "1.5k",
+    "trendshiftid": "160"
+},
+{
+    "name": "cloudcommunity/Free-Certifications",
+    "github": "https://github.com/cloudcommunity/Free-Certifications",
+    "website": "https://cloudstudy.net",
+    "description": "A curated list of free courses & certifications.",
+    "language": "1.9k",
+    "stars": "25k",
+    "forks": "1.9k",
+    "trendshiftid": "159"
+},
+{
+    "name": "llvm/llvm-project",
+    "github": "https://github.com/llvm/llvm-project",
+    "website": "http://llvm.org",
+    "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+    "language": "LLVM",
+    "stars": "27.2k",
+    "forks": "11.2k",
+    "trendshiftid": "158"
+},
+{
+    "name": "mattn/go-sqlite3",
+    "github": "https://github.com/mattn/go-sqlite3",
+    "website": "http://mattn.github.io/go-sqlite3",
+    "description": "sqlite3 driver for go using database/sql",
+    "language": "C",
+    "stars": "7.7k",
+    "forks": "1.1k",
+    "trendshiftid": "157"
+},
+{
+    "name": "WordPress/twentytwentyfour",
+    "github": "https://github.com/WordPress/twentytwentyfour",
+    "website": null,
+    "description": null,
+    "language": "PHP",
+    "stars": "192",
+    "forks": "117",
+    "trendshiftid": "156"
+},
+{
+    "name": "Andy-Python-Programmer/aero",
+    "github": "https://github.com/Andy-Python-Programmer/aero",
+    "website": "https://aero.andypy.dev",
+    "description": "Aero is a new modern, experimental, UNIX-like operating system following the monolithic kernel design. Supporting modern PC features such as long mode, 5-level paging, and SMP (multicore), to name a few.",
+    "language": "Rust",
+    "stars": "1.1k",
+    "forks": "48",
+    "trendshiftid": "155"
+},
+{
+    "name": "algebraic-sofia/vulpi",
+    "github": "https://github.com/algebraic-sofia/vulpi",
+    "website": null,
+    "description": "\ud83e\udd8a | A language that compiles to LLVM and has algebraic effects",
+    "language": "Rust",
+    "stars": "105",
+    "forks": "1",
+    "trendshiftid": "154"
+},
+{
+    "name": "mbdavid/LiteDB",
+    "github": "https://github.com/mbdavid/LiteDB",
+    "website": "http://www.litedb.org",
+    "description": "LiteDB - A .NET NoSQL Document Store in a single data file",
+    "language": "C#",
+    "stars": "8.4k",
+    "forks": "1.2k",
+    "trendshiftid": "153"
+},
+{
+    "name": "walkor/workerman",
+    "github": "https://github.com/walkor/workerman",
+    "website": "http://www.workerman.net",
+    "description": "An asynchronous event driven PHP socket framework. Supports HTTP, Websocket, SSL and other custom protocols. ",
+    "language": "PHP",
+    "stars": "11k",
+    "forks": "2.3k",
+    "trendshiftid": "152"
+},
+{
+    "name": "jaygajera17/E-commerce-project-springBoot",
+    "github": "https://github.com/jaygajera17/E-commerce-project-springBoot",
+    "website": "https://jaygajera17.github.io/E-commerce-project-springBoot/",
+    "description": "This project serves as an easy-to-understand setup for beginners , providing a base foundation in Spring Boot , MVC & hibernate.",
+    "language": "Java",
+    "stars": "530",
+    "forks": "516",
+    "trendshiftid": "151"
+},
+{
+    "name": "cloudfoundry/java-buildpack",
+    "github": "https://github.com/cloudfoundry/java-buildpack",
+    "website": null,
+    "description": "Cloud Foundry buildpack for running Java applications",
+    "language": "Ruby",
+    "stars": "435",
+    "forks": "2.6k",
+    "trendshiftid": "150"
+},
+{
+    "name": "xuetaolu/URP_ASE_Tutorial",
+    "github": "https://github.com/xuetaolu/URP_ASE_Tutorial",
+    "website": null,
+    "description": "Amplify Shader Editor Tutorial with Universal Render Pipeline",
+    "language": "C#",
+    "stars": "274",
+    "forks": "109",
+    "trendshiftid": "149"
+},
+{
+    "name": "moodle/moodle",
+    "github": "https://github.com/moodle/moodle",
+    "website": "https://moodle.org/",
+    "description": "Moodle - the world's open source learning platform",
+    "language": "PHP",
+    "stars": "5.6k",
+    "forks": "6.5k",
+    "trendshiftid": "148"
+},
+{
+    "name": "InterstellarNetwork/Interstellar",
+    "github": "https://github.com/InterstellarNetwork/Interstellar",
+    "website": "https://discord.gg/Interstellar",
+    "description": "One of the most popular modern web proxies with blazing fast speeds and a variety of games.",
+    "language": "JavaScript",
+    "stars": "791",
+    "forks": "9.2k",
+    "trendshiftid": "147"
+},
+{
+    "name": "measuredco/puck",
+    "github": "https://github.com/measuredco/puck",
+    "website": "https://puckeditor.com",
+    "description": "The visual editor for React",
+    "language": "TypeScript",
+    "stars": "4.9k",
+    "forks": "251",
+    "trendshiftid": "146"
+},
+{
+    "name": "massalabs/massa",
+    "github": "https://github.com/massalabs/massa",
+    "website": "https://massa.net",
+    "description": "The Decentralized and Scaled Blockchain",
+    "language": "Rust",
+    "stars": "5.6k",
+    "forks": "718",
+    "trendshiftid": "145"
+},
+{
+    "name": "YavorGIvanov/sam.cpp",
+    "github": "https://github.com/YavorGIvanov/sam.cpp",
+    "website": null,
+    "description": null,
+    "language": "C++",
+    "stars": "1.2k",
+    "forks": "52",
+    "trendshiftid": "144"
+},
+{
+    "name": "Yidadaa/ChatGPT-Next-Web",
+    "github": "https://github.com/Yidadaa/ChatGPT-Next-Web",
+    "website": "https://app.nextchat.dev/",
+    "description": "A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). \u4e00\u952e\u62e5\u6709\u4f60\u81ea\u5df1\u7684\u8de8\u5e73\u53f0 ChatGPT/Gemini \u5e94\u7528\u3002",
+    "language": "TypeScript",
+    "stars": "73.5k",
+    "forks": "58.3k",
+    "trendshiftid": "143"
+},
+{
+    "name": "zevv/bucklespring",
+    "github": "https://github.com/zevv/bucklespring",
+    "website": null,
+    "description": "Nostalgia bucklespring keyboard sound",
+    "language": "C",
+    "stars": "1.4k",
+    "forks": "82",
+    "trendshiftid": "142"
+},
+{
+    "name": "XPixelGroup/DiffBIR",
+    "github": "https://github.com/XPixelGroup/DiffBIR",
+    "website": null,
+    "description": "Official codes of DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior",
+    "language": "Python",
+    "stars": "3.2k",
+    "forks": "269",
+    "trendshiftid": "141"
+},
+{
+    "name": "libp2p/rust-libp2p",
+    "github": "https://github.com/libp2p/rust-libp2p",
+    "website": "https://libp2p.io",
+    "description": "The Rust Implementation of the libp2p networking stack. ",
+    "language": "Rust",
+    "stars": "4.4k",
+    "forks": "909",
+    "trendshiftid": "140"
+},
+{
+    "name": "codehub666/94list",
+    "github": "https://github.com/codehub666/94list",
+    "website": null,
+    "description": "\u767e\u5ea6\u7f51\u76d8\u5206\u4eab\u94fe\u63a5\u5206\u6790\u6e32\u67d3\u5217\u8868\u8f85\u52a9\u4e0b\u8f7d\u5f00\u6e90\u7a0b\u5e8f",
+    "language": "PHP",
+    "stars": "1.8k",
+    "forks": "323",
+    "trendshiftid": "139"
+},
+{
+    "name": "shivaya-dav/DogeRat",
+    "github": "https://github.com/shivaya-dav/DogeRat",
+    "website": null,
+    "description": "A multifunctional Telegram based Android RAT without port forwarding.",
+    "language": "643",
+    "stars": "1.1k",
+    "forks": "643",
+    "trendshiftid": "138"
+},
+{
+    "name": "lz4/lz4",
+    "github": "https://github.com/lz4/lz4",
+    "website": "http://www.lz4.org",
+    "description": "Extremely Fast Compression algorithm",
+    "language": "C",
+    "stars": "10k",
+    "forks": "1.4k",
+    "trendshiftid": "137"
+},
+{
+    "name": "nicoalbanese/kirimase",
+    "github": "https://github.com/nicoalbanese/kirimase",
+    "website": "https://kirimase.dev",
+    "description": "Build full-stack Next.js apps, incredibly fast",
+    "language": "TypeScript",
+    "stars": "2.5k",
+    "forks": "113",
+    "trendshiftid": "136"
+},
+{
+    "name": "MakiNaruto/Automatic_ticket_purchase",
+    "github": "https://github.com/MakiNaruto/Automatic_ticket_purchase",
+    "website": null,
+    "description": "\u5927\u9ea6\u7f51\u62a2\u7968\u811a\u672c",
+    "language": "Python",
+    "stars": "4.2k",
+    "forks": "823",
+    "trendshiftid": "135"
+},
+{
+    "name": "ClickHouse/clickhouse-go",
+    "github": "https://github.com/ClickHouse/clickhouse-go",
+    "website": null,
+    "description": "Golang driver for ClickHouse",
+    "language": "Go",
+    "stars": "2.8k",
+    "forks": "545",
+    "trendshiftid": "134"
+},
+{
+    "name": "Tencent/xLua",
+    "github": "https://github.com/Tencent/xLua",
+    "website": null,
+    "description": "xLua is a lua programming solution for  C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.",
+    "language": "C",
+    "stars": "9.3k",
+    "forks": "2.4k",
+    "trendshiftid": "133"
+},
+{
+    "name": "aws/aws-cdk",
+    "github": "https://github.com/aws/aws-cdk",
+    "website": "https://aws.amazon.com/cdk",
+    "description": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code",
+    "language": "TypeScript",
+    "stars": "11.4k",
+    "forks": "3.8k",
+    "trendshiftid": "132"
+},
+{
+    "name": "ThrowTheSwitch/Unity",
+    "github": "https://github.com/ThrowTheSwitch/Unity",
+    "website": "ThrowTheSwitch.org",
+    "description": "Simple Unit Testing for C",
+    "language": "C",
+    "stars": "3.9k",
+    "forks": "943",
+    "trendshiftid": "131"
+},
+{
+    "name": "google/mediapipe",
+    "github": "https://github.com/google/mediapipe",
+    "website": "https://mediapipe.dev",
+    "description": "Cross-platform, customizable ML solutions for live and streaming media.",
+    "language": "C++",
+    "stars": "26.4k",
+    "forks": "5.1k",
+    "trendshiftid": "130"
+},
+{
+    "name": "Uahh/ToastFish",
+    "github": "https://github.com/Uahh/ToastFish",
+    "website": null,
+    "description": "\u4e00\u4e2a\u5229\u7528\u6478\u9c7c\u65f6\u95f4\u80cc\u5355\u8bcd\u7684\u8f6f\u4ef6\u3002",
+    "language": "C#",
+    "stars": "5k",
+    "forks": "426",
+    "trendshiftid": "129"
+},
+{
+    "name": "tecnickcom/TCPDF",
+    "github": "https://github.com/tecnickcom/TCPDF",
+    "website": "https://tcpdf.org",
+    "description": "Official clone of PHP library to generate PDF documents and barcodes",
+    "language": "PHP",
+    "stars": "4.1k",
+    "forks": "1.5k",
+    "trendshiftid": "128"
+},
+{
+    "name": "thingsboard/thingsboard",
+    "github": "https://github.com/thingsboard/thingsboard",
+    "website": "https://thingsboard.io",
+    "description": "Open-source IoT Platform - Device management, data collection, processing and visualization.",
+    "language": "Java",
+    "stars": "16.3k",
+    "forks": "5k",
+    "trendshiftid": "127"
+},
+{
+    "name": "CocoaPods/CocoaPods",
+    "github": "https://github.com/CocoaPods/CocoaPods",
+    "website": "https://cocoapods.org/",
+    "description": "The Cocoa Dependency Manager.",
+    "language": "Ruby",
+    "stars": "14.5k",
+    "forks": "2.6k",
+    "trendshiftid": "126"
+},
+{
+    "name": "haproxy/haproxy",
+    "github": "https://github.com/haproxy/haproxy",
+    "website": "https://git.haproxy.org/",
+    "description": "HAProxy Load Balancer's development branch (mirror of git.haproxy.org)",
+    "language": "C",
+    "stars": "4.7k",
+    "forks": "775",
+    "trendshiftid": "125"
+},
+{
+    "name": "roboflow/supervision",
+    "github": "https://github.com/roboflow/supervision",
+    "website": "https://supervision.roboflow.com",
+    "description": "We write your reusable computer vision tools. \ud83d\udc9c",
+    "language": "Python",
+    "stars": "18.2k",
+    "forks": "1.4k",
+    "trendshiftid": "124"
+},
+{
+    "name": "kubernetes/client-go",
+    "github": "https://github.com/kubernetes/client-go",
+    "website": null,
+    "description": "Go client for Kubernetes.",
+    "language": "Go",
+    "stars": "8.8k",
+    "forks": "2.9k",
+    "trendshiftid": "123"
+},
+{
+    "name": "typst/typst",
+    "github": "https://github.com/typst/typst",
+    "website": "https://typst.app",
+    "description": "A new markup-based typesetting system that is powerful and easy to learn.",
+    "language": "Rust",
+    "stars": "31.8k",
+    "forks": "855",
+    "trendshiftid": "122"
+},
+{
+    "name": "cockroachdb/cockroach",
+    "github": "https://github.com/cockroachdb/cockroach",
+    "website": "https://www.cockroachlabs.com",
+    "description": "CockroachDB - the open source, cloud-native distributed SQL database.",
+    "language": "Go",
+    "stars": "29.6k",
+    "forks": "3.7k",
+    "trendshiftid": "121"
+},
+{
+    "name": "liveblocks/liveblocks",
+    "github": "https://github.com/liveblocks/liveblocks",
+    "website": "https://liveblocks.io",
+    "description": "Liveblocks is the platform for adding collaborative editing, comments, and notifications into your application.",
+    "language": "TypeScript",
+    "stars": "3.3k",
+    "forks": "258",
+    "trendshiftid": "120"
+},
+{
+    "name": "discourse/discourse",
+    "github": "https://github.com/discourse/discourse",
+    "website": "https://www.discourse.org",
+    "description": "A platform for community discussion. Free, open, simple.",
+    "language": "Ruby",
+    "stars": "41.4k",
+    "forks": "8.2k",
+    "trendshiftid": "119"
+},
+{
+    "name": "aws/aws-sdk-java-v2",
+    "github": "https://github.com/aws/aws-sdk-java-v2",
+    "website": null,
+    "description": "The official AWS SDK for Java - Version 2",
+    "language": "Java",
+    "stars": "2.1k",
+    "forks": "814",
+    "trendshiftid": "118"
+},
+{
+    "name": "nektos/act",
+    "github": "https://github.com/nektos/act",
+    "website": "https://nektosact.com",
+    "description": "Run your GitHub Actions locally \ud83d\ude80",
+    "language": "Go",
+    "stars": "52.9k",
+    "forks": "1.3k",
+    "trendshiftid": "117"
+},
+{
+    "name": "rxi/log.c",
+    "github": "https://github.com/rxi/log.c",
+    "website": null,
+    "description": "A simple logging library implemented in C99",
+    "language": "C",
+    "stars": "2.6k",
+    "forks": "551",
+    "trendshiftid": "116"
+},
+{
+    "name": "tjy-gitnub/win12",
+    "github": "https://github.com/tjy-gitnub/win12",
+    "website": "https://tjy-gitnub.github.io/win12/desktop.html",
+    "description": "Windows 12 \u7f51\u9875\u7248\uff0c\u5728\u7ebf\u4f53\u9a8c \u70b9\u51fb\u4e0b\u9762\u7684\u94fe\u63a5\u5728\u7ebf\u4f53\u9a8c",
+    "language": "JavaScript",
+    "stars": "6.4k",
+    "forks": "751",
+    "trendshiftid": "115"
+},
+{
+    "name": "Tencent/MMKV",
+    "github": "https://github.com/Tencent/MMKV",
+    "website": null,
+    "description": "An efficient, small mobile key-value storage framework developed by WeChat. Works on Android, iOS, macOS, Windows, and POSIX.",
+    "language": "C++",
+    "stars": "17.1k",
+    "forks": "1.9k",
+    "trendshiftid": "114"
+},
+{
+    "name": "cosmos/cosmos-sdk",
+    "github": "https://github.com/cosmos/cosmos-sdk",
+    "website": "https://cosmos.network/",
+    "description": "\u26d3\ufe0f A Framework for Building High Value Public Blockchains \u2728",
+    "language": "Go",
+    "stars": "6.1k",
+    "forks": "3.5k",
+    "trendshiftid": "113"
+},
+{
+    "name": "coder/code-server",
+    "github": "https://github.com/coder/code-server",
+    "website": "https://coder.com",
+    "description": "VS Code in the browser",
+    "language": "TypeScript",
+    "stars": "66.9k",
+    "forks": "5.5k",
+    "trendshiftid": "112"
+},
+{
+    "name": "tinode/chat",
+    "github": "https://github.com/tinode/chat",
+    "website": null,
+    "description": "Instant messaging platform. Backend in Go. Clients: Swift iOS, Java Android, JS webapp, scriptable command line; chatbots",
+    "language": "Go",
+    "stars": "11.8k",
+    "forks": "1.9k",
+    "trendshiftid": "111"
+},
+{
+    "name": "cube-js/cube",
+    "github": "https://github.com/cube-js/cube",
+    "website": "https://cube.dev",
+    "description": "\ud83d\udcca  Cube \u2014 The Semantic Layer for Building Data Applications",
+    "language": "Rust",
+    "stars": "17.6k",
+    "forks": "1.7k",
+    "trendshiftid": "110"
+},
+{
+    "name": "mastodon/mastodon",
+    "github": "https://github.com/mastodon/mastodon",
+    "website": "https://joinmastodon.org",
+    "description": "Your self-hosted, globally interconnected microblogging community",
+    "language": "Ruby",
+    "stars": "46.5k",
+    "forks": "6.8k",
+    "trendshiftid": "109"
+},
+{
+    "name": "umbraco/Umbraco-CMS",
+    "github": "https://github.com/umbraco/Umbraco-CMS",
+    "website": "https://umbraco.com",
+    "description": "Umbraco is a free and open source .NET content management system helping you deliver delightful digital experiences.",
+    "language": "C#",
+    "stars": "4.4k",
+    "forks": "2.6k",
+    "trendshiftid": "108"
+},
+{
+    "name": "hpcaitech/ColossalAI",
+    "github": "https://github.com/hpcaitech/ColossalAI",
+    "website": "https://www.colossalai.org",
+    "description": "Making large AI models cheaper, faster and more accessible",
+    "language": "Python",
+    "stars": "38.4k",
+    "forks": "4.3k",
+    "trendshiftid": "107"
+},
+{
+    "name": "defuse/php-encryption",
+    "github": "https://github.com/defuse/php-encryption",
+    "website": null,
+    "description": "Simple Encryption in PHP.",
+    "language": "PHP",
+    "stars": "3.8k",
+    "forks": "309",
+    "trendshiftid": "106"
+},
+{
+    "name": "opencv/opencv",
+    "github": "https://github.com/opencv/opencv",
+    "website": "https://opencv.org",
+    "description": "Open Source Computer Vision Library",
+    "language": "C++",
+    "stars": "77.3k",
+    "forks": "55.7k",
+    "trendshiftid": "105"
+},
+{
+    "name": "huginn/huginn",
+    "github": "https://github.com/huginn/huginn",
+    "website": null,
+    "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+    "language": "Ruby",
+    "stars": "42.5k",
+    "forks": "3.7k",
+    "trendshiftid": "104"
+},
+{
+    "name": "signalapp/Signal-Server",
+    "github": "https://github.com/signalapp/Signal-Server",
+    "website": "https://signal.org/",
+    "description": "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
+    "language": "Java",
+    "stars": "9k",
+    "forks": "2.1k",
+    "trendshiftid": "103"
+},
+{
+    "name": "shadowsocks/shadowsocks-rust",
+    "github": "https://github.com/shadowsocks/shadowsocks-rust",
+    "website": "https://shadowsocks.org/",
+    "description": "A Rust port of shadowsocks",
+    "language": "Rust",
+    "stars": "8.1k",
+    "forks": "1.1k",
+    "trendshiftid": "102"
+},
+{
+    "name": "jacoco/jacoco",
+    "github": "https://github.com/jacoco/jacoco",
+    "website": "https://www.jacoco.org/jacoco/",
+    "description": "\ud83d\udd2c Java Code Coverage Library",
+    "language": "Java",
+    "stars": "4.1k",
+    "forks": "1.1k",
+    "trendshiftid": "101"
+},
+{
+    "name": "AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+    "github": "https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet",
+    "website": null,
+    "description": "IdentityModel extensions for .Net",
+    "language": "C#",
+    "stars": "1k",
+    "forks": "388",
+    "trendshiftid": "100"
+},
+{
+    "name": "databricks/databricks-ml-examples",
+    "github": "https://github.com/databricks/databricks-ml-examples",
+    "website": null,
+    "description": null,
+    "language": "Python",
+    "stars": "314",
+    "forks": "115",
+    "trendshiftid": "99"
+},
+{
+    "name": "mermaid-js/mermaid",
+    "github": "https://github.com/mermaid-js/mermaid",
+    "website": "https://mermaid.js.org",
+    "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+    "language": "JavaScript",
+    "stars": "69.6k",
+    "forks": "6.2k",
+    "trendshiftid": "98"
+},
+{
+    "name": "MetaMask/metamask-mobile",
+    "github": "https://github.com/MetaMask/metamask-mobile",
+    "website": "https://metamask.io",
+    "description": "Mobile web browser providing access to websites that use the Ethereum blockchain",
+    "language": "TypeScript",
+    "stars": "2.1k",
+    "forks": "1.1k",
+    "trendshiftid": "97"
+},
+{
+    "name": "nodejs/node",
+    "github": "https://github.com/nodejs/node",
+    "website": "https://nodejs.org",
+    "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
+    "language": "JavaScript",
+    "stars": "105.8k",
+    "forks": "28.7k",
+    "trendshiftid": "96"
+},
+{
+    "name": "italiaremote/awesome-italia-remote",
+    "github": "https://github.com/italiaremote/awesome-italia-remote",
+    "website": null,
+    "description": "A list of remote-friendly or full-remote companies that targets Italian talents.",
+    "language": "Go",
+    "stars": "2.3k",
+    "forks": "305",
+    "trendshiftid": "95"
+},
+{
+    "name": "godotengine/godot",
+    "github": "https://github.com/godotengine/godot",
+    "website": "https://godotengine.org",
+    "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+    "language": "C++",
+    "stars": "87.4k",
+    "forks": "19.6k",
+    "trendshiftid": "94"
+},
+{
+    "name": "awslabs/aws-lambda-web-adapter",
+    "github": "https://github.com/awslabs/aws-lambda-web-adapter",
+    "website": null,
+    "description": "Run web applications on AWS Lambda",
+    "language": "Rust",
+    "stars": "1.7k",
+    "forks": "103",
+    "trendshiftid": "93"
+},
+{
+    "name": "vercel/turbo",
+    "github": "https://github.com/vercel/turbo",
+    "website": "https://turbo.build",
+    "description": "Incremental bundler and build system optimized for JavaScript\u00a0and TypeScript, written in Rust \u2013 including Turbopack and Turborepo.",
+    "language": "Rust",
+    "stars": "25.7k",
+    "forks": "1.8k",
+    "trendshiftid": "92"
+},
+{
+    "name": "huggingface/candle",
+    "github": "https://github.com/huggingface/candle",
+    "website": null,
+    "description": "Minimalist ML framework for Rust",
+    "language": "Rust",
+    "stars": "14.8k",
+    "forks": "845",
+    "trendshiftid": "91"
+},
+{
+    "name": "confluentinc/librdkafka",
+    "github": "https://github.com/confluentinc/librdkafka",
+    "website": null,
+    "description": "The Apache Kafka C/C++ library",
+    "language": "C",
+    "stars": "68",
+    "forks": "3.1k",
+    "trendshiftid": "90"
+},
+{
+    "name": "aws/aws-cli",
+    "github": "https://github.com/aws/aws-cli",
+    "website": null,
+    "description": "Universal Command Line Interface for Amazon Web Services",
+    "language": "Python",
+    "stars": "15.2k",
+    "forks": "4k",
+    "trendshiftid": "89"
+},
+{
+    "name": "constanline/XQuickEnergy",
+    "github": "https://github.com/constanline/XQuickEnergy",
+    "website": null,
+    "description": null,
+    "language": "Java",
+    "stars": "1.2k",
+    "forks": "405",
+    "trendshiftid": "88"
+},
+{
+    "name": "biomejs/biome",
+    "github": "https://github.com/biomejs/biome",
+    "website": "https://biomejs.dev",
+    "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+    "language": "Rust",
+    "stars": "13.1k",
+    "forks": "404",
+    "trendshiftid": "87"
+},
+{
+    "name": "Masterminds/sprig",
+    "github": "https://github.com/Masterminds/sprig",
+    "website": "http://masterminds.github.io/sprig/",
+    "description": "Useful template functions for Go templates.",
+    "language": "Go",
+    "stars": "4.1k",
+    "forks": "425",
+    "trendshiftid": "86"
+},
+{
+    "name": "xuebinqin/U-2-Net",
+    "github": "https://github.com/xuebinqin/U-2-Net",
+    "website": null,
+    "description": "The code for our newly accepted paper in Pattern Recognition 2020: \"U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection.\"",
+    "language": "Python",
+    "stars": "8.4k",
+    "forks": "1.4k",
+    "trendshiftid": "85"
+},
+{
+    "name": "angular/components",
+    "github": "https://github.com/angular/components",
+    "website": "https://material.angular.io",
+    "description": "Component infrastructure and Material Design components for Angular",
+    "language": "TypeScript",
+    "stars": "24.3k",
+    "forks": "6.7k",
+    "trendshiftid": "84"
+},
+{
+    "name": "guzzle/guzzle",
+    "github": "https://github.com/guzzle/guzzle",
+    "website": "https://docs.guzzlephp.org/",
+    "description": "Guzzle, an extensible PHP HTTP client",
+    "language": "PHP",
+    "stars": "23.1k",
+    "forks": "2.4k",
+    "trendshiftid": "83"
+},
+{
+    "name": "backstage/backstage",
+    "github": "https://github.com/backstage/backstage",
+    "website": "https://backstage.io/",
+    "description": "Backstage is an open framework for building developer portals",
+    "language": "TypeScript",
+    "stars": "27.2k",
+    "forks": "5.7k",
+    "trendshiftid": "82"
+},
+{
+    "name": "Unity-Technologies/ml-agents",
+    "github": "https://github.com/Unity-Technologies/ml-agents",
+    "website": "https://unity.com/products/machine-learning-agents",
+    "description": "The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents using deep reinforcement learning and imitation learning.",
+    "language": "C#",
+    "stars": "16.7k",
+    "forks": "4.1k",
+    "trendshiftid": "81"
+},
+{
+    "name": "influxdata/influxdb_iox",
+    "github": "https://github.com/influxdata/influxdb_iox",
+    "website": null,
+    "description": null,
+    "language": "0",
+    "stars": "0",
+    "forks": "0",
+    "trendshiftid": "80"
+},
+{
+    "name": "dotnet/runtime",
+    "github": "https://github.com/dotnet/runtime",
+    "website": "https://docs.microsoft.com/dotnet/core/",
+    "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+    "language": "C#",
+    "stars": "14.7k",
+    "forks": "4.6k",
+    "trendshiftid": "79"
+},
+{
+    "name": "atuinsh/atuin",
+    "github": "https://github.com/atuinsh/atuin",
+    "website": "https://atuin.sh",
+    "description": "\u2728 Magical shell history",
+    "language": "Rust",
+    "stars": "19.3k",
+    "forks": "531",
+    "trendshiftid": "78"
+},
+{
+    "name": "cakephp/cakephp",
+    "github": "https://github.com/cakephp/cakephp",
+    "website": "http://cakephp.org",
+    "description": "CakePHP: The Rapid Development Framework for PHP - Official Repository",
+    "language": "PHP",
+    "stars": "8.7k",
+    "forks": "3.4k",
+    "trendshiftid": "77"
+},
+{
+    "name": "datahub-project/datahub",
+    "github": "https://github.com/datahub-project/datahub",
+    "website": "https://datahubproject.io",
+    "description": "The Metadata Platform for your Data Stack",
+    "language": "Java",
+    "stars": "9.5k",
+    "forks": "2.8k",
+    "trendshiftid": "76"
+},
+{
+    "name": "d2l-ai/d2l-zh",
+    "github": "https://github.com/d2l-ai/d2l-zh",
+    "website": "http://zh.d2l.ai",
+    "description": "\u300a\u52a8\u624b\u5b66\u6df1\u5ea6\u5b66\u4e60\u300b\uff1a\u9762\u5411\u4e2d\u6587\u8bfb\u8005\u3001\u80fd\u8fd0\u884c\u3001\u53ef\u8ba8\u8bba\u3002\u4e2d\u82f1\u6587\u7248\u88ab70\u591a\u4e2a\u56fd\u5bb6\u7684500\u591a\u6240\u5927\u5b66\u7528\u4e8e\u6559\u5b66\u3002",
+    "language": "Python",
+    "stars": "60k",
+    "forks": "10.7k",
+    "trendshiftid": "75"
+},
+{
+    "name": "dbeaver/dbeaver",
+    "github": "https://github.com/dbeaver/dbeaver",
+    "website": "https://dbeaver.io",
+    "description": "Free universal database tool and SQL client",
+    "language": "Java",
+    "stars": "38.7k",
+    "forks": "3.3k",
+    "trendshiftid": "74"
+},
+{
+    "name": "waf/CSharpRepl",
+    "github": "https://github.com/waf/CSharpRepl",
+    "website": "https://fuqua.io/CSharpRepl/",
+    "description": "A command line C# REPL with syntax highlighting \u2013 explore the language, libraries and nuget packages interactively.",
+    "language": "C#",
+    "stars": "2.7k",
+    "forks": "102",
+    "trendshiftid": "73"
+},
+{
+    "name": "langchain-ai/langchain",
+    "github": "https://github.com/langchain-ai/langchain",
+    "website": "https://python.langchain.com",
+    "description": "\ud83e\udd9c\ud83d\udd17 Build context-aware reasoning applications",
+    "language": "Jupyter Notebook",
+    "stars": "90k",
+    "forks": "14.2k",
+    "trendshiftid": "72"
+},
+{
+    "name": "varvet/pundit",
+    "github": "https://github.com/varvet/pundit",
+    "website": null,
+    "description": "Minimal authorization through OO design and pure Ruby classes",
+    "language": "Ruby",
+    "stars": "8.2k",
+    "forks": "624",
+    "trendshiftid": "71"
+},
+{
+    "name": "BitMaker-hub/NerdMiner_v2",
+    "github": "https://github.com/BitMaker-hub/NerdMiner_v2",
+    "website": null,
+    "description": "Improved version of first ESP32 NerdMiner",
+    "language": "C",
+    "stars": "1.4k",
+    "forks": "256",
+    "trendshiftid": "70"
+},
+{
+    "name": "hyperf/hyperf",
+    "github": "https://github.com/hyperf/hyperf",
+    "website": "https://www.hyperf.io",
+    "description": "\ud83d\ude80 A coroutine framework that focuses on hyperspeed and flexibility. Building microservice or middleware with ease.",
+    "language": "PHP",
+    "stars": "6.1k",
+    "forks": "1.2k",
+    "trendshiftid": "69"
+},
+{
+    "name": "steven-tey/dub",
+    "github": "https://github.com/steven-tey/dub",
+    "website": "https://dub.co",
+    "description": "Open-source link management infrastructure. Loved by modern marketing teams like Vercel, Raycast, and Perplexity.",
+    "language": "TypeScript",
+    "stars": "17.1k",
+    "forks": "1.8k",
+    "trendshiftid": "68"
+},
+{
+    "name": "ymcui/Chinese-LLaMA-Alpaca-2",
+    "github": "https://github.com/ymcui/Chinese-LLaMA-Alpaca-2",
+    "website": null,
+    "description": "\u4e2d\u6587LLaMA-2 & Alpaca-2\u5927\u6a21\u578b\u4e8c\u671f\u9879\u76ee + 64K\u8d85\u957f\u4e0a\u4e0b\u6587\u6a21\u578b (Chinese LLaMA-2 & Alpaca-2 LLMs with 64K long context models)",
+    "language": "Python",
+    "stars": "7k",
+    "forks": "572",
+    "trendshiftid": "67"
+},
+{
+    "name": "jitsi/jitsi-meet",
+    "github": "https://github.com/jitsi/jitsi-meet",
+    "website": "https://jitsi.org/meet",
+    "description": "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
+    "language": "TypeScript",
+    "stars": "22.2k",
+    "forks": "6.6k",
+    "trendshiftid": "66"
+},
+{
+    "name": "DataDog/dd-trace-rb",
+    "github": "https://github.com/DataDog/dd-trace-rb",
+    "website": "https://docs.datadoghq.com/tracing/",
+    "description": "Datadog Tracing Ruby Client",
+    "language": "Ruby",
+    "stars": "303",
+    "forks": "368",
+    "trendshiftid": "65"
+},
+{
+    "name": "heartcombo/devise",
+    "github": "https://github.com/heartcombo/devise",
+    "website": "http://blog.plataformatec.com.br/tag/devise/",
+    "description": "Flexible authentication solution for Rails with Warden.",
+    "language": "Ruby",
+    "stars": "23.9k",
+    "forks": "5.5k",
+    "trendshiftid": "64"
+},
+{
+    "name": "kubernetes/autoscaler",
+    "github": "https://github.com/kubernetes/autoscaler",
+    "website": null,
+    "description": "Autoscaling components for Kubernetes",
+    "language": "Go",
+    "stars": "7.9k",
+    "forks": "3.9k",
+    "trendshiftid": "63"
+},
+{
+    "name": "benphelps/homepage",
+    "github": "https://github.com/benphelps/homepage",
+    "website": "https://gethomepage.dev/",
+    "description": "A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.",
+    "language": "JavaScript",
+    "stars": "17.5k",
+    "forks": "1k",
+    "trendshiftid": "62"
+},
+{
+    "name": "blueedgetechno/win11React",
+    "github": "https://github.com/blueedgetechno/win11React",
+    "website": "https://win11.blueedge.me",
+    "description": "Windows 11 in React \ud83d\udcbb\ud83c\udf08\u26a1",
+    "language": "JavaScript",
+    "stars": "9k",
+    "forks": "915",
+    "trendshiftid": "61"
+},
+{
+    "name": "assafelovic/gpt-researcher",
+    "github": "https://github.com/assafelovic/gpt-researcher",
+    "website": "https://gptr.dev",
+    "description": "GPT based autonomous agent that does online comprehensive research on any given topic",
+    "language": "Python",
+    "stars": "13.4k",
+    "forks": "1.7k",
+    "trendshiftid": "60"
+},
+{
+    "name": "binary-husky/gpt_academic",
+    "github": "https://github.com/binary-husky/gpt_academic",
+    "website": "https://github.com/binary-husky/gpt_academic/wiki/online",
+    "description": "\u4e3aGPT/GLM\u7b49LLM\u5927\u8bed\u8a00\u6a21\u578b\u63d0\u4f9b\u5b9e\u7528\u5316\u4ea4\u4e92\u63a5\u53e3\uff0c\u7279\u522b\u4f18\u5316\u8bba\u6587\u9605\u8bfb/\u6da6\u8272/\u5199\u4f5c\u4f53\u9a8c\uff0c\u6a21\u5757\u5316\u8bbe\u8ba1\uff0c\u652f\u6301\u81ea\u5b9a\u4e49\u5feb\u6377\u6309\u94ae&\u51fd\u6570\u63d2\u4ef6\uff0c\u652f\u6301Python\u548cC++\u7b49\u9879\u76ee\u5256\u6790&\u81ea\u8bd1\u89e3\u529f\u80fd\uff0cPDF/LaTex\u8bba\u6587\u7ffb\u8bd1&\u603b\u7ed3\u529f\u80fd\uff0c\u652f\u6301\u5e76\u884c\u95ee\u8be2\u591a\u79cdLLM\u6a21\u578b\uff0c\u652f\u6301chatglm3\u7b49\u672c\u5730\u6a21\u578b\u3002\u63a5\u5165\u901a\u4e49\u5343\u95ee, deepseekcoder, \u8baf\u98de\u661f\u706b, \u6587\u5fc3\u4e00\u8a00, llama2, rwkv, claude2, moss\u7b49\u3002",
+    "language": "Python",
+    "stars": "62.9k",
+    "forks": "7.8k",
+    "trendshiftid": "59"
+},
+{
+    "name": "zircote/swagger-php",
+    "github": "https://github.com/zircote/swagger-php",
+    "website": "http://zircote.github.io/swagger-php/",
+    "description": "A php swagger annotation and parsing library",
+    "language": "PHP",
+    "stars": "5k",
+    "forks": "932",
+    "trendshiftid": "58"
+},
+{
+    "name": "jzhang38/TinyLlama",
+    "github": "https://github.com/jzhang38/TinyLlama",
+    "website": null,
+    "description": "The TinyLlama project is an open endeavor to pretrain a 1.1B Llama model on 3 trillion tokens.",
+    "language": "Python",
+    "stars": "7.4k",
+    "forks": "437",
+    "trendshiftid": "57"
+},
+{
+    "name": "EmNudge/watlings",
+    "github": "https://github.com/EmNudge/watlings",
+    "website": null,
+    "description": "Learn WebAssembly by writing small programs!",
+    "language": "JavaScript",
+    "stars": "1.6k",
+    "forks": "41",
+    "trendshiftid": "56"
+},
+{
+    "name": "ilanyu/ReverseProxy",
+    "github": "https://github.com/ilanyu/ReverseProxy",
+    "website": "https://hub.docker.com/r/ilanyu/golang-reverseproxy/",
+    "description": "ReverseProxy in golang",
+    "language": "Go",
+    "stars": "4.3k",
+    "forks": "1.1k",
+    "trendshiftid": "55"
+},
+{
+    "name": "macrozheng/mall-learning",
+    "github": "https://github.com/macrozheng/mall-learning",
+    "website": "https://www.macrozheng.com",
+    "description": "mall\u5b66\u4e60\u6559\u7a0b\uff0c\u67b6\u6784\u3001\u4e1a\u52a1\u3001\u6280\u672f\u8981\u70b9\u5168\u65b9\u4f4d\u89e3\u6790\u3002mall\u9879\u76ee\uff0860k+star\uff09\u662f\u4e00\u5957\u7535\u5546\u7cfb\u7edf\uff0c\u4f7f\u7528\u73b0\u9636\u6bb5\u4e3b\u6d41\u6280\u672f\u5b9e\u73b0\u3002\u6db5\u76d6\u4e86SpringBoot\u3001MyBatis\u3001Elasticsearch\u3001RabbitMQ\u3001Redis\u3001MongoDB\u3001Mysql\u7b49\u6280\u672f\uff0c\u91c7\u7528Docker\u5bb9\u5668\u5316\u90e8\u7f72\u3002",
+    "language": "Java",
+    "stars": "12.9k",
+    "forks": "8.3k",
+    "trendshiftid": "54"
+},
+{
+    "name": "signalwire/freeswitch",
+    "github": "https://github.com/signalwire/freeswitch",
+    "website": "https://freeswitch.com/#getting-started",
+    "description": "FreeSWITCH is a Software Defined Telecom Stack enabling the digital transformation from proprietary telecom switches to a versatile software implementation that runs on any commodity hardware. From a Raspberry PI to a multi-core server, FreeSWITCH can unlock the telecommunications potential of any device.",
+    "language": "C",
+    "stars": "3.4k",
+    "forks": "1.4k",
+    "trendshiftid": "53"
+},
+{
+    "name": "invoiceninja/invoiceninja",
+    "github": "https://github.com/invoiceninja/invoiceninja",
+    "website": "https://invoiceninja.com",
+    "description": "Invoices, Expenses and Tasks built with Laravel, Flutter and React",
+    "language": "PHP",
+    "stars": "8k",
+    "forks": "2.2k",
+    "trendshiftid": "52"
+},
+{
+    "name": "dotnet-architecture/eShopOnContainers",
+    "github": "https://github.com/dotnet-architecture/eShopOnContainers",
+    "website": "https://dot.net/architecture",
+    "description": "Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 7, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor. Moved to https://github.com/dotnet/eShop.",
+    "language": "C#",
+    "stars": "24.6k",
+    "forks": "10.4k",
+    "trendshiftid": "51"
+},
+{
+    "name": "burn-rs/burn",
+    "github": "https://github.com/burn-rs/burn",
+    "website": "https://burn.dev",
+    "description": "Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals.",
+    "language": "Rust",
+    "stars": "8k",
+    "forks": "385",
+    "trendshiftid": "50"
+},
+{
+    "name": "SubtitleEdit/subtitleedit",
+    "github": "https://github.com/SubtitleEdit/subtitleedit",
+    "website": "http://www.nikse.dk/SubtitleEdit/Help",
+    "description": "the subtitle editor :)",
+    "language": "C#",
+    "stars": "7.9k",
+    "forks": "865",
+    "trendshiftid": "49"
+},
+{
+    "name": "bluesky-social/social-app",
+    "github": "https://github.com/bluesky-social/social-app",
+    "website": "https://bsky.app",
+    "description": "The Bluesky Social application for Web, iOS, and Android",
+    "language": "TypeScript",
+    "stars": "7.3k",
+    "forks": "962",
+    "trendshiftid": "48"
+},
+{
+    "name": "astral-sh/ruff",
+    "github": "https://github.com/astral-sh/ruff",
+    "website": "https://docs.astral.sh/ruff",
+    "description": "An extremely fast Python linter and code formatter, written in Rust.",
+    "language": "Rust",
+    "stars": "29.5k",
+    "forks": "959",
+    "trendshiftid": "47"
+},
+{
+    "name": "Agenta-AI/agenta",
+    "github": "https://github.com/Agenta-AI/agenta",
+    "website": "http://www.agenta.ai",
+    "description": "The all-in-one LLM developer platform: prompt management, evaluation, human feedback, and deployment all in one place.",
+    "language": "Python",
+    "stars": "1.1k",
+    "forks": "170",
+    "trendshiftid": "46"
+},
+{
+    "name": "Tencent/rapidjson",
+    "github": "https://github.com/Tencent/rapidjson",
+    "website": "http://rapidjson.org/",
+    "description": "A fast JSON parser/generator for C++ with both SAX/DOM style API",
+    "language": "C++",
+    "stars": "14.1k",
+    "forks": "3.5k",
+    "trendshiftid": "45"
+},
+{
+    "name": "linuxdeepin/deepin-unioncode",
+    "github": "https://github.com/linuxdeepin/deepin-unioncode",
+    "website": null,
+    "description": null,
+    "language": "C++",
+    "stars": "837",
+    "forks": "66",
+    "trendshiftid": "44"
+},
+{
+    "name": "spring-projects/spring-security",
+    "github": "https://github.com/spring-projects/spring-security",
+    "website": "http://spring.io/projects/spring-security",
+    "description": "Spring Security",
+    "language": "Java",
+    "stars": "8.6k",
+    "forks": "5.8k",
+    "trendshiftid": "43"
+},
+{
+    "name": "thoughtbot/shoulda-matchers",
+    "github": "https://github.com/thoughtbot/shoulda-matchers",
+    "website": "https://matchers.shoulda.io",
+    "description": "Simple one-liner tests for common Rails functionality",
+    "language": "Ruby",
+    "stars": "3.5k",
+    "forks": "909",
+    "trendshiftid": "42"
+},
+{
+    "name": "wizwizdev/wizwizxui-timebot",
+    "github": "https://github.com/wizwizdev/wizwizxui-timebot",
+    "website": "https://t.me/wizwizch",
+    "description": "Bot showing the volume and remaining subscription x-ui panel",
+    "language": "PHP",
+    "stars": "1.1k",
+    "forks": "223",
+    "trendshiftid": "41"
+},
+{
+    "name": "spree/spree",
+    "github": "https://github.com/spree/spree",
+    "website": "https://spreecommerce.org",
+    "description": "An open source eCommerce platform giving you full control and customizability. Modular and API-first. Build any eCommerce solution that your business requires.",
+    "language": "Ruby",
+    "stars": "12.8k",
+    "forks": "4.9k",
+    "trendshiftid": "40"
+},
+{
+    "name": "tastypepperoni/PPLBlade",
+    "github": "https://github.com/tastypepperoni/PPLBlade",
+    "website": null,
+    "description": "Protected Process Dumper Tool",
+    "language": "Go",
+    "stars": "501",
+    "forks": "61",
+    "trendshiftid": "39"
+},
+{
+    "name": "instructure/canvas-lms",
+    "github": "https://github.com/instructure/canvas-lms",
+    "website": "https://github.com/instructure/canvas-lms/wiki",
+    "description": "The open LMS by Instructure, Inc.",
+    "language": "Ruby",
+    "stars": "5.5k",
+    "forks": "2.4k",
+    "trendshiftid": "38"
+},
+{
+    "name": "woocommerce/woocommerce",
+    "github": "https://github.com/woocommerce/woocommerce",
+    "website": "https://woocommerce.com",
+    "description": "A customizable, open-source ecommerce platform built on WordPress. Build any commerce solution you can imagine.",
+    "language": "PHP",
+    "stars": "9.2k",
+    "forks": "10.7k",
+    "trendshiftid": "37"
+},
+{
+    "name": "hoppscotch/hoppscotch",
+    "github": "https://github.com/hoppscotch/hoppscotch",
+    "website": "https://hoppscotch.io",
+    "description": "Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)",
+    "language": "TypeScript",
+    "stars": "62.7k",
+    "forks": "4.3k",
+    "trendshiftid": "36"
+},
+{
+    "name": "symfony/symfony",
+    "github": "https://github.com/symfony/symfony",
+    "website": "https://symfony.com",
+    "description": "The Symfony PHP framework",
+    "language": "PHP",
+    "stars": "29.5k",
+    "forks": "9.4k",
+    "trendshiftid": "35"
+},
+{
+    "name": "SimplifyJobs/New-Grad-Positions",
+    "github": "https://github.com/SimplifyJobs/New-Grad-Positions",
+    "website": "https://swelist.com/",
+    "description": "A collection of full time roles in SWE, Quant, and PM for new grads.",
+    "language": "1k",
+    "stars": "10.5k",
+    "forks": "1k",
+    "trendshiftid": "34"
+},
+{
+    "name": "wang-xinyu/tensorrtx",
+    "github": "https://github.com/wang-xinyu/tensorrtx",
+    "website": null,
+    "description": "Implementation of popular deep learning networks with TensorRT network definition API",
+    "language": "C++",
+    "stars": "6.8k",
+    "forks": "1.7k",
+    "trendshiftid": "33"
+},
+{
+    "name": "steven-tey/novel",
+    "github": "https://github.com/steven-tey/novel",
+    "website": "https://novel.sh",
+    "description": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
+    "language": "TypeScript",
+    "stars": "12k",
+    "forks": "997",
+    "trendshiftid": "32"
+},
+{
+    "name": "smallcloudai/refact",
+    "github": "https://github.com/smallcloudai/refact",
+    "website": "https://refact.ai",
+    "description": "WebUI for Fine-Tuning and Self-hosting of Open-Source Large Language Models for Coding ",
+    "language": "JavaScript",
+    "stars": "1.5k",
+    "forks": "100",
+    "trendshiftid": "15"
+},
+{
+    "name": "DarkFlippers/unleashed-firmware",
+    "github": "https://github.com/DarkFlippers/unleashed-firmware",
+    "website": "https://t.me/flipperzero_unofficial",
+    "description": "Flipper Zero Unleashed Firmware",
+    "language": "C",
+    "stars": "16.5k",
+    "forks": "1.4k",
+    "trendshiftid": "14"
+},
+{
+    "name": "antlr/antlr4",
+    "github": "https://github.com/antlr/antlr4",
+    "website": "http://antlr.org",
+    "description": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.",
+    "language": "Java",
+    "stars": "16.8k",
+    "forks": "3.2k",
+    "trendshiftid": "12"
+},
+{
+    "name": "checkstyle/checkstyle",
+    "github": "https://github.com/checkstyle/checkstyle",
+    "website": "https://checkstyle.org",
+    "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+    "language": "Java",
+    "stars": "8.3k",
+    "forks": "3.6k",
+    "trendshiftid": "11"
+},
+{
+    "name": "vinta/awesome-python",
+    "github": "https://github.com/vinta/awesome-python",
+    "website": "https://awesome-python.com/",
+    "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+    "language": "Python",
+    "stars": "214.1k",
+    "forks": "24.7k",
+    "trendshiftid": "13"
+},
+{
+    "name": "magento/magento2",
+    "github": "https://github.com/magento/magento2",
+    "website": "http://www.magento.com",
+    "description": "Prior to making any Submission(s), you must sign an Adobe Contributor License Agreement, available here at: https://opensource.adobe.com/cla.html. All Submissions you make to Adobe Inc. and its affiliates, assigns and subsidiaries (collectively \u201cAdobe\u201d) are subject to the terms of the Adobe Contributor License Agreement.",
+    "language": "PHP",
+    "stars": "11.4k",
+    "forks": "9.3k",
+    "trendshiftid": "10"
+},
+{
+    "name": "sveltejs/svelte",
+    "github": "https://github.com/sveltejs/svelte",
+    "website": "https://svelte.dev",
+    "description": "Cybernetically enhanced web apps",
+    "language": "JavaScript",
+    "stars": "77.8k",
+    "forks": "4k",
+    "trendshiftid": "9"
+},
+{
+    "name": "atlassian/react-beautiful-dnd",
+    "github": "https://github.com/atlassian/react-beautiful-dnd",
+    "website": "https://react-beautiful-dnd.netlify.app",
+    "description": "Beautiful and accessible drag and drop for lists with React",
+    "language": "JavaScript",
+    "stars": "32.9k",
+    "forks": "2.5k",
+    "trendshiftid": "8"
+},
+{
+    "name": "botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study",
+    "github": "https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study",
+    "website": null,
+    "description": "Burp Suite Certified Practitioner Exam Study",
+    "language": "Python",
+    "stars": "849",
+    "forks": "248",
+    "trendshiftid": "7"
+},
+{
+    "name": "spf13/viper",
+    "github": "https://github.com/spf13/viper",
+    "website": null,
+    "description": "Go configuration with fangs",
+    "language": "Go",
+    "stars": "26.5k",
+    "forks": "2k",
+    "trendshiftid": "6"
+},
+{
+    "name": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+    "github": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+    "website": null,
+    "description": "\u2728\u2728Latest Advances on Multimodal Large Language Models",
+    "language": "723",
+    "stars": "11k",
+    "forks": "723",
+    "trendshiftid": "5"
+},
+{
+    "name": "basecamp/kamal",
+    "github": "https://github.com/basecamp/kamal",
+    "website": "https://kamal-deploy.org",
+    "description": "Deploy web apps anywhere.",
+    "language": "Ruby",
+    "stars": "9.4k",
+    "forks": "363",
+    "trendshiftid": "4"
+},
+{
+    "name": "slint-ui/slint",
+    "github": "https://github.com/slint-ui/slint",
+    "website": "https://slint.dev",
+    "description": "Slint is a declarative GUI toolkit to build native user interfaces for Rust, C++, or JavaScript apps.",
+    "language": "Rust",
+    "stars": "16.4k",
+    "forks": "539",
+    "trendshiftid": "3"
+},
+{
+    "name": "Schniz/fnm",
+    "github": "https://github.com/Schniz/fnm",
+    "website": "https://fnm.vercel.app",
+    "description": "\ud83d\ude80 Fast and simple Node.js version manager, built in Rust",
+    "language": "Rust",
+    "stars": "16.8k",
+    "forks": "429",
+    "trendshiftid": "2"
+}
+]
