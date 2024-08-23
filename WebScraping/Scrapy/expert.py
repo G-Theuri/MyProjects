@@ -1,5 +1,6 @@
-import scrapy 
-import chompjs
+import scrapy
+import pandas as pd
+
 
 class ExpertSpider(scrapy.Spider):
     name = 'expert'
@@ -12,5 +13,7 @@ class ExpertSpider(scrapy.Spider):
             page = baseurl+link
             yield response.follow(url=page, callback=self.parse_details)
     def parse_details(self, response):
-        javascript = response.css('script[type="application/ld+json"]').get()
-        data = chompjs.parse_js_object(javascript)
+        data = response.css('script[type="application/json"]').get()
+        df = pd.json_normalize(data)
+
+        print(df.head())
