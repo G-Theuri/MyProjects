@@ -30,6 +30,6 @@ class ExpertSpider(scrapy.Spider):
         df = pd.DataFrame(alldata)
         df.to_csv('expert.csv', index=False)
 
-        
+        #To work on pagination later
         
     
