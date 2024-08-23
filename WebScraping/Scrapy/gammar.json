@@ -1,152 +1,2325 @@
 [
-{"Name": "Jackie", "Description Text": ["The Jackie ", " from the Dandy Home collection designed by Giuseppe Vigan\u00f2 delivers a combination of ", " and ", "with a touch of glamour that takes its cues from the world of fashion."], "Size": ["Seat depth 57 cm / 22\u201d.", "Seat height 44 cm / 17\u201d."], "Characteristics": ["Hard wood frame and polyurethane.", "Seat cushion in polyurethane covered with wadding.", "Metal swivelling base available in all customizing nishes.", "CUC 504."]},
-{"Name": "Cruise coffee table", "Description Text": ["and a", " to any home"], "Size": ["Glass top available in: fum\u00e8 back-lacquered black (RAL 9005) or extraclear back-lacquered white (RAL 9003).", "Ceramic and marble top available in all customizing finishes."], "Characteristics": ["Metal structure available in all customizing finishes."]},
-{"Name": "Fifty", "Description Text": ["and ", "shapes"], "Size": ["Seat depth 54 cm - 21\".", "Seat height 44 cm - 17\"."], "Characteristics": ["Seat width 59 cm - 23\".", "Seat, armrest and back cushions in polyurathane covered with feather.", "Metal base, height 29 cm - 11\" available in: chrome, dark chrome - titanium, burnished aluminium, burnished copper or painted metal.", "Stitching CUC 501C."]},
-{"Name": "Sophie", "Description Text": ["Unparalleled ", "\u00a0"], "Size": ["Seat depth 59 cm - 23\u201d.", "Seat height 43 cm - 17\u201d."], "Characteristics": []},
-{"Name": "Zen", "Description Text": ["and ", "design"], "Size": [], "Characteristics": []},
-{"Name": "Tokyo", "Description Text": ["Exclusive ", "design sectional sofa with a ", " vibe.\u00a0"], "Size": ["Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding."], "Characteristics": ["Back cushions in polyurethane covered with wadding.", "Metal legs height 6\", available in all customizing finishings.", "Folding bed not available.", "S/DP004, S/DT004, S/DP005, S/DT005 and S/D01 have decorative cushion C0141 included in price.", "CUC503B special."]},
-{"Name": "Summer", "Description Text": ["The sofa combining ", "and "], "Size": ["Hard wood frame, seat suspensions in\u00a0reinforced elastic webbing.", "Seat cushions in polyurethane covered with\u00a0wadding."], "Characteristics": ["Back cushions in polyurethane covered with\u00a0wadding.", "Metal legs height 6\", available in all\u00a0customizing finishings.", "Folding bed not available.", "CUC503B special."]},
-{"Name": "Block coffee table", "Description Text": ["A touch of inimitable charm"], "Size": ["Wood frame upholstered in leather.", "Metal inserts available in all customizing finishes."], "Characteristics": ["Top available in back lacquered glass (black or white), ceramic or marble.", "Ceramic top finishes Terra, Antracite and Ossido Bruno are not available.", "On marble finishings, only for leght dimensions over 200 cm, the top is split into two parts at the center, across its width.", "Lazy Susan\u2019s top available in all customizing finishes, with aluminium revolving base."]},
-{"Name": "Turtle ottomans", "Description Text": [" inspired by the "], "Size": ["Seat height 40 cm / 16\u201d.", "Hard wood frame and\u00a0polystyrene upholstered with\u00a0leather."], "Characteristics": ["stitching CUC 501."]},
-{"Name": "Aston Alto Night", "Description Text": ["Leather bed with deep ", " ", "by ", "."], "Size": ["Headboard height 139 cm - 55\".", "Base height 36 cm - 14\"."], "Characteristics": ["Chrome legs height 11 cm - 4\".", "Hard wood frame.", "Headboard padding in polyurethane.", "Base in polyurethane.", "Mattress not included in the price.", "European wooden slats.", "Handmade Capitonn\u00e8."]},
-{"Name": "Aston", "Description Text": ["Chesterfield leather sofa with ", " with a ", "twist."], "Size": ["Seat depth 68 cm - 27\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest width 29 cm - 11\".", "Armrest height 70 cm - 28\".", "Legs covered with leather height 10 cm - 4\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Frame padding in polyurethane.", "Folding bed not available.", "Handmade Capitonn\u00e9."]},
-{"Name": "Venus", "Description Text": [" design and ", "elegance"], "Size": [], "Characteristics": []},
-{"Name": "Zoom", "Description Text": ["A collection that makes spaces "], "Size": [], "Characteristics": []},
-{"Name": "Zen", "Description Text": ["and ", " design"], "Size": [], "Characteristics": []},
-{"Name": "Betty", "Description Text": ["Leather armchair with a ", " design."], "Size": ["Seat depth 59 cm - 23\u201d.", "Seat height 43 cm - 17\u201d."], "Characteristics": ["Hardwood frame, seat suspension in reinforced elastic webbing.", "Loose seat cushion and frame in polyurethane.", "Metal legs height 1,5 cm - 0,6\u201d.", "Stitchings CUC 523."]},
-{"Name": "Tokyo coffee table", "Description Text": ["Variety of ", "and ", " for every need"], "Size": ["Wood frame upholstered in leather.", "Top available in all customizing finishings."], "Characteristics": ["Metal legs available in all customizing\u00a0finishings.", "CUC503B."]},
-{"Name": "Big Bag", "Description Text": [], "Size": [], "Characteristics": []},
-{"Name": "Belts", "Description Text": ["Airy elegant aesthetic"], "Size": ["Base available in chrome, titanium, brass, copper, anthracite, RAL 8019, RAL 9003 or covered with leather.", "Buckle available in chrome, titanium, brass, copper, anthracite, RAL 8019, RAL 9003 or covered with leather."], "Characteristics": ["Glass top available in: smoked or white (RAL 9003).", "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone (ceramic top not available for T07)."]},
-{"Name": "Batik Night", "Description Text": ["Leather upholstered bed with a ", "vibe and a wide bed head enhancing the beauty of our ", "."], "Size": ["Headboard height 124 cm - 49\".", "Base height 32 cm - 13\"."], "Characteristics": ["Wood legs height 4 cm - 1\" 1/2."]},
-{"Name": "Basket Lamps", "Description Text": [], "Size": ["Floor lamp with metal frame available in all finishing options.", "Lampshade in viscove coupled with pvc."], "Characteristics": []},
-{"Name": "Basket", "Description Text": ["and ", " aesthetic"], "Size": ["T49 - \u00d839 x H 12\"", "T50 - \u00d816 x H 20\""], "Characteristics": ["T51 - \u00d820 x H 17\"", "Base available in chrome, titanium, brass, copper, anthracite, RAL 8019 or RAL 9003.", "Glass top available in: smoked or white (RAL 9003).", "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Baku", "Description Text": ["A touch of ", "and "], "Size": ["24 x 20 x H22\"", "Hard wood frame covered in leather."], "Characteristics": ["Dresser with 2 drawers.", "Glass top available in: smoked or white (RAL 9003).", "Metal upstand and handles available in all customizing finishes.", "Stitching CUC 507."]},
-{"Name": "Aston night bench", "Description Text": [" tailoring details"], "Size": ["Wood frame upholstered in\u00a0leather.", "Cushion in polyurethane covered\u00a0with wadding."], "Characteristics": []},
-{"Name": "Aston bench", "Description Text": [" tailoring details"], "Size": ["Wood frame upholstered in\u00a0leather.", "Frame padding in polyurethane."], "Characteristics": ["Handmade Capitonn\u00e9."]},
-{"Name": "Baloon ottomans", "Description Text": [", ", " but with a ", "touch"], "Size": [], "Characteristics": []},
-{"Name": "Summer coffee table", "Description Text": ["lines and ", "shapes"], "Size": [], "Characteristics": []},
-{"Name": "Milos bar", "Description Text": ["A touch of inimitable charm"], "Size": ["Wood frame upholstered in leather.", "Metal inserts available in all\u00a0customizing finishes."], "Characteristics": ["Top available in back lacquered glass\u00a0(black or white), ceramic or marble."]},
-{"Name": "Fifty", "Description Text": ["A new touch of ", "and "], "Size": [], "Characteristics": []},
-{"Name": "Aston Night", "Description Text": ["Leather bed with deep ", " handmade by ", "."], "Size": ["Headboard height 100 cm - 39\".", "Base height 28 cm - 11\"."], "Characteristics": ["Chrome legs height 11 cm - 4\"."]},
-{"Name": "Vincent", "Description Text": ["sofa in leather combining ", "and ", "with ", "lines and ", "accessories."], "Size": ["Seat depth 60 cm - 24\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 20 cm - 8\"", "Armrest height 63 cm - 25\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane, covered with wadding.", "Back cushion in polyurethane, covered in wadding.", "The bookrack armrest and backrest are made of curved plywood.", "Metal legs height 13 cm - 5\u201d available in all customizing finishes.", "Folding bed not available.", "Stitching CUC 524."]},
-{"Name": "Swing", "Description Text": ["leather sofa, symbolising all the quality of Gamma's ", "."], "Size": ["Seat depth 56 cm - 22\".", "Seat height 41 cm - 16\"."], "Characteristics": ["Armrest width 17 cm - 7\".", "Armrest height 57 cm - 22\".", "Chrome or painted legs, height 10 cm - 4\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with dacron wadding.", "Back cushions in feather.", "Folding bed not available.", "Special stitching CUC 509C \"Cross/Edge to Edge\"."]},
-{"Name": "Jack", "Description Text": ["leather sofa with a ", " and ", "detailing that bespeaks its ", "."], "Size": ["Seat depth 62 cm - 24\".", "Seat height 41 cm - 16\"."], "Characteristics": ["Armrest width 5 cm - 2\".", "Painted metal legs height 15 cm - 6\", available in all customizing finishes.", "Hard metal frame and wood seat base, seat suspensions in reinforced elastic webbing. ", "Seat cushions in polyurethane covered with feather. ", "Back cushions in polyurethane covered with feather.", "Pocket on each arm.", "Folding bed not available.", "Stitching CUC 504."]},
-{"Name": "Rialto coffee table", "Description Text": ["and ", "for your ambience"], "Size": [], "Characteristics": []},
-{"Name": "Nebula dresser", "Description Text": ["shapes and ", "details"], "Size": ["47 x 21 x H 29\"", "Hard wood frame covered in leather."], "Characteristics": ["Top available in: smoked or white (RAL 9003).", "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone.", "Stitching CUC 507."]},
-{"Name": "Nebula", "Description Text": ["shapes and ", "details"], "Size": ["22 x 19 x H 20\"", "Hard wood frame covered in leather."], "Characteristics": ["Glass top available in: smoked or white (RAL 9003).", "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone.", "Stitching CUC 507."]},
-{"Name": "Gem", "Description Text": ["armchair in leather with ", "contours elevated by ", "detailing."], "Size": ["Seat depth 59 cm - 23''.", "Seat width 60 cm - 24\"."], "Characteristics": ["Seat height 40 cm - 16''.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushion and frame in polyurethane.", "Wood legs height 3 cm - 1\" 1/4.", "Stitching CUC 503 B."]},
-{"Name": "Gloss", "Description Text": ["leather armchair with a high-end design defined by extraordinarily ", " and ", "."], "Size": ["Seat depth 61 cm - 24\".", "Seat width 52 cm - 20\"."], "Characteristics": ["Seat height 42 cm - 17''.", "Hardwood frame.", "Seat cushions and back in polyurethane covered with feathers.", "Armrest cushions with feathers.", "POL: stitching CUC 503.", "POS: frame stitiching CUC 506 and cushions stitching CUC 507.", "Frame upholstered in leather or painted in: RAL 9003, RAL 8019, titaniun, brass, copper, anthracite.", "Swivelling base available in: RAL 9003, RAL 8019, titaniun, brass, copper, anthracite."]},
-{"Name": "Floor pillows", "Description Text": ["Leather accessories which add a ", "touch to the floor level, and ", "enough to fit into any setting."], "Size": ["41\"x41\"", "53\"x53\""], "Characteristics": ["53\"x37\"", "39\"x39\""]},
-{"Name": "Ellipse", "Description Text": ["A touch of "], "Size": [], "Characteristics": []},
-{"Name": "Escape coffee table", "Description Text": ["aesthetic with a ", "geometrical feel"], "Size": ["T155B - 31 x 47 x 13\"", "T156B -18 x 26 x 17\""], "Characteristics": ["Base in chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal.", "Glass top in smoked or white (RAL 9003).", "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Harley", "Description Text": ["A modern ", "armchair in leather featuring a carefully designed seat and high backrest for utter ", "."], "Size": ["Seat depth 54 cm - 21\".", "Seat height 41 cm - 16''."], "Characteristics": ["Metal frame.", "Seat and back cushions in polyurethane covered with Dacron.", "Dark chrome base. ", "Stitching CUC 503 B."]},
-{"Name": "Flamingo night", "Description Text": ["Flamingo Night is ", " kingsize leather bed."], "Size": ["Headboard height 124 cm - 49\".", "Base height 36 cm - 14\"."], "Characteristics": ["Wood legs height 2 cm - 0,6\"."]},
-{"Name": "Edge Night", "Description Text": ["King size leather bed with a ", " embellished with ", " and delivering ", " levels."], "Size": ["Headboard height 94 cm - 37\".", "Base height 32 cm - 12\"."], "Characteristics": ["Wood legs height 4 cm - 1\" 1/2."]},
-{"Name": "Flamingo bench", "Description Text": [" tailoring details"], "Size": [], "Characteristics": []},
-{"Name": "Desire", "Description Text": ["design combining ", "and "], "Size": ["24 x 20 x H 17\"", "Hard wood frame covered with leather."], "Characteristics": ["Glass top available in smoked or white (RAL 9003).", "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone.", "Stitching CUC 503."]},
-{"Name": "Drums", "Description Text": ["Evoking the world of "], "Size": ["Hard wood frame and polyurethane covered with leather. Glass top available in: smoked or white (RAL 9003).", "Ceramc top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."], "Characteristics": []},
-{"Name": "Dean", "Description Text": ["Leather armchair with a modern design suitable for all kinds of surrounds dedicated to relaxation without sacrificing stylishness."], "Size": ["Seat depth 49 cm \u2013 19\".", "Seat height 44 cm \u2013 17\"."], "Characteristics": ["Armrest height 72 cm \u2013 28\".", "Metal frame.", "Seat and back cushions in polyurethane.", "Stitching CUC 501B."]},
-{"Name": "Dandy Bags", "Description Text": [], "Size": [], "Characteristics": []},
-{"Name": "Cruise", "Description Text": ["A ", "and ", "chaise longue which delivers a ", " combination of style, ", "and ", "."], "Size": ["Seat depth 100 cm - 40\u201d.", "Seat width 82 cm - 32\u201d."], "Characteristics": ["Seat height 53 cm - 21\u201d.", "Metal frame and hardwood structure.", "Seat and back cushions in polyurethane.", "Metal structure available in all customizing finishes.", "Stitching CUC 501."]},
-{"Name": "Cocoon night bench", "Description Text": [" details and ", "style"], "Size": ["Seat height 17\u201d", "Legs height 12\u201d"], "Characteristics": ["Hard wood frame.", "Cushion in polyurethane covered with\u00a0wadding."]},
-{"Name": "Gregory", "Description Text": ["A ", " from more than one point of view."], "Size": ["Seat depth 68 cm - 27\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 29 cm - 11\"", "Armrest height 55 cm - 22\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding.", "Back cushions in feather with insert in polyurethane.", "Wood legs height 4 cm - 1\"\u00bd.", "Folding bed not available.", "Stitching CUC 503 B."]},
-{"Name": "Cocoon Berg\u00e8re", "Description Text": ["designer armchair in leather with a ", " shell and swivel base which takes its cues from ", " techniques."], "Size": ["Seat depth 55 cm - 24\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Metal frame.", "Metal frame and base available in: chrome, dark chrome-titanium, burnished alluminium or painted metal.", "Stitching CUC 501B."]},
-{"Name": "Cocoon", "Description Text": ["and ", " for the sleeping area"], "Size": [], "Characteristics": []},
-{"Name": "Clepsydra", "Description Text": ["Hugely ", "and "], "Size": ["T17 - \u00d860 x H 14\"", "T18 - \u00d837 x H 20\""], "Characteristics": ["Polyurethane resin frame covered with leather.", "Metal insert available in: chrome, titanium, brass, copper, anthracite, RAL 8019, RAL 9003 or covered with leather.", "Glass top available in: smoked or white (RAL 9003).", "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Charlotte", "Description Text": ["leather armchair which can be ", "by mixing and matching the ", "."], "Size": ["Seat depth 53 cm - 21\".", "Seat width 56 cm - 22\"."], "Characteristics": ["Seat height 39 cm - 15''.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushion and frame in polyurethane covered with dacron wadding.", "Chrome legs height 3cm - 1\" 1/4.", "Strings only in leather.", "Special stitching CUC 508 \"Punto Cavallo\"."]},
-{"Name": "Brooklyn Bookshelf", "Description Text": [], "Size": [], "Characteristics": []},
-{"Name": "Boulevard", "Description Text": [], "Size": [], "Characteristics": []},
-{"Name": "Bubble", "Description Text": ["The design-forward Bubble lamp: an intriguing source of light of\u00a0", " that will instantly ", "the ambiance."], "Size": ["Floor lamp total H. 70\" - 180 cm.", "Steel structures and details in painted nishings."], "Characteristics": ["Murano\u2019 blown glass light\u2018shade."]},
-{"Name": "Blade", "Description Text": ["aesthetic and ", "silhouette"], "Size": ["Metal legs available in all Gamma customizing finishes.", "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."], "Characteristics": []},
-{"Name": "Edwin", "Description Text": ["Leather sofa with a ", " featuring crisp ", " lines and enticingly ", "contours."], "Size": ["Seat depth 62 cm \u2013 24\".", "Seat height 44 cm \u2013 17\"."], "Characteristics": ["Armrest width 29 cm \u2013 11\".", "Armrest height 64 cm \u2013 25\".", "Painted metal legs height 15 cm - 6\", available in all customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat and back cushions in polyurethane, covered with feather.", "Folding bed not available.", "Special stitching CUC 508 \"Punto Cavallo\"."]},
-{"Name": "Border", "Description Text": ["sofa in leather with a ", " enhanced by the ", "which defines the contours of the cushions and backrest."], "Size": ["Seat depth 63 cm - 25\".", "Seat height 44 cm - 17\"."], "Characteristics": ["Armrest width 6 cm - 2\".", "Armrest height 54 cm - 21\".", "Wood legs height 6 cm - 2\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane and foam covered with feather.", "Back cushions in polyurethane covered with feather.", "Folding bed not available.", "Special stitching CUC 508 \"Punto Cavallo\"."]},
-{"Name": "Moon", "Description Text": ["allure and ", "design"], "Size": ["T49 - \u00d820 x H 14\"", "T50 - \u00d816 x H 18\""], "Characteristics": ["T51 - \u00d839 x H 13\"", "Wood top covered with leather.", "Metal base available in all Gamma customizing finishes."]},
-{"Name": "Morfeo", "Description Text": ["lines and ", "shapes"], "Size": [], "Characteristics": []},
-{"Name": "Milos dining table", "Description Text": ["A touch of inimitable charm"], "Size": ["Wood frame upholstered in leather.", "Metal inserts available in all customizing finishes."], "Characteristics": ["Top available in back lacquered glass (black or white), ceramic or marble.", "Ceramic top finishes Terra, Antracite and Ossido Bruno are not available.", "On marble finishings, only for leght dimensions over 200 cm, the top is split into two parts at the center,", "across its width.", "Lazy Susan\u2019s top available in all customizing finishes, with aluminium revolving base."]},
-{"Name": "Denny", "Description Text": [" leather sofa featuring ", " ", " conceived to deliver total ", "."], "Size": ["Seat depth 62 cm - 24\".", "Seat height 44 cm - 17\"."], "Characteristics": ["Armrest width 27 cm - 11\".", "Armrest width PNO chair 20 cm - 8\".", "Armrest height 63 cm - 25\".\u00a0", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane and memory foam covered with wadding.", "Back cushions in polyurethane covered with wadding. Legs height 14 cm \u2013 6\".", "Folding bed not available.", "Back cushions feature a headrest mechanism which can be lifted up individually (E01 features an unmovable headrest).", "Special stitching CUC 508 \"Punto Cavallo\"."]},
-{"Name": "Medea chrst", "Description Text": [], "Size": ["Seat depth 18 \".", "Seat height. 26\""], "Characteristics": ["Hardwood frame.", "Seat and back in polyurethane.", "Metal structure available in all\u00a0customizing finishing.", "CUC 503."]},
-{"Name": "Milos consolle", "Description Text": ["The Milos family console"], "Size": ["Wood frame covered in leather.", "Glass top available in: fum\u00e8 back-lacquered black (RAL 9005) or extraclear back-lacquered white (RAL 9003)."], "Characteristics": ["Ceramic and marble top available in all customizing finishes.", "Metal inserts available in all customizing finishes."]},
-{"Name": "Medea chrbr", "Description Text": [], "Size": ["Seat depth18\".", "Seat height 19\"."], "Characteristics": ["Armrest height 24\"", "Hardwood frame, seat suspension\u00a0in reinforced elastic webbing.", "Seat\u00a0and back in polyurethane.", "Metal\u00a0structure available in all\u00a0customizing finishing.", "CUC 503."]},
-{"Name": "Medea chair", "Description Text": [], "Size": ["Seat depth 18\".", "Seat height 19\"."], "Characteristics": ["Hardwood frame, seat suspension\u00a0in reinforced elastic webbing.", "Seat\u00a0and back in polyurethane.", "Metal\u00a0structure available in all\u00a0customizing finishing.", "CUC 503."]},
-{"Name": "Escape", "Description Text": ["The idea behind this leather ", "sofa stems from an overwhelming desire for ", " and an ", "lifestyle."], "Size": ["Seat depth 65 cm - 26\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest width 38 cm - 15\".", "Armrest height 56 cm - 22\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding.", "Back cushions in polyurethane covered with wadding.", "Legs height 19 cm - 7\".", "Folding bed not available.", "All corner elements E01, E20, S/D07 and S/D81 include one C0117 pillow free of charge.", "Stitching CUC 510 B SPECIAL."]},
-{"Name": "McQueen Night", "Description Text": ["The McQueen Night leather-upholstered bed exudes ", "."], "Size": ["Headboard height 88 cm - 35\".", "Base height 31 cm - 12\"."], "Characteristics": ["Chrome and dark chrome legs height 14 cm - 6\"."]},
-{"Name": "McQueen", "Description Text": ["Tufted leather sofa with ", " and a ", "twist that can be customised in various colour and leather ", "."], "Size": ["Seat depth 63 cm - 25\".", "Seat height 41 cm - 16\"."], "Characteristics": ["Armrest width 24 cm - 9\".", "Armrest height 74 cm - 29\".", "Painted metal legs height 14 cm - 5\", available in all customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with dacron wadding.", "Back cushions in polyurethane covered with dacron wadding.", "Folding bed not available.", "Stitching CUC 503 B."]},
-{"Name": "Marlon Night", "Description Text": ["The king-size leather bed with ", "and an irresistible ", "twist."], "Size": ["Headboard height 143 cm - 56\".", "Base height 30 cm - 12\"."], "Characteristics": ["Wood legs height 4 cm - 1\" 1/2."]},
-{"Name": "Marlon", "Description Text": ["Leather sofa with a ", " that stands out for its ", "."], "Size": ["Seat depth 65 cm \u2013 26\".", "Seat height 42 cm \u2013 17\"."], "Characteristics": ["Armrest width 29 cm \u2013 11\".", "Armrest height 69 cm \u2013 27\".", "Painted metal legs height 13 cm - 5\", available in all customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane covered with dacron wedding.", "Folding bed not available.", "Stitching CUC 504."]},
-{"Name": "Lolita", "Description Text": ["Modern leather armchair - a ", " on ", "."], "Size": ["Seat depth 57 cm - 22\".", "Seat height 43 cm \u2013 17\"."], "Characteristics": ["Metal frame and wood seat.", "Seat cushion in polyurethane covered with wadding.", "Back cushion in polyurethane.", "Metal legs available in the following finishings: chrome, titanum, brass, copper, RAL 8019, RAL 9003.", "Wood legs available in: noce canaletto or frassino.", "Stitching CUC 506."]},
-{"Name": "Margot", "Description Text": ["armchair in leather with a ", "sculpted silhouette and ", "vibe."], "Size": ["Seat depth 54 cm - 21\".", "Seat height 44 cm - 17\"."], "Characteristics": ["Seat width 59 cm - 23\".", "Seat, armrest and back cushions in polyurathane covered with feather.", "Metal base, height 29 cm - 11\" available in: chrome, dark chrome - titanium, burnished aluminium, burnished copper or painted metal.", "Stitching CUC 501C."]},
-{"Name": "Lobster", "Description Text": ["Leather armchair with exquisite ", "details such as the needlework decorating the edges. With its specially engineered ", ", it ensures ", "."], "Size": ["Seat depth 51 cm - 20''.", "Seat height 42 cm - 17''."], "Characteristics": ["Metal frame.", "Seat cushion in polyurethane.", "Dark chrome base. Metal zipper with black fabric.", "On request white, beige or dark brown at no charge.", "Special stitching CUC 514."]},
-{"Name": "Love", "Description Text": ["Loveseat armchair in leather featuring a ", "base, ", " design and shell embellished with ", " covered in leather."], "Size": ["Seat depth 72 cm - 28\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding.", "Back cushion in polyurethane covered with feather.", "Metal frame available in: chrome, dark chrome-titanium, burbished copper, burnished alluminium or painted metal.", "One C11 (CUC 512) throw pillow free of charge.", "Stitching CUC 512."]},
-{"Name": "Luna", "Description Text": ["Leather armchair \u201cLuna\u201d means \"Moon\" in Italian. It evokes curves and a", ", recalling the different ", " depending on where your gaze falls."], "Size": ["Seat depth 60 cm - 24\".", "Seat width 60 cm - 24\"."], "Characteristics": ["Seat height 45 cm - 18\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat and back cushions in polyurethane.", "Metal swivel base and legs available in: chrome, dark chrome-titanio, burnished copper, burnished aluminium or painted metal.", "Back cushion detail in Caucci\u00f9 black color.", "Stitching CUC 503."]},
-{"Name": "Kong coffee table", "Description Text": [" and ", "elegance"], "Size": [], "Characteristics": []},
-{"Name": "Limousine", "Description Text": [" leather sofa combining ", "and practicality with ", " and ", "."], "Size": ["Seat depth 64 cm - 25\".", "Seat height 41 cm - 16\"."], "Characteristics": ["Armrest width 36 cm - 14\".", "Arm can be opened, inner dimensions 34\" x H 13\" x 9\".", "Wood legs height 8 cm - 3\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane covered with feather.", "Folding bed not available.", "Special stitching CUC 508 \"Punto cavallo\"."]},
-{"Name": "Kong", "Description Text": ["Leather sofa with a ", " that strikes a perfect balance between ", "and supreme ", "."], "Size": ["Seat depth 64 cm - 25\".", "Seat height 41 cm - 16\"."], "Characteristics": ["Armrest width 32 cm - 13\".", "Armrest height 62 cm - 24\".", "Legs height 13 cm - 5\" available in: chrome, dark chrome-titanio, painted metal or wood.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane covered with feather.", "Wood legs finish: noce canaletto and frassino.", "Folding bed not available.", "Fabric piping.", "Stitching CUC 501 B."]},
-{"Name": "Kate", "Description Text": ["Leather occasional chair with an ", " featuring a high backrest and double back cushion for ", "."], "Size": ["Seat depth 56 cm - 22\".", "Seat height 44 cm - 17\"."], "Characteristics": ["Seat width 60 cm - 24\".", "Metal frame.", "Seat and back cushions in polyurethane covered with wadding.", "Painted metal swivelling base available in: titanium, brass or copper.", "Stitching CUC 503 B."]},
-{"Name": "Nautilus", "Description Text": ["sofa with a bold ", " tempered by a soft shell upholstered in leather."], "Size": ["Seat depth 63 cm - 25\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest width 30 cm - 12\".", "Armrest height 70 cm - 28\".", "Painted metal legs height 13 cm - 5\", available in all customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane.", "Back cushions in polyurethane.", "Folding bed not available.", "Stitching CUC 519."]},
-{"Name": "Karl coffee table", "Description Text": ["A ", "of design"], "Size": ["Hard wood frame and polyurethane covered with leather.", "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."], "Characteristics": ["Glass top available in: smoked or white (RAL 9003)."]},
-{"Name": "Jack Night", "Description Text": ["Leather-upholstered bed with a ", " embellished with topstitching and ", " features."], "Size": ["Headboard height 89 cm - 35\".", "Base height 27 cm - 11\"."], "Characteristics": ["Chrome legs height 15 cm - 6\"."]},
-{"Name": "Jack", "Description Text": ["and ", "style"], "Size": [], "Characteristics": []},
-{"Name": "Cocoon", "Description Text": ["Invigorating with a frisson of ", "and ", ", Cocoon is a leather sofa part of the ", "."], "Size": ["Seat depth 65 cm - 26\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest width 25 cm - 10\".", "Armrest height 63 cm - 25\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane with feather covered with wadding.", "Back cushions in polyurethane covered with wadding. Metal legs height 13 cm - 5\".", "Braided version: metal frame available in all customizing finishes.", "Folding bed not available.", "All corner elements E01 and S/D81 include one C0204 throw pillow free of charge.", "Stitching CUC 501 C."]},
-{"Name": "Jazz Night", "Description Text": ["Leather-upholstered bed with a ", "and ", "design featuring ", " all around."], "Size": ["Headboard height 68 cm - 27\".", "Base height 25 cm - 10\"."], "Characteristics": ["Wood legs height 4 cm - 1\" 1/2."]},
-{"Name": "Hollywood", "Description Text": ["leather modular sofa with soft contours and a ", "."], "Size": ["Seat depth 60 cm - 24\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 34 cm - 13\"", "Armrest height 69 cm - 27\".", "Painted metal legs height 17 cm - 7\", available in all customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat and back cushions in polyurethane, covered with feather.", "Folding bed not available.", "Available with the following stitching: CUC 500 D, CUC 510 B."]},
-{"Name": "Pretty", "Description Text": ["Occasional chair in leather with a ", ". It lends itself perfectly to either ", " or ", " premises."], "Size": ["Seat depth 62 cm - 24\".", "Seat height 41 cm - 16\"."], "Characteristics": ["Seat width 52 cm - 20\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Loose seat cushion in polyurethane covered with dacron wadding, frame in polyrethane.", "Wood legs height 3 cm - 1\" \u00bc.", "Stitching CUC 503."]},
-{"Name": "Ralph", "Description Text": ["Leather sofa with a", " exuding tasteful ", "and", "."], "Size": ["Seat depth 61 cm - 24\".", "Seat height 44 cm - 17\"."], "Characteristics": ["Armrest width 25 cm - 10\".", "Armrest height 73 cm - 29\".", "Painted metal legs height 17 cm - 7\", available in all customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane.", "Back cushions and armrests in polyurethane covered with wadding.", "Folding bed not available.", "Special stitching CUC 514."]},
-{"Name": "Puzzle coffee table", "Description Text": ["A touch of "], "Size": [], "Characteristics": []},
-{"Name": "Philly pillows", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": ["Pillows with feather filling."], "Characteristics": []},
-{"Name": "Planets", "Description Text": ["design\u00a0"], "Size": ["Metal base available in all Gamma customizing finishes.", "Glass top available in: smoked or white (RAL 9003)."], "Characteristics": ["Ceramic and marble top available in all customizing finishes."]},
-{"Name": "Rialto", "Description Text": ["As part of its ", ", the company has now launched the Rialto leather upholstered sofa collection, which aims to offer Gamma solutions to the", "."], "Size": ["Seat depth 58 cm - 23\".", "Seat height 44 cm - 17\"."], "Characteristics": ["Armrest width 15 cm - 6\".", "Armrest height 58 cm - 23\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding.", "Back cushions in polyurethane covered with wadding.", "Metal legs height 28 cm - 11\" available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal.", "Folding bed not available.", "Stitching CUC 501."]},
-{"Name": "Philly ottomans", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": ["Hard wood frame.", "Cushion in polyurethane."], "Characteristics": []},
-{"Name": "PHILLY nightstand", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": ["Certified massive wood frame upholstered\u00a0in leather.", "Top available in glass, ceramic or marble"], "Characteristics": []},
-{"Name": "Renegade", "Description Text": ["Leather ", "sofa exuding architectural allure and ", " detailing which is perfectly in keeping with the ", "."], "Size": ["Seat depth 61 cm - 24\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 26 cm - 10\".", "Armrest height 50 cm - 20\".\u00a0", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane covered with wadding.", "Armrest cushions in feather. Legs height 21 cm \u2013 8\".", "Folding bed not available. All corner elements S/D01, S/D04 and S/D05 include one C0200 throw pillow free of charge.", "Piece S/D81 include one C0201 throw pillow free of charge.", "Stitching CUC 503."]},
-{"Name": "Philly night bench", "Description Text": [], "Size": ["Headboard height 45\"", "Base height 13\""], "Characteristics": ["Wood legs height 2\"", "Certified massive wood frame padded and\u00a0upholstered in leather or fabric.", "Metal details available in all customizing\u00a0finishes.", "Mattress not included in price.", "European wooden slats.", "Stitching CUC504."]},
-{"Name": "Philly coffee table", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": [], "Characteristics": []},
-{"Name": "Philly night", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": ["Headboard height 45\".", "Base height 13\"."], "Characteristics": ["Wood legs height 2\".", "Certified massive wood frame padded and", "upholstered in leather or fabric.", "Metal details available in all customizing\u00a0finishes.", "Mattress not included in price.", "European wooden slats.", "Cucitura CUC504."]},
-{"Name": "Philly CHRBR", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": ["Seat height 19\".", "Seat depth 17\"."], "Characteristics": ["Armrest' height 27\"", "Certified massive wood frame padded and\u00a0upholstered in leather or fabric.", "Metal legs available in all customizing\u00a0finishes."]},
-{"Name": "Philly chair", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": ["Seat height 19\"", "Seat depth 17\""], "Characteristics": ["Armrest' height 27\"", "Certified massive wood frame padded and\u00a0upholstered in leather or fabric.", "Metal legs available in all customizing\u00a0finishes."]},
-{"Name": "Pepper night bench", "Description Text": ["Simple, minimal design"], "Size": ["Seat height 15\"", "Legs height 10\""], "Characteristics": ["Hard wood frame:", "Cushion in polyurethane covered with wadding."]},
-{"Name": "Philly dining table", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": [], "Characteristics": []},
-{"Name": "Passepartout bench", "Description Text": [" tailoring details"], "Size": [], "Characteristics": []},
-{"Name": "Philly", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": [], "Characteristics": []},
-{"Name": "Oxer Night", "Description Text": ["Leather-upholstered bed that conveys the same sense of ", "and ", "as the Oxer sofa."], "Size": ["Headboard height 70 cm - 28\".", "Base height 28 cm - 11\"."], "Characteristics": ["Wood legs height 3 cm - 1\"1/4."]},
-{"Name": "Oliver dresser", "Description Text": [], "Size": ["Wood frame upholstered in leather.", "Top availabl ein all customizing\u00a0finihings."], "Characteristics": ["Metal legs available in all\u00a0customizing finishings."]},
-{"Name": "Karl", "Description Text": ["leather sofa, that epitomises the ", "between the world of ", "and the", " of the Dandy range."], "Size": ["Seat depth 60 cm - 24\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest width 22 cm - 9\".", "Armrest height 64 cm - 25\".", "Bag arm, inner dimensions 26\" x H 13\" x 4\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane covered with leather.", "Legs height 13 cm \u2013 5\".", "Folding bed not available.", "All corner elements S/D01, S/D04 and S/D81 include one C0200 throw pillow free of charge.", "Stitching CUC 503 B."]},
-{"Name": "NOX", "Description Text": ["A touch of ", "to your bedroom"], "Size": ["\u00d820 x H 17\"", "Hard wood frame covered in leather."], "Characteristics": ["Glass top available in: smoked or white (RAL 9003).", "Ceramic top available in: Terra, Antracite, Noir Desir Ossido Bruno, Greenery or Limestone.", "Stitching CUC 507."]},
-{"Name": "Oliver TV Unit", "Description Text": ["Tapping into the iconic design boasted by other furniture items, such as tables, bedside tables and dressers, the company has added a stylish TV cabinet to the Gamma collection."], "Size": [], "Characteristics": []},
-{"Name": "Newport coffee table", "Description Text": ["A touch of "], "Size": ["Wood frame upholstered with leather.", "Top available in all customizing finishings, except for mirrored glass."], "Characteristics": ["Metal legs available in all\u00a0customizing finishings."]},
-{"Name": "Newport", "Description Text": ["A new seating system of ", " sofa that embodies Gamma's ability to perfectly blend ", "y."], "Size": ["Seat depth 53 cm - 21\".", "Seat height 45 cm - 18\"."], "Characteristics": ["Armrest width 29 cm - 11\".", "Armrest height 61 cm - 24\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane covered with wadding.", "Metal legs height 12 cm - 11\" available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal.", "Folding bed not available.", "Back cushions lift up with air spring mechanism (mx height 92 cm - 36\").", "Back cushions of corner elements S/D01 connot be lifted.", "Stitching CUC 514."]},
-{"Name": "New York bench", "Description Text": [" details and ", "style"], "Size": ["Seat height 17\"", "Legs height 12\""], "Characteristics": ["Wood frame upholstered in\u00a0leather.", "Cushion in polyurethane covered\u00a0with wadding."]},
-{"Name": "New York", "Description Text": ["and ", " for any space"], "Size": [], "Characteristics": []},
-{"Name": "New York", "Description Text": ["leather-upholstered sofa featuring some distinctively ", " which tap into the world of ", "."], "Size": ["Seat depth 61 cm - 24\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 25 cm - 10\".", "Armrest height 70 cm - 28\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding.", "Back cushions in polyurethane covered with feather.", "Armrest cushions in polyurethane covered with feather. Legs height 14 cm \u2013 7\".", "Folding bed not available.", "All corner elements\u00a0 include one C0113 throw pillow free of charge.", "Stitching CUC 522."]},
-{"Name": "Stones ottoman", "Description Text": [", ", "but with a ", "touch"], "Size": [], "Characteristics": []},
-{"Name": "Sunset", "Description Text": ["and ", "leather sofa, with a mechanism to increase the seat depth for ", "."], "Size": ["Seat depth 66/106 cm - 26/42\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 27 cm - 11\".", "Armrest height 57 cm - 22\".", "Painted metal legs height 17 cm - 7\", available in all\u00a0customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane covered with feather.", "Folding bed not available.", "Moveable back cushions on all the skus, corner unit included.", "All corner elements include one C57 throw pillow free of charge.", "Stitching CUC 518."]},
-{"Name": "Sunset coffee table", "Description Text": ["aesthetic\u00a0"], "Size": ["Glass top avaialble in smoked or white (RAL 9003).", "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."], "Characteristics": ["Metal base available in all Gamma customizing finishes."]},
-{"Name": "Spider CHRST", "Description Text": [], "Size": [], "Characteristics": []},
-{"Name": "Philly", "Description Text": ["The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."], "Size": ["Seat Depth 25\u201d.", "Seat Height 17\u201d."], "Characteristics": ["Armrest width 4\u201d.", "Armrest height 25\u201d.", "Metal leghs height 5\u201d", "Certified massive wood frame.", "Polyurethane and feather padding\u00a0fillings.", "Leather or fabric covering.", "Metal legs and details available in all\u00a0customizing finishes."]},
-{"Name": "Spider chair", "Description Text": ["Leather dining chair with a uniquely ", " is the latest addition to the Spider collection."], "Size": ["Seat depth 44 cm - 17\u201d.", "Seat width 49 cm - 19\u201d."], "Characteristics": ["Seat height 47 cm - 18\u201d.", "Metallic structure with moulded back padded in polyurethane foam. Seat in polyurethane foam with seat suspension in reinforced elastic webbing. Metal structure available in all customizing finishes. Stitching CUC 504."]},
-{"Name": "Sphere", "Description Text": ["An ", "piece of design"], "Size": ["T255B - \u00d839 x H 13\"", "Hardwood frame covered in leather."], "Characteristics": ["Glass top available in: fum\u00e8 back-lacquered black (RAL 9005) or extraclear back-lacquered white (RAL 9003).", "Ceramic and marble top available in all customizing finishes.", "Revolving tray available only in bronze mirror and fum\u00e8 mirror finishings.", "Revolving mechanism standard\u2000finishing RAL 9004."]},
-{"Name": "Sound Night", "Description Text": ["Leather-upholstered king-size bed with an ", " and a handy headrest mechanism, making it a ", "."], "Size": ["Headboard height 86/107 cm - 34/42\".", "Base height 32 cm - 13\"."], "Characteristics": ["Wood legs height 4 cm - 1\" 1/2."]},
-{"Name": "Space coffee table", "Description Text": ["A touch of precious "], "Size": [], "Characteristics": []},
-{"Name": "Spider", "Description Text": [" counterpointed by a ", "silhouette."], "Size": ["Seat depth 60 cm - 24\".", "Seat width 76 cm - 30\"."], "Characteristics": ["Seat height 42 cm - 17\".", "Metal structure with moulded back padded in polyurethane foam.", "Seat in polyurethane foam with seat suspensions in reinforced elastic webbing.", "Metal legs available in: chrome, dark chrome-titanio, burnished copper or painted metal.", "Stitching CUC 504."]},
-{"Name": "Stripes", "Description Text": ["and ", "way to enhance your living space"], "Size": ["T125B - 16 x 16 x H 20\"", "T126B - 20 x 20 x H 19\""], "Characteristics": ["T127B - 39 x 39 x H 15\"", "T128B - 39 x 20 x H 15\"", "Base Titanium, brass, copper, anthracite, RAL 8019 or RAL 9003 base.", "Stands Chrome, titanium, brass, copper, anthracite, RAL 8019 or RAL 9003 base.", "Glass top available in: smoked or white (RAL 9003).", "Ceramic top available in: Terra, Anthracite, Noir Desir, Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Smart Stools", "Description Text": [], "Size": [], "Characteristics": []},
-{"Name": "Soho", "Description Text": [" leather sofa with a special mechanism for ", "."], "Size": ["Seat depth 66/106 cm - 26/42\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest width 30 cm - 12\".", "Armrest height 59 cm - 23\".", "Wood legs height 8 cm - 3\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions in polyurethane cove red with feather.", "Folding bed not available.", "Moveable back cushions on all the skus, corner unit included.", "All corner elements include one C34 throw pillow free of charge.", "Stitching CUC 500."]},
-{"Name": "Smart Accessories", "Description Text": [], "Size": ["Smart accessories coordinated in the same cover and style to the sofa."], "Characteristics": []},
-{"Name": "Sky", "Description Text": ["design, ", "functionality"], "Size": ["\u00d818 x H 20\"", "Hard wood frame covered with leather."], "Characteristics": ["Top available in: smoked glass, white (RAL 9003), glass or stainless steel.", "Ceramic top available in Terra, Antracite, Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Shangai", "Description Text": ["aesthetic of ", " luggage"], "Size": ["Coffee Table with drawer.", "Hard wood frame and polyurethane covered with leather."], "Characteristics": ["Glass top available in: smoked or white (RAL 9003).", "Ceramic top available in: Terra, Antracite, Noir Desir Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Side", "Description Text": ["and ", "design"], "Size": ["T142B - 20 x 20 \"", "Base in chrome, titanium, brass, copper, anthracite, RAL 8019 or RAL 9003."], "Characteristics": ["Glass top in smoked or white (RAL 9003).", "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Scarlett", "Description Text": ["Chaise-longue in leather with a ", " boasting a ", " and accompanied by a ", ", making sure that your ", "."], "Size": ["Seat depth 60 cm - 24\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Steel structure, padded with molded polyurethane foam and covered with a thin feather lining.", "Shell in molded composite thermoplastic polymer covered with leather.", "Metal legs available in: chrome, dark chrome-titanio or painted metal.", "Stitching CUC 501."]},
-{"Name": "Sharon", "Description Text": ["Leather armchair with an ", " embellished with ", " such as ", " edges."], "Size": ["Seat depth 62 cm - 24\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Seat width 58 cm - 23\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushion in polyurethane and frame in polyurethane.", "Wood legs height 3 cm - 1\" \u00bc.", "Special stitching CUC 508 \"Punto Cavallo\"."]},
-{"Name": "Space", "Description Text": ["SPACE is our new ", "leather sofa with a ", " and sleek ", "."], "Size": ["Seat depth 60 cm - 24\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest height 55 cm - 22\".", "Wood legs height 6 cm - 2\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane.", "Back cushions in polyurethane.", "Armrest cushions in feather.", "Detail in seatings and back cushions are available in the following metalic finishes only: anthracite, brass and brushed chome.", "Folding bed not available.", "Chaise longue element comes with one C0127 (CUC501B) decorative cushion with no upcharge.", "Stitching CUC 501B."]},
-{"Name": "Sayonara Night", "Description Text": ["Leather bed which can be adapted to", " and is available with headboards in ", "."], "Size": ["Headboard height 149 cm - 59\".", "Base height 32 cm - 13\"."], "Characteristics": ["Wood legs height 4 cm - 1\" 1/2."]},
-{"Name": "Puzzle", "Description Text": ["leather sofa designed by ", " for the Dandy Home Collection."], "Size": ["Seat depth 57 cm - 22\".", "Seat height 42 cm - 17\"."], "Characteristics": ["Armrest width 31 cm - 12\".", "Armrest height 52 cm - 20\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding.", "Back cushions in feather with insert in polyurethane.", "Wood legs height 4 cm - 2\".", "Folding bed not available.", "Stitching CUC 503B."]},
-{"Name": "Sayonara bench", "Description Text": [" tailoring details"], "Size": ["Seat height 15\"", "Legs height 10\""], "Characteristics": ["Hard wood frame.", "Cushion in polyurethane covered with wadding."]},
-{"Name": "Saks coffee table", "Description Text": ["array of printed leathers", "\u00a0", "\u00a0"], "Size": ["Hard wood frame covered with leather.", "Glass top available in: smoked or white (RAL 9003)."], "Characteristics": ["Metal legs available in all Gamma customizing finishes.", "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."]},
-{"Name": "Sally CHABR", "Description Text": ["Designed by ", ", the new Sally leather chair goes to join the "], "Size": ["Seat depth 42 cm - 17\u201d", "Seat widht 59 cm - 23\u201d"], "Characteristics": ["Seat height 50 cm - 20\u201d", "Armrest height 61 cm - 24\u201d", "Bended wood frame covered with polyurethane. Seat and back cushions in polyurethane covered with wadding. Metal legs and button available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal. Stitching CUC 501 Gros Grain."]},
-{"Name": "Roomie", "Description Text": [", ", " design"], "Size": [], "Characteristics": []},
-{"Name": "Sally chair", "Description Text": ["Designed by ", ", the new Sally leather chair goes to join the "], "Size": ["Seat depth 42 cm - 17\".", "Seat width 59 cm - 23\"."], "Characteristics": ["Seat height 50 cm - 20\".", "Bended wood frame covered with polyurethane. Seat and back cushions in polyurethane covered with wadding. Metal legs and button available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal. Stitching CUC 501 Gros Grain."]},
-{"Name": "Royal pillows", "Description Text": ["Pillows with feather filling"], "Size": ["24\"x15\""], "Characteristics": []},
-{"Name": "Roger", "Description Text": ["Leather accessories that fit perfectly into any surrounds and double up as a pouffe or a magazine holder. \u00a0"], "Size": [], "Characteristics": []},
-{"Name": "Saks", "Description Text": ["Leather sofa with a haute design for ", " settings which fuses fine ", "and ", "."], "Size": ["Seat depth 63 cm - 25\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 27 cm - 11\".", "Armrest height 55 cm - 22\".", "Painted metal legs height 18 cm - 7\", available in all customizing finishes.", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with feather.", "Back cushions and armrest cushions in polyurethane covered with wadding.", "Legs height 18 cm \u2013 7\".", "Folding bed not available.", "Back cushions lift up with air spring mechanism, max height 92 cm - 36\" (E20 corner included).", "Back cushions of corner elements in S/D01, S/D04 and D/S05 cannot be lifted.", "All corner elements include one C0106 throw pillow free of charge.", "Spacial stitching CUC 514."]},
-{"Name": "Smart", "Description Text": ["leather sofa that embodies Gamma's talent for seamlessly combining ", "."], "Size": ["Seat depth 62 cm - 24\".", "Seat height 43 cm - 17\"."], "Characteristics": ["Armrest width 33 cm - 13\".", "Armrest height 52 cm - 20\".", "Hard wood frame, seat suspensions in reinforced elastic webbing.", "Seat cushions in polyurethane covered with wadding.", "Back cushions in polyurethane covered with wadding.", "Armrest cushions in polyurethane covered with wadding.", "Legs height 17 cm - 7\".", "Folding bed not available.", "Moveable back cushions on all the skus, corner unit included.", "Stitching CUC 518."]},
-{"Name": "Cocoon night", "Description Text": ["The king size leather bed Cocoon Night completes the collection and perfectly epitomises the ", "."], "Size": ["Headboard height 103 cm - 41\".", "Base height 35 cm - 14\"."], "Characteristics": ["Metal legs height 6 cm - 2\"\u00a0"]}
+    {
+        "Name": "Jackie",
+        "Description Text": [
+            "The Jackie ",
+            " from the Dandy Home collection designed by Giuseppe Vigan\u00f2 delivers a combination of ",
+            " and ",
+            "with a touch of glamour that takes its cues from the world of fashion."
+        ],
+        "Size": [
+            "Seat depth 57 cm / 22\u201d.",
+            "Seat height 44 cm / 17\u201d."
+        ],
+        "Characteristics": [
+            "Hard wood frame and polyurethane.",
+            "Seat cushion in polyurethane covered with wadding.",
+            "Metal swivelling base available in all customizing nishes.",
+            "CUC 504."
+        ]
+    },
+    {
+        "Name": "Cruise coffee table",
+        "Description Text": [
+            "and a",
+            " to any home"
+        ],
+        "Size": [
+            "Glass top available in: fum\u00e8 back-lacquered black (RAL 9005) or extraclear back-lacquered white (RAL 9003).",
+            "Ceramic and marble top available in all customizing finishes."
+        ],
+        "Characteristics": [
+            "Metal structure available in all customizing finishes."
+        ]
+    },
+    {
+        "Name": "Fifty",
+        "Description Text": [
+            "and ",
+            "shapes"
+        ],
+        "Size": [
+            "Seat depth 54 cm - 21\".",
+            "Seat height 44 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Seat width 59 cm - 23\".",
+            "Seat, armrest and back cushions in polyurathane covered with feather.",
+            "Metal base, height 29 cm - 11\" available in: chrome, dark chrome - titanium, burnished aluminium, burnished copper or painted metal.",
+            "Stitching CUC 501C."
+        ]
+    },
+    {
+        "Name": "Sophie",
+        "Description Text": [
+            "Unparalleled ",
+            "\u00a0"
+        ],
+        "Size": [
+            "Seat depth 59 cm - 23\u201d.",
+            "Seat height 43 cm - 17\u201d."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Zen",
+        "Description Text": [
+            "and ",
+            "design"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Tokyo",
+        "Description Text": [
+            "Exclusive ",
+            "design sectional sofa with a ",
+            " vibe.\u00a0"
+        ],
+        "Size": [
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding."
+        ],
+        "Characteristics": [
+            "Back cushions in polyurethane covered with wadding.",
+            "Metal legs height 6\", available in all customizing finishings.",
+            "Folding bed not available.",
+            "S/DP004, S/DT004, S/DP005, S/DT005 and S/D01 have decorative cushion C0141 included in price.",
+            "CUC503B special."
+        ]
+    },
+    {
+        "Name": "Summer",
+        "Description Text": [
+            "The sofa combining ",
+            "and "
+        ],
+        "Size": [
+            "Hard wood frame, seat suspensions in\u00a0reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with\u00a0wadding."
+        ],
+        "Characteristics": [
+            "Back cushions in polyurethane covered with\u00a0wadding.",
+            "Metal legs height 6\", available in all\u00a0customizing finishings.",
+            "Folding bed not available.",
+            "CUC503B special."
+        ]
+    },
+    {
+        "Name": "Block coffee table",
+        "Description Text": [
+            "A touch of inimitable charm"
+        ],
+        "Size": [
+            "Wood frame upholstered in leather.",
+            "Metal inserts available in all customizing finishes."
+        ],
+        "Characteristics": [
+            "Top available in back lacquered glass (black or white), ceramic or marble.",
+            "Ceramic top finishes Terra, Antracite and Ossido Bruno are not available.",
+            "On marble finishings, only for leght dimensions over 200 cm, the top is split into two parts at the center, across its width.",
+            "Lazy Susan\u2019s top available in all customizing finishes, with aluminium revolving base."
+        ]
+    },
+    {
+        "Name": "Turtle ottomans",
+        "Description Text": [
+            " inspired by the "
+        ],
+        "Size": [
+            "Seat height 40 cm / 16\u201d.",
+            "Hard wood frame and\u00a0polystyrene upholstered with\u00a0leather."
+        ],
+        "Characteristics": [
+            "stitching CUC 501."
+        ]
+    },
+    {
+        "Name": "Aston Alto Night",
+        "Description Text": [
+            "Leather bed with deep ",
+            " ",
+            "by ",
+            "."
+        ],
+        "Size": [
+            "Headboard height 139 cm - 55\".",
+            "Base height 36 cm - 14\"."
+        ],
+        "Characteristics": [
+            "Chrome legs height 11 cm - 4\".",
+            "Hard wood frame.",
+            "Headboard padding in polyurethane.",
+            "Base in polyurethane.",
+            "Mattress not included in the price.",
+            "European wooden slats.",
+            "Handmade Capitonn\u00e8."
+        ]
+    },
+    {
+        "Name": "Aston",
+        "Description Text": [
+            "Chesterfield leather sofa with ",
+            " with a ",
+            "twist."
+        ],
+        "Size": [
+            "Seat depth 68 cm - 27\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 29 cm - 11\".",
+            "Armrest height 70 cm - 28\".",
+            "Legs covered with leather height 10 cm - 4\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Frame padding in polyurethane.",
+            "Folding bed not available.",
+            "Handmade Capitonn\u00e9."
+        ]
+    },
+    {
+        "Name": "Venus",
+        "Description Text": [
+            " design and ",
+            "elegance"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Zoom",
+        "Description Text": [
+            "A collection that makes spaces "
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Zen",
+        "Description Text": [
+            "and ",
+            " design"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Betty",
+        "Description Text": [
+            "Leather armchair with a ",
+            " design."
+        ],
+        "Size": [
+            "Seat depth 59 cm - 23\u201d.",
+            "Seat height 43 cm - 17\u201d."
+        ],
+        "Characteristics": [
+            "Hardwood frame, seat suspension in reinforced elastic webbing.",
+            "Loose seat cushion and frame in polyurethane.",
+            "Metal legs height 1,5 cm - 0,6\u201d.",
+            "Stitchings CUC 523."
+        ]
+    },
+    {
+        "Name": "Tokyo coffee table",
+        "Description Text": [
+            "Variety of ",
+            "and ",
+            " for every need"
+        ],
+        "Size": [
+            "Wood frame upholstered in leather.",
+            "Top available in all customizing finishings."
+        ],
+        "Characteristics": [
+            "Metal legs available in all customizing\u00a0finishings.",
+            "CUC503B."
+        ]
+    },
+    {
+        "Name": "Big Bag",
+        "Description Text": [],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Belts",
+        "Description Text": [
+            "Airy elegant aesthetic"
+        ],
+        "Size": [
+            "Base available in chrome, titanium, brass, copper, anthracite, RAL 8019, RAL 9003 or covered with leather.",
+            "Buckle available in chrome, titanium, brass, copper, anthracite, RAL 8019, RAL 9003 or covered with leather."
+        ],
+        "Characteristics": [
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone (ceramic top not available for T07)."
+        ]
+    },
+    {
+        "Name": "Batik Night",
+        "Description Text": [
+            "Leather upholstered bed with a ",
+            "vibe and a wide bed head enhancing the beauty of our ",
+            "."
+        ],
+        "Size": [
+            "Headboard height 124 cm - 49\".",
+            "Base height 32 cm - 13\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 4 cm - 1\" 1/2."
+        ]
+    },
+    {
+        "Name": "Basket Lamps",
+        "Description Text": [],
+        "Size": [
+            "Floor lamp with metal frame available in all finishing options.",
+            "Lampshade in viscove coupled with pvc."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Basket",
+        "Description Text": [
+            "and ",
+            " aesthetic"
+        ],
+        "Size": [
+            "T49 - \u00d839 x H 12\"",
+            "T50 - \u00d816 x H 20\""
+        ],
+        "Characteristics": [
+            "T51 - \u00d820 x H 17\"",
+            "Base available in chrome, titanium, brass, copper, anthracite, RAL 8019 or RAL 9003.",
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Baku",
+        "Description Text": [
+            "A touch of ",
+            "and "
+        ],
+        "Size": [
+            "24 x 20 x H22\"",
+            "Hard wood frame covered in leather."
+        ],
+        "Characteristics": [
+            "Dresser with 2 drawers.",
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Metal upstand and handles available in all customizing finishes.",
+            "Stitching CUC 507."
+        ]
+    },
+    {
+        "Name": "Aston night bench",
+        "Description Text": [
+            " tailoring details"
+        ],
+        "Size": [
+            "Wood frame upholstered in\u00a0leather.",
+            "Cushion in polyurethane covered\u00a0with wadding."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Aston bench",
+        "Description Text": [
+            " tailoring details"
+        ],
+        "Size": [
+            "Wood frame upholstered in\u00a0leather.",
+            "Frame padding in polyurethane."
+        ],
+        "Characteristics": [
+            "Handmade Capitonn\u00e9."
+        ]
+    },
+    {
+        "Name": "Baloon ottomans",
+        "Description Text": [
+            ", ",
+            " but with a ",
+            "touch"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Summer coffee table",
+        "Description Text": [
+            "lines and ",
+            "shapes"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Milos bar",
+        "Description Text": [
+            "A touch of inimitable charm"
+        ],
+        "Size": [
+            "Wood frame upholstered in leather.",
+            "Metal inserts available in all\u00a0customizing finishes."
+        ],
+        "Characteristics": [
+            "Top available in back lacquered glass\u00a0(black or white), ceramic or marble."
+        ]
+    },
+    {
+        "Name": "Fifty",
+        "Description Text": [
+            "A new touch of ",
+            "and "
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Aston Night",
+        "Description Text": [
+            "Leather bed with deep ",
+            " handmade by ",
+            "."
+        ],
+        "Size": [
+            "Headboard height 100 cm - 39\".",
+            "Base height 28 cm - 11\"."
+        ],
+        "Characteristics": [
+            "Chrome legs height 11 cm - 4\"."
+        ]
+    },
+    {
+        "Name": "Vincent",
+        "Description Text": [
+            "sofa in leather combining ",
+            "and ",
+            "with ",
+            "lines and ",
+            "accessories."
+        ],
+        "Size": [
+            "Seat depth 60 cm - 24\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 20 cm - 8\"",
+            "Armrest height 63 cm - 25\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane, covered with wadding.",
+            "Back cushion in polyurethane, covered in wadding.",
+            "The bookrack armrest and backrest are made of curved plywood.",
+            "Metal legs height 13 cm - 5\u201d available in all customizing finishes.",
+            "Folding bed not available.",
+            "Stitching CUC 524."
+        ]
+    },
+    {
+        "Name": "Swing",
+        "Description Text": [
+            "leather sofa, symbolising all the quality of Gamma's ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 56 cm - 22\".",
+            "Seat height 41 cm - 16\"."
+        ],
+        "Characteristics": [
+            "Armrest width 17 cm - 7\".",
+            "Armrest height 57 cm - 22\".",
+            "Chrome or painted legs, height 10 cm - 4\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with dacron wadding.",
+            "Back cushions in feather.",
+            "Folding bed not available.",
+            "Special stitching CUC 509C \"Cross/Edge to Edge\"."
+        ]
+    },
+    {
+        "Name": "Jack",
+        "Description Text": [
+            "leather sofa with a ",
+            " and ",
+            "detailing that bespeaks its ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 62 cm - 24\".",
+            "Seat height 41 cm - 16\"."
+        ],
+        "Characteristics": [
+            "Armrest width 5 cm - 2\".",
+            "Painted metal legs height 15 cm - 6\", available in all customizing finishes.",
+            "Hard metal frame and wood seat base, seat suspensions in reinforced elastic webbing. ",
+            "Seat cushions in polyurethane covered with feather. ",
+            "Back cushions in polyurethane covered with feather.",
+            "Pocket on each arm.",
+            "Folding bed not available.",
+            "Stitching CUC 504."
+        ]
+    },
+    {
+        "Name": "Rialto coffee table",
+        "Description Text": [
+            "and ",
+            "for your ambience"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Nebula dresser",
+        "Description Text": [
+            "shapes and ",
+            "details"
+        ],
+        "Size": [
+            "47 x 21 x H 29\"",
+            "Hard wood frame covered in leather."
+        ],
+        "Characteristics": [
+            "Top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone.",
+            "Stitching CUC 507."
+        ]
+    },
+    {
+        "Name": "Nebula",
+        "Description Text": [
+            "shapes and ",
+            "details"
+        ],
+        "Size": [
+            "22 x 19 x H 20\"",
+            "Hard wood frame covered in leather."
+        ],
+        "Characteristics": [
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone.",
+            "Stitching CUC 507."
+        ]
+    },
+    {
+        "Name": "Gem",
+        "Description Text": [
+            "armchair in leather with ",
+            "contours elevated by ",
+            "detailing."
+        ],
+        "Size": [
+            "Seat depth 59 cm - 23''.",
+            "Seat width 60 cm - 24\"."
+        ],
+        "Characteristics": [
+            "Seat height 40 cm - 16''.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushion and frame in polyurethane.",
+            "Wood legs height 3 cm - 1\" 1/4.",
+            "Stitching CUC 503 B."
+        ]
+    },
+    {
+        "Name": "Gloss",
+        "Description Text": [
+            "leather armchair with a high-end design defined by extraordinarily ",
+            " and ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 61 cm - 24\".",
+            "Seat width 52 cm - 20\"."
+        ],
+        "Characteristics": [
+            "Seat height 42 cm - 17''.",
+            "Hardwood frame.",
+            "Seat cushions and back in polyurethane covered with feathers.",
+            "Armrest cushions with feathers.",
+            "POL: stitching CUC 503.",
+            "POS: frame stitiching CUC 506 and cushions stitching CUC 507.",
+            "Frame upholstered in leather or painted in: RAL 9003, RAL 8019, titaniun, brass, copper, anthracite.",
+            "Swivelling base available in: RAL 9003, RAL 8019, titaniun, brass, copper, anthracite."
+        ]
+    },
+    {
+        "Name": "Floor pillows",
+        "Description Text": [
+            "Leather accessories which add a ",
+            "touch to the floor level, and ",
+            "enough to fit into any setting."
+        ],
+        "Size": [
+            "41\"x41\"",
+            "53\"x53\""
+        ],
+        "Characteristics": [
+            "53\"x37\"",
+            "39\"x39\""
+        ]
+    },
+    {
+        "Name": "Ellipse",
+        "Description Text": [
+            "A touch of "
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Escape coffee table",
+        "Description Text": [
+            "aesthetic with a ",
+            "geometrical feel"
+        ],
+        "Size": [
+            "T155B - 31 x 47 x 13\"",
+            "T156B -18 x 26 x 17\""
+        ],
+        "Characteristics": [
+            "Base in chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal.",
+            "Glass top in smoked or white (RAL 9003).",
+            "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Harley",
+        "Description Text": [
+            "A modern ",
+            "armchair in leather featuring a carefully designed seat and high backrest for utter ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 54 cm - 21\".",
+            "Seat height 41 cm - 16''."
+        ],
+        "Characteristics": [
+            "Metal frame.",
+            "Seat and back cushions in polyurethane covered with Dacron.",
+            "Dark chrome base. ",
+            "Stitching CUC 503 B."
+        ]
+    },
+    {
+        "Name": "Flamingo night",
+        "Description Text": [
+            "Flamingo Night is ",
+            " kingsize leather bed."
+        ],
+        "Size": [
+            "Headboard height 124 cm - 49\".",
+            "Base height 36 cm - 14\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 2 cm - 0,6\"."
+        ]
+    },
+    {
+        "Name": "Edge Night",
+        "Description Text": [
+            "King size leather bed with a ",
+            " embellished with ",
+            " and delivering ",
+            " levels."
+        ],
+        "Size": [
+            "Headboard height 94 cm - 37\".",
+            "Base height 32 cm - 12\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 4 cm - 1\" 1/2."
+        ]
+    },
+    {
+        "Name": "Flamingo bench",
+        "Description Text": [
+            " tailoring details"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Desire",
+        "Description Text": [
+            "design combining ",
+            "and "
+        ],
+        "Size": [
+            "24 x 20 x H 17\"",
+            "Hard wood frame covered with leather."
+        ],
+        "Characteristics": [
+            "Glass top available in smoked or white (RAL 9003).",
+            "Ceramic top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone.",
+            "Stitching CUC 503."
+        ]
+    },
+    {
+        "Name": "Drums",
+        "Description Text": [
+            "Evoking the world of "
+        ],
+        "Size": [
+            "Hard wood frame and polyurethane covered with leather. Glass top available in: smoked or white (RAL 9003).",
+            "Ceramc top available in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Dean",
+        "Description Text": [
+            "Leather armchair with a modern design suitable for all kinds of surrounds dedicated to relaxation without sacrificing stylishness."
+        ],
+        "Size": [
+            "Seat depth 49 cm \u2013 19\".",
+            "Seat height 44 cm \u2013 17\"."
+        ],
+        "Characteristics": [
+            "Armrest height 72 cm \u2013 28\".",
+            "Metal frame.",
+            "Seat and back cushions in polyurethane.",
+            "Stitching CUC 501B."
+        ]
+    },
+    {
+        "Name": "Dandy Bags",
+        "Description Text": [],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Cruise",
+        "Description Text": [
+            "A ",
+            "and ",
+            "chaise longue which delivers a ",
+            " combination of style, ",
+            "and ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 100 cm - 40\u201d.",
+            "Seat width 82 cm - 32\u201d."
+        ],
+        "Characteristics": [
+            "Seat height 53 cm - 21\u201d.",
+            "Metal frame and hardwood structure.",
+            "Seat and back cushions in polyurethane.",
+            "Metal structure available in all customizing finishes.",
+            "Stitching CUC 501."
+        ]
+    },
+    {
+        "Name": "Cocoon night bench",
+        "Description Text": [
+            " details and ",
+            "style"
+        ],
+        "Size": [
+            "Seat height 17\u201d",
+            "Legs height 12\u201d"
+        ],
+        "Characteristics": [
+            "Hard wood frame.",
+            "Cushion in polyurethane covered with\u00a0wadding."
+        ]
+    },
+    {
+        "Name": "Gregory",
+        "Description Text": [
+            "A ",
+            " from more than one point of view."
+        ],
+        "Size": [
+            "Seat depth 68 cm - 27\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 29 cm - 11\"",
+            "Armrest height 55 cm - 22\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding.",
+            "Back cushions in feather with insert in polyurethane.",
+            "Wood legs height 4 cm - 1\"\u00bd.",
+            "Folding bed not available.",
+            "Stitching CUC 503 B."
+        ]
+    },
+    {
+        "Name": "Cocoon Berg\u00e8re",
+        "Description Text": [
+            "designer armchair in leather with a ",
+            " shell and swivel base which takes its cues from ",
+            " techniques."
+        ],
+        "Size": [
+            "Seat depth 55 cm - 24\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Metal frame.",
+            "Metal frame and base available in: chrome, dark chrome-titanium, burnished alluminium or painted metal.",
+            "Stitching CUC 501B."
+        ]
+    },
+    {
+        "Name": "Cocoon",
+        "Description Text": [
+            "and ",
+            " for the sleeping area"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Clepsydra",
+        "Description Text": [
+            "Hugely ",
+            "and "
+        ],
+        "Size": [
+            "T17 - \u00d860 x H 14\"",
+            "T18 - \u00d837 x H 20\""
+        ],
+        "Characteristics": [
+            "Polyurethane resin frame covered with leather.",
+            "Metal insert available in: chrome, titanium, brass, copper, anthracite, RAL 8019, RAL 9003 or covered with leather.",
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Charlotte",
+        "Description Text": [
+            "leather armchair which can be ",
+            "by mixing and matching the ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 53 cm - 21\".",
+            "Seat width 56 cm - 22\"."
+        ],
+        "Characteristics": [
+            "Seat height 39 cm - 15''.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushion and frame in polyurethane covered with dacron wadding.",
+            "Chrome legs height 3cm - 1\" 1/4.",
+            "Strings only in leather.",
+            "Special stitching CUC 508 \"Punto Cavallo\"."
+        ]
+    },
+    {
+        "Name": "Brooklyn Bookshelf",
+        "Description Text": [],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Boulevard",
+        "Description Text": [],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Bubble",
+        "Description Text": [
+            "The design-forward Bubble lamp: an intriguing source of light of\u00a0",
+            " that will instantly ",
+            "the ambiance."
+        ],
+        "Size": [
+            "Floor lamp total H. 70\" - 180 cm.",
+            "Steel structures and details in painted nishings."
+        ],
+        "Characteristics": [
+            "Murano\u2019 blown glass light\u2018shade."
+        ]
+    },
+    {
+        "Name": "Blade",
+        "Description Text": [
+            "aesthetic and ",
+            "silhouette"
+        ],
+        "Size": [
+            "Metal legs available in all Gamma customizing finishes.",
+            "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Edwin",
+        "Description Text": [
+            "Leather sofa with a ",
+            " featuring crisp ",
+            " lines and enticingly ",
+            "contours."
+        ],
+        "Size": [
+            "Seat depth 62 cm \u2013 24\".",
+            "Seat height 44 cm \u2013 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 29 cm \u2013 11\".",
+            "Armrest height 64 cm \u2013 25\".",
+            "Painted metal legs height 15 cm - 6\", available in all customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat and back cushions in polyurethane, covered with feather.",
+            "Folding bed not available.",
+            "Special stitching CUC 508 \"Punto Cavallo\"."
+        ]
+    },
+    {
+        "Name": "Border",
+        "Description Text": [
+            "sofa in leather with a ",
+            " enhanced by the ",
+            "which defines the contours of the cushions and backrest."
+        ],
+        "Size": [
+            "Seat depth 63 cm - 25\".",
+            "Seat height 44 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 6 cm - 2\".",
+            "Armrest height 54 cm - 21\".",
+            "Wood legs height 6 cm - 2\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane and foam covered with feather.",
+            "Back cushions in polyurethane covered with feather.",
+            "Folding bed not available.",
+            "Special stitching CUC 508 \"Punto Cavallo\"."
+        ]
+    },
+    {
+        "Name": "Moon",
+        "Description Text": [
+            "allure and ",
+            "design"
+        ],
+        "Size": [
+            "T49 - \u00d820 x H 14\"",
+            "T50 - \u00d816 x H 18\""
+        ],
+        "Characteristics": [
+            "T51 - \u00d839 x H 13\"",
+            "Wood top covered with leather.",
+            "Metal base available in all Gamma customizing finishes."
+        ]
+    },
+    {
+        "Name": "Morfeo",
+        "Description Text": [
+            "lines and ",
+            "shapes"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Milos dining table",
+        "Description Text": [
+            "A touch of inimitable charm"
+        ],
+        "Size": [
+            "Wood frame upholstered in leather.",
+            "Metal inserts available in all customizing finishes."
+        ],
+        "Characteristics": [
+            "Top available in back lacquered glass (black or white), ceramic or marble.",
+            "Ceramic top finishes Terra, Antracite and Ossido Bruno are not available.",
+            "On marble finishings, only for leght dimensions over 200 cm, the top is split into two parts at the center,",
+            "across its width.",
+            "Lazy Susan\u2019s top available in all customizing finishes, with aluminium revolving base."
+        ]
+    },
+    {
+        "Name": "Denny",
+        "Description Text": [
+            " leather sofa featuring ",
+            " ",
+            " conceived to deliver total ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 62 cm - 24\".",
+            "Seat height 44 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 27 cm - 11\".",
+            "Armrest width PNO chair 20 cm - 8\".",
+            "Armrest height 63 cm - 25\".\u00a0",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane and memory foam covered with wadding.",
+            "Back cushions in polyurethane covered with wadding. Legs height 14 cm \u2013 6\".",
+            "Folding bed not available.",
+            "Back cushions feature a headrest mechanism which can be lifted up individually (E01 features an unmovable headrest).",
+            "Special stitching CUC 508 \"Punto Cavallo\"."
+        ]
+    },
+    {
+        "Name": "Medea chrst",
+        "Description Text": [],
+        "Size": [
+            "Seat depth 18 \".",
+            "Seat height. 26\""
+        ],
+        "Characteristics": [
+            "Hardwood frame.",
+            "Seat and back in polyurethane.",
+            "Metal structure available in all\u00a0customizing finishing.",
+            "CUC 503."
+        ]
+    },
+    {
+        "Name": "Milos consolle",
+        "Description Text": [
+            "The Milos family console"
+        ],
+        "Size": [
+            "Wood frame covered in leather.",
+            "Glass top available in: fum\u00e8 back-lacquered black (RAL 9005) or extraclear back-lacquered white (RAL 9003)."
+        ],
+        "Characteristics": [
+            "Ceramic and marble top available in all customizing finishes.",
+            "Metal inserts available in all customizing finishes."
+        ]
+    },
+    {
+        "Name": "Medea chrbr",
+        "Description Text": [],
+        "Size": [
+            "Seat depth18\".",
+            "Seat height 19\"."
+        ],
+        "Characteristics": [
+            "Armrest height 24\"",
+            "Hardwood frame, seat suspension\u00a0in reinforced elastic webbing.",
+            "Seat\u00a0and back in polyurethane.",
+            "Metal\u00a0structure available in all\u00a0customizing finishing.",
+            "CUC 503."
+        ]
+    },
+    {
+        "Name": "Medea chair",
+        "Description Text": [],
+        "Size": [
+            "Seat depth 18\".",
+            "Seat height 19\"."
+        ],
+        "Characteristics": [
+            "Hardwood frame, seat suspension\u00a0in reinforced elastic webbing.",
+            "Seat\u00a0and back in polyurethane.",
+            "Metal\u00a0structure available in all\u00a0customizing finishing.",
+            "CUC 503."
+        ]
+    },
+    {
+        "Name": "Escape",
+        "Description Text": [
+            "The idea behind this leather ",
+            "sofa stems from an overwhelming desire for ",
+            " and an ",
+            "lifestyle."
+        ],
+        "Size": [
+            "Seat depth 65 cm - 26\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 38 cm - 15\".",
+            "Armrest height 56 cm - 22\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding.",
+            "Back cushions in polyurethane covered with wadding.",
+            "Legs height 19 cm - 7\".",
+            "Folding bed not available.",
+            "All corner elements E01, E20, S/D07 and S/D81 include one C0117 pillow free of charge.",
+            "Stitching CUC 510 B SPECIAL."
+        ]
+    },
+    {
+        "Name": "McQueen Night",
+        "Description Text": [
+            "The McQueen Night leather-upholstered bed exudes ",
+            "."
+        ],
+        "Size": [
+            "Headboard height 88 cm - 35\".",
+            "Base height 31 cm - 12\"."
+        ],
+        "Characteristics": [
+            "Chrome and dark chrome legs height 14 cm - 6\"."
+        ]
+    },
+    {
+        "Name": "McQueen",
+        "Description Text": [
+            "Tufted leather sofa with ",
+            " and a ",
+            "twist that can be customised in various colour and leather ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 63 cm - 25\".",
+            "Seat height 41 cm - 16\"."
+        ],
+        "Characteristics": [
+            "Armrest width 24 cm - 9\".",
+            "Armrest height 74 cm - 29\".",
+            "Painted metal legs height 14 cm - 5\", available in all customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with dacron wadding.",
+            "Back cushions in polyurethane covered with dacron wadding.",
+            "Folding bed not available.",
+            "Stitching CUC 503 B."
+        ]
+    },
+    {
+        "Name": "Marlon Night",
+        "Description Text": [
+            "The king-size leather bed with ",
+            "and an irresistible ",
+            "twist."
+        ],
+        "Size": [
+            "Headboard height 143 cm - 56\".",
+            "Base height 30 cm - 12\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 4 cm - 1\" 1/2."
+        ]
+    },
+    {
+        "Name": "Marlon",
+        "Description Text": [
+            "Leather sofa with a ",
+            " that stands out for its ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 65 cm \u2013 26\".",
+            "Seat height 42 cm \u2013 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 29 cm \u2013 11\".",
+            "Armrest height 69 cm \u2013 27\".",
+            "Painted metal legs height 13 cm - 5\", available in all customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane covered with dacron wedding.",
+            "Folding bed not available.",
+            "Stitching CUC 504."
+        ]
+    },
+    {
+        "Name": "Lolita",
+        "Description Text": [
+            "Modern leather armchair - a ",
+            " on ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 57 cm - 22\".",
+            "Seat height 43 cm \u2013 17\"."
+        ],
+        "Characteristics": [
+            "Metal frame and wood seat.",
+            "Seat cushion in polyurethane covered with wadding.",
+            "Back cushion in polyurethane.",
+            "Metal legs available in the following finishings: chrome, titanum, brass, copper, RAL 8019, RAL 9003.",
+            "Wood legs available in: noce canaletto or frassino.",
+            "Stitching CUC 506."
+        ]
+    },
+    {
+        "Name": "Margot",
+        "Description Text": [
+            "armchair in leather with a ",
+            "sculpted silhouette and ",
+            "vibe."
+        ],
+        "Size": [
+            "Seat depth 54 cm - 21\".",
+            "Seat height 44 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Seat width 59 cm - 23\".",
+            "Seat, armrest and back cushions in polyurathane covered with feather.",
+            "Metal base, height 29 cm - 11\" available in: chrome, dark chrome - titanium, burnished aluminium, burnished copper or painted metal.",
+            "Stitching CUC 501C."
+        ]
+    },
+    {
+        "Name": "Lobster",
+        "Description Text": [
+            "Leather armchair with exquisite ",
+            "details such as the needlework decorating the edges. With its specially engineered ",
+            ", it ensures ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 51 cm - 20''.",
+            "Seat height 42 cm - 17''."
+        ],
+        "Characteristics": [
+            "Metal frame.",
+            "Seat cushion in polyurethane.",
+            "Dark chrome base. Metal zipper with black fabric.",
+            "On request white, beige or dark brown at no charge.",
+            "Special stitching CUC 514."
+        ]
+    },
+    {
+        "Name": "Love",
+        "Description Text": [
+            "Loveseat armchair in leather featuring a ",
+            "base, ",
+            " design and shell embellished with ",
+            " covered in leather."
+        ],
+        "Size": [
+            "Seat depth 72 cm - 28\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding.",
+            "Back cushion in polyurethane covered with feather.",
+            "Metal frame available in: chrome, dark chrome-titanium, burbished copper, burnished alluminium or painted metal.",
+            "One C11 (CUC 512) throw pillow free of charge.",
+            "Stitching CUC 512."
+        ]
+    },
+    {
+        "Name": "Luna",
+        "Description Text": [
+            "Leather armchair \u201cLuna\u201d means \"Moon\" in Italian. It evokes curves and a",
+            ", recalling the different ",
+            " depending on where your gaze falls."
+        ],
+        "Size": [
+            "Seat depth 60 cm - 24\".",
+            "Seat width 60 cm - 24\"."
+        ],
+        "Characteristics": [
+            "Seat height 45 cm - 18\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat and back cushions in polyurethane.",
+            "Metal swivel base and legs available in: chrome, dark chrome-titanio, burnished copper, burnished aluminium or painted metal.",
+            "Back cushion detail in Caucci\u00f9 black color.",
+            "Stitching CUC 503."
+        ]
+    },
+    {
+        "Name": "Kong coffee table",
+        "Description Text": [
+            " and ",
+            "elegance"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Limousine",
+        "Description Text": [
+            " leather sofa combining ",
+            "and practicality with ",
+            " and ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 64 cm - 25\".",
+            "Seat height 41 cm - 16\"."
+        ],
+        "Characteristics": [
+            "Armrest width 36 cm - 14\".",
+            "Arm can be opened, inner dimensions 34\" x H 13\" x 9\".",
+            "Wood legs height 8 cm - 3\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane covered with feather.",
+            "Folding bed not available.",
+            "Special stitching CUC 508 \"Punto cavallo\"."
+        ]
+    },
+    {
+        "Name": "Kong",
+        "Description Text": [
+            "Leather sofa with a ",
+            " that strikes a perfect balance between ",
+            "and supreme ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 64 cm - 25\".",
+            "Seat height 41 cm - 16\"."
+        ],
+        "Characteristics": [
+            "Armrest width 32 cm - 13\".",
+            "Armrest height 62 cm - 24\".",
+            "Legs height 13 cm - 5\" available in: chrome, dark chrome-titanio, painted metal or wood.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane covered with feather.",
+            "Wood legs finish: noce canaletto and frassino.",
+            "Folding bed not available.",
+            "Fabric piping.",
+            "Stitching CUC 501 B."
+        ]
+    },
+    {
+        "Name": "Kate",
+        "Description Text": [
+            "Leather occasional chair with an ",
+            " featuring a high backrest and double back cushion for ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 56 cm - 22\".",
+            "Seat height 44 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Seat width 60 cm - 24\".",
+            "Metal frame.",
+            "Seat and back cushions in polyurethane covered with wadding.",
+            "Painted metal swivelling base available in: titanium, brass or copper.",
+            "Stitching CUC 503 B."
+        ]
+    },
+    {
+        "Name": "Nautilus",
+        "Description Text": [
+            "sofa with a bold ",
+            " tempered by a soft shell upholstered in leather."
+        ],
+        "Size": [
+            "Seat depth 63 cm - 25\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 30 cm - 12\".",
+            "Armrest height 70 cm - 28\".",
+            "Painted metal legs height 13 cm - 5\", available in all customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane.",
+            "Back cushions in polyurethane.",
+            "Folding bed not available.",
+            "Stitching CUC 519."
+        ]
+    },
+    {
+        "Name": "Karl coffee table",
+        "Description Text": [
+            "A ",
+            "of design"
+        ],
+        "Size": [
+            "Hard wood frame and polyurethane covered with leather.",
+            "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ],
+        "Characteristics": [
+            "Glass top available in: smoked or white (RAL 9003)."
+        ]
+    },
+    {
+        "Name": "Jack Night",
+        "Description Text": [
+            "Leather-upholstered bed with a ",
+            " embellished with topstitching and ",
+            " features."
+        ],
+        "Size": [
+            "Headboard height 89 cm - 35\".",
+            "Base height 27 cm - 11\"."
+        ],
+        "Characteristics": [
+            "Chrome legs height 15 cm - 6\"."
+        ]
+    },
+    {
+        "Name": "Jack",
+        "Description Text": [
+            "and ",
+            "style"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Cocoon",
+        "Description Text": [
+            "Invigorating with a frisson of ",
+            "and ",
+            ", Cocoon is a leather sofa part of the ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 65 cm - 26\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 25 cm - 10\".",
+            "Armrest height 63 cm - 25\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane with feather covered with wadding.",
+            "Back cushions in polyurethane covered with wadding. Metal legs height 13 cm - 5\".",
+            "Braided version: metal frame available in all customizing finishes.",
+            "Folding bed not available.",
+            "All corner elements E01 and S/D81 include one C0204 throw pillow free of charge.",
+            "Stitching CUC 501 C."
+        ]
+    },
+    {
+        "Name": "Jazz Night",
+        "Description Text": [
+            "Leather-upholstered bed with a ",
+            "and ",
+            "design featuring ",
+            " all around."
+        ],
+        "Size": [
+            "Headboard height 68 cm - 27\".",
+            "Base height 25 cm - 10\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 4 cm - 1\" 1/2."
+        ]
+    },
+    {
+        "Name": "Hollywood",
+        "Description Text": [
+            "leather modular sofa with soft contours and a ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 60 cm - 24\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 34 cm - 13\"",
+            "Armrest height 69 cm - 27\".",
+            "Painted metal legs height 17 cm - 7\", available in all customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat and back cushions in polyurethane, covered with feather.",
+            "Folding bed not available.",
+            "Available with the following stitching: CUC 500 D, CUC 510 B."
+        ]
+    },
+    {
+        "Name": "Pretty",
+        "Description Text": [
+            "Occasional chair in leather with a ",
+            ". It lends itself perfectly to either ",
+            " or ",
+            " premises."
+        ],
+        "Size": [
+            "Seat depth 62 cm - 24\".",
+            "Seat height 41 cm - 16\"."
+        ],
+        "Characteristics": [
+            "Seat width 52 cm - 20\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Loose seat cushion in polyurethane covered with dacron wadding, frame in polyrethane.",
+            "Wood legs height 3 cm - 1\" \u00bc.",
+            "Stitching CUC 503."
+        ]
+    },
+    {
+        "Name": "Ralph",
+        "Description Text": [
+            "Leather sofa with a",
+            " exuding tasteful ",
+            "and",
+            "."
+        ],
+        "Size": [
+            "Seat depth 61 cm - 24\".",
+            "Seat height 44 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 25 cm - 10\".",
+            "Armrest height 73 cm - 29\".",
+            "Painted metal legs height 17 cm - 7\", available in all customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane.",
+            "Back cushions and armrests in polyurethane covered with wadding.",
+            "Folding bed not available.",
+            "Special stitching CUC 514."
+        ]
+    },
+    {
+        "Name": "Puzzle coffee table",
+        "Description Text": [
+            "A touch of "
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Philly pillows",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [
+            "Pillows with feather filling."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Planets",
+        "Description Text": [
+            "design\u00a0"
+        ],
+        "Size": [
+            "Metal base available in all Gamma customizing finishes.",
+            "Glass top available in: smoked or white (RAL 9003)."
+        ],
+        "Characteristics": [
+            "Ceramic and marble top available in all customizing finishes."
+        ]
+    },
+    {
+        "Name": "Rialto",
+        "Description Text": [
+            "As part of its ",
+            ", the company has now launched the Rialto leather upholstered sofa collection, which aims to offer Gamma solutions to the",
+            "."
+        ],
+        "Size": [
+            "Seat depth 58 cm - 23\".",
+            "Seat height 44 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 15 cm - 6\".",
+            "Armrest height 58 cm - 23\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding.",
+            "Back cushions in polyurethane covered with wadding.",
+            "Metal legs height 28 cm - 11\" available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal.",
+            "Folding bed not available.",
+            "Stitching CUC 501."
+        ]
+    },
+    {
+        "Name": "Philly ottomans",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [
+            "Hard wood frame.",
+            "Cushion in polyurethane."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "PHILLY nightstand",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [
+            "Certified massive wood frame upholstered\u00a0in leather.",
+            "Top available in glass, ceramic or marble"
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Renegade",
+        "Description Text": [
+            "Leather ",
+            "sofa exuding architectural allure and ",
+            " detailing which is perfectly in keeping with the ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 61 cm - 24\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 26 cm - 10\".",
+            "Armrest height 50 cm - 20\".\u00a0",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane covered with wadding.",
+            "Armrest cushions in feather. Legs height 21 cm \u2013 8\".",
+            "Folding bed not available. All corner elements S/D01, S/D04 and S/D05 include one C0200 throw pillow free of charge.",
+            "Piece S/D81 include one C0201 throw pillow free of charge.",
+            "Stitching CUC 503."
+        ]
+    },
+    {
+        "Name": "Philly night bench",
+        "Description Text": [],
+        "Size": [
+            "Headboard height 45\"",
+            "Base height 13\""
+        ],
+        "Characteristics": [
+            "Wood legs height 2\"",
+            "Certified massive wood frame padded and\u00a0upholstered in leather or fabric.",
+            "Metal details available in all customizing\u00a0finishes.",
+            "Mattress not included in price.",
+            "European wooden slats.",
+            "Stitching CUC504."
+        ]
+    },
+    {
+        "Name": "Philly coffee table",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Philly night",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [
+            "Headboard height 45\".",
+            "Base height 13\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 2\".",
+            "Certified massive wood frame padded and",
+            "upholstered in leather or fabric.",
+            "Metal details available in all customizing\u00a0finishes.",
+            "Mattress not included in price.",
+            "European wooden slats.",
+            "Cucitura CUC504."
+        ]
+    },
+    {
+        "Name": "Philly CHRBR",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [
+            "Seat height 19\".",
+            "Seat depth 17\"."
+        ],
+        "Characteristics": [
+            "Armrest' height 27\"",
+            "Certified massive wood frame padded and\u00a0upholstered in leather or fabric.",
+            "Metal legs available in all customizing\u00a0finishes."
+        ]
+    },
+    {
+        "Name": "Philly chair",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [
+            "Seat height 19\"",
+            "Seat depth 17\""
+        ],
+        "Characteristics": [
+            "Armrest' height 27\"",
+            "Certified massive wood frame padded and\u00a0upholstered in leather or fabric.",
+            "Metal legs available in all customizing\u00a0finishes."
+        ]
+    },
+    {
+        "Name": "Pepper night bench",
+        "Description Text": [
+            "Simple, minimal design"
+        ],
+        "Size": [
+            "Seat height 15\"",
+            "Legs height 10\""
+        ],
+        "Characteristics": [
+            "Hard wood frame:",
+            "Cushion in polyurethane covered with wadding."
+        ]
+    },
+    {
+        "Name": "Philly dining table",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Passepartout bench",
+        "Description Text": [
+            " tailoring details"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Philly",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Oxer Night",
+        "Description Text": [
+            "Leather-upholstered bed that conveys the same sense of ",
+            "and ",
+            "as the Oxer sofa."
+        ],
+        "Size": [
+            "Headboard height 70 cm - 28\".",
+            "Base height 28 cm - 11\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 3 cm - 1\"1/4."
+        ]
+    },
+    {
+        "Name": "Oliver dresser",
+        "Description Text": [],
+        "Size": [
+            "Wood frame upholstered in leather.",
+            "Top availabl ein all customizing\u00a0finihings."
+        ],
+        "Characteristics": [
+            "Metal legs available in all\u00a0customizing finishings."
+        ]
+    },
+    {
+        "Name": "Karl",
+        "Description Text": [
+            "leather sofa, that epitomises the ",
+            "between the world of ",
+            "and the",
+            " of the Dandy range."
+        ],
+        "Size": [
+            "Seat depth 60 cm - 24\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 22 cm - 9\".",
+            "Armrest height 64 cm - 25\".",
+            "Bag arm, inner dimensions 26\" x H 13\" x 4\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane covered with leather.",
+            "Legs height 13 cm \u2013 5\".",
+            "Folding bed not available.",
+            "All corner elements S/D01, S/D04 and S/D81 include one C0200 throw pillow free of charge.",
+            "Stitching CUC 503 B."
+        ]
+    },
+    {
+        "Name": "NOX",
+        "Description Text": [
+            "A touch of ",
+            "to your bedroom"
+        ],
+        "Size": [
+            "\u00d820 x H 17\"",
+            "Hard wood frame covered in leather."
+        ],
+        "Characteristics": [
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in: Terra, Antracite, Noir Desir Ossido Bruno, Greenery or Limestone.",
+            "Stitching CUC 507."
+        ]
+    },
+    {
+        "Name": "Oliver TV Unit",
+        "Description Text": [
+            "Tapping into the iconic design boasted by other furniture items, such as tables, bedside tables and dressers, the company has added a stylish TV cabinet to the Gamma collection."
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Newport coffee table",
+        "Description Text": [
+            "A touch of "
+        ],
+        "Size": [
+            "Wood frame upholstered with leather.",
+            "Top available in all customizing finishings, except for mirrored glass."
+        ],
+        "Characteristics": [
+            "Metal legs available in all\u00a0customizing finishings."
+        ]
+    },
+    {
+        "Name": "Newport",
+        "Description Text": [
+            "A new seating system of ",
+            " sofa that embodies Gamma's ability to perfectly blend ",
+            "y."
+        ],
+        "Size": [
+            "Seat depth 53 cm - 21\".",
+            "Seat height 45 cm - 18\"."
+        ],
+        "Characteristics": [
+            "Armrest width 29 cm - 11\".",
+            "Armrest height 61 cm - 24\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane covered with wadding.",
+            "Metal legs height 12 cm - 11\" available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal.",
+            "Folding bed not available.",
+            "Back cushions lift up with air spring mechanism (mx height 92 cm - 36\").",
+            "Back cushions of corner elements S/D01 connot be lifted.",
+            "Stitching CUC 514."
+        ]
+    },
+    {
+        "Name": "New York bench",
+        "Description Text": [
+            " details and ",
+            "style"
+        ],
+        "Size": [
+            "Seat height 17\"",
+            "Legs height 12\""
+        ],
+        "Characteristics": [
+            "Wood frame upholstered in\u00a0leather.",
+            "Cushion in polyurethane covered\u00a0with wadding."
+        ]
+    },
+    {
+        "Name": "New York",
+        "Description Text": [
+            "and ",
+            " for any space"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "New York",
+        "Description Text": [
+            "leather-upholstered sofa featuring some distinctively ",
+            " which tap into the world of ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 61 cm - 24\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 25 cm - 10\".",
+            "Armrest height 70 cm - 28\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding.",
+            "Back cushions in polyurethane covered with feather.",
+            "Armrest cushions in polyurethane covered with feather. Legs height 14 cm \u2013 7\".",
+            "Folding bed not available.",
+            "All corner elements\u00a0 include one C0113 throw pillow free of charge.",
+            "Stitching CUC 522."
+        ]
+    },
+    {
+        "Name": "Stones ottoman",
+        "Description Text": [
+            ", ",
+            "but with a ",
+            "touch"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Sunset",
+        "Description Text": [
+            "and ",
+            "leather sofa, with a mechanism to increase the seat depth for ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 66/106 cm - 26/42\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 27 cm - 11\".",
+            "Armrest height 57 cm - 22\".",
+            "Painted metal legs height 17 cm - 7\", available in all\u00a0customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane covered with feather.",
+            "Folding bed not available.",
+            "Moveable back cushions on all the skus, corner unit included.",
+            "All corner elements include one C57 throw pillow free of charge.",
+            "Stitching CUC 518."
+        ]
+    },
+    {
+        "Name": "Sunset coffee table",
+        "Description Text": [
+            "aesthetic\u00a0"
+        ],
+        "Size": [
+            "Glass top avaialble in smoked or white (RAL 9003).",
+            "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ],
+        "Characteristics": [
+            "Metal base available in all Gamma customizing finishes."
+        ]
+    },
+    {
+        "Name": "Spider CHRST",
+        "Description Text": [],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Philly",
+        "Description Text": [
+            "The GMM capsule makes its debut with a first collection by Giuseppe Vigan\u00f2."
+        ],
+        "Size": [
+            "Seat Depth 25\u201d.",
+            "Seat Height 17\u201d."
+        ],
+        "Characteristics": [
+            "Armrest width 4\u201d.",
+            "Armrest height 25\u201d.",
+            "Metal leghs height 5\u201d",
+            "Certified massive wood frame.",
+            "Polyurethane and feather padding\u00a0fillings.",
+            "Leather or fabric covering.",
+            "Metal legs and details available in all\u00a0customizing finishes."
+        ]
+    },
+    {
+        "Name": "Spider chair",
+        "Description Text": [
+            "Leather dining chair with a uniquely ",
+            " is the latest addition to the Spider collection."
+        ],
+        "Size": [
+            "Seat depth 44 cm - 17\u201d.",
+            "Seat width 49 cm - 19\u201d."
+        ],
+        "Characteristics": [
+            "Seat height 47 cm - 18\u201d.",
+            "Metallic structure with moulded back padded in polyurethane foam. Seat in polyurethane foam with seat suspension in reinforced elastic webbing. Metal structure available in all customizing finishes. Stitching CUC 504."
+        ]
+    },
+    {
+        "Name": "Sphere",
+        "Description Text": [
+            "An ",
+            "piece of design"
+        ],
+        "Size": [
+            "T255B - \u00d839 x H 13\"",
+            "Hardwood frame covered in leather."
+        ],
+        "Characteristics": [
+            "Glass top available in: fum\u00e8 back-lacquered black (RAL 9005) or extraclear back-lacquered white (RAL 9003).",
+            "Ceramic and marble top available in all customizing finishes.",
+            "Revolving tray available only in bronze mirror and fum\u00e8 mirror finishings.",
+            "Revolving mechanism standard\u2000finishing RAL 9004."
+        ]
+    },
+    {
+        "Name": "Sound Night",
+        "Description Text": [
+            "Leather-upholstered king-size bed with an ",
+            " and a handy headrest mechanism, making it a ",
+            "."
+        ],
+        "Size": [
+            "Headboard height 86/107 cm - 34/42\".",
+            "Base height 32 cm - 13\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 4 cm - 1\" 1/2."
+        ]
+    },
+    {
+        "Name": "Space coffee table",
+        "Description Text": [
+            "A touch of precious "
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Spider",
+        "Description Text": [
+            " counterpointed by a ",
+            "silhouette."
+        ],
+        "Size": [
+            "Seat depth 60 cm - 24\".",
+            "Seat width 76 cm - 30\"."
+        ],
+        "Characteristics": [
+            "Seat height 42 cm - 17\".",
+            "Metal structure with moulded back padded in polyurethane foam.",
+            "Seat in polyurethane foam with seat suspensions in reinforced elastic webbing.",
+            "Metal legs available in: chrome, dark chrome-titanio, burnished copper or painted metal.",
+            "Stitching CUC 504."
+        ]
+    },
+    {
+        "Name": "Stripes",
+        "Description Text": [
+            "and ",
+            "way to enhance your living space"
+        ],
+        "Size": [
+            "T125B - 16 x 16 x H 20\"",
+            "T126B - 20 x 20 x H 19\""
+        ],
+        "Characteristics": [
+            "T127B - 39 x 39 x H 15\"",
+            "T128B - 39 x 20 x H 15\"",
+            "Base Titanium, brass, copper, anthracite, RAL 8019 or RAL 9003 base.",
+            "Stands Chrome, titanium, brass, copper, anthracite, RAL 8019 or RAL 9003 base.",
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in: Terra, Anthracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Smart Stools",
+        "Description Text": [],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Soho",
+        "Description Text": [
+            " leather sofa with a special mechanism for ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 66/106 cm - 26/42\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 30 cm - 12\".",
+            "Armrest height 59 cm - 23\".",
+            "Wood legs height 8 cm - 3\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions in polyurethane cove red with feather.",
+            "Folding bed not available.",
+            "Moveable back cushions on all the skus, corner unit included.",
+            "All corner elements include one C34 throw pillow free of charge.",
+            "Stitching CUC 500."
+        ]
+    },
+    {
+        "Name": "Smart Accessories",
+        "Description Text": [],
+        "Size": [
+            "Smart accessories coordinated in the same cover and style to the sofa."
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Sky",
+        "Description Text": [
+            "design, ",
+            "functionality"
+        ],
+        "Size": [
+            "\u00d818 x H 20\"",
+            "Hard wood frame covered with leather."
+        ],
+        "Characteristics": [
+            "Top available in: smoked glass, white (RAL 9003), glass or stainless steel.",
+            "Ceramic top available in Terra, Antracite, Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Shangai",
+        "Description Text": [
+            "aesthetic of ",
+            " luggage"
+        ],
+        "Size": [
+            "Coffee Table with drawer.",
+            "Hard wood frame and polyurethane covered with leather."
+        ],
+        "Characteristics": [
+            "Glass top available in: smoked or white (RAL 9003).",
+            "Ceramic top available in: Terra, Antracite, Noir Desir Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Side",
+        "Description Text": [
+            "and ",
+            "design"
+        ],
+        "Size": [
+            "T142B - 20 x 20 \"",
+            "Base in chrome, titanium, brass, copper, anthracite, RAL 8019 or RAL 9003."
+        ],
+        "Characteristics": [
+            "Glass top in smoked or white (RAL 9003).",
+            "Ceramic top in Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Scarlett",
+        "Description Text": [
+            "Chaise-longue in leather with a ",
+            " boasting a ",
+            " and accompanied by a ",
+            ", making sure that your ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 60 cm - 24\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Steel structure, padded with molded polyurethane foam and covered with a thin feather lining.",
+            "Shell in molded composite thermoplastic polymer covered with leather.",
+            "Metal legs available in: chrome, dark chrome-titanio or painted metal.",
+            "Stitching CUC 501."
+        ]
+    },
+    {
+        "Name": "Sharon",
+        "Description Text": [
+            "Leather armchair with an ",
+            " embellished with ",
+            " such as ",
+            " edges."
+        ],
+        "Size": [
+            "Seat depth 62 cm - 24\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Seat width 58 cm - 23\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushion in polyurethane and frame in polyurethane.",
+            "Wood legs height 3 cm - 1\" \u00bc.",
+            "Special stitching CUC 508 \"Punto Cavallo\"."
+        ]
+    },
+    {
+        "Name": "Space",
+        "Description Text": [
+            "SPACE is our new ",
+            "leather sofa with a ",
+            " and sleek ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 60 cm - 24\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest height 55 cm - 22\".",
+            "Wood legs height 6 cm - 2\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane.",
+            "Back cushions in polyurethane.",
+            "Armrest cushions in feather.",
+            "Detail in seatings and back cushions are available in the following metalic finishes only: anthracite, brass and brushed chome.",
+            "Folding bed not available.",
+            "Chaise longue element comes with one C0127 (CUC501B) decorative cushion with no upcharge.",
+            "Stitching CUC 501B."
+        ]
+    },
+    {
+        "Name": "Sayonara Night",
+        "Description Text": [
+            "Leather bed which can be adapted to",
+            " and is available with headboards in ",
+            "."
+        ],
+        "Size": [
+            "Headboard height 149 cm - 59\".",
+            "Base height 32 cm - 13\"."
+        ],
+        "Characteristics": [
+            "Wood legs height 4 cm - 1\" 1/2."
+        ]
+    },
+    {
+        "Name": "Puzzle",
+        "Description Text": [
+            "leather sofa designed by ",
+            " for the Dandy Home Collection."
+        ],
+        "Size": [
+            "Seat depth 57 cm - 22\".",
+            "Seat height 42 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 31 cm - 12\".",
+            "Armrest height 52 cm - 20\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding.",
+            "Back cushions in feather with insert in polyurethane.",
+            "Wood legs height 4 cm - 2\".",
+            "Folding bed not available.",
+            "Stitching CUC 503B."
+        ]
+    },
+    {
+        "Name": "Sayonara bench",
+        "Description Text": [
+            " tailoring details"
+        ],
+        "Size": [
+            "Seat height 15\"",
+            "Legs height 10\""
+        ],
+        "Characteristics": [
+            "Hard wood frame.",
+            "Cushion in polyurethane covered with wadding."
+        ]
+    },
+    {
+        "Name": "Saks coffee table",
+        "Description Text": [
+            "array of printed leathers",
+            "\u00a0",
+            "\u00a0"
+        ],
+        "Size": [
+            "Hard wood frame covered with leather.",
+            "Glass top available in: smoked or white (RAL 9003)."
+        ],
+        "Characteristics": [
+            "Metal legs available in all Gamma customizing finishes.",
+            "Ceramic top available in: Terra, Antracite, Noir Desir, Ossido Bruno, Greenery or Limestone."
+        ]
+    },
+    {
+        "Name": "Sally CHABR",
+        "Description Text": [
+            "Designed by ",
+            ", the new Sally leather chair goes to join the "
+        ],
+        "Size": [
+            "Seat depth 42 cm - 17\u201d",
+            "Seat widht 59 cm - 23\u201d"
+        ],
+        "Characteristics": [
+            "Seat height 50 cm - 20\u201d",
+            "Armrest height 61 cm - 24\u201d",
+            "Bended wood frame covered with polyurethane. Seat and back cushions in polyurethane covered with wadding. Metal legs and button available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal. Stitching CUC 501 Gros Grain."
+        ]
+    },
+    {
+        "Name": "Roomie",
+        "Description Text": [
+            ", ",
+            " design"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Sally chair",
+        "Description Text": [
+            "Designed by ",
+            ", the new Sally leather chair goes to join the "
+        ],
+        "Size": [
+            "Seat depth 42 cm - 17\".",
+            "Seat width 59 cm - 23\"."
+        ],
+        "Characteristics": [
+            "Seat height 50 cm - 20\".",
+            "Bended wood frame covered with polyurethane. Seat and back cushions in polyurethane covered with wadding. Metal legs and button available in: chrome, dark chrome-titanio, burnished aluminium, burnished copper or painted metal. Stitching CUC 501 Gros Grain."
+        ]
+    },
+    {
+        "Name": "Royal pillows",
+        "Description Text": [
+            "Pillows with feather filling"
+        ],
+        "Size": [
+            "24\"x15\""
+        ],
+        "Characteristics": []
+    },
+    {
+        "Name": "Roger",
+        "Description Text": [
+            "Leather accessories that fit perfectly into any surrounds and double up as a pouffe or a magazine holder. \u00a0"
+        ],
+        "Size": [],
+        "Characteristics": []
+    },
+    {
+        "Name": "Saks",
+        "Description Text": [
+            "Leather sofa with a haute design for ",
+            " settings which fuses fine ",
+            "and ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 63 cm - 25\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 27 cm - 11\".",
+            "Armrest height 55 cm - 22\".",
+            "Painted metal legs height 18 cm - 7\", available in all customizing finishes.",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with feather.",
+            "Back cushions and armrest cushions in polyurethane covered with wadding.",
+            "Legs height 18 cm \u2013 7\".",
+            "Folding bed not available.",
+            "Back cushions lift up with air spring mechanism, max height 92 cm - 36\" (E20 corner included).",
+            "Back cushions of corner elements in S/D01, S/D04 and D/S05 cannot be lifted.",
+            "All corner elements include one C0106 throw pillow free of charge.",
+            "Spacial stitching CUC 514."
+        ]
+    },
+    {
+        "Name": "Smart",
+        "Description Text": [
+            "leather sofa that embodies Gamma's talent for seamlessly combining ",
+            "."
+        ],
+        "Size": [
+            "Seat depth 62 cm - 24\".",
+            "Seat height 43 cm - 17\"."
+        ],
+        "Characteristics": [
+            "Armrest width 33 cm - 13\".",
+            "Armrest height 52 cm - 20\".",
+            "Hard wood frame, seat suspensions in reinforced elastic webbing.",
+            "Seat cushions in polyurethane covered with wadding.",
+            "Back cushions in polyurethane covered with wadding.",
+            "Armrest cushions in polyurethane covered with wadding.",
+            "Legs height 17 cm - 7\".",
+            "Folding bed not available.",
+            "Moveable back cushions on all the skus, corner unit included.",
+            "Stitching CUC 518."
+        ]
+    },
+    {
+        "Name": "Cocoon night",
+        "Description Text": [
+            "The king size leather bed Cocoon Night completes the collection and perfectly epitomises the ",
+            "."
+        ],
+        "Size": [
+            "Headboard height 103 cm - 41\".",
+            "Base height 35 cm - 14\"."
+        ],
+        "Characteristics": [
+            "Metal legs height 6 cm - 2\"\u00a0"
+        ]
+    }
 ]
