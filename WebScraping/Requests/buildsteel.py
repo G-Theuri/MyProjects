@@ -18,7 +18,7 @@ links = []
 for profile in soup.find_all('div', {"class":'modal--wrap'}, 'h3'):
     links.append(profile.find('a').get('href'))
 for link in links[0:10]:
-    response2 = requests.request("GET", url=link, headers=header)
+    response2 = requests.request("GET", url=link, headers=header) 
     soup2 =BeautifulSoup(response2.text, 'html.parser')
     contacts = []
     for p in (soup2.select('p')[0]):
@@ -35,3 +35,5 @@ for link in links[0:10]:
             'website':soup.find('a'),
 
         }'''
+
+#I'll think about this.
