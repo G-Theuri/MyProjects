@@ -7,7 +7,7 @@ with sync_playwright () as p:
     browser = p.chromium.launch(headless=False, slow_mo=50)
     page = browser.new_page()
     page.goto('https://github.com/login')
-    page.fill('input#login_field', 't.gichukierastus@gmail.com')
+    page.fill('input#login_field', '#####')
     page.fill('input#password', '#####')
     page.click('input[type=submit]')
     #page.is_visible('div.md:')
