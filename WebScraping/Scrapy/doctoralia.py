@@ -1,5 +1,6 @@
 import scrapy
 import pandas as pd
+import time
 
 alldata = []
 class DoctoraliaSpider(scrapy.Spider):
@@ -13,20 +14,23 @@ class DoctoraliaSpider(scrapy.Spider):
 
     def transform_load(self, response):
         #Transform
-        for doc in response.css('li.has-cal-active'):
+        for doc in response.css('ul.list-unstyled.search-list li'):
             try:
                 cost = doc.css('p.m-0.text-nowrap.font-weight-bold::text').get().strip().replace('desde ', '')
+                reviews = doc.css('span.opinion-numeral.font-weight-normal::text').get().strip().replace('\n\t\t\t\t\t\t\t', ' ')
             except:
                 cost = None
+                reviews = None
             data = {
                 'DoctorName':doc.css('div.card.card-shadow-1.mb-1::attr(data-doctor-name)').get(),
                 'Specialty':doc.css('div.card.card-shadow-1.mb-1::attr(data-eec-specialization-name)').get(),
                 'Location':doc.css('span.text-truncate::text').get(),
                 'Cost-of-Service':cost,
                 'Rating':doc.css('span.mt-0-5.text-muted.rating.rating-md::attr(data-score)').get(),
-                'Reviews':doc.css('span.opinion-numeral.font-weight-normal::text').get().strip().replace('\n\t\t\t\t\t\t\t', ' '),
+                'Reviews':reviews,
             }
             alldata.append(data)
+            time.sleep(1)
 
         #Load
 
