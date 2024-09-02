@@ -1,18 +1,36 @@
 import scrapy
 import pandas as pd
 
+alldata = []
 class DoctoraliaSpider(scrapy.Spider):
     name = 'doctoralia'
     allowed_domains = ['doctoralia.com.mx']
     def start_requests(self):
-        for x in range(1, 3):
+        for x in range(1, 52):
             start_url = f'https://www.doctoralia.com.mx/buscar?q=Fisioterapeuta&loc=Zona%20Metropolitana%20del%20Valle%20de%20M%C3%A9xico&filters%5Bspecializations%5D%5B0%5D=24&page={x}'
-            yield scrapy.Request(url=start_url, callback=self.parse)
+            yield scrapy.Request(url=start_url, callback=self.transform_load)
+            print(f'Getting page: {x}')
 
-    def parse(self, response):
+    def transform_load(self, response):
+        #Transform
         for doc in response.css('li.has-cal-active'):
+            try:
+                cost = doc.css('p.m-0.text-nowrap.font-weight-bold::text').get().strip().replace('desde ', '')
+            except:
+                cost = None
             data = {
                 'DoctorName':doc.css('div.card.card-shadow-1.mb-1::attr(data-doctor-name)').get(),
+                'Specialty':doc.css('div.card.card-shadow-1.mb-1::attr(data-eec-specialization-name)').get(),
+                'Location':doc.css('span.text-truncate::text').get(),
+                'Cost-of-Service':cost,
+                'Rating':doc.css('span.mt-0-5.text-muted.rating.rating-md::attr(data-score)').get(),
+                'Reviews':doc.css('span.opinion-numeral.font-weight-normal::text').get().strip().replace('\n\t\t\t\t\t\t\t', ' '),
             }
-            name = doc.css('div.card.card-shadow-1.mb-1::attr(data-doctor-name)').get()
-            print(name)
+            alldata.append(data)
+
+        #Load
+
+        df = pd.DataFrame(alldata)
+        df.to_csv('doctoralia.csv', index=False)
+        
+            

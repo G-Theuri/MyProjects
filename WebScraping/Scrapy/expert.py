@@ -18,7 +18,7 @@ class ExpertSpider(scrapy.Spider):
         jsondata = response.css('script[type="application/json"]::text').get()
         data = json.loads(jsondata)
         info = {
-            'name': data['office']['name'],
+            'name': data['office']['name'].strip(),
             'phone': data['office']['phone'],
             'email': data['office']['email'],
             'website' : data['office']['website'],
