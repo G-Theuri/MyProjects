@@ -20,7 +20,7 @@ class HouzSpider(scrapy.Spider):
             link = profile.css('a::attr(href)').get()
             yield scrapy.Request(url=link, callback=self.parse_items)
     def parse_items(self, response):
-        script = response.xpath('//*[@id="hz-page-content-wrapper"]/script[@type="application/ld+json"]/text()').get()
+        script = response.xpath('//*[@id="hz-page-content-wrapper"]/script[@type="application/ld+json"]')
         data = json.loads(script)
         '''details = {        
                     'BusinessName':data["name"],
