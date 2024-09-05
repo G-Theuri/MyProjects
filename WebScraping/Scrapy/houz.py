@@ -1,7 +1,7 @@
-from typing import Iterable
 import scrapy
 import pandas as pd
 import json
+import re
 alldata = []
 class HouzSpider(scrapy.Spider):
     name = 'houz'
@@ -25,30 +25,48 @@ class HouzSpider(scrapy.Spider):
             data = json.loads(script)
             try:
                 business_name = data[0]['name']
-                review_count = data[0]['aggregateRating']['reviewCount']
-                rating = data[0]['aggregateRating']['ratingValue']
-                phone = data[0]['telephone']
-                if len(response.css('section#business div div h3')) == 8:
-                    license = response.css('p.sc-mwxddt-0.iLogFI ::text').getall()[7]
-                elif 'License Number' in response.css('section#business div div h3::text').getall():
-                    list = response.css('section#business div div h3::text').getall()
-                    position = list.index('License Number')
-                    license = response.xpath(f'/html/body/div[2]/div[3]/div/main/div[4]/section/div/div[{position}]/p/text()').get()
-                else:
-                    license =None
-                website = response.css('p a.sc-62xgu6-0.kAZxZz.sc-mwxddt-0.jILdjD.hui-link::attr(href)').get()
-                address = data[0]['address']['streetAddress'] + data[0]['address']['addressRegion'] + data[0]['address']['addressCountry']
-                socials = data[0]['sameAs'][1:]
             except:
                 business_name=response.css('div.sc-183mtny-0.jkXxpw h1::text').get()
-                review_count = response.css('span.hz-star-rate__review-string::text').get()
-                rating = response.css('span.hz-star-rate__rating-number::text').get()
-                license =None
-                website =None
-                phone = None
-                address = None
-                socials = None
 
+            try:
+                review_count = data[0]['aggregateRating']['reviewCount']
+            except:
+                review_count = response.css('span.hz-star-rate__review-string::text').get()
+                
+            try:
+                rating = data[0]['aggregateRating']['ratingValue']
+            except:
+                rating = response.css('span.hz-star-rate__rating-number::text').get()
+                
+            try:
+                phone = data[0]['telephone']
+            except:
+                phone = None                
+
+            try:
+                list = response.css('section#business div div h3::text').getall()
+                if 'License Number' in list:
+                    position = list.index('License Number')+1
+                    u_license = response.xpath(f'//*[@id="business"]/div/div[{position}]/p/text()').get()
+                    license=re.sub("\D", "", u_license)
+            except:
+                license =None                  
+
+            try:
+                website = response.css('p a.sc-62xgu6-0.kAZxZz.sc-mwxddt-0.jILdjD.hui-link::attr(href)').get()
+            except:
+                website =None
+
+            try:
+                address = data[0]['address']['streetAddress'] + data[0]['address']['addressRegion'] + data[0]['address']['addressCountry']
+            except:
+                address = None
+
+            try:
+                socials = data[0]['sameAs'][1:]
+            except:
+                socials = None
+               
             details = {        
                     'BusinessName':business_name,
                     #'Emailaddress':data[0]['name'],
