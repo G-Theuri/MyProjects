@@ -23,17 +23,42 @@ class HouzSpider(scrapy.Spider):
         script = response.xpath('/html/body/div[2]/div[3]/script/text()').get()
         if "url" in script:
             data = json.loads(script)
+            try:
+                business_name = data[0]['name']
+                review_count = data[0]['aggregateRating']['reviewCount']
+                rating = data[0]['aggregateRating']['ratingValue']
+                phone = data[0]['telephone']
+                if len(response.css('section#business div div h3')) == 8:
+                    license = response.css('p.sc-mwxddt-0.iLogFI ::text').getall()[7]
+                elif 'License Number' in response.css('section#business div div h3::text').getall():
+                    list = response.css('section#business div div h3::text').getall()
+                    position = list.index('License Number')
+                    license = response.xpath(f'/html/body/div[2]/div[3]/div/main/div[4]/section/div/div[{position}]/p')
+                else:
+                    license =None
+                website = response.css('p a.sc-62xgu6-0.kAZxZz.sc-mwxddt-0.jILdjD.hui-link::attr(href)').get()
+                address = data[0]['address']['streetAddress'] + data[0]['address']['addressRegion'] + data[0]['address']['addressCountry']
+                socials = data[0]['sameAs'][1:]
+            except:
+                business_name=response.css('div.sc-183mtny-0.jkXxpw h1::text').get()
+                review_count = response.css('span.hz-star-rate__review-string::text').get()
+                rating = response.css('span.hz-star-rate__rating-number::text').get()
+                website =None
+                phone = None
+                address = None
+                socials = None
+
             details = {        
-                    'BusinessName':data[0]['name'],
+                    'BusinessName':business_name,
                     #'Emailaddress':data[0]['name'],
-                    'NumberofReviews':data[0]['aggregateRating']['reviewCount'],
-                    'ReviewRating':data[0]['aggregateRating']['ratingValue'],
-                    'Phonenumber':data[0]['telephone'],
-                    #'Licensenumber':data[0]['name'],
-                    #'Website':data[0]['sameAs'][0],
-                    #'Address':response.css(""),
+                    'NumberofReviews':review_count,
+                    'ReviewRating':rating,
+                    'Phonenumber':phone,
+                    'Licensenumber':license,
+                    'Website':website,
+                    'Address':address,
                     #'businessownerName':,
-                    'socialmediaLinks':data[0]['sameAs'][1:],
+                    'socialmediaLinks':socials,
         }
             alldata.append(details)
         df = pd.DataFrame(alldata)
