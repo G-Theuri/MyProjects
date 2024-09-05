@@ -33,7 +33,7 @@ class HouzSpider(scrapy.Spider):
                 elif 'License Number' in response.css('section#business div div h3::text').getall():
                     list = response.css('section#business div div h3::text').getall()
                     position = list.index('License Number')
-                    license = response.xpath(f'/html/body/div[2]/div[3]/div/main/div[4]/section/div/div[{position}]/p')
+                    license = response.xpath(f'/html/body/div[2]/div[3]/div/main/div[4]/section/div/div[{position}]/p/text()').get()
                 else:
                     license =None
                 website = response.css('p a.sc-62xgu6-0.kAZxZz.sc-mwxddt-0.jILdjD.hui-link::attr(href)').get()
@@ -43,6 +43,7 @@ class HouzSpider(scrapy.Spider):
                 business_name=response.css('div.sc-183mtny-0.jkXxpw h1::text').get()
                 review_count = response.css('span.hz-star-rate__review-string::text').get()
                 rating = response.css('span.hz-star-rate__rating-number::text').get()
+                license =None
                 website =None
                 phone = None
                 address = None
