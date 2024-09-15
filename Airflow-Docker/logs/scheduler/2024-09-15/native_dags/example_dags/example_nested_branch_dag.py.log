@@ -445,3 +445,10 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-09-15T08:02:10.919+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:10.916+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-15T08:02:11.129+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:11.128+0000] {dag.py:4156} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-09-14 00:00:00+00:00, run_after=2024-09-15 00:00:00+00:00
 [2024-09-15T08:02:11.258+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.694 seconds
+[2024-09-15T08:02:41.877+0000] {processor.py:186} INFO - Started process (PID=2285) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-09-15T08:02:41.882+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-09-15T08:02:41.886+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:41.885+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-09-15T08:02:41.935+0000] {processor.py:925} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-09-15T08:02:42.002+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:42.002+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-15T08:02:42.094+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:42.093+0000] {dag.py:4156} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-09-14 00:00:00+00:00, run_after=2024-09-15 00:00:00+00:00
+[2024-09-15T08:02:42.163+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.297 seconds

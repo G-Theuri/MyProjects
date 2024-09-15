@@ -417,3 +417,10 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-09-15T07:25:01.598+0000] {logging_mixin.py:190} INFO - [2024-09-15T07:25:01.597+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-15T07:25:01.624+0000] {logging_mixin.py:190} INFO - [2024-09-15T07:25:01.624+0000] {dag.py:4156} INFO - Setting next_dagrun for example_display_name to None, run_after=None
 [2024-09-15T07:25:01.656+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.135 seconds
+[2024-09-15T08:02:26.440+0000] {processor.py:186} INFO - Started process (PID=2259) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-15T08:02:26.450+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-09-15T08:02:26.454+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:26.453+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-15T08:02:26.512+0000] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-15T08:02:26.612+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:26.611+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-15T08:02:26.692+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:02:26.692+0000] {dag.py:4156} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-09-15T08:02:26.759+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.343 seconds
