@@ -928,3 +928,13 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-09-15T08:31:43.130+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:31:43.129+0000] {dag.py:4156} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
 [2024-09-15T08:31:43.136+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:31:43.135+0000] {dag.py:4156} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
 [2024-09-15T08:31:43.325+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py took 1.294 seconds
+[2024-09-15T08:32:13.902+0000] {processor.py:186} INFO - Started process (PID=4239) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-09-15T08:32:13.920+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2024-09-15T08:32:13.928+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:13.927+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-09-15T08:32:15.886+0000] {processor.py:925} INFO - DAG(s) 'dataset_s3_bucket_consumer', 'dataset_alias_example_alias_producer', 'dataset_s3_bucket_producer', 'dataset_alias_example_alias_consumer' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-09-15T08:32:16.103+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:16.103+0000] {dag.py:3229} INFO - Sync 4 DAGs
+[2024-09-15T08:32:16.432+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:16.432+0000] {dag.py:4156} INFO - Setting next_dagrun for dataset_alias_example_alias_consumer to None, run_after=None
+[2024-09-15T08:32:16.535+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:16.522+0000] {dag.py:4156} INFO - Setting next_dagrun for dataset_alias_example_alias_producer to None, run_after=None
+[2024-09-15T08:32:16.552+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:16.551+0000] {dag.py:4156} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
+[2024-09-15T08:32:16.564+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:16.564+0000] {dag.py:4156} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
+[2024-09-15T08:32:16.970+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dataset_alias.py took 3.115 seconds

@@ -627,3 +627,10 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-09-15T08:32:08.941+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:08.939+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2024-09-15T08:32:09.018+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:09.018+0000] {dag.py:4156} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-09-15 04:00:00+00:00, run_after=2024-09-15 08:00:00+00:00
 [2024-09-15T08:32:09.078+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.243 seconds
+[2024-09-15T08:32:40.064+0000] {processor.py:186} INFO - Started process (PID=4289) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-09-15T08:32:40.067+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2024-09-15T08:32:40.071+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:40.070+0000] {dagbag.py:587} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-09-15T08:32:40.121+0000] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2024-09-15T08:32:40.214+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:40.214+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-15T08:32:40.311+0000] {logging_mixin.py:190} INFO - [2024-09-15T08:32:40.310+0000] {dag.py:4156} INFO - Setting next_dagrun for latest_only_with_trigger to 2024-09-15 04:00:00+00:00, run_after=2024-09-15 08:00:00+00:00
+[2024-09-15T08:32:40.405+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.368 seconds
