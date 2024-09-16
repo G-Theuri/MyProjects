@@ -1,1 +1,8 @@
 archives = https://us.soccerway.com/national/kenya/premier-league/c715/archive/
+rounds = https://www.sofascore.com/api/v1/unique-tournament/1644/season/19876/rounds
+seasonIDs=[7752, 9841, 11265, 12921, 15858, 19876, 24023, 34876, 38844, 45686, 53922, 65071]
+seasonlink = f'https://www.sofascore.com/tournament/football/kenya/premier-league/1644#id:{seasonID}'
+standings = f'https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/standings/total'
+x = [30-32]
+matches_by_rounds = f'https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/events/round/{x}'
+matches_by_dates = f'https://www.sofascore.com/api/v1/unique-tournament/1644/season/53922/team-events/total'
