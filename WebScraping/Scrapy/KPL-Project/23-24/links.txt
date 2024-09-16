@@ -6,3 +6,8 @@ standings = f'https://www.sofascore.com/api/v1/unique-tournament/1644/season/{se
 x = [30-32]
 matches_by_rounds = f'https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/events/round/{x}'
 matches_by_dates = f'https://www.sofascore.com/api/v1/unique-tournament/1644/season/53922/team-events/total'
+#for item in events:
+id = 12654176 #At the end of every event
+match_stats_page = f'https://www.sofascore.com/football/match/fc-talanta-sofapaka/{customId}#id:{id}'
+match_summary = f'https://www.sofascore.com/api/v1/event/{id}/incidents'
+##incidents
