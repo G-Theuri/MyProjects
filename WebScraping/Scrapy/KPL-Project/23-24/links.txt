@@ -11,3 +11,5 @@ id = 12654176 #At the end of every event
 match_stats_page = f'https://www.sofascore.com/football/match/fc-talanta-sofapaka/{customId}#id:{id}'
 match_summary = f'https://www.sofascore.com/api/v1/event/{id}/incidents'
 ##incidents
+
+
