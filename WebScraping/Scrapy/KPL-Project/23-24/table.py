@@ -24,17 +24,36 @@ class matches:
         def transform(response):
             games = json.loads(response.text)
             for game in games["events"]:
-                tournament = game["tournament"]["uniqueTournament"]["name"]
-                season = game["season"]["year"]
-                round = game["roundInfo"]["round"]
-                matchID = game["id"]
-                matchCustomID = game["customId"]
-                matchStatus = game["status"]["description"]
-                homeTeam = {game["homeTeam"]["name"]: game["homeTeam"]["nameCode"]}
-                homeScoreHT = game["homeScore"]
-                awayScoreHT = game["homeTeam"]
-                homeScoreFT = game["homeTeam"]
-                awayScoreFT = game["homeTeam"]
+                matchdata = {
+                "tournament" : game["tournament"]["uniqueTournament"]["name"],
+                "season" : game["season"]["year"],
+                "round" : game["roundInfo"]["round"],
+                "matchID" : game["id"],
+                "matchCustomID" : game["customId"],
+                "matchStatus" : game["status"]["description"], # Ended, Postponed, Not started
+                "homeTeamnName" :game["homeTeam"]["name"],
+                "homeTeamnNameCode":game["homeTeam"]["nameCode"],
+                'homeTeamID' : game["homeTeam"]["id"],
+                "awayTeamName": game["awayTeam"]["name"],
+                'awayTeamNameCode': game["awayTeam"]["nameCode"],
+                'awayTeamID' : game["awayTeam"]["id"],
+                }
+    
+            if matchdata["matchStatus"]== "Ended":
+                matchScores = {
+                    'homeScoreHT' : game["homeScore"]["period1"],
+                    'awayScoreHT' : game["awayScore"]["period1"],
+                    'homeScoreFT' : game["homeScore"]["normaltime"],
+                    'awayScoreFT' : game["awayScore"]["normaltime"]
+                },
+            else:
+                matchScores = {
+                    'homeScoreHT' : "-",
+                    'awayScoreHT' : "-",
+                    'homeScoreFT' : "-",
+                    'awayScoreFT' : "-"
+                }
+                
 
 
             
