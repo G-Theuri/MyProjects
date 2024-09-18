@@ -13,3 +13,7 @@ match_summary = f'https://www.sofascore.com/api/v1/event/{id}/incidents'
 ##incidents
 
 
+import os  
+os.makedirs('folder/subfolder', exist_ok=True)  
+df.to_csv('folder/subfolder/out.csv') 
+
