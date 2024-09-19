@@ -1,0 +1,8 @@
+from curl_cffi import requests as cureq
+import pandas as pd
+import time
+import json
+import os
+
+
+print(os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons'))

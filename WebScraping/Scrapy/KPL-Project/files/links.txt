@@ -17,3 +17,11 @@ import os
 os.makedirs('folder/subfolder', exist_ok=True)  
 df.to_csv('folder/subfolder/out.csv') 
 
+
+import os
+import shutil
+
+for root, subdirs, files in os.walk('C:/directory'):
+    for d in subdirs:
+        if d == "old data":
+            shutil.rmtree(os.path.join(root, d))
