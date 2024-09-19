@@ -6,26 +6,55 @@ import os
 
 
 print(os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons'))
-seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
-             34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
+seasonIDs = [7752]
 
 class rounds:
 
     def __init__(self, seasonID):
-        self.seasonID=seasonID
-        round = [round for round in range (1,32)]
-        response = self.extract(round)
+        self.seasonID=seasonID        
+        response= self.extract()
         data = self.transform(response)
         self.load(data)
 
-    def extract(self, round):
-        response = cureq.get("f'https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/events/round/{round}'",
-                                  impersonate="chrome")
+    def extract(self):
+        response = cureq.get(f"https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/events/round/1",
+                                 impersonate="chrome")
         return response
-    def transform(self):
-        pass
-    def load(self):
-        pass
+    def transform(self, response):
+        alldata = []
+        games = json.loads(response.text)
+        for game in games["events"]:
+            matchdata = {
+                "tournament" : game["tournament"]["uniqueTournament"]["name"],
+                "season" : game["season"]["year"],
+                "round" : game["roundInfo"]["round"],
+                "matchID" : game["id"],
+                "matchCustomID" : game["customId"],
+                "matchStatus" : game["status"]["description"], # Ended, Postponed, Not started
+                "homeTeamnName" :game["homeTeam"]["name"],
+                "homeTeamnNameCode":game["homeTeam"]["nameCode"],
+                'homeTeamID' : game["homeTeam"]["id"],
+                "awayTeamName": game["awayTeam"]["name"],
+                'awayTeamNameCode': game["awayTeam"]["nameCode"],
+                'awayTeamID' : game["awayTeam"]["id"],
+                }
+    
+            if matchdata["matchStatus"]== "Ended":
+                matchScores = {
+                    'homeScoreFT' : game["homeScore"]["normaltime"],
+                    'awayScoreFT' : game["awayScore"]["normaltime"]
+                }
+            else:
+                matchScores = {
+                    'homeScoreFT' : "-",
+                    'awayScoreFT' : "-"
+                }
+            alldata.append(matchdata | matchScores)
+        return alldata
+    
+    def load(self, alldata):
+        df = pd.DataFrame(alldata)
+        df.to_csv("ssn2014round1.csv", index=False)
 
 for seasonID in seasonIDs:
     roundsData = rounds(seasonID)
