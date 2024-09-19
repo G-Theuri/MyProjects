@@ -25,3 +25,17 @@ for root, subdirs, files in os.walk('C:/directory'):
     for d in subdirs:
         if d == "old data":
             shutil.rmtree(os.path.join(root, d))
+
+
+
+class Animal:
+  def __init__(self, voice):
+    self.voice = voice
+
+# When a class instance is created, the instance variable
+# 'voice' is created and set to the input value.
+cat = Animal('Meow')
+print(cat.voice) # Output: Meow
+
+dog = Animal('Woof') 
+print(dog.voice) # Output: Woof
