@@ -5,16 +5,17 @@ import json
 import os
 
 
-print(os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons'))
-seasonIDs = [7752]
+directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
+seasonIDs = {7752:"2014",9841:"2015",11265:"2016", 12921:"2017",}
 
 class rounds:
 
-    def __init__(self, seasonID):
-        self.seasonID=seasonID        
+    def __init__(self, seasonID, directory):
+        self.seasonID=seasonID
+        self.directory = directory        
         response= self.extract()
         data = self.transform(response)
-        self.load(data)
+        self.load(data, directory)
 
     def extract(self):
         response = cureq.get(f"https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/events/round/1",
@@ -52,10 +53,25 @@ class rounds:
             alldata.append(matchdata | matchScores)
         return alldata
     
-    def load(self, alldata):
+    def load(self, alldata, directory):
+        folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
+        path = 'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons'
         df = pd.DataFrame(alldata)
-        df.to_csv("ssn2014round1.csv", index=False)
+        number = df['round'][1]
+
+        filepath = f"{path}/{directory}/round{number}.csv"
+        file_exists = True if os.path.isfile(filepath) else False
+
+        if directory in folders:
+            if file_exists is False:
+                df.to_csv(f"{filepath}", index=False)
+                print(f"Filename: ({directory}/round{number}) added!")
+            else:
+                print(f"Filename: ({directory}/round{number}) already exists!")
+        else:
+            print(f"Error: directory not found")
 
 for seasonID in seasonIDs:
-    roundsData = rounds(seasonID)
+    directory = seasonIDs[seasonID]
+    roundsData = rounds(seasonID, directory)
 

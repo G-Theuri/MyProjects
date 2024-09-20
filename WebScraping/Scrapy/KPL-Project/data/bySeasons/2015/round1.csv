@@ -1,0 +1,9 @@
+tournament,season,round,matchID,matchCustomID,matchStatus,homeTeamnName,homeTeamnNameCode,homeTeamID,awayTeamName,awayTeamNameCode,awayTeamID,homeScoreFT,awayScoreFT
+Kenyan Premier League,2015,1,6683532,Dufbsavfb,Ended,Kenya Commercial Bank,KCB,138478,Western Stima FC,WST,138500,0,2
+Kenyan Premier League,2015,1,6683534,RufbsWufb,Ended,Thika United,TUN,138492,Tusker,TUS,138496,1,1
+Kenyan Premier League,2015,1,6682773,PufbsYufb,Ended,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,0,2
+Kenyan Premier League,2015,1,6683535,gLdbsHufb,Ended,Gor Mahia FC,GOR,134306,Mathare United,MAU,138482,4,2
+Kenyan Premier League,2015,1,6683533,IDFsBufb,Ended,Chemelil Sugar,CSU,138476,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2015,1,6683536,FufbsNufb,Ended,Sofapaka,SOF,138488,Kenya Rev. Authority,KAU,138480,2,1
+Kenyan Premier League,2015,1,6716307,JufbsUufb,Ended,Top Fry Nakuru,TFN,138494,Muhoroni Youth FC,MUY,138484,1,3
+Kenyan Premier League,2015,1,6716308,zufbsLufb,Ended,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,0,1
