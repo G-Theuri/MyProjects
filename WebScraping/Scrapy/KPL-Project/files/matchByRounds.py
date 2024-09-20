@@ -19,6 +19,7 @@ class rounds:
         response = cureq.get(f"https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/events/round/{round}",
                                  impersonate="chrome")
         return response
+    
     def transform(self, response):
         data = []
         games = json.loads(response.text)
@@ -48,7 +49,7 @@ class rounds:
                     'awayScoreFT' : awayScoreFT,
                     }
                 data.append(matchdata)
-        return data
+        return data    
     
     def load(self, data, directory):
         df = pd.DataFrame(data)
