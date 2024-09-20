@@ -1,0 +1,255 @@
+tournament,season,round,matchID,matchCustomID,matchStatus,homeTeamnName,homeTeamnNameCode,homeTeamID,awayTeamName,awayTeamNameCode,awayTeamID,homeScoreFT,awayScoreFT
+Kenyan Premier League,2014,1,5022474,JufbsNufb,Finished,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2014,1,5022472,PufbsUufb,Finished,Sony Sugar,SSU,138490,Top Fry Nakuru,TFN,138494,3,3
+Kenyan Premier League,2014,1,5022476,BufbsYufb,Finished,Ulinzi Stars,ULS,138498,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2014,1,5022470,Hufbsavfb,Finished,Western Stima FC,WST,138500,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2014,1,5022478,zufbsFufb,Finished,Bandari FC,BAN,138474,Kenya Rev. Authority,KAU,138480,2,2
+Kenyan Premier League,2014,1,5022480,RufbsWufb,Finished,Thika United,TUN,138492,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,1,5022484,IDFsDufb,Finished,Kenya Commercial Bank,KCB,138478,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2014,1,5022482,gLdbsLufb,Finished,Gor Mahia FC,GOR,134306,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,2014,2,5065702,DufbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,2014,2,5065704,BufbsJufb,Finished,Chemelil Sugar,CSU,138476,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2014,2,5065706,RufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Thika United,TUN,138492,0,0
+Kenyan Premier League,2014,2,5065708,Wufbsavfb,Finished,Tusker,TUS,138496,Western Stima FC,WST,138500,3,3
+Kenyan Premier League,2014,2,5065710,NufbsPufb,Finished,Sofapaka,SOF,138488,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2014,2,5065714,IDFsYufb,Finished,AFC Leopards SC,LDS,76433,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,2,5065716,gLdbsHufb,Finished,Mathare United,MAU,138482,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2014,2,5065712,zufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2014,3,5090546,NufbsUufb,Finished,Sofapaka,SOF,138488,Top Fry Nakuru,TFN,138494,3,3
+Kenyan Premier League,2014,3,5090544,zufbsHufb,Finished,Bandari FC,BAN,138474,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2014,3,5090542,Rufbsavfb,Finished,Western Stima FC,WST,138500,Thika United,TUN,138492,2,2
+Kenyan Premier League,2014,3,5090548,DufbsLufb,Finished,Kenya Commercial Bank,KCB,138478,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,3,5090550,BufbsPufb,Finished,Sony Sugar,SSU,138490,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,3,5090552,FufbsYufb,Finished,Ulinzi Stars,ULS,138498,Kenya Rev. Authority,KAU,138480,0,0
+Kenyan Premier League,2014,3,5090554,IDFsJufb,Finished,Muhoroni Youth FC,MUY,138484,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2014,3,5090556,gLdbsWufb,Finished,Gor Mahia FC,GOR,134306,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,4,5135170,zufbsWufb,Finished,Tusker,TUS,138496,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,2014,4,5135172,DufbsHufb,Finished,Mathare United,MAU,138482,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,2014,4,5135174,LufbsYufb,Finished,Nairobi City Stars FC,NCS,138486,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,4,5135176,Fufbsavfb,Finished,Kenya Rev. Authority,KAU,138480,Western Stima FC,WST,138500,-,-
+Kenyan Premier League,2014,4,5136124,FufbsJufb,Finished,Kenya Rev. Authority,KAU,138480,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2014,4,5135244,BufbsNufb,Finished,Chemelil Sugar,CSU,138476,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2014,4,5135246,Uufbsavfb,Finished,Top Fry Nakuru,TFN,138494,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2014,4,5135248,gLdbsRufb,Finished,Thika United,TUN,138492,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2014,4,5135250,IDFsPufb,Finished,AFC Leopards SC,LDS,76433,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,5,5166980,zufbsRufb,Finished,Bandari FC,BAN,138474,Thika United,TUN,138492,1,1
+Kenyan Premier League,2014,5,5166978,FufbsPufb,Finished,Sony Sugar,SSU,138490,Kenya Rev. Authority,KAU,138480,2,2
+Kenyan Premier League,2014,5,5166982,HufbsYufb,Finished,Ulinzi Stars,ULS,138498,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2014,5,5166984,DufbsWufb,Finished,Kenya Commercial Bank,KCB,138478,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,5,5166990,BufbsUufb,Finished,Chemelil Sugar,CSU,138476,Top Fry Nakuru,TFN,138494,2,2
+Kenyan Premier League,2014,5,5166988,JufbsLufb,Finished,Muhoroni Youth FC,MUY,138484,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,5,5166986,IDFsNufb,Finished,Sofapaka,SOF,138488,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2014,5,5166992,gLdbsavfb,Finished,Gor Mahia FC,GOR,134306,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,2014,6,5199192,WufbsYufb,Finished,Tusker,TUS,138496,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,2014,6,5199194,gLdbsUufb,Finished,Top Fry Nakuru,TFN,138494,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,2014,6,5199196,IDFsBufb,Finished,AFC Leopards SC,LDS,76433,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,6,5199198,LufbsPufb,Finished,Nairobi City Stars FC,NCS,138486,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,6,5199200,HufbsJufb,Finished,Mathare United,MAU,138482,Muhoroni Youth FC,MUY,138484,0,0
+Kenyan Premier League,2014,6,5199202,DufbsRufb,Finished,Thika United,TUN,138492,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,2014,6,5199204,zufbsavfb,Finished,Western Stima FC,WST,138500,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,2014,6,5199206,FufbsNufb,Finished,Kenya Rev. Authority,KAU,138480,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2014,7,5248766,IDFsUufb,Finished,AFC Leopards SC,LDS,76433,Top Fry Nakuru,TFN,138494,1,1
+Kenyan Premier League,2014,7,5248760,BufbsFufb,Finished,Chemelil Sugar,CSU,138476,Kenya Rev. Authority,KAU,138480,0,0
+Kenyan Premier League,2014,7,5248758,Dufbsavfb,Finished,Kenya Commercial Bank,KCB,138478,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2014,7,5248764,JufbsWufb,Finished,Muhoroni Youth FC,MUY,138484,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,7,5248762,LufbsNufb,Finished,Sofapaka,SOF,138488,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,7,5248770,gLdbszufb,Finished,Bandari FC,BAN,138474,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,2014,7,5248772,HufbsPufb,Finished,Sony Sugar,SSU,138490,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2014,7,5248768,RufbsYufb,Finished,Ulinzi Stars,ULS,138498,Thika United,TUN,138492,1,1
+Kenyan Premier League,2014,8,5310034,JufbsRufb,Finished,Thika United,TUN,138492,Muhoroni Youth FC,MUY,138484,0,0
+Kenyan Premier League,2014,8,5310038,IDFsFufb,Finished,Kenya Rev. Authority,KAU,138480,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2014,8,5310040,HufbsNufb,Finished,Mathare United,MAU,138482,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2014,8,5310036,BufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,8,5310046,zufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2014,8,5310044,PufbsWufb,Finished,Tusker,TUS,138496,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,8,5310042,Yufbsavfb,Finished,Western Stima FC,WST,138500,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,8,5310048,gLdbsDufb,Finished,Gor Mahia FC,GOR,134306,Kenya Commercial Bank,KCB,138478,3,3
+Kenyan Premier League,2014,9,5310020,FufbsUufb,Finished,Kenya Rev. Authority,KAU,138480,Top Fry Nakuru,TFN,138494,1,1
+Kenyan Premier League,2014,9,5310022,IDFsLufb,Finished,AFC Leopards SC,LDS,76433,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,9,5310024,BufbsHufb,Finished,Chemelil Sugar,CSU,138476,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2014,9,5310026,zufbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2014,9,5310018,NufbsWufb,Finished,Sofapaka,SOF,138488,Tusker,TUS,138496,4,4
+Kenyan Premier League,2014,9,5310028,Jufbsavfb,Finished,Muhoroni Youth FC,MUY,138484,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2014,9,5310032,PufbsRufb,Finished,Sony Sugar,SSU,138490,Thika United,TUN,138492,1,1
+Kenyan Premier League,2014,9,5310030,gLdbsYufb,Finished,Ulinzi Stars,ULS,138498,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,2014,10,5378296,NufbsRufb,Finished,Thika United,TUN,138492,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2014,10,5378298,zufbsYufb,Finished,Bandari FC,BAN,138474,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2014,10,5378300,gLdbsJufb,Finished,Gor Mahia FC,GOR,134306,Muhoroni Youth FC,MUY,138484,3,3
+Kenyan Premier League,2014,10,5378302,FufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2014,10,5378304,DufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,2014,10,5378306,BufbsWufb,Finished,Tusker,TUS,138496,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,10,5378308,Pufbsavfb,Finished,Western Stima FC,WST,138500,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,10,5378310,IDFsHufb,Finished,Mathare United,MAU,138482,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2014,11,5404378,IDFsWufb,Finished,AFC Leopards SC,LDS,76433,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,11,5404374,BufbsRufb,Finished,Chemelil Sugar,CSU,138476,Thika United,TUN,138492,2,2
+Kenyan Premier League,2014,11,5404380,DufbsYufb,Finished,Ulinzi Stars,ULS,138498,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,2014,11,5404382,FufbsHufb,Finished,Kenya Rev. Authority,KAU,138480,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2014,11,5404384,zufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2014,11,5404424,Nufbsavfb,Finished,Sofapaka,SOF,138488,Western Stima FC,WST,138500,3,3
+Kenyan Premier League,2014,11,5404376,gLdbsPufb,Finished,Sony Sugar,SSU,138490,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2014,11,5404386,LufbsUufb,Finished,Nairobi City Stars FC,NCS,138486,Top Fry Nakuru,TFN,138494,0,0
+Kenyan Premier League,2014,12,5429490,gLdbsNufb,Finished,Gor Mahia FC,GOR,134306,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,2014,12,5429488,Bufbsavfb,Finished,Western Stima FC,WST,138500,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2014,12,5429492,DufbsJufb,Finished,Kenya Commercial Bank,KCB,138478,Muhoroni Youth FC,MUY,138484,0,0
+Kenyan Premier League,2014,12,5429494,zufbsPufb,Finished,Bandari FC,BAN,138474,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,12,5429500,HufbsLufb,Finished,Mathare United,MAU,138482,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,12,5429498,UufbsYufb,Finished,Top Fry Nakuru,TFN,138494,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,12,5429496,FufbsWufb,Finished,Tusker,TUS,138496,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2014,12,5429502,IDFsRufb,Finished,Thika United,TUN,138492,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2014,13,5475070,zufbsNufb,Finished,Sofapaka,SOF,138488,Bandari FC,BAN,138474,3,3
+Kenyan Premier League,2014,13,5475072,FufbsRufb,Finished,Kenya Rev. Authority,KAU,138480,Thika United,TUN,138492,2,2
+Kenyan Premier League,2014,13,5475074,JufbsYufb,Finished,Muhoroni Youth FC,MUY,138484,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,13,5475076,LufbsWufb,Finished,Nairobi City Stars FC,NCS,138486,Tusker,TUS,138496,0,0
+Kenyan Premier League,2014,13,5475078,HufbsUufb,Finished,Mathare United,MAU,138482,Top Fry Nakuru,TFN,138494,1,1
+Kenyan Premier League,2014,13,5475080,gLdbsBufb,Finished,Chemelil Sugar,CSU,138476,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2014,13,5475082,DufbsPufb,Finished,Sony Sugar,SSU,138490,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,2014,13,5475084,IDFsavfb,Postponed,AFC Leopards SC,LDS,76433,Western Stima FC,WST,138500,-,-
+Kenyan Premier League,2014,13,5621452,IDFsavfb,Finished,AFC Leopards SC,LDS,76433,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2014,14,5519866,Fufbsavfb,Finished,Western Stima FC,WST,138500,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2014,14,5519868,LufbsRufb,Finished,Thika United,TUN,138492,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,14,5519870,PufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,2014,14,5519876,IDFsgLdb,Finished,Gor Mahia FC,GOR,134306,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2014,14,5519878,DufbsNufb,Finished,Kenya Commercial Bank,KCB,138478,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2014,14,5519874,JufbsUufb,Finished,Muhoroni Youth FC,MUY,138484,Top Fry Nakuru,TFN,138494,1,1
+Kenyan Premier League,2014,14,5519872,HufbsWufb,Finished,Tusker,TUS,138496,Mathare United,MAU,138482,3,3
+Kenyan Premier League,2014,14,5519880,zufbsBufb,Finished,Bandari FC,BAN,138474,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,15,5562574,Lufbsavfb,Finished,Nairobi City Stars FC,NCS,138486,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2014,15,5562576,gLdbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2014,15,5562578,BufbsDufb,Finished,Chemelil Sugar,CSU,138476,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,2014,15,5562584,HufbsRufb,Finished,Mathare United,MAU,138482,Thika United,TUN,138492,2,2
+Kenyan Premier League,2014,15,5562582,NufbsYufb,Finished,Sofapaka,SOF,138488,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2014,15,5562580,JufbsPufb,Finished,Sony Sugar,SSU,138490,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2014,15,5562588,IDFszufb,Postponed,AFC Leopards SC,LDS,76433,Bandari FC,BAN,138474,-,-
+Kenyan Premier League,2014,15,5562586,UufbsWufb,Postponed,Top Fry Nakuru,TFN,138494,Tusker,TUS,138496,-,-
+Kenyan Premier League,2014,15,5621404,UufbsWufb,Finished,Top Fry Nakuru,TFN,138494,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,15,5621406,IDFszufb,Finished,AFC Leopards SC,LDS,76433,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2014,16,5621376,zufbsBufb,Finished,Chemelil Sugar,CSU,138476,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2014,16,5621380,PufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2014,16,5621382,HufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2014,16,5621396,DufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Commercial Bank,KCB,138478,3,3
+Kenyan Premier League,2014,16,5621378,IDFsYufb,Finished,Ulinzi Stars,ULS,138498,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,2014,16,5621398,FufbsLufb,Finished,Kenya Rev. Authority,KAU,138480,Nairobi City Stars FC,NCS,138486,3,3
+Kenyan Premier League,2014,16,5621400,Wufbsavfb,Finished,Western Stima FC,WST,138500,Tusker,TUS,138496,0,0
+Kenyan Premier League,2014,16,5621402,gLdbsRufb,Finished,Gor Mahia FC,GOR,134306,Thika United,TUN,138492,1,1
+Kenyan Premier League,2014,17,5676228,BufbsLufb,Finished,Chemelil Sugar,CSU,138476,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2014,17,5676230,PufbsWufb,Finished,Sony Sugar,SSU,138490,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,17,5676232,gLdbsavfb,Finished,Western Stima FC,WST,138500,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2014,17,5676238,FufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2014,17,5676240,IDFsHufb,Finished,AFC Leopards SC,LDS,76433,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2014,17,5676234,zufbsJufb,Finished,Bandari FC,BAN,138474,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2014,17,5676236,DufbsRufb,Finished,Kenya Commercial Bank,KCB,138478,Thika United,TUN,138492,3,3
+Kenyan Premier League,2014,17,5676242,NufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2014,18,5701982,HufbsYufb,Postponed,Mathare United,MAU,138482,Ulinzi Stars,ULS,138498,-,-
+Kenyan Premier League,2014,18,5701984,Rufbsavfb,Postponed,Thika United,TUN,138492,Western Stima FC,WST,138500,-,-
+Kenyan Premier League,2014,18,5701986,DufbsWufb,Postponed,Tusker,TUS,138496,Kenya Commercial Bank,KCB,138478,-,-
+Kenyan Premier League,2014,18,5701988,gLdbsUufb,Finished,Gor Mahia FC,GOR,134306,Top Fry Nakuru,TFN,138494,1,1
+Kenyan Premier League,2014,18,5701992,IDFsLufb,Postponed,Nairobi City Stars FC,NCS,138486,AFC Leopards SC,LDS,76433,-,-
+Kenyan Premier League,2014,18,5701990,BufbsNufb,Postponed,Sofapaka,SOF,138488,Chemelil Sugar,CSU,138476,-,-
+Kenyan Premier League,2014,18,5701994,zufbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,2014,18,5701996,JufbsPufb,Finished,Muhoroni Youth FC,MUY,138484,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,18,5730406,HufbsYufb,Finished,Mathare United,MAU,138482,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,18,5730408,Rufbsavfb,Finished,Thika United,TUN,138492,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2014,18,5730414,IDFsLufb,Finished,Nairobi City Stars FC,NCS,138486,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2014,18,5730412,BufbsNufb,Finished,Sofapaka,SOF,138488,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2014,18,5730410,DufbsWufb,Finished,Tusker,TUS,138496,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,2014,19,5741644,LufbsYufb,Finished,Ulinzi Stars,ULS,138498,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,19,5741646,DufbsHufb,Finished,Kenya Commercial Bank,KCB,138478,Mathare United,MAU,138482,4,4
+Kenyan Premier League,2014,19,5741648,JufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2014,19,5741654,IDFsgLdb,Finished,AFC Leopards SC,LDS,76433,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,2014,19,5741650,zufbsWufb,Finished,Bandari FC,BAN,138474,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,19,5741658,BufbsPufb,Finished,Chemelil Sugar,CSU,138476,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,2014,19,5741652,FufbsRufb,Finished,Thika United,TUN,138492,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2014,19,5741656,Nufbsavfb,Finished,Western Stima FC,WST,138500,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2014,20,5791882,Fufbsavfb,Finished,Kenya Rev. Authority,KAU,138480,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2014,20,5791884,DufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,2014,20,5791888,BufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,20,5791890,zufbsHufb,Finished,Mathare United,MAU,138482,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2014,20,5791892,gLdbsYufb,Postponed,Gor Mahia FC,GOR,134306,Ulinzi Stars,ULS,138498,-,-
+Kenyan Premier League,2014,20,5791896,NufbsRufb,Finished,Sofapaka,SOF,138488,Thika United,TUN,138492,0,0
+Kenyan Premier League,2014,20,5791894,IDFsPufb,Postponed,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2014,20,5791886,UufbsWufb,Finished,Tusker,TUS,138496,Top Fry Nakuru,TFN,138494,3,3
+Kenyan Premier League,2014,20,5988494,gLdbsYufb,Finished,Gor Mahia FC,GOR,134306,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,20,6217412,IDFsPufb,Postponed,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,-,-
+Kenyan Premier League,2014,20,6351960,IDFsPufb,Postponed,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,3,3
+Kenyan Premier League,2014,20,6506214,IDFsPufb,Finished,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,-,-
+Kenyan Premier League,2014,21,5825368,gLdbsDufb,Postponed,Kenya Commercial Bank,KCB,138478,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,2014,21,5825366,JufbsYufb,Finished,Ulinzi Stars,ULS,138498,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2014,21,5825370,Lufbsavfb,Finished,Western Stima FC,WST,138500,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,21,5825372,IDFsFufb,Finished,AFC Leopards SC,LDS,76433,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2014,21,5825380,zufbsNufb,Finished,Bandari FC,BAN,138474,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2014,21,5825378,BufbsWufb,Finished,Chemelil Sugar,CSU,138476,Tusker,TUS,138496,0,0
+Kenyan Premier League,2014,21,5825376,PufbsRufb,Finished,Thika United,TUN,138492,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,21,5825374,HufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2014,21,5859762,gLdbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2014,22,5854198,FufbsYufb,Finished,Kenya Rev. Authority,KAU,138480,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,2014,22,5854200,NufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2014,22,5854208,BufbsHufb,Finished,Mathare United,MAU,138482,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2014,22,5854206,Pufbsavfb,Finished,Sony Sugar,SSU,138490,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2014,22,5854242,DufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,2014,22,5854246,LufbsRufb,Finished,Nairobi City Stars FC,NCS,138486,Thika United,TUN,138492,2,2
+Kenyan Premier League,2014,22,5854212,IDFsWufb,Finished,Tusker,TUS,138496,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2014,22,5854202,gLdbszufb,Finished,Gor Mahia FC,GOR,134306,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2014,23,5883240,DufbsFufb,Finished,Kenya Commercial Bank,KCB,138478,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2014,23,5883250,zufbsLufb,Finished,Bandari FC,BAN,138474,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2014,23,5883254,Bufbsavfb,Finished,Chemelil Sugar,CSU,138476,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2014,23,5883260,gLdbsPufb,Finished,Gor Mahia FC,GOR,134306,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,23,5883256,RufbsUufb,Finished,Thika United,TUN,138492,Top Fry Nakuru,TFN,138494,0,0
+Kenyan Premier League,2014,23,5883252,HufbsNufb,Finished,Sofapaka,SOF,138488,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2014,23,5883262,IDFsJufb,Finished,AFC Leopards SC,LDS,76433,Muhoroni Youth FC,MUY,138484,0,0
+Kenyan Premier League,2014,23,5883258,WufbsYufb,Finished,Ulinzi Stars,ULS,138498,Tusker,TUS,138496,2,2
+Kenyan Premier League,2014,24,5997918,DufbsYufb,Finished,Kenya Commercial Bank,KCB,138478,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2014,24,5997920,LufbsNufb,Finished,Nairobi City Stars FC,NCS,138486,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2014,24,5997926,JufbsRufb,Finished,Muhoroni Youth FC,MUY,138484,Thika United,TUN,138492,1,1
+Kenyan Premier League,2014,24,5997924,BufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,24,5997922,IDFsavfb,Finished,Western Stima FC,WST,138500,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,2014,24,5997928,FufbsHufb,Finished,Mathare United,MAU,138482,Kenya Rev. Authority,KAU,138480,2,2
+Kenyan Premier League,2014,24,5997930,zufbsPufb,Finished,Sony Sugar,SSU,138490,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2014,24,5997932,gLdbsWufb,Finished,Tusker,TUS,138496,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,2014,25,6092650,FufbsPufb,Finished,Kenya Rev. Authority,KAU,138480,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2014,25,6092652,LufbsWufb,Finished,Tusker,TUS,138496,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2014,25,6092654,IDFsDufb,Finished,AFC Leopards SC,LDS,76433,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,2014,25,6092660,zufbsavfb,Finished,Bandari FC,BAN,138474,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2014,25,6092656,gLdbsBufb,Finished,Gor Mahia FC,GOR,134306,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,2014,25,6092658,UufbsYufb,Finished,Ulinzi Stars,ULS,138498,Top Fry Nakuru,TFN,138494,2,2
+Kenyan Premier League,2014,25,6092662,JufbsNufb,Finished,Sofapaka,SOF,138488,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2014,25,6092664,HufbsRufb,Finished,Thika United,TUN,138492,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2014,26,6128576,BufbsYufb,Finished,Chemelil Sugar,CSU,138476,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2014,26,6128570,HufbsWufb,Finished,Mathare United,MAU,138482,Tusker,TUS,138496,0,0
+Kenyan Premier League,2014,26,6128574,FufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2014,26,6128584,Dufbsavfb,Finished,Western Stima FC,WST,138500,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,2014,26,6128578,gLdbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,2014,26,6128572,IDFsUufb,Finished,Top Fry Nakuru,TFN,138494,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2014,26,6128580,NufbsPufb,Finished,Sony Sugar,SSU,138490,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,2014,26,6128582,zufbsRufb,Finished,Thika United,TUN,138492,Bandari FC,BAN,138474,3,3
+Kenyan Premier League,2014,27,6198042,FufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2014,27,6198040,IDFsRufb,Finished,AFC Leopards SC,LDS,76433,Thika United,TUN,138492,3,3
+Kenyan Premier League,2014,27,6198044,Yufbsavfb,Finished,Ulinzi Stars,ULS,138498,Western Stima FC,WST,138500,3,3
+Kenyan Premier League,2014,27,6198038,zufbsUufb,Finished,Bandari FC,BAN,138474,Top Fry Nakuru,TFN,138494,0,0
+Kenyan Premier League,2014,27,6198046,gLdbsHufb,Finished,Gor Mahia FC,GOR,134306,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2014,27,6198050,LufbsPufb,Finished,Sony Sugar,SSU,138490,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,2014,27,6198048,BufbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2014,27,6198052,JufbsWufb,Canceled,Tusker,TUS,138496,Muhoroni Youth FC,MUY,138484,0,0
+Kenyan Premier League,2014,28,6290922,FufbsWufb,Finished,Kenya Rev. Authority,KAU,138480,Tusker,TUS,138496,0,0
+Kenyan Premier League,2014,28,6290974,JufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2014,28,6290978,RufbsYufb,Finished,Thika United,TUN,138492,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,28,6290980,Uufbsavfb,Finished,Western Stima FC,WST,138500,Top Fry Nakuru,TFN,138494,2,2
+Kenyan Premier League,2014,28,6291008,HufbsPufb,Finished,Mathare United,MAU,138482,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2014,28,6291012,zufbsDufb,Finished,Bandari FC,BAN,138474,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,2014,28,6291010,IDFsBufb,Finished,Chemelil Sugar,CSU,138476,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2014,28,6291014,gLdbsNufb,Finished,Sofapaka,SOF,138488,Gor Mahia FC,GOR,134306,3,3
+Kenyan Premier League,2014,29,6328994,IDFsNufb,Finished,AFC Leopards SC,LDS,76433,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2014,29,6328992,gLdbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,2014,29,6329006,BufbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,29,6328990,zufbsYufb,Finished,Ulinzi Stars,ULS,138498,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2014,29,6328996,DufbsPufb,Finished,Kenya Commercial Bank,KCB,138478,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2014,29,6329002,Hufbsavfb,Finished,Mathare United,MAU,138482,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,2014,29,6328998,LufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2014,29,6329004,RufbsWufb,Finished,Tusker,TUS,138496,Thika United,TUN,138492,2,2
+Kenyan Premier League,2014,30,6329362,IDFszufb,Finished,Bandari FC,BAN,138474,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,2014,30,6329350,gLdbsFufb,Finished,Gor Mahia FC,GOR,134306,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2014,30,6329354,DufbsUufb,Finished,Kenya Commercial Bank,KCB,138478,Top Fry Nakuru,TFN,138494,3,3
+Kenyan Premier League,2014,30,6329364,HufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2014,30,6329360,PufbsYufb,Finished,Sony Sugar,SSU,138490,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2014,30,6329358,BufbsRufb,Finished,Thika United,TUN,138492,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2014,30,6329352,NufbsWufb,Finished,Tusker,TUS,138496,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,2014,30,6329356,Jufbsavfb,Finished,Western Stima FC,WST,138500,Muhoroni Youth FC,MUY,138484,0,0

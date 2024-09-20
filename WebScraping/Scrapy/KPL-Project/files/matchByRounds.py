@@ -1,7 +1,7 @@
 from curl_cffi import requests as cureq
 import pandas as pd
 import time
-import json
+import json, csv
 import os
 
 
@@ -23,52 +23,61 @@ class rounds:
                                  impersonate="chrome")
         return response
     def transform(self, response):
-        alldata = []
+        data = []
         games = json.loads(response.text)
 
         if len(games) >= 2:
             for game in games["events"]:
-                matchstatus = game["status"]["type"]
+                try:
+                    homeScoreFT= game["homeScore"]["normaltime"]
+                    awayScoreFT= game["homeScore"]["normaltime"]
+                except KeyError:
+                    homeScoreFT="-"
+                    awayScoreFT="-"
                 matchdata = {
                     "tournament" : game["tournament"]["uniqueTournament"]["name"],
                     "season" : game["season"]["year"],
                     "round" : game["roundInfo"]["round"],
                     "matchID" : game["id"],
                     "matchCustomID" : game["customId"],
-                    "matchStatus" : game["status"]["description"], # Ended, Postponed, Not started
+                    "matchStatus" : game["status"]["type"].capitalize(), # finished, notstarted, postponed
                     "homeTeamnName" :game["homeTeam"]["name"],
                     "homeTeamnNameCode":game["homeTeam"]["nameCode"],
                     'homeTeamID' : game["homeTeam"]["id"],
                     "awayTeamName": game["awayTeam"]["name"],
                     'awayTeamNameCode': game["awayTeam"]["nameCode"],
                     'awayTeamID' : game["awayTeam"]["id"],
-                    #'homeScoreFT' : game["homeScore"]["normaltime"] if matchstatus == ("finished") else '-',
-                    #'awayScoreFT' : game["awayScore"]["normaltime"] if matchstatus == ("finished") else '-',
+                    'homeScoreFT' : homeScoreFT,
+                    'awayScoreFT' : awayScoreFT,
                     }
-                alldata.append(matchdata)
-        return alldata
+                data.append(matchdata)
+        return data
     
-    def load(self, alldata, directory):
-        df = pd.DataFrame(alldata)
-        round_number = df['round'][1]
+    def load(self, data, directory):
+        df = pd.DataFrame(data)
 
         folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
         path = 'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons'     
-
-        filepath = f"{path}/{directory}/round{round_number}.csv"
-        file_exists = True if os.path.isfile(filepath) else False
+        filepath = f"{path}/{directory}/rounds.csv"
 
         if directory in folders:
-            if file_exists is False:
-                df.to_csv(f"{filepath}", index=False)
-                print(f"Filename: ({directory}/round{round_number}) added!")
+            file = open(filepath, 'r')
+            contents = file.read()
+            if contents=='':
+                df.to_csv(filepath, mode='a', index=False)
+                print(f"Year {directory} Round {df['round'][1]} added!")
             else:
-                print(f"Filename: ({directory}/round{round_number}) already exists!")
+                if str(df['matchID'][1]) not in contents:
+                    df.to_csv(filepath, mode='a', index=False, header=False)
+                    print(f"Year {directory} Round {df['round'][1]} added!")
+                else:
+                    print(f"Year {directory} Round {df['round'][1]} already exist!")
         else:
-            print(f"Error: directory not found")
+            print(f"Error: directory not found") 
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
-    for round in range(1,33):
+    for round in range(1,31):
         roundsData = rounds(seasonID, directory,round)
+        time.sleep(2)
 
