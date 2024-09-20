@@ -1,9 +1,6 @@
 from curl_cffi import requests as cureq
 import pandas as pd
-import time
-import json, csv
-import os
-
+import time, os, json
 
 directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
 seasonIDs = {7752:"2014",}
