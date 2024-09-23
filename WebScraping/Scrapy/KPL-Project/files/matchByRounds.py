@@ -3,7 +3,7 @@ import pandas as pd
 import time, os, json
 
 directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-seasonIDs = {7752:"2014",}
+seasonIDs = {9841:"2015",}
 
 class rounds:
 
@@ -55,12 +55,11 @@ class rounds:
         df = pd.DataFrame(data)
 
         folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-        path = 'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons'     
-        filepath = f"{path}/{directory}/rounds.csv"
+        filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/rounds.csv'     
 
         if directory in folders:
-            file = open(filepath, 'r')
-            contents = file.read()
+            with open(filepath, 'r') as file:
+                contents = file.read()
             if contents=='':
                 df.to_csv(filepath, mode='a', index=False)
                 print(f"Year {directory} Round {df['round'][1]} added!")
@@ -75,7 +74,7 @@ class rounds:
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
-    for round in range(1,31):
+    for round in range(1,3):
         roundsData = rounds(seasonID, directory,round)
         time.sleep(2)
 
