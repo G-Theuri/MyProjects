@@ -34,6 +34,7 @@ class rounds:
                 except KeyError:
                     homeScoreFT="-"
                     awayScoreFT="-"
+                    
                 matchdata = {
                     "tournament" : game["tournament"]["uniqueTournament"]["name"],
                     "season" : game["season"]["year"],
@@ -51,6 +52,7 @@ class rounds:
                     "awayScoreFT" : awayScoreFT,
                     }
                 data.append(matchdata)
+                
         return data
     
     def load(self, data, directory):
