@@ -1,0 +1,19 @@
+teamName,nameCode,shortName,teamID,teamcolor,position,Played,Won,Drawn,Lost,GF,GA,Points
+Gor Mahia FC,GOR,Gor Mahia,134306,#008000,1,34,20,10,4,53,22,70
+Tusker,TUS,Tusker,138496,#ffdf00,2,34,20,9,5,45,23,69
+Kenya Police,KEN,Kenya Police,291904,#374df5,3,33,18,10,6,55,20,63
+Nzoia United,NZO,Nzoia Utd,246033,#4fbb6f,4,34,18,10,6,44,23,64
+Kenya Commercial Bank,KCB,KCB ,138478,#00dd00,5,34,18,10,6,37,19,64
+Bandari FC,BAN,Bandari,138474,#3050c6,6,34,18,6,10,44,27,60
+Kakamega Homeboyz,KAH,Kakamega Homeboyz,213604,#fee34f,7,34,13,10,11,35,27,49
+AFC Leopards SC,LDS,Leopards,76433,#ffffff,8,34,14,9,11,32,25,48
+Ulinzi Stars,ULS,Ulinzi Stars,138498,#ff0000,9,34,12,13,9,35,34,49
+Sofapaka,SOF,Sofapaka,138488,#ffffff,10,34,10,12,12,32,37,42
+Kariobangi Sharks,KAR,Kariobangi Sharks,246032,#45c283,11,34,10,11,13,46,46,41
+Posta Rangers,PRA,Posta Rangers,213605,#c71328,12,34,10,10,14,33,41,40
+Bidco United,BID,Bidco United,258735,#ffffff,13,34,9,9,16,37,36,36
+FC Talanta,TAL,FC Talanta,310815,#374df5,14,34,8,12,14,35,50,36
+Nairobi City Stars FC,NCS,City Stars,138486,#273887,15,34,8,10,16,37,49,34
+Muhoroni Youth FC,MUH,Muhoroni,257439,#e8de77,16,33,7,8,19,22,50,29
+Mathare United,MAU,Mathare Utd,138482,#ffff00,17,34,8,2,24,26,62,26
+Vihiga Bullets FC,VIH,Vihiga Bullets FC,333095,#374df5,18,33,3,3,27,28,81,12
