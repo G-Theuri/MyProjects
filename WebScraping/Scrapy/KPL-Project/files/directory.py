@@ -11,7 +11,8 @@ for key in seasonIDs:
     path = os.path.join(dir, directory)
     path_exists = True if os.path.isfile(path) else False
     os.makedirs(path, exist_ok=True)
-    #fp = open(f'{path}/{directory}-rounds.csv', 'w')
-    #fp.close()
-    os.remove(f'{path}/{directory}-rounds.csv')
-    os.remove(f'{path}/rounds.csv')
+    fp = open(f'{path}/rounds.csv', 'w')
+    fp.close()
+
+
+    #os.remove(f'{path}/rounds.csv')
