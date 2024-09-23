@@ -15,4 +15,4 @@ for key in seasonIDs:
     fp.close()
 
 
-    #os.remove(f'{path}/rounds.csv')
+    #os.remove(f'{path}/rounds.log')

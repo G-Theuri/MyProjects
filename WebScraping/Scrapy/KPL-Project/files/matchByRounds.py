@@ -1,9 +1,11 @@
 from curl_cffi import requests as cureq
 import pandas as pd
 import time, os, json
+import logging
 
 directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-seasonIDs = {7752:"2014",}
+seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
+             34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
 
 class rounds:
 
@@ -23,7 +25,7 @@ class rounds:
     def transform(self, response):
         data = []
         games = json.loads(response.text)
-
+        
         if len(games) >= 2:
             for game in games["events"]:
                 try:
@@ -41,15 +43,15 @@ class rounds:
                     "matchStatus" : game["status"]["type"].capitalize(), # finished, notstarted, postponed
                     "homeTeamnName" :game["homeTeam"]["name"],
                     "homeTeamnNameCode":game["homeTeam"]["nameCode"],
-                    'homeTeamID' : game["homeTeam"]["id"],
+                    "homeTeamID" : game["homeTeam"]["id"],
                     "awayTeamName": game["awayTeam"]["name"],
-                    'awayTeamNameCode': game["awayTeam"]["nameCode"],
-                    'awayTeamID' : game["awayTeam"]["id"],
-                    'homeScoreFT' : homeScoreFT,
-                    'awayScoreFT' : awayScoreFT,
+                    "awayTeamNameCode": game["awayTeam"]["nameCode"],
+                    "awayTeamID" : game["awayTeam"]["id"],
+                    "homeScoreFT" : homeScoreFT,
+                    "awayScoreFT" : awayScoreFT,
                     }
                 data.append(matchdata)
-        return data    
+        return data
     
     def load(self, data, directory):
         df = pd.DataFrame(data)
@@ -57,24 +59,30 @@ class rounds:
         folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
         filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/rounds.csv'   
 
-        if directory in folders:
-            with open(filepath, 'r+') as file:
-                contents = file.read()
-            if contents=='':
-                df.to_csv(filepath, mode='a', index=False)
-                print(f"Year {directory} Round {df['round'][1]} added!")
-            else:
-                if str(df['matchID'][1]) not in contents:
-                    df.to_csv(filepath, mode='a', index=False, header=False)
+        try:
+            if directory in folders:
+                with open(filepath, 'r+') as file:
+                    contents = file.read()
+                if contents=='':
+                    df.to_csv(filepath, mode='a', index=False)
                     print(f"Year {directory} Round {df['round'][1]} added!")
                 else:
-                    print(f"Year {directory} Round {df['round'][1]} already exist!")
-        else:
-            print(f"Error: directory not found") 
+                    if str(df['matchID'][1]) not in contents:
+                        df.to_csv(filepath, mode='a', index=False, header=False)
+                        print(f"Year {directory} Round {df['round'][1]} added!")
+                    else:
+                        print(f"Year {directory} Round {df['round'][1]} already exist!")
+            else:
+                print(f"Error: directory not found")
+
+        except:
+            print(f"Year {directory} Round {self.round} Not Available!")
+            pass
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
-    for round in range(1,5):
+    for round in range(1,39):
         roundsData = rounds(seasonID, directory,round)
-        time.sleep(2)
+        time.sleep(1)
+    time.sleep(3)
 
