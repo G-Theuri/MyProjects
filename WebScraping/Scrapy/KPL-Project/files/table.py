@@ -9,8 +9,9 @@ seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018",
 
 
 class table:
-    def __init__(self, seasonID):
+    def __init__(self, seasonID, directory):
         self.seasonID = seasonID
+        self.directory = directory
     def extract(self):
         response =  cureq.get(f"https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/standings/total",
                              impersonate="chrome")
