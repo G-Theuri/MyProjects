@@ -3,8 +3,7 @@ import pandas as pd
 import time, os, json
 
 directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
-             34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
+seasonIDs = {7752:"2014",}
 
 class rounds:
 
@@ -56,7 +55,7 @@ class rounds:
         df = pd.DataFrame(data)
 
         folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-        filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/rounds.csv'     
+        filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/rounds.csv'   
 
         if directory in folders:
             with open(filepath, 'r+') as file:
