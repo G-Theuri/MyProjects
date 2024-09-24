@@ -1,0 +1,17 @@
+tournament,season,round,matchID,matchCustomID,matchStatus,homeTeamnName,homeTeamnNameCode,homeTeamID,awayTeamName,awayTeamNameCode,awayTeamID,homeScoreFT,awayScoreFT
+Kenyan Premier League,2016,1,6990983,PufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2016,1,7000345,avfbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,2016,1,6990984,FufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2016,1,6990981,RufbsWufb,Finished,Thika United,TUN,138492,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,1,7000346,JufbsfxKb,Finished,Posta Rangers,PRA,213605,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,1,6990982,IDFsHufb,Finished,AFC Leopards SC,LDS,76433,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2016,1,6990986,gLdbsBufb,Finished,Chemelil Sugar,CSU,138476,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,1,6990985,zufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,2016,2,7006195,FufbsRufb,Finished,Kenya Rev. Authority,KAU,138480,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,2,7006193,JufbsNufb,Finished,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,2,7006191,WufbsYufb,Finished,Tusker,TUS,138496,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2016,2,7006190,BufbsHufb,Finished,Mathare United,MAU,138482,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,2,7006196,zufbsexKb,Finished,Bandari FC,BAN,138474,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,2016,2,7006194,Lufbsavfb,Finished,Western Stima FC,WST,138500,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,2016,2,7006192,gLdbsfxKb,Finished,Gor Mahia FC,GOR,134306,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,2016,2,7006197,IDFsPufb,Finished,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,1,1

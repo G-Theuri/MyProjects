@@ -1,11 +1,11 @@
-
 import directory
 import matchByRounds
 import table
 
 
-directory.run()
-matchByRounds.run()
-table.run()
-
-
+try:
+    directory.run()
+    matchByRounds.run()
+    table.run()
+except:
+    pass    

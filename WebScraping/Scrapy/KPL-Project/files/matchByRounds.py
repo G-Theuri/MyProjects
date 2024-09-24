@@ -4,7 +4,9 @@ import time, os, json
 import logging
 
 directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-seasonIDs = {7752:"2014",}
+
+seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
+             34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
 
 class rounds:
 
@@ -82,7 +84,7 @@ class rounds:
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
-    for round in range(1,39):
+    for round in range(1,3):
         roundsData = rounds(seasonID, directory,round)
         time.sleep(1)
     time.sleep(3)

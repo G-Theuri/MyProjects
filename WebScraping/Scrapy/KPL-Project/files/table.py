@@ -4,7 +4,9 @@ import time
 import json
 import os
 
-seasonIDs = {7752:"2014",}
+
+seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
+             34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
 
 
 class table:
@@ -53,7 +55,6 @@ class table:
 
         try:
             if directory in folders:
-                print('g')
                 df.to_csv(filepath, mode='w+', index=False)
                 print(f"Season {directory} Standings Table added!")
             else:

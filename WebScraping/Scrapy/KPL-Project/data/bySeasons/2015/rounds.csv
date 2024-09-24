@@ -1,0 +1,23 @@
+tournament,season,round,matchID,matchCustomID,matchStatus,homeTeamnName,homeTeamnNameCode,homeTeamID,awayTeamName,awayTeamNameCode,awayTeamID,homeScoreFT,awayScoreFT
+Kenyan Premier League,2015,1,6683532,Dufbsavfb,Finished,Kenya Commercial Bank,KCB,138478,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2015,1,6683534,RufbsWufb,Finished,Thika United,TUN,138492,Tusker,TUS,138496,1,1
+Kenyan Premier League,2015,1,6682773,PufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2015,1,6683535,gLdbsHufb,Finished,Gor Mahia FC,GOR,134306,Mathare United,MAU,138482,4,4
+Kenyan Premier League,2015,1,6683533,IDFsBufb,Finished,Chemelil Sugar,CSU,138476,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2015,1,6683536,FufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Rev. Authority,KAU,138480,2,2
+Kenyan Premier League,2015,1,6716307,JufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2015,1,6716308,zufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2015,2,6686918,FufbsRufb,Canceled,Kenya Rev. Authority,KAU,138480,Thika United,TUN,138492,-,-
+Kenyan Premier League,2015,2,6686920,BufbsHufb,Canceled,Mathare United,MAU,138482,Chemelil Sugar,CSU,138476,-,-
+Kenyan Premier League,2015,2,6686922,zufbsDufb,Canceled,Bandari FC,BAN,138474,Kenya Commercial Bank,KCB,138478,-,-
+Kenyan Premier League,2015,2,6686919,WufbsYufb,Canceled,Tusker,TUS,138496,Ulinzi Stars,ULS,138498,-,-
+Kenyan Premier League,2015,2,6686917,JufbsNufb,Canceled,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,-,-
+Kenyan Premier League,2015,2,6686921,gLdbsPufb,Canceled,Sony Sugar,SSU,138490,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,2015,2,6706796,FufbsRufb,Finished,Kenya Rev. Authority,KAU,138480,Thika United,TUN,138492,0,0
+Kenyan Premier League,2015,2,6706795,zufbsDufb,Finished,Bandari FC,BAN,138474,Kenya Commercial Bank,KCB,138478,3,3
+Kenyan Premier League,2015,2,6706797,BufbsHufb,Finished,Mathare United,MAU,138482,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2015,2,6706794,gLdbsPufb,Canceled,Sony Sugar,SSU,138490,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,2015,2,6706798,WufbsYufb,Finished,Tusker,TUS,138496,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,2015,2,6706801,IDFsUufb,Finished,AFC Leopards SC,LDS,76433,Top Fry Nakuru,TFN,138494,3,3
+Kenyan Premier League,2015,2,6706793,JufbsNufb,Finished,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2015,2,6729347,gLdbsPufb,Finished,Sony Sugar,SSU,138490,Gor Mahia FC,GOR,134306,0,0
