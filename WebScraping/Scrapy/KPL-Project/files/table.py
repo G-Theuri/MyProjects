@@ -61,14 +61,7 @@ class table:
         except:
             print(f"Season {directory} Standings Table Not Found!")
             pass
-    def load(self, alldata, directory):
-        df = pd.DataFrame(alldata)
-
-        folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-        filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/table.csv' 
-
-        try:
-            if direc
+    
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
