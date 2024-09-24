@@ -54,6 +54,7 @@ class table:
 
         try:
             if directory in folders:
+                print('g')
                 df.to_csv(filepath, mode='w+', index=False)
                 print(f"Season {directory} Standings Table added!")
             else:
