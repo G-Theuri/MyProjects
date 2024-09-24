@@ -8,23 +8,29 @@ seasonIDs = {7752:"2014",}
 
 
 class table:
+
     def __init__(self, seasonID, directory):
         self.seasonID = seasonID
         self.directory = directory
+        response = self.extract()
+        data = self.transform(response)
+        self.load(data, directory)
+
     def extract(self):
         response =  cureq.get(f"https://www.sofascore.com/api/v1/unique-tournament/1644/season/{seasonID}/standings/total",
                              impersonate="chrome")
         return response
+    
     def transform(self, response):
         rows = json.loads(response.text)
         alldata = []
 
-        for row in rows['rows']:
+        for row in rows['standings'][0]['rows']:
             data= {
                 "teamName": row['team']['name'],
                 "nameCode": row['team']['nameCode'],
                 "shortName": row['team']['shortName'],
-                "teamName": row['team']['id'],
+                "teamID": row['team']['id'],
                 "teamcolor": row['team']['teamColors']['primary'],
                 "position": row['position'],
                 "Played": row['matches'],
@@ -38,6 +44,23 @@ class table:
             }
             alldata.append(data)
         return alldata
+    
+    def load(self, alldata, directory):
+        df = pd.DataFrame(alldata)
+
+        folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
+        filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/table.csv'
+
+        try:
+            if directory in folders:
+                df.to_csv(filepath, mode='w+', index=False)
+                print(f"Season {directory} Standings Table added!")
+            else:
+                print(f"Error: directory not found")
+
+        except:
+            print(f"Season {directory} Standings Table Not Found!")
+            pass
     def load(self, alldata, directory):
         df = pd.DataFrame(alldata)
 
@@ -48,4 +71,6 @@ class table:
             if direc
 
 for seasonID in seasonIDs:
-    pass
+    directory = seasonIDs[seasonID]
+    tabledata = table(seasonID, directory)
+    time.sleep(2)

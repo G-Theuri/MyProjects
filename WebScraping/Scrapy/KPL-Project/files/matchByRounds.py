@@ -11,7 +11,7 @@ class rounds:
     def __init__(self, seasonID, directory, round):
         self.seasonID=seasonID
         self.directory = directory
-        self.round = round        
+        self.round = round
         response= self.extract(round)
         data = self.transform(response)
         self.load(data, directory)
@@ -33,6 +33,7 @@ class rounds:
                 except KeyError:
                     homeScoreFT="-"
                     awayScoreFT="-"
+                    
                 matchdata = {
                     "tournament" : game["tournament"]["uniqueTournament"]["name"],
                     "season" : game["season"]["year"],
@@ -50,6 +51,7 @@ class rounds:
                     "awayScoreFT" : awayScoreFT,
                     }
                 data.append(matchdata)
+
         return data
     
     def load(self, data, directory):
