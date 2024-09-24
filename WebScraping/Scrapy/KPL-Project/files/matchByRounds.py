@@ -6,8 +6,8 @@ import logging
 
 directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
 
-seasonIDs = {7752:"2014",}
-
+seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
+             34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
 class rounds:
 
     def __init__(self, seasonID, directory, round):
@@ -43,7 +43,7 @@ class rounds:
                     "Season" : game["season"]["year"],
                     "Round" : game["roundInfo"]["round"],
                     "Date": strftime('%Y-%m-%d', localtime(starttime)), 
-                    "StartTime": strftime('%H:%M:%S', localtime(starttime)),
+                    "StartTime": strftime('%H:%M', localtime(starttime)),
                     "MatchID" : game["id"],
                     "MatchCustomID" : game["customId"],
                     "MatchStatus" : game["status"]["type"].capitalize(), # finished, notstarted, postponed
@@ -72,13 +72,13 @@ class rounds:
                     contents = file.read()
                 if contents=='':
                     df.to_csv(filepath, mode='a', index=False)
-                    print(f"Year {directory} Round {df['round'][1]} added!")
+                    print(f"Year {directory} Round {df['Round'][1]} added!")
                 else:
-                    if str(df['matchID'][1]) not in contents:
+                    if str(df['MatchID'][1]) not in contents:
                         df.to_csv(filepath, mode='a', index=False, header=False)
-                        print(f"Year {directory} Round {df['round'][1]} added!")
+                        print(f"Year {directory} Round {df['Round'][1]} added!")
                     else:
-                        print(f"Year {directory} Round {df['round'][1]} already exist!")
+                        print(f"Year {directory} Round {df['Round'][1]} already exist!")
             else:
                 print(f"Error: directory not found")
 
@@ -88,7 +88,7 @@ class rounds:
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
-    for round in range(1,3):
+    for round in range(1,39):
         roundsData = rounds(seasonID, directory,round)
         time.sleep(1)
     time.sleep(3)
