@@ -1,12 +1,12 @@
 from curl_cffi import requests as cureq
 import pandas as pd
 import time, os, json
+from time import strftime, localtime
 import logging
 
 directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
 
-seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
-             34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
+seasonIDs = {7752:"2014",}
 
 class rounds:
 
@@ -32,25 +32,29 @@ class rounds:
                 try:
                     homeScoreFT= game["homeScore"]["normaltime"]
                     awayScoreFT= game["homeScore"]["normaltime"]
+                    starttime = game["startTimestamp"]
                 except KeyError:
                     homeScoreFT="-"
                     awayScoreFT="-"
-                    
+                    starttime =None
+
                 matchdata = {
-                    "tournament" : game["tournament"]["uniqueTournament"]["name"],
-                    "season" : game["season"]["year"],
-                    "round" : game["roundInfo"]["round"],
-                    "matchID" : game["id"],
-                    "matchCustomID" : game["customId"],
-                    "matchStatus" : game["status"]["type"].capitalize(), # finished, notstarted, postponed
-                    "homeTeamnName" :game["homeTeam"]["name"],
-                    "homeTeamnNameCode":game["homeTeam"]["nameCode"],
-                    "homeTeamID" : game["homeTeam"]["id"],
-                    "awayTeamName": game["awayTeam"]["name"],
-                    "awayTeamNameCode": game["awayTeam"]["nameCode"],
-                    "awayTeamID" : game["awayTeam"]["id"],
-                    "homeScoreFT" : homeScoreFT,
-                    "awayScoreFT" : awayScoreFT,
+                    "Tournament" : game["tournament"]["uniqueTournament"]["name"],
+                    "Season" : game["season"]["year"],
+                    "Round" : game["roundInfo"]["round"],
+                    "Date": strftime('%Y-%m-%d', localtime(starttime)), 
+                    "StartTime": strftime('%H:%M:%S', localtime(starttime)),
+                    "MatchID" : game["id"],
+                    "MatchCustomID" : game["customId"],
+                    "MatchStatus" : game["status"]["type"].capitalize(), # finished, notstarted, postponed
+                    "HomeTeamnName" :game["homeTeam"]["name"],
+                    "HomeTeamnNameCode":game["homeTeam"]["nameCode"],
+                    "HomeTeamID" : game["homeTeam"]["id"],
+                    "AwayTeamName": game["awayTeam"]["name"],
+                    "AwayTeamNameCode": game["awayTeam"]["nameCode"],
+                    "AwayTeamID" : game["awayTeam"]["id"],
+                    "HomeScoreFT" : homeScoreFT,
+                    "AwayScoreFT" : awayScoreFT,
                     }
                 data.append(matchdata)
 

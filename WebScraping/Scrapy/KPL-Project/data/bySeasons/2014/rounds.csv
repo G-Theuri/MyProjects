@@ -1,17 +1,9 @@
-tournament,season,round,matchID,matchCustomID,matchStatus,homeTeamnName,homeTeamnNameCode,homeTeamID,awayTeamName,awayTeamNameCode,awayTeamID,homeScoreFT,awayScoreFT
-Kenyan Premier League,2014,1,5022474,JufbsNufb,Finished,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,1,1
-Kenyan Premier League,2014,1,5022472,PufbsUufb,Finished,Sony Sugar,SSU,138490,Top Fry Nakuru,TFN,138494,3,3
-Kenyan Premier League,2014,1,5022476,BufbsYufb,Finished,Ulinzi Stars,ULS,138498,Chemelil Sugar,CSU,138476,1,1
-Kenyan Premier League,2014,1,5022470,Hufbsavfb,Finished,Western Stima FC,WST,138500,Mathare United,MAU,138482,1,1
-Kenyan Premier League,2014,1,5022478,zufbsFufb,Finished,Bandari FC,BAN,138474,Kenya Rev. Authority,KAU,138480,2,2
-Kenyan Premier League,2014,1,5022480,RufbsWufb,Finished,Thika United,TUN,138492,Tusker,TUS,138496,1,1
-Kenyan Premier League,2014,1,5022484,IDFsDufb,Finished,Kenya Commercial Bank,KCB,138478,AFC Leopards SC,LDS,76433,1,1
-Kenyan Premier League,2014,1,5022482,gLdbsLufb,Finished,Gor Mahia FC,GOR,134306,Nairobi City Stars FC,NCS,138486,2,2
-Kenyan Premier League,2014,2,5065702,DufbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Kenya Commercial Bank,KCB,138478,1,1
-Kenyan Premier League,2014,2,5065704,BufbsJufb,Finished,Chemelil Sugar,CSU,138476,Muhoroni Youth FC,MUY,138484,2,2
-Kenyan Premier League,2014,2,5065706,RufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Thika United,TUN,138492,0,0
-Kenyan Premier League,2014,2,5065708,Wufbsavfb,Finished,Tusker,TUS,138496,Western Stima FC,WST,138500,3,3
-Kenyan Premier League,2014,2,5065710,NufbsPufb,Finished,Sofapaka,SOF,138488,Sony Sugar,SSU,138490,0,0
-Kenyan Premier League,2014,2,5065714,IDFsYufb,Finished,AFC Leopards SC,LDS,76433,Ulinzi Stars,ULS,138498,0,0
-Kenyan Premier League,2014,2,5065716,gLdbsHufb,Finished,Mathare United,MAU,138482,Gor Mahia FC,GOR,134306,0,0
-Kenyan Premier League,2014,2,5065712,zufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,1,1
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Kenyan Premier League,2014,1,2014-02-15,15:00:00,5022474,JufbsNufb,Finished,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2014,1,2014-02-15,15:00:00,5022472,PufbsUufb,Finished,Sony Sugar,SSU,138490,Top Fry Nakuru,TFN,138494,3,3
+Kenyan Premier League,2014,1,2014-02-15,15:00:00,5022476,BufbsYufb,Finished,Ulinzi Stars,ULS,138498,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2014,1,2014-02-15,15:00:00,5022470,Hufbsavfb,Finished,Western Stima FC,WST,138500,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2014,1,2014-02-16,15:00:00,5022478,zufbsFufb,Finished,Bandari FC,BAN,138474,Kenya Rev. Authority,KAU,138480,2,2
+Kenyan Premier League,2014,1,2014-02-16,15:00:00,5022480,RufbsWufb,Finished,Thika United,TUN,138492,Tusker,TUS,138496,1,1
+Kenyan Premier League,2014,1,2014-02-19,15:00:00,5022484,IDFsDufb,Finished,Kenya Commercial Bank,KCB,138478,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2014,1,2014-02-20,15:00:00,5022482,gLdbsLufb,Finished,Gor Mahia FC,GOR,134306,Nairobi City Stars FC,NCS,138486,2,2
