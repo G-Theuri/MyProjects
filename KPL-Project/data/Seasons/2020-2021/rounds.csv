@@ -1,0 +1,16 @@
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Kenyan Premier League,20/21,1,2020-11-28,14:00,9199970,exKbsladc,Finished,Mulembe United,MUD,257511,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,20/21,1,2024-09-25,05:41,9198098,IDFsfxKb,Canceled,AFC Leopards SC,LDS,76433,Posta Rangers,PRA,213605,-,-
+Kenyan Premier League,20/21,1,2020-11-28,15:00,9199981,IDFsWufb,Finished,AFC Leopards SC,LDS,76433,Tusker,TUS,138496,2,2
+Kenyan Premier League,20/21,1,2024-09-25,05:41,9198096,zufbsnTid,Canceled,Bandari FC,BAN,138474,Zoo F.C.,ZFC,397163,-,-
+Kenyan Premier League,20/21,1,2020-11-28,15:00,9199982,zufbsNufb,Finished,Bandari FC,BAN,138474,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,20/21,1,2020-11-29,13:00,9198101,LufbsIvYb,Finished,Nairobi City Stars FC,NCS,138486,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,20/21,1,2020-11-29,13:00,9199983,DufbsfxKb,Finished,Posta Rangers,PRA,213605,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,1,2020-11-29,15:00,9198100,HvYbsOYcc,Finished,Kariobangi Sharks,KAR,246032,Muhoroni Youth FC,MUH,257439,4,4
+Kenyan Premier League,20/21,1,2024-09-25,05:41,9198099,DufbsNufb,Postponed,Sofapaka,SOF,138488,Kenya Commercial Bank,KCB,138478,-,-
+Kenyan Premier League,20/21,1,2024-09-25,05:41,9198103,Yufbsladc,Postponed,Ulinzi Stars,ULS,138498,Mulembe United,MUD,257511,-,-
+Kenyan Premier League,20/21,1,2020-11-29,15:00,9198102,avfbsKzdc,Finished,Western Stima FC,WST,138500,Bidco United,BID,258735,0,0
+Kenyan Premier League,20/21,1,2020-12-16,15:00,9235346,gLdbsWufb,Finished,Tusker,TUS,138496,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,20/21,1,2021-02-24,15:00,9355768,DufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,20/21,1,2021-03-10,15:00,9392821,avfbsnTid,Finished,Zoo F.C.,ZFC,397163,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,20/21,1,2021-05-27,15:00,9510750,IDFsHufb,Finished,AFC Leopards SC,LDS,76433,Mathare United,MAU,138482,1,1

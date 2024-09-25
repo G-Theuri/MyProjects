@@ -29,12 +29,12 @@ class table:
 
         for row in rows['standings'][0]['rows']:
             data= {
-                "teamName": row['team']['name'],
-                "nameCode": row['team']['nameCode'],
-                "shortName": row['team']['shortName'],
-                "teamID": row['team']['id'],
-                "teamcolor": row['team']['teamColors']['primary'],
-                "position": row['position'],
+                "TeamName": row['team']['name'],
+                "NameCode": row['team']['nameCode'],
+                "ShortName": row['team']['shortName'],
+                "TeamID": row['team']['id'],
+                "TeamColors": [row['team']['teamColors']['primary'], row['team']['teamColors']['secondary']],
+                "Position": row['position'],
                 "Played": row['matches'],
                 "Won": row['wins'],
                 "Drawn": row['draws'],

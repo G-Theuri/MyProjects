@@ -1,0 +1,19 @@
+TeamName,NameCode,ShortName,TeamID,TeamColors,Position,Played,Won,Drawn,Lost,GF,GA,Points
+Gor Mahia FC,GOR,Gor Mahia,134306,"['#008000', '#000000']",1,38,25,9,4,67,27,84
+Bandari FC,BAN,Bandari,138474,"['#3050c6', '#ffffff']",2,39,20,12,7,51,34,72
+Sofapaka,SOF,Sofapaka,138488,"['#ffffff', '#0000ff']",3,40,17,15,8,56,40,66
+Tusker,TUS,Tusker,138496,"['#ffdf00', '#000000']",4,40,18,12,10,60,43,66
+Sony Sugar,SSU,Sony Sugar,138490,"['#008633', '#ffffff']",5,39,17,9,13,45,37,60
+Mathare United,MAU,Mathare Utd,138482,"['#ffff00', '#006600']",6,39,16,16,7,55,40,64
+Kakamega Homeboyz,KAH,Kakamega Homeboyz,213604,"['#fee34f', '#2b924d']",7,41,18,11,12,61,40,65
+Ulinzi Stars,ULS,Ulinzi Stars,138498,"['#ff0000', '#ffffff']",8,40,13,17,10,43,35,56
+Kariobangi Sharks,KAR,Kariobangi Sharks,246032,"['#45c283', '#f8d815']",9,39,11,17,11,44,43,50
+Kenya Commercial Bank,KCB,KCB ,138478,"['#00dd00', '#004165']",10,38,15,12,11,46,38,57
+AFC Leopards SC,LDS,Leopards,76433,"['#ffffff', '#0000ff']",11,40,14,12,14,42,42,54
+Nzoia United,NZO,Nzoia Utd,246033,"['#4fbb6f', '#ffffff']",12,39,11,12,16,36,42,45
+Western Stima FC,WST,Western Stima,138500,"['#ffff00', '#0000ff']",13,40,10,19,11,33,41,49
+Chemelil Sugar,CSU,Chemelil Sugar,138476,"['#ffff00', '#000000']",14,38,8,10,20,29,53,34
+Zoo F.C.,ZFC,Zoo,397163,"['#067345', '#fbf504']",15,41,8,13,20,37,60,37
+Posta Rangers,PRA,Posta Rangers,213605,"['#c71328', '#ffffff']",16,41,9,15,17,35,40,42
+Mulembe United,MUD,Mulembe Utd,257511,"['#00aa00', '#ffff00']",17,34,4,14,16,27,48,26
+Dandora Love,DLO,Dandora Love,397130,"['#2971b1', '#ffffff']",18,34,5,3,26,31,85,18

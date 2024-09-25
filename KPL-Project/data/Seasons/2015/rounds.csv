@@ -1,0 +1,9 @@
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Kenyan Premier League,2015,1,2015-02-21,14:00,6683532,Dufbsavfb,Finished,Kenya Commercial Bank,KCB,138478,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2015,1,2015-02-21,15:00,6683534,RufbsWufb,Finished,Thika United,TUN,138492,Tusker,TUS,138496,1,1
+Kenyan Premier League,2015,1,2015-02-21,15:00,6682773,PufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2015,1,2015-02-21,16:15,6683535,gLdbsHufb,Finished,Gor Mahia FC,GOR,134306,Mathare United,MAU,138482,4,4
+Kenyan Premier League,2015,1,2015-02-22,15:00,6683533,IDFsBufb,Finished,Chemelil Sugar,CSU,138476,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2015,1,2015-02-22,15:00,6683536,FufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Rev. Authority,KAU,138480,2,2
+Kenyan Premier League,2015,1,2015-04-01,15:00,6716307,JufbsUufb,Finished,Top Fry Nakuru,TFN,138494,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2015,1,2015-04-01,16:00,6716308,zufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,0,0

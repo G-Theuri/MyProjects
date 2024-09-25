@@ -72,23 +72,23 @@ class rounds:
                     contents = file.read()
                 if contents=='':
                     df.to_csv(filepath, mode='a', index=False)
-                    print(f"Year {directory} Round {df['Round'][1]} added!")
+                    print(f"Season {directory} Round {df['Round'][1]} added!")
                 else:
                     if str(df['MatchID'][1]) not in contents:
                         df.to_csv(filepath, mode='a', index=False, header=False)
-                        print(f"Year {directory} Round {df['Round'][1]} added!")
+                        print(f"Season {directory} Round {df['Round'][1]} added!")
                     else:
-                        print(f"Year {directory} Round {df['Round'][1]} already exist!")
+                        print(f"Season {directory} Round {df['Round'][1]} already exist!")
             else:
                 print(f"Error: directory not found")
 
         except:
-            print(f"Year {directory} Round {self.round} Not Available!")
+            print(f"Season {directory} Round {self.round} Not Available!")
             pass
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
-    for round in range(1,39):
+    for round in range(1,2):
         roundsData = rounds(seasonID, directory,round)
         time.sleep(1)
     time.sleep(3)
