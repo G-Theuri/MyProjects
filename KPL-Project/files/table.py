@@ -50,8 +50,8 @@ class table:
     def load(self, alldata, directory):
         df = pd.DataFrame(alldata)
 
-        folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-        filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/table.csv'
+        folders = os.listdir('C:/MyProjects/KPL-Project/data/Seasons')
+        filepath = f'C:/MyProjects/KPL-Project/data/Seasons/{directory}/table.csv'
 
         try:
             if directory in folders:

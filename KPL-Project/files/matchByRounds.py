@@ -4,7 +4,7 @@ import time, os, json
 from time import strftime, localtime
 import logging
 
-directories = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
+directories = os.listdir('C:/MyProjects/KPL-Project/data/Seasons')
 
 seasonIDs = {7752:"2014", 9841:"2015", 11265:"2016", 12921:"2017", 15858:"2018", 19876:"2018-2019", 24023:"2019-2020",
              34876:"2020-2021", 38844:"2021-2022", 45686:"2022-2023", 53922:"2023-2024", 65071:"2024-2025"}
@@ -63,8 +63,8 @@ class rounds:
     def load(self, data, directory):
         df = pd.DataFrame(data)
 
-        folders = os.listdir('C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons')
-        filepath = f'C:/MyProjects/WebScraping/Scrapy/KPL-Project/data/bySeasons/{directory}/rounds.csv'   
+        folders = os.listdir('C:/MyProjects/KPL-Project/data/Seasons')
+        filepath = f'C:/MyProjects/KPL-Project/data/Seasons/{directory}/rounds.csv'   
 
         try:
             if directory in folders:
