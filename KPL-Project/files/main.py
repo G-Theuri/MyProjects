@@ -1,11 +1,11 @@
 import directory
-import rounds
+import matches
 import table
 
 
 try:
     directory.run()
-    rounds.run()
+    matches.run()
     table.run()
     print("Data collection complete!")
 except:
