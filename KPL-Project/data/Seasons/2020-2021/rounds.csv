@@ -1,16 +1,301 @@
 Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,20/21,1,2020-11-28,14:00,9199970,exKbsladc,Finished,Mulembe United,MUD,257511,Kakamega Homeboyz,KAH,213604,0,0
-Kenyan Premier League,20/21,1,2024-09-25,05:41,9198098,IDFsfxKb,Canceled,AFC Leopards SC,LDS,76433,Posta Rangers,PRA,213605,-,-
+Kenyan Premier League,20/21,1,2024-09-30,15:48,9198098,IDFsfxKb,Canceled,AFC Leopards SC,LDS,76433,Posta Rangers,PRA,213605,-,-
 Kenyan Premier League,20/21,1,2020-11-28,15:00,9199981,IDFsWufb,Finished,AFC Leopards SC,LDS,76433,Tusker,TUS,138496,2,2
-Kenyan Premier League,20/21,1,2024-09-25,05:41,9198096,zufbsnTid,Canceled,Bandari FC,BAN,138474,Zoo F.C.,ZFC,397163,-,-
+Kenyan Premier League,20/21,1,2024-09-30,15:48,9198096,zufbsnTid,Canceled,Bandari FC,BAN,138474,Zoo F.C.,ZFC,397163,-,-
 Kenyan Premier League,20/21,1,2020-11-28,15:00,9199982,zufbsNufb,Finished,Bandari FC,BAN,138474,Sofapaka,SOF,138488,1,1
 Kenyan Premier League,20/21,1,2020-11-29,13:00,9198101,LufbsIvYb,Finished,Nairobi City Stars FC,NCS,138486,Nzoia United,NZO,246033,2,2
 Kenyan Premier League,20/21,1,2020-11-29,13:00,9199983,DufbsfxKb,Finished,Posta Rangers,PRA,213605,Kenya Commercial Bank,KCB,138478,0,0
 Kenyan Premier League,20/21,1,2020-11-29,15:00,9198100,HvYbsOYcc,Finished,Kariobangi Sharks,KAR,246032,Muhoroni Youth FC,MUH,257439,4,4
-Kenyan Premier League,20/21,1,2024-09-25,05:41,9198099,DufbsNufb,Postponed,Sofapaka,SOF,138488,Kenya Commercial Bank,KCB,138478,-,-
-Kenyan Premier League,20/21,1,2024-09-25,05:41,9198103,Yufbsladc,Postponed,Ulinzi Stars,ULS,138498,Mulembe United,MUD,257511,-,-
+Kenyan Premier League,20/21,1,2024-09-30,15:48,9198099,DufbsNufb,Postponed,Sofapaka,SOF,138488,Kenya Commercial Bank,KCB,138478,-,-
+Kenyan Premier League,20/21,1,2024-09-30,15:48,9198103,Yufbsladc,Postponed,Ulinzi Stars,ULS,138498,Mulembe United,MUD,257511,-,-
 Kenyan Premier League,20/21,1,2020-11-29,15:00,9198102,avfbsKzdc,Finished,Western Stima FC,WST,138500,Bidco United,BID,258735,0,0
 Kenyan Premier League,20/21,1,2020-12-16,15:00,9235346,gLdbsWufb,Finished,Tusker,TUS,138496,Gor Mahia FC,GOR,134306,2,2
 Kenyan Premier League,20/21,1,2021-02-24,15:00,9355768,DufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Commercial Bank,KCB,138478,2,2
 Kenyan Premier League,20/21,1,2021-03-10,15:00,9392821,avfbsnTid,Finished,Zoo F.C.,ZFC,397163,Western Stima FC,WST,138500,0,0
 Kenyan Premier League,20/21,1,2021-05-27,15:00,9510750,IDFsHufb,Finished,AFC Leopards SC,LDS,76433,Mathare United,MAU,138482,1,1
+Kenyan Premier League,20/21,2,2020-12-04,13:00,9209056,OYccsladc,Finished,Muhoroni Youth FC,MUH,257439,Mulembe United,MUD,257511,3,3
+Kenyan Premier League,20/21,2,2020-12-04,15:00,9209058,DufbsLufb,Finished,Kenya Commercial Bank,KCB,138478,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,20/21,2,2020-12-05,15:00,9209054,HvYbsIvYb,Finished,Nzoia United,NZO,246033,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,20/21,2,2020-12-06,15:00,9209061,IDFsKzdc,Finished,Bidco United,BID,258735,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,20/21,2,2020-12-06,15:00,9209062,exKbsfxKb,Finished,Kakamega Homeboyz,KAH,213604,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,2,2020-12-06,15:00,9209055,Nufbsavfb,Finished,Sofapaka,SOF,138488,Western Stima FC,WST,138500,3,3
+Kenyan Premier League,20/21,2,2020-12-06,15:00,9209060,zufbsWufb,Finished,Tusker,TUS,138496,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,20/21,2,2024-09-30,15:48,9209057,HufbsnTid,Canceled,Zoo F.C.,ZFC,397163,Mathare United,MAU,138482,-,-
+Kenyan Premier League,20/21,2,2020-12-12,16:00,9209059,gLdbsYufb,Finished,Gor Mahia FC,GOR,134306,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,2,2024-09-30,15:48,9233944,gLdbsnTid,Postponed,Zoo F.C.,ZFC,397163,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,20/21,3,2020-12-11,15:00,9214843,zufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,20/21,3,2020-12-12,15:00,9222046,IDFsNufb,Finished,AFC Leopards SC,LDS,76433,Sofapaka,SOF,138488,3,3
+Kenyan Premier League,20/21,3,2020-12-12,15:00,9222045,HvYbsKzdc,Finished,Kariobangi Sharks,KAR,246032,Bidco United,BID,258735,2,2
+Kenyan Premier League,20/21,3,2020-12-12,15:00,9222049,Wufbsavfb,Finished,Western Stima FC,WST,138500,Tusker,TUS,138496,2,2
+Kenyan Premier League,20/21,3,2024-09-30,15:48,9214842,YufbsKzdc,Canceled,Ulinzi Stars,ULS,138498,Bidco United,BID,258735,-,-
+Kenyan Premier League,20/21,3,2020-12-13,15:00,9214845,DufbsexKb,Finished,Kenya Commercial Bank,KCB,138478,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,20/21,3,2020-12-13,15:00,9222048,IvYbsladc,Finished,Mulembe United,MUD,257511,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,20/21,3,2020-12-13,15:30,9222044,fxKbsOYcc,Finished,Posta Rangers,PRA,213605,Muhoroni Youth FC,MUH,257439,0,0
+Kenyan Premier League,20/21,4,2020-12-17,15:00,9214844,LufbsKzdc,Finished,Bidco United,BID,258735,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,20/21,4,2020-12-18,15:00,9236742,IDFsavfb,Finished,AFC Leopards SC,LDS,76433,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,20/21,4,2020-12-18,15:00,9214838,zufbsDufb,Finished,Bandari FC,BAN,138474,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,20/21,4,2020-12-19,15:00,9233945,YufbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,20/21,4,2020-12-19,15:00,9236748,fxKbsIvYb,Finished,Nzoia United,NZO,246033,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,4,2024-09-30,15:48,9214849,HufbsfxKb,Postponed,Posta Rangers,PRA,213605,Mathare United,MAU,138482,-,-
+Kenyan Premier League,20/21,4,2020-12-19,15:00,9236745,NufbsHvYb,Finished,Sofapaka,SOF,138488,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,20/21,4,2024-09-30,15:48,9214846,IDFsWufb,Postponed,Tusker,TUS,138496,AFC Leopards SC,LDS,76433,-,-
+Kenyan Premier League,20/21,4,2024-09-30,15:48,9233943,HvYbsnTid,Canceled,Zoo F.C.,ZFC,397163,Kariobangi Sharks,KAR,246032,-,-
+Kenyan Premier League,20/21,4,2024-09-30,15:48,9233942,gLdbsexKb,Canceled,Kakamega Homeboyz,KAH,213604,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,20/21,4,2024-09-30,15:48,9233946,NufbsIvYb,Postponed,Nzoia United,NZO,246033,Sofapaka,SOF,138488,-,-
+Kenyan Premier League,20/21,4,2020-12-20,15:00,9236747,Wufbsladc,Finished,Tusker,TUS,138496,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,4,2021-07-16,15:00,9643340,IDFsWufb,Finished,Tusker,TUS,138496,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,20/21,5,2020-12-16,15:00,9266449,gLdbsWufb,Finished,Gor Mahia FC,GOR,134306,Tusker,TUS,138496,1,1
+Kenyan Premier League,20/21,5,2020-12-23,13:00,9245401,Lufbsladc,Finished,Nairobi City Stars FC,NCS,138486,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,5,2020-12-23,15:00,9245399,IvYbsKzdc,Finished,Bidco United,BID,258735,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,20/21,5,2020-12-23,15:00,9245398,zufbsfxKb,Finished,Posta Rangers,PRA,213605,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,20/21,5,2020-12-23,15:00,9245403,YufbsexKb,Finished,Ulinzi Stars,ULS,138498,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,20/21,5,2020-12-23,15:00,9245402,avfbsHvYb,Finished,Western Stima FC,WST,138500,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,20/21,5,2020-12-24,15:00,9245400,DufbsOYcc,Finished,Kenya Commercial Bank,KCB,138478,Muhoroni Youth FC,MUH,257439,1,1
+Kenyan Premier League,20/21,6,2021-01-02,15:00,9258567,exKbsIvYb,Finished,Kakamega Homeboyz,KAH,213604,Nzoia United,NZO,246033,0,0
+Kenyan Premier League,20/21,6,2021-01-02,15:00,9258565,YufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,20/21,6,2021-01-03,15:00,9258572,zufbsavfb,Finished,Bandari FC,BAN,138474,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,20/21,6,2024-09-30,15:48,9258566,IDFsgLdb,Canceled,Gor Mahia FC,GOR,134306,AFC Leopards SC,LDS,76433,-,-
+Kenyan Premier League,20/21,6,2021-01-03,15:00,9258568,LufbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,20/21,6,2021-01-03,15:00,9258569,ladcsKzdc,Finished,Mulembe United,MUD,257511,Bidco United,BID,258735,0,0
+Kenyan Premier League,20/21,6,2021-01-03,15:00,9258573,NufbsWufb,Finished,Tusker,TUS,138496,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,20/21,6,2021-07-15,15:00,9643339,HufbsKzdc,Finished,Mathare United,MAU,138482,Bidco United,BID,258735,0,0
+Kenyan Premier League,20/21,7,2021-01-08,15:00,9270162,LufbsfxKb,Finished,Posta Rangers,PRA,213605,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,20/21,7,2021-01-08,15:00,9270163,Yufbsladc,Finished,Ulinzi Stars,ULS,138498,Mulembe United,MUD,257511,0,0
+Kenyan Premier League,20/21,7,2021-01-09,13:30,9270164,DufbsKzdc,Finished,Kenya Commercial Bank,KCB,138478,Bidco United,BID,258735,1,1
+Kenyan Premier League,20/21,7,2021-01-09,15:00,9270166,IDFsOYcc,Finished,AFC Leopards SC,LDS,76433,Muhoroni Youth FC,MUH,257439,0,0
+Kenyan Premier League,20/21,7,2021-01-09,15:00,9270165,HufbsNufb,Finished,Sofapaka,SOF,138488,Mathare United,MAU,138482,4,4
+Kenyan Premier League,20/21,7,2021-01-09,15:00,9270171,zufbsnTid,Finished,Zoo F.C.,ZFC,397163,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,20/21,7,2021-01-10,15:00,9270167,WufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Tusker,TUS,138496,0,0
+Kenyan Premier League,20/21,7,2021-01-10,15:00,9270161,gLdbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Gor Mahia FC,GOR,134306,4,4
+Kenyan Premier League,20/21,7,2021-01-10,15:00,9270168,avfbsIvYb,Finished,Nzoia United,NZO,246033,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,20/21,7,2021-01-13,13:00,9279185,fxKbsnTid,Finished,Zoo F.C.,ZFC,397163,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,7,2021-01-13,15:15,9279188,YufbsKzdc,Finished,Ulinzi Stars,ULS,138498,Bidco United,BID,258735,0,0
+Kenyan Premier League,20/21,7,2021-01-14,15:00,9279204,gLdbsHufb,Finished,Gor Mahia FC,GOR,134306,Mathare United,MAU,138482,3,3
+Kenyan Premier League,20/21,7,2021-07-30,13:00,9678996,zufbsIvYb,Finished,Nzoia United,NZO,246033,Bandari FC,BAN,138474,4,4
+Kenyan Premier League,20/21,8,2021-01-16,15:00,9279190,zufbsexKb,Finished,Bandari FC,BAN,138474,Kakamega Homeboyz,KAH,213604,4,4
+Kenyan Premier League,20/21,8,2021-01-16,15:00,9279189,LufbsYufb,Finished,Nairobi City Stars FC,NCS,138486,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,8,2021-01-16,15:00,9279201,NufbsIvYb,Finished,Nzoia United,NZO,246033,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,20/21,8,2021-01-16,15:00,9279187,WufbsHvYb,Finished,Tusker,TUS,138496,Kariobangi Sharks,KAR,246032,4,4
+Kenyan Premier League,20/21,8,2021-01-17,15:00,9279193,IDFsDufb,Finished,AFC Leopards SC,LDS,76433,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,20/21,8,2021-01-17,15:00,9279195,OYccsKzdc,Finished,Bidco United,BID,258735,Muhoroni Youth FC,MUH,257439,1,1
+Kenyan Premier League,20/21,8,2021-01-17,15:00,9279194,fxKbsladc,Finished,Mulembe United,MUD,257511,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,20/21,8,2021-01-18,15:00,9279202,HufbsnTid,Finished,Mathare United,MAU,138482,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,20/21,8,2021-01-18,15:00,9279207,gLdbsavfb,Finished,Western Stima FC,WST,138500,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,20/21,9,2021-01-22,15:00,9279206,zufbsHufb,Finished,Mathare United,MAU,138482,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,20/21,9,2021-01-22,15:00,9279203,IvYbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,20/21,9,2021-01-23,15:00,9279186,gLdbsladc,Finished,Gor Mahia FC,GOR,134306,Mulembe United,MUD,257511,0,0
+Kenyan Premier League,20/21,9,2021-01-23,15:00,9279215,YufbsfxKb,Finished,Posta Rangers,PRA,213605,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,20/21,9,2021-01-23,15:00,9279217,LufbsNufb,Finished,Sofapaka,SOF,138488,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,20/21,9,2021-01-23,15:00,9279184,WufbsnTid,Finished,Zoo F.C.,ZFC,397163,Tusker,TUS,138496,1,1
+Kenyan Premier League,20/21,9,2021-01-24,15:00,9279218,exKbsKzdc,Finished,Kakamega Homeboyz,KAH,213604,Bidco United,BID,258735,2,2
+Kenyan Premier League,20/21,9,2021-01-24,15:00,9279191,IDFsHvYb,Finished,Kariobangi Sharks,KAR,246032,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,20/21,9,2021-01-24,15:00,9279220,Dufbsavfb,Finished,Kenya Commercial Bank,KCB,138478,Western Stima FC,WST,138500,3,3
+Kenyan Premier League,20/21,9,2021-01-27,15:00,9279205,gLdbsnTid,Finished,Gor Mahia FC,GOR,134306,Zoo F.C.,ZFC,397163,3,3
+Kenyan Premier League,20/21,9,2021-01-27,15:00,9279197,HufbsYufb,Finished,Ulinzi Stars,ULS,138498,Mathare United,MAU,138482,2,2
+Kenyan Premier League,20/21,9,2021-07-13,15:00,9638073,zufbsladc,Finished,Mulembe United,MUD,257511,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,20/21,9,2021-07-30,13:00,9678994,DufbsfxKb,Finished,Kenya Commercial Bank,KCB,138478,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,20/21,10,2021-01-29,15:00,9279200,exKbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,10,2021-01-30,15:00,9279196,IDFsfxKb,Finished,AFC Leopards SC,LDS,76433,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,20/21,10,2021-01-30,15:00,9279199,Nufbsladc,Finished,Mulembe United,MUD,257511,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,20/21,10,2021-01-30,15:00,9279198,LufbsHvYb,Finished,Nairobi City Stars FC,NCS,138486,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,20/21,10,2021-01-30,15:00,9279192,DufbsYufb,Finished,Ulinzi Stars,ULS,138498,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,10,2021-01-31,15:00,9279216,gLdbszufb,Finished,Bandari FC,BAN,138474,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,20/21,10,2021-01-31,15:00,9279208,IvYbsnTid,Finished,Nzoia United,NZO,246033,Zoo F.C.,ZFC,397163,3,3
+Kenyan Premier League,20/21,10,2021-01-31,15:00,9279222,HufbsWufb,Finished,Tusker,TUS,138496,Mathare United,MAU,138482,1,1
+Kenyan Premier League,20/21,10,2021-02-03,15:00,9279221,fxKbsKzdc,Finished,Bidco United,BID,258735,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,10,2021-02-04,15:00,9279219,Hufbsavfb,Finished,Mathare United,MAU,138482,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,20/21,10,2021-05-22,15:15,9531915,IDFsfxKb,Finished,Posta Rangers,PRA,213605,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,20/21,11,2021-02-05,15:00,9327054,WufbsOYcc,Finished,Tusker,TUS,138496,Muhoroni Youth FC,MUH,257439,1,1
+Kenyan Premier League,20/21,11,2021-02-06,13:00,9327062,Dufbsladc,Finished,Kenya Commercial Bank,KCB,138478,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,11,2021-02-06,15:00,9327076,LufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,20/21,11,2021-02-06,15:00,9327075,zufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,20/21,11,2021-02-07,15:00,9327069,IDFsgLdb,Finished,Gor Mahia FC,GOR,134306,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,20/21,11,2021-02-07,15:00,9327074,KzdcsnTid,Finished,Zoo F.C.,ZFC,397163,Bidco United,BID,258735,0,0
+Kenyan Premier League,20/21,11,2021-02-08,15:00,9327071,HufbsIvYb,Finished,Mathare United,MAU,138482,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,20/21,11,2021-02-08,15:00,9327073,Yufbsavfb,Finished,Ulinzi Stars,ULS,138498,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,20/21,12,2024-09-30,15:48,9334613,HufbsHvYb,Canceled,Mathare United,MAU,138482,Kariobangi Sharks,KAR,246032,-,-
+Kenyan Premier League,20/21,12,2021-02-18,15:00,9349592,HvYbsladc,Finished,Mulembe United,MUD,257511,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,20/21,12,2021-02-18,15:00,9346787,WufbsfxKb,Finished,Posta Rangers,PRA,213605,Tusker,TUS,138496,1,1
+Kenyan Premier League,20/21,12,2021-02-19,15:00,9338373,IDFszufb,Finished,Bandari FC,BAN,138474,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,20/21,12,2021-02-19,15:00,9349590,NufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,20/21,12,2021-02-20,13:00,9349589,LufbsnTid,Finished,Nairobi City Stars FC,NCS,138486,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,20/21,12,2024-09-30,15:48,9338372,gLdbsOYcc,Canceled,Muhoroni Youth FC,MUH,257439,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,20/21,12,2021-02-20,15:00,9338371,DufbsIvYb,Finished,Nzoia United,NZO,246033,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,20/21,12,2021-02-20,15:00,9338374,avfbsexKb,Finished,Western Stima FC,WST,138500,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,20/21,12,2021-02-20,15:15,9349594,HufbsKzdc,Finished,Bidco United,BID,258735,Mathare United,MAU,138482,2,2
+Kenyan Premier League,20/21,12,2021-02-23,15:00,9338375,WufbsIvYb,Finished,Tusker,TUS,138496,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,20/21,12,2021-03-11,15:00,9392820,HufbsHvYb,Finished,Mathare United,MAU,138482,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,20/21,12,2024-09-30,15:48,9428030,exKbsfxKb,Postponed,Posta Rangers,PRA,213605,Kakamega Homeboyz,KAH,213604,-,-
+Kenyan Premier League,20/21,12,2024-09-30,15:48,9510748,gLdbsOYcc,Canceled,Muhoroni Youth FC,MUH,257439,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,20/21,13,2021-02-23,15:00,9353959,zufbsladc,Finished,Bandari FC,BAN,138474,Mulembe United,MUD,257511,5,5
+Kenyan Premier League,20/21,13,2024-09-30,15:49,9353958,gLdbsfxKb,Canceled,Gor Mahia FC,GOR,134306,Posta Rangers,PRA,213605,-,-
+Kenyan Premier League,20/21,13,2021-02-24,15:00,9355773,IDFsYufb,Finished,AFC Leopards SC,LDS,76433,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,13,2021-02-24,15:00,9353957,HufbsOYcc,Finished,Mathare United,MAU,138482,Muhoroni Youth FC,MUH,257439,1,1
+Kenyan Premier League,20/21,13,2021-02-24,15:00,9355761,Lufbsavfb,Finished,Western Stima FC,WST,138500,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,20/21,13,2021-03-10,15:00,9392819,gLdbsfxKb,Finished,Gor Mahia FC,GOR,134306,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,20/21,13,2024-09-30,15:49,9428031,LufbsNufb,Canceled,Nairobi City Stars FC,NCS,138486,Sofapaka,SOF,138488,-,-
+Kenyan Premier League,20/21,13,2021-07-09,15:00,9619318,OYccsladc,Finished,Mulembe United,MUD,257511,Muhoroni Youth FC,MUH,257439,0,0
+Kenyan Premier League,20/21,13,2021-07-17,13:00,9643338,exKbsIvYb,Finished,Nzoia United,NZO,246033,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,14,2021-02-10,15:00,9334614,NufbsnTid,Finished,Sofapaka,SOF,138488,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,20/21,14,2021-02-27,13:00,9367839,avfbsladc,Finished,Mulembe United,MUD,257511,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,20/21,14,2021-02-27,15:00,9361547,WufbsKzdc,Finished,Bidco United,BID,258735,Tusker,TUS,138496,2,2
+Kenyan Premier League,20/21,14,2021-02-27,15:15,9361548,gLdbsIvYb,Finished,Nzoia United,NZO,246033,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,20/21,14,2021-02-28,15:00,9367841,IDFsexKb,Finished,Kakamega Homeboyz,KAH,213604,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,20/21,14,2021-02-28,15:00,9367840,DufbsHvYb,Finished,Kenya Commercial Bank,KCB,138478,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,20/21,14,2021-02-28,15:00,9361550,NufbsfxKb,Finished,Posta Rangers,PRA,213605,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,20/21,14,2021-02-28,15:00,9367842,zufbsYufb,Finished,Ulinzi Stars,ULS,138498,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,20/21,14,2021-03-01,13:00,9361549,OYccsnTid,Finished,Muhoroni Youth FC,MUH,257439,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,20/21,14,2021-03-02,15:00,9367844,HufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Mathare United,MAU,138482,2,2
+Kenyan Premier League,20/21,14,2021-03-03,15:00,9367843,gLdbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,20/21,14,2021-07-30,15:15,9678992,avfbsKzdc,Finished,Bidco United,BID,258735,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,20/21,15,2021-03-05,15:00,9377220,fxKbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,20/21,15,2021-03-05,15:00,9377221,WufbsYufb,Finished,Tusker,TUS,138496,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,15,2021-03-06,13:00,9377218,ladcsnTid,Finished,Zoo F.C.,ZFC,397163,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,15,2021-03-06,15:00,9377219,IDFsLufb,Finished,AFC Leopards SC,LDS,76433,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,20/21,15,2021-03-06,15:00,9377222,zufbsIvYb,Finished,Bandari FC,BAN,138474,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,20/21,15,2021-03-06,15:00,9377216,NufbsKzdc,Finished,Sofapaka,SOF,138488,Bidco United,BID,258735,0,0
+Kenyan Premier League,20/21,15,2021-03-06,15:00,9377223,avfbsOYcc,Finished,Western Stima FC,WST,138500,Muhoroni Youth FC,MUH,257439,1,1
+Kenyan Premier League,20/21,15,2021-03-07,15:00,9377215,gLdbsDufb,Finished,Gor Mahia FC,GOR,134306,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,15,2021-03-07,15:00,9377217,HufbsexKb,Finished,Mathare United,MAU,138482,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,15,2021-05-23,15:00,9531917,HufbsIvYb,Finished,Nzoia United,NZO,246033,Mathare United,MAU,138482,2,2
+Kenyan Premier League,20/21,15,2021-08-22,15:00,9732175,DufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,16,2021-03-19,15:00,9392865,HufbsfxKb,Finished,Posta Rangers,PRA,213605,Mathare United,MAU,138482,2,2
+Kenyan Premier League,20/21,16,2021-03-20,13:00,9392860,LufbsWufb,Finished,Nairobi City Stars FC,NCS,138486,Tusker,TUS,138496,2,2
+Kenyan Premier League,20/21,16,2021-03-20,15:00,9392864,IDFsladc,Finished,Mulembe United,MUD,257511,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,20/21,16,2021-03-20,15:15,9392861,zufbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,20/21,16,2021-03-21,15:00,9392866,NufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,20/21,16,2021-03-21,15:00,9392867,DufbsnTid,Finished,Kenya Commercial Bank,KCB,138478,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,20/21,16,2021-03-21,15:00,9392862,YufbsIvYb,Finished,Nzoia United,NZO,246033,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,16,2021-03-22,15:00,9392863,gLdbsKzdc,Finished,Bidco United,BID,258735,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,20/21,17,2021-05-14,15:00,9518036,exKbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,17,2021-05-15,13:00,9518034,DufbsWufb,Finished,Tusker,TUS,138496,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,17,2021-05-15,15:00,9518029,zufbsKzdc,Finished,Bandari FC,BAN,138474,Bidco United,BID,258735,1,1
+Kenyan Premier League,20/21,17,2021-05-15,15:00,9518035,avfbsfxKb,Finished,Western Stima FC,WST,138500,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,17,2021-05-15,15:15,9518028,IDFsIvYb,Finished,AFC Leopards SC,LDS,76433,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,20/21,17,2021-05-16,15:00,9518033,gLdbsLufb,Finished,Gor Mahia FC,GOR,134306,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,20/21,17,2021-05-16,15:00,9518032,Hufbsladc,Finished,Mathare United,MAU,138482,Mulembe United,MUD,257511,0,0
+Kenyan Premier League,20/21,17,2021-05-16,15:00,9518030,NufbsOYcc,Finished,Sofapaka,SOF,138488,Muhoroni Youth FC,MUH,257439,2,2
+Kenyan Premier League,20/21,18,2021-05-22,13:00,9531918,YufbsHvYb,Finished,Ulinzi Stars,ULS,138498,Kariobangi Sharks,KAR,246032,2,2
+Kenyan Premier League,20/21,18,2021-05-22,15:00,9531916,avfbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Western Stima FC,WST,138500,4,4
+Kenyan Premier League,20/21,18,2021-05-23,15:00,9531914,zufbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Bandari FC,BAN,138474,3,3
+Kenyan Premier League,20/21,18,2021-05-24,15:00,9534248,LufbsNufb,Finished,Nairobi City Stars FC,NCS,138486,Sofapaka,SOF,138488,3,3
+Kenyan Premier League,20/21,18,2021-05-27,15:00,9534244,gLdbsladc,Finished,Mulembe United,MUD,257511,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,20/21,19,2021-05-28,15:00,9544331,exKbsfxKb,Finished,Posta Rangers,PRA,213605,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,19,2021-05-28,15:00,9544330,YufbsIvYb,Finished,Ulinzi Stars,ULS,138498,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,20/21,19,2021-05-28,15:00,9544325,zufbsavfb,Finished,Western Stima FC,WST,138500,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,20/21,19,2021-05-29,15:00,9544327,LufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,20/21,19,2021-05-29,15:00,9544326,DufbsNufb,Finished,Kenya Commercial Bank,KCB,138478,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,20/21,19,2021-05-30,15:00,9544329,IDFsKzdc,Finished,AFC Leopards SC,LDS,76433,Bidco United,BID,258735,1,1
+Kenyan Premier League,20/21,19,2021-05-30,15:00,9544328,Wufbsladc,Finished,Mulembe United,MUD,257511,Tusker,TUS,138496,0,0
+Kenyan Premier League,20/21,19,2021-05-31,15:00,9544332,gLdbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,20/21,20,2024-09-30,15:49,9428042,IDFsnTid,Canceled,Zoo F.C.,ZFC,397163,AFC Leopards SC,LDS,76433,-,-
+Kenyan Premier League,20/21,20,2021-06-15,13:00,9554899,Lufbsavfb,Finished,Nairobi City Stars FC,NCS,138486,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,20/21,20,2021-06-15,15:00,9554893,zufbsYufb,Finished,Bandari FC,BAN,138474,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,20,2021-06-15,15:00,9554895,IvYbsladc,Finished,Nzoia United,NZO,246033,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,20,2021-06-15,15:00,9554897,WufbsfxKb,Finished,Tusker,TUS,138496,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,20/21,20,2021-06-16,15:00,9554896,DufbsKzdc,Finished,Bidco United,BID,258735,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,20,2021-06-16,15:00,9554894,gLdbsHufb,Finished,Mathare United,MAU,138482,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,20/21,20,2021-06-16,15:00,9554892,HvYbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Kariobangi Sharks,KAR,246032,2,2
+Kenyan Premier League,20/21,20,2021-06-16,15:00,9554898,IDFsNufb,Finished,Sofapaka,SOF,138488,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,20/21,21,2021-06-19,13:00,9581975,LufbsexKb,Finished,Nairobi City Stars FC,NCS,138486,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,21,2024-09-30,15:49,9581978,avfbsIvYb,Canceled,Western Stima FC,WST,138500,Nzoia United,NZO,246033,-,-
+Kenyan Premier League,20/21,21,2021-06-19,15:15,9581977,DufbsHufb,Finished,Kenya Commercial Bank,KCB,138478,Mathare United,MAU,138482,1,1
+Kenyan Premier League,20/21,21,2021-06-20,15:00,9581974,gLdbsNufb,Finished,Gor Mahia FC,GOR,134306,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,20/21,21,2021-06-20,15:00,9581973,WufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Tusker,TUS,138496,0,0
+Kenyan Premier League,20/21,21,2024-09-30,15:49,9581979,zufbsladc,Canceled,Mulembe United,MUD,257511,Bandari FC,BAN,138474,-,-
+Kenyan Premier League,20/21,21,2021-06-20,15:00,9581976,fxKbsKzdc,Finished,Posta Rangers,PRA,213605,Bidco United,BID,258735,0,0
+Kenyan Premier League,20/21,21,2021-07-14,15:00,9643337,YufbsOYcc,Finished,Ulinzi Stars,ULS,138498,Muhoroni Youth FC,MUH,257439,2,2
+Kenyan Premier League,20/21,22,2021-06-23,13:00,9588423,Wufbsavfb,Finished,Tusker,TUS,138496,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,20/21,22,2021-06-23,15:15,9588424,gLdbsOYcc,Finished,Gor Mahia FC,GOR,134306,Muhoroni Youth FC,MUH,257439,0,0
+Kenyan Premier League,20/21,22,2021-06-23,15:15,9588422,IDFsHufb,Finished,Mathare United,MAU,138482,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,20/21,22,2021-06-25,15:00,9592556,zufbsHvYb,Finished,Bandari FC,BAN,138474,Kariobangi Sharks,KAR,246032,4,4
+Kenyan Premier League,20/21,22,2021-06-25,15:00,9592554,ladcsKzdc,Finished,Bidco United,BID,258735,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,22,2021-06-25,15:00,9592553,LufbsIvYb,Finished,Nzoia United,NZO,246033,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,20/21,22,2021-06-25,15:00,9592557,NufbsYufb,Finished,Sofapaka,SOF,138488,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,20/21,22,2021-06-26,15:00,9592560,gLdbsavfb,Finished,Gor Mahia FC,GOR,134306,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,20/21,22,2021-06-26,15:00,9592555,DufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,22,2021-06-26,15:00,9592559,HufbsfxKb,Finished,Mathare United,MAU,138482,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,22,2021-06-26,15:15,9592558,IDFsOYcc,Finished,Muhoroni Youth FC,MUH,257439,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,20/21,23,2021-06-30,13:00,9600555,exKbsKzdc,Finished,Bidco United,BID,258735,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,23,2021-06-30,13:00,9600551,LufbsOYcc,Finished,Nairobi City Stars FC,NCS,138486,Muhoroni Youth FC,MUH,257439,0,0
+Kenyan Premier League,20/21,23,2021-06-30,13:00,9600556,Nufbsavfb,Finished,Western Stima FC,WST,138500,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,20/21,23,2021-06-30,15:00,9600558,gLdbszufb,Finished,Gor Mahia FC,GOR,134306,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,20/21,23,2021-06-30,15:00,9600557,Hufbsladc,Finished,Mulembe United,MUD,257511,Mathare United,MAU,138482,1,1
+Kenyan Premier League,20/21,23,2021-06-30,15:15,9600553,IDFsHvYb,Finished,AFC Leopards SC,LDS,76433,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,20/21,23,2021-06-30,15:15,9600554,DufbsIvYb,Finished,Kenya Commercial Bank,KCB,138478,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,20/21,23,2021-06-30,15:15,9600552,WufbsYufb,Finished,Ulinzi Stars,ULS,138498,Tusker,TUS,138496,1,1
+Kenyan Premier League,20/21,24,2021-07-04,15:00,9609523,zufbsLufb,Finished,Bandari FC,BAN,138474,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,20/21,24,2021-07-04,15:00,9609528,YufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Ulinzi Stars,ULS,138498,3,3
+Kenyan Premier League,20/21,24,2021-07-04,15:00,9609524,Nufbsladc,Finished,Sofapaka,SOF,138488,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,24,2021-07-04,15:15,9609522,fxKbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,24,2021-07-05,15:15,9609525,avfbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,20/21,24,2021-07-08,15:00,9609521,IvYbsKzdc,Finished,Nzoia United,NZO,246033,Bidco United,BID,258735,1,1
+Kenyan Premier League,20/21,24,2021-07-08,15:15,9609526,gLdbsWufb,Finished,Tusker,TUS,138496,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,20/21,25,2021-07-09,15:15,9619900,IDFszufb,Finished,AFC Leopards SC,LDS,76433,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,20/21,25,2021-07-10,13:00,9619899,LufbsYufb,Finished,Ulinzi Stars,ULS,138498,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,20/21,25,2021-07-10,15:00,9619902,fxKbsHvYb,Finished,Posta Rangers,PRA,213605,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,20/21,25,2021-07-10,15:15,9619901,HufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Mathare United,MAU,138482,4,4
+Kenyan Premier League,20/21,25,2021-07-11,13:00,9619897,NufbsKzdc,Finished,Bidco United,BID,258735,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,20/21,25,2021-07-11,15:15,9619898,DufbsWufb,Finished,Kenya Commercial Bank,KCB,138478,Tusker,TUS,138496,2,2
+Kenyan Premier League,20/21,27,2024-09-30,15:49,9428046,gLdbsNufb,Canceled,Sofapaka,SOF,138488,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,20/21,27,2021-05-20,15:00,9510749,gLdbsNufb,Finished,Sofapaka,SOF,138488,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,20/21,27,2021-05-21,15:00,9531912,WufbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Tusker,TUS,138496,1,1
+Kenyan Premier League,20/21,27,2021-07-20,15:00,9654123,zufbsKzdc,Finished,Bidco United,BID,258735,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,20/21,27,2021-07-20,15:00,9654122,HufbsWufb,Finished,Mathare United,MAU,138482,Tusker,TUS,138496,0,0
+Kenyan Premier League,20/21,27,2021-07-20,15:15,9654124,IDFsavfb,Finished,Western Stima FC,WST,138500,AFC Leopards SC,LDS,76433,3,3
+Kenyan Premier League,20/21,27,2021-07-21,13:00,9654125,DufbsYufb,Finished,Kenya Commercial Bank,KCB,138478,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,20/21,27,2021-07-21,13:00,9654126,Lufbsladc,Finished,Mulembe United,MUD,257511,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,20/21,27,2021-07-21,15:00,9654120,fxKbsIvYb,Finished,Posta Rangers,PRA,213605,Nzoia United,NZO,246033,0,0
+Kenyan Premier League,20/21,27,2021-07-21,15:15,9654127,gLdbsHvYb,Finished,Gor Mahia FC,GOR,134306,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,20/21,27,2021-07-21,15:15,9654121,exKbsOYcc,Finished,Kakamega Homeboyz,KAH,213604,Muhoroni Youth FC,MUH,257439,0,0
+Kenyan Premier League,20/21,28,2021-02-24,15:00,9355766,exKbsnTid,Finished,Zoo F.C.,ZFC,397163,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,28,2021-07-13,13:00,9638074,avfbsIvYb,Finished,Western Stima FC,WST,138500,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,20/21,28,2021-07-25,13:00,9670825,DufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,28,2021-07-25,13:00,9670826,avfbsladc,Finished,Western Stima FC,WST,138500,Mulembe United,MUD,257511,0,0
+Kenyan Premier League,20/21,28,2021-07-25,15:00,9670828,zufbsfxKb,Finished,Bandari FC,BAN,138474,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,20/21,28,2021-07-25,15:00,9670827,NufbsexKb,Finished,Sofapaka,SOF,138488,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,28,2021-07-25,15:15,9670824,HufbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Mathare United,MAU,138482,2,2
+Kenyan Premier League,20/21,28,2021-07-25,15:15,9670829,IDFsIvYb,Finished,Nzoia United,NZO,246033,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,20/21,28,2021-07-26,15:00,9670830,LufbsKzdc,Finished,Nairobi City Stars FC,NCS,138486,Bidco United,BID,258735,1,1
+Kenyan Premier League,20/21,28,2021-07-26,15:15,9670831,gLdbsYufb,Finished,Ulinzi Stars,ULS,138498,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,20/21,30,2021-08-04,13:00,9695112,HufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Mathare United,MAU,138482,2,2
+Kenyan Premier League,20/21,30,2021-08-04,15:00,9695114,zufbsWufb,Finished,Bandari FC,BAN,138474,Tusker,TUS,138496,2,2
+Kenyan Premier League,20/21,30,2021-08-04,15:00,9695115,NufbsIvYb,Finished,Sofapaka,SOF,138488,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,20/21,30,2021-08-04,15:00,9695113,Dufbsavfb,Finished,Western Stima FC,WST,138500,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,20/21,30,2021-08-04,15:15,9695116,gLdbsexKb,Finished,Gor Mahia FC,GOR,134306,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,20/21,31,2021-08-07,13:00,9703907,YufbsKzdc,Finished,Bidco United,BID,258735,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,31,2021-08-07,13:00,9703906,HufbsLufb,Finished,Mathare United,MAU,138482,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,20/21,31,2021-08-07,15:15,9703909,IDFsladc,Finished,AFC Leopards SC,LDS,76433,Mulembe United,MUD,257511,3,3
+Kenyan Premier League,20/21,31,2021-08-07,15:15,9703908,NufbsWufb,Finished,Sofapaka,SOF,138488,Tusker,TUS,138496,1,1
+Kenyan Premier League,20/21,31,2021-08-08,13:00,9705073,avfbsfxKb,Finished,Posta Rangers,PRA,213605,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,20/21,31,2021-08-08,15:00,9705071,zufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,20/21,31,2021-08-08,15:00,9705074,IvYbsOYcc,Finished,Nzoia United,NZO,246033,Muhoroni Youth FC,MUH,257439,2,2
+Kenyan Premier League,20/21,31,2021-08-08,15:15,9705072,gLdbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,20/21,32,2024-09-30,15:49,9428032,DufbsHufb,Canceled,Mathare United,MAU,138482,Kenya Commercial Bank,KCB,138478,-,-
+Kenyan Premier League,20/21,32,2021-05-19,15:00,9510747,DufbsHufb,Finished,Mathare United,MAU,138482,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,20/21,32,2021-08-12,15:15,9713578,IDFsYufb,Finished,Ulinzi Stars,ULS,138498,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,20/21,32,2021-08-13,15:00,9713653,HvYbsIvYb,Finished,Kariobangi Sharks,KAR,246032,Nzoia United,NZO,246033,3,3
+Kenyan Premier League,20/21,32,2021-08-13,15:00,9713655,Dufbsladc,Finished,Mulembe United,MUD,257511,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,20/21,32,2021-08-13,15:15,9713656,WufbsexKb,Finished,Tusker,TUS,138496,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,20/21,32,2021-08-14,13:00,9713651,NufbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,20/21,32,2021-08-14,13:00,9713654,LufbsfxKb,Finished,Nairobi City Stars FC,NCS,138486,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,20/21,32,2021-08-14,15:00,9713657,zufbsHufb,Finished,Bandari FC,BAN,138474,Mathare United,MAU,138482,3,3
+Kenyan Premier League,20/21,32,2021-08-14,15:15,9713652,gLdbsKzdc,Finished,Gor Mahia FC,GOR,134306,Bidco United,BID,258735,1,1
+Kenyan Premier League,20/21,33,2021-07-30,15:15,9678997,Yufbsladc,Finished,Mulembe United,MUD,257511,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,33,2021-08-18,13:00,9722857,HvYbsKzdc,Finished,Bidco United,BID,258735,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,20/21,33,2021-08-18,13:00,9727968,gLdbsfxKb,Finished,Posta Rangers,PRA,213605,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,20/21,33,2021-08-18,15:00,9727970,exKbsladc,Finished,Kakamega Homeboyz,KAH,213604,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,20/21,33,2021-08-18,15:00,9727967,HufbsYufb,Finished,Mathare United,MAU,138482,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,20/21,33,2021-08-18,15:00,9727966,avfbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,20/21,33,2021-08-18,15:00,9728244,zufbsNufb,Finished,Sofapaka,SOF,138488,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,20/21,33,2021-08-18,15:15,9722856,IDFsDufb,Finished,Kenya Commercial Bank,KCB,138478,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,20/21,33,2021-08-18,15:15,9727969,WufbsIvYb,Finished,Nzoia United,NZO,246033,Tusker,TUS,138496,0,0
+Kenyan Premier League,20/21,34,2021-07-17,15:15,9649453,gLdbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,20/21,34,2021-08-22,12:00,9742687,NufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,20/21,34,2021-08-22,15:00,9733040,IDFsexKb,Finished,AFC Leopards SC,LDS,76433,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,20/21,34,2021-08-22,15:00,9732177,zufbsOYcc,Finished,Bandari FC,BAN,138474,Muhoroni Youth FC,MUH,257439,2,2
+Kenyan Premier League,20/21,34,2021-08-22,15:00,9742691,gLdbsIvYb,Finished,Gor Mahia FC,GOR,134306,Nzoia United,NZO,246033,0,0
+Kenyan Premier League,20/21,34,2021-08-22,15:00,9742688,WufbsKzdc,Finished,Tusker,TUS,138496,Bidco United,BID,258735,2,2
+Kenyan Premier League,20/21,34,2021-08-22,15:00,9742689,YufbsfxKb,Finished,Ulinzi Stars,ULS,138498,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,20/21,34,2021-08-22,15:00,9742690,Hufbsavfb,Finished,Western Stima FC,WST,138500,Mathare United,MAU,138482,2,2

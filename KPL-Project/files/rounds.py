@@ -88,7 +88,7 @@ class rounds:
 
 for seasonID in seasonIDs:
     directory = seasonIDs[seasonID]
-    for round in range(1,2):
+    for round in range(1,38):
         roundsData = rounds(seasonID, directory,round)
         time.sleep(1)
     time.sleep(3)
