@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,2018,1,2018-02-03,14:00,7685245,YufbsnTid,Finished,Ulinzi Stars,ULS,138498,Zoo F.C.,ZFC,397163,4,4
 Kenyan Premier League,2018,1,2018-02-03,15:00,7685247,BufbsWufb,Finished,Chemelil Sugar,CSU,138476,Tusker,TUS,138496,2,2
 Kenyan Premier League,2018,1,2018-02-03,15:00,7685248,gLdbsFRid,Finished,Gor Mahia FC,GOR,134306,Dandora Love,DLO,397130,4,4

@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,2014,1,2014-02-15,15:00,5022474,JufbsNufb,Finished,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,1,1
 Kenyan Premier League,2014,1,2014-02-15,15:00,5022472,PufbsUufb,Finished,Sony Sugar,SSU,138490,Top Fry Nakuru,TFN,138494,3,3
 Kenyan Premier League,2014,1,2014-02-15,15:00,5022476,BufbsYufb,Finished,Ulinzi Stars,ULS,138498,Chemelil Sugar,CSU,138476,1,1

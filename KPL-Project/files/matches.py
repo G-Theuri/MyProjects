@@ -47,8 +47,8 @@ class rounds:
                     "MatchID" : game["id"],
                     "MatchCustomID" : game["customId"],
                     "MatchStatus" : game["status"]["type"].capitalize(), # finished, notstarted, postponed
-                    "HomeTeamnName" :game["homeTeam"]["name"],
-                    "HomeTeamnNameCode":game["homeTeam"]["nameCode"],
+                    "HomeTeamName" :game["homeTeam"]["name"],
+                    "HomeTeamNameCode":game["homeTeam"]["nameCode"],
                     "HomeTeamID" : game["homeTeam"]["id"],
                     "AwayTeamName": game["awayTeam"]["name"],
                     "AwayTeamNameCode": game["awayTeam"]["nameCode"],

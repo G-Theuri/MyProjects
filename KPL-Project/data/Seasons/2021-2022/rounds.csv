@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,21/22,1,2021-09-25,13:00,9814312,OYccspqzc,Finished,FC Talanta,TAL,310815,Muhoroni Youth FC,MUH,257439,1,1
 Kenyan Premier League,21/22,1,2021-09-25,13:00,9811448,gLdbsDufb,Finished,Gor Mahia FC,GOR,134306,Kenya Commercial Bank,KCB,138478,2,2
 Kenyan Premier League,21/22,1,2021-09-25,15:00,9814309,zufbsHufb,Finished,Bandari FC,BAN,138474,Mathare United,MAU,138482,3,3

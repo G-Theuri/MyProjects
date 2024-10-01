@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,19/20,1,2019-08-30,15:00,8267284,avfbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Western Stima FC,WST,138500,2,2
 Kenyan Premier League,19/20,1,2019-08-30,15:00,8267285,NufbsfxKb,Finished,Sofapaka,SOF,138488,Posta Rangers,PRA,213605,1,1
 Kenyan Premier League,19/20,1,2019-08-31,13:00,8267283,IvYbsOYcc,Finished,Muhoroni Youth FC,MUH,257439,Nzoia United,NZO,246033,1,1

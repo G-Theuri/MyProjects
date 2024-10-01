@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,20/21,1,2020-11-28,14:00,9199970,exKbsladc,Finished,Mulembe United,MUD,257511,Kakamega Homeboyz,KAH,213604,0,0
 Kenyan Premier League,20/21,1,2024-09-30,15:48,9198098,IDFsfxKb,Canceled,AFC Leopards SC,LDS,76433,Posta Rangers,PRA,213605,-,-
 Kenyan Premier League,20/21,1,2020-11-28,15:00,9199981,IDFsWufb,Finished,AFC Leopards SC,LDS,76433,Tusker,TUS,138496,2,2

@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,2016,1,2016-02-13,14:00,6990983,PufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,0,0
 Kenyan Premier League,2016,1,2016-02-13,15:00,7000345,avfbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Western Stima FC,WST,138500,2,2
 Kenyan Premier League,2016,1,2016-02-13,15:00,6990984,FufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Rev. Authority,KAU,138480,3,3
