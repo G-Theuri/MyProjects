@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,23/24,1,2023-08-26,15:00,11530533,zufbsWufb,Finished,Bandari FC,BAN,138474,Tusker,TUS,138496,0,0
 Kenyan Premier League,23/24,1,2023-08-26,15:00,11530534,gLdbsNufb,Finished,Gor Mahia FC,GOR,134306,Sofapaka,SOF,138488,1,1
 Kenyan Premier League,23/24,1,2024-09-30,15:51,11530536,DufbsexKb,Postponed,Kakamega Homeboyz,KAH,213604,Kenya Commercial Bank,KCB,138478,-,-

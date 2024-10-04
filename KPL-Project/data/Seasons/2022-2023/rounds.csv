@@ -1,4 +1,4 @@
-Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamnName,HomeTeamnNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
 Kenyan Premier League,22/23,1,2022-11-19,15:00,10886469,gLdbsIvYb,Finished,Gor Mahia FC,GOR,134306,Nzoia United,NZO,246033,1,1
 Kenyan Premier League,22/23,1,2022-11-19,15:00,10886470,WufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Tusker,TUS,138496,1,1
 Kenyan Premier League,22/23,1,2022-11-19,15:00,10886468,IDFsYufb,Finished,Ulinzi Stars,ULS,138498,AFC Leopards SC,LDS,76433,0,0
