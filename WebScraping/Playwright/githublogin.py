@@ -12,7 +12,7 @@ with sync_playwright () as p:
     page.click('input[type=submit]')
     #page.is_visible('div.md:')
     
-    page.goto('https://github.com/G-Theuri/Portfolio')
+    page.goto('https://github.com/#')
     html = page.inner_html('div.application-main')
     soup = BeautifulSoup(html, 'html.parser')
     #print(soup.find_all('li'))
@@ -21,7 +21,7 @@ with sync_playwright () as p:
     print(f'languages = {languages}')
 
 
-    #I don't want to see 12345
+    #Expand on this
 
 
               
