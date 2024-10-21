@@ -3,22 +3,29 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By  # Import the By class
 import time
+import logging
+import chromedriver_autoinstaller
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
 
-class riverside(scrapy.Spider):
+class RiversideSpider(scrapy.Spider):
     name = 'river'
     category = []
 
-    def __init__(self, category):
+    def __init__(self):
+        # Automatically install chromedriver if not available
+        #chromedriver_autoinstaller.install()
+
         # Set up Chrome options for headless mode
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # Run Chrome in headless mode
         self.driver = webdriver.Chrome(options=chrome_options)
-        self.category = category
 
-    def start_requests(self, category):
-        categories = ['occasional']
+    def start_requests(self):
+        categories = ['bedroom', 'dining-room', 'home-office', 'occasional-tables', 'home-theater', 'occasional']
 
-        catkeys = {
+        #This dictionary will be used to map categories with their real names on the webpage.
+        categorykeys = {
             'bedroom': 'Bedroom',
             'dining-room': 'Dining Room',
             'home-office': 'Home Office',
@@ -27,35 +34,57 @@ class riverside(scrapy.Spider):
             'occasional': 'Occasional'
         }
 
+        #This dictionary maps every collection name to its unique ID.
+        #For easy access, data is grouped per categoryname.
+        collectionkey ={
+
+            'Bedroom':{'Beds': 643,'Benches': 538,'Chests': 622,'Dressers':607,'Mirrors':619,'Nightstands':625,},
+            'Dining Room':{'Benches': 538,'Bookcases':631,'Buffets & Servers': 541,'Dining Chairs':544,'Dining Stools': 547,'Dining Tables':565,'Display Cabinets':568,},
+            'Home Office':{'Bookcases':631,'Credenzas':637,'Desks':601,'File Cabinets':604,'Office Chairs':598,},
+            'Occasional Tables':{'Accent Pieces':595,'Bookcases & Piers':640,'Chairside Tables':628,'Coffee Tables': 613,'Console & Sofa Tables':610,'Side Tables':616,'TV Consoles':616,},
+            'Entertainment':{'Bookcases & Piers':640,'Media Centers':646,'TV Consoles': 634,},
+            'Occasional':{'Accent Pieces':595, 'Chairside Tables': 628, 'Coffee Tables':613, 'Console & Sofa Tables':610, 'Side Tables':616, 'TV Console':634},
+                    }
+
         for category in categories:
-            url = f'https://www.riversidefurniture.com/{category}.html?p=1&product_list_limit=36'
-            print(f'Getting Category {category}')
-            self.category = catkeys.get(category, None)
-            yield scrapy.Request(url=url, callback=self.parse)
+            # Store the category name in a variable for later use
+            category_name = categorykeys.get(category, None)
+
+            for collection in collectionkey[category_name]:
+                collectionid = collectionkey[category_name][collection]
+                url = f'https://www.riversidefurniture.com/{category}.html?type={collectionid}&product_list_limit=36'
+                print(f'Getting item under Category {category} and collection{collection}')
+                # Pass the category name through the request's meta
+                yield scrapy.Request(url=url, callback=self.parse, meta={'category': category_name, 'collection':collection})
 
     def parse(self, response):
+        # Retrieve the category from the meta
+        category = response.meta['category']
+        collection = response.meta['collection']
+
         products = response.css('div ol.products.list.items.product-items li')
         for product in products:
             productlink = product.css('div.product-item-info a::attr(href)').get()
-            yield response.follow(url=productlink, callback=self.parse_items)
+            # Pass the category to the parse_items function via meta
+            yield response.follow(url=productlink, callback=self.parse_items, meta={'category': category, 'collection':collection})
         
         nextpage = response.css('li.item.pages-item-next a::attr(href)').get()
-        try:
-            yield scrapy.Request(url=nextpage, callback=self.parse)
-        except:
-            pass
+        if nextpage:
+            yield scrapy.Request(url=nextpage, callback=self.parse, meta={'category': category, 'collection':collection})
 
     def parse_items(self, response):
+        # Retrieve the category from the meta
+        category = response.meta['category']
+        collection = response.meta['collection']
+
         # Use Selenium to load the full page
         self.driver.get(response.url)
-        
-        # Wait for the images to load (adjust time if necessary)
-        time.sleep(1)
-        
+
+        # Wait for the images to load dynamically
+        time.sleep(1)  # Adjust the time if needed
+
         # Extract image URLs using the updated syntax
-        images = self.driver.find_elements(By.XPATH, 
-            '//div/img[contains(@class,"fotorama__img")]'
-        )
+        images = self.driver.find_elements(By.XPATH, '//div/img[contains(@class,"fotorama__img")]')
 
         # Extract the 'src' attribute of each image
         image_urls = [img.get_attribute('src') for img in images]
@@ -83,9 +112,10 @@ class riverside(scrapy.Spider):
             }
             SKUsInfo.append(info)
 
-        # Yield the data
+        # Yield the data, including the category
         yield {
-            "Category": self.category,
+            "Category": category,
+            "Collection":collection,
             "Product Link": response.request.url,
             "Product Title": response.css('h1.page-title span::text').get(),
             "Product Images": image_urls,  # Yield the list of image URLs
@@ -97,7 +127,19 @@ class riverside(scrapy.Spider):
         # Make sure to close the Selenium WebDriver when done
         self.driver.quit()
 
-    categories = ['bedroom', 'dining-room','home-office', 'occasional-tables', 'home-theater', 'occasional']
-    catkeys = {'bedroom': 'Bedroom', 'dining-room': 'Dining Room','home-office': 'Home Office',
-               'occasional-tables': 'Occasional Tables','home-theater': 'Entertainment','occasional': 'Occasional'}
-    for category in categories:
+
+# Function to run the Scrapy spider programmatically
+def run_spider():
+    # Set up the Scrapy crawler
+    process = CrawlerProcess({
+        'FEED_FORMAT': 'json',  # Output format as JSON
+        'FEED_URI': 'riverside.json',  # Save output to 'riverside.json'
+        'LOG_LEVEL': 'INFO',  # Set log level to INFO for less verbose output
+    })
+
+    # Start the spider
+    process.crawl(RiversideSpider)
+    process.start()  # This will block the script until the spider is finished
+
+if __name__ == '__main__':
+    run_spider()

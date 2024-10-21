@@ -1,22 +1,10 @@
 [
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/sonora-dining-bench-54959.html",
         "Product Title": "Sonora Dining Bench",
-        "Product Images": [
-            "https://www.riversidefurniture.com/media/catalog/product/image/12882f55/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1288201f/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1288764e/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-            "https://www.riversidefurniture.com/media/catalog/product/image/12882ac9/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/128802ec/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/12884535/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1288201f/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/12882f55/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1288764e/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1288ceaa/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1288be31/sonora-dining-bench.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86"
-        ],
+        "Product Images": [],
         "SKUs": [
             {
                 "name": "Sonora Dining Bench",
@@ -33,7 +21,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/maisie-upholstered-bed-bench-50262.html",
         "Product Title": "Maisie Upholstered Bed Bench",
         "Product Images": [
@@ -67,7 +55,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/rosalie-server-30756.html",
         "Product Title": "Rosalie Server",
         "Product Images": [
@@ -103,7 +91,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/sophie-server-50356.html",
         "Product Title": "Sophie Server",
         "Product Images": [
@@ -142,7 +130,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/bozeman-king-panel-bed-s808.html",
         "Product Title": "Bozeman King Panel Bed",
         "Product Images": [
@@ -197,7 +185,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/rosalie-long-dining-bench-30723.html",
         "Product Title": "Rosalie Long Dining Bench",
         "Product Images": [
@@ -232,7 +220,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/sonora-sideboard-54956.html",
         "Product Title": "Sonora Sideboard",
         "Product Images": [
@@ -273,7 +261,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/sariel-stone-top-server-87155.html",
         "Product Title": "Sariel Stone Top Server",
         "Product Images": [
@@ -301,7 +289,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/rosalie-server-30755.html",
         "Product Title": "Rosalie Server",
         "Product Images": [
@@ -345,7 +333,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/pasadena-server-81056.html",
         "Product Title": "Pasadena Server",
         "Product Images": [
@@ -377,7 +365,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/osborne-sideboard-and-hutch-s801.html",
         "Product Title": "Osborne Sideboard and Hutch",
         "Product Images": [
@@ -398,7 +386,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/osborne-sideboard-12056.html",
         "Product Title": "Osborne Sideboard",
         "Product Images": [
@@ -421,7 +409,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-leg-dining-table-30748.html",
         "Product Title": "Rosalie Leg Dining Table",
         "Product Images": [
@@ -458,7 +446,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/sophie-trestle-dining-table-s358.html",
         "Product Title": "Sophie Trestle Dining Table",
         "Product Images": [
@@ -501,7 +489,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/nadene-drum-coffee-table-67602.html",
         "Product Title": "Nadene Drum Coffee Table",
         "Product Images": [
@@ -528,7 +516,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/sophie-counter-height-dining-table-50346.html",
         "Product Title": "Sophie Counter Height Dining Table",
         "Product Images": [
@@ -559,7 +547,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/sonora-dining-table-54950.html",
         "Product Title": "Sonora Dining Table",
         "Product Images": [
@@ -601,7 +589,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/olivia-side-table-18709.html",
         "Product Title": "Olivia Side Table",
         "Product Images": [
@@ -627,7 +615,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/nadene-drum-side-table-67609.html",
         "Product Title": "Nadene Drum Side Table",
         "Product Images": [
@@ -654,7 +642,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/conrad-spot-table-10507.html",
         "Product Title": "Conrad Spot Table",
         "Product Images": [
@@ -683,7 +671,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/olivia-coffee-table-18702.html",
         "Product Title": "Olivia Coffee Table",
         "Product Images": [
@@ -716,7 +704,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/conrad-coffee-table-10502.html",
         "Product Title": "Conrad Coffee Table",
         "Product Images": [
@@ -745,7 +733,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/aberdeen-side-table-21209.html",
         "Product Title": "Aberdeen Side Table",
         "Product Images": [
@@ -780,7 +768,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/capri-console-table-77715.html",
         "Product Title": "Capri Console Table",
         "Product Images": [
@@ -808,7 +796,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/craftsman-home-chairside-table-2911.html",
         "Product Title": "Craftsman Home Chairside Table",
         "Product Images": [
@@ -839,7 +827,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/cortland-side-table-82209.html",
         "Product Title": "Cortland Side Table",
         "Product Images": [
@@ -874,7 +862,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/cortland-chairside-table-82212.html",
         "Product Title": "Cortland Chairside Table",
         "Product Images": [
@@ -909,7 +897,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-chairside-table-37212.html",
         "Product Title": "Cora Chairside Table",
         "Product Images": [
@@ -949,7 +937,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/adelyn-rectangular-coffee-table-88002.html",
         "Product Title": "Adelyn Rectangular Coffee Table",
         "Product Images": [
@@ -983,7 +971,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-side-table-37209.html",
         "Product Title": "Cora Side Table",
         "Product Images": [
@@ -1026,7 +1014,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/intrigue-side-table-39309.html",
         "Product Title": "Intrigue Side Table",
         "Product Images": [
@@ -1058,7 +1046,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/jano-side-table-s846.html",
         "Product Title": "Jano Side Table",
         "Product Images": [
@@ -1099,7 +1087,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/jameson-round-side-table-38008.html",
         "Product Title": "Jameson Round Side Table",
         "Product Images": [
@@ -1131,7 +1119,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/jameson-chairside-table-38009.html",
         "Product Title": "Jameson Chairside Table",
         "Product Images": [
@@ -1171,7 +1159,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/mason-rectangular-coffee-table-39502.html",
         "Product Title": "Mason Rectangular Coffee Table",
         "Product Images": [
@@ -1204,7 +1192,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/maren-coffee-table-18202.html",
         "Product Title": "Maren Coffee Table",
         "Product Images": [
@@ -1242,7 +1230,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/maisie-rectangular-coffee-table-50202.html",
         "Product Title": "Maisie Rectangular Coffee Table",
         "Product Images": [
@@ -1276,7 +1264,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/maisie-round-coffee-table-50203.html",
         "Product Title": "Maisie Round Coffee Table",
         "Product Images": [
@@ -1310,7 +1298,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/lennox-rectangular-coffee-table-31502.html",
         "Product Title": "Lennox Rectangular Coffee Table",
         "Product Images": [
@@ -1343,7 +1331,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/jaylon-small-lift-top-coffee-table-31302.html",
         "Product Title": "Jaylon Small Lift Top Coffee Table",
         "Product Images": [
@@ -1377,7 +1365,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/jaylon-large-lift-top-coffee-table-31301.html",
         "Product Title": "Jaylon Large Lift Top Coffee Table",
         "Product Images": [
@@ -1411,7 +1399,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/jano-coffee-table-s845.html",
         "Product Title": "Jano Coffee Table",
         "Product Images": [
@@ -1454,7 +1442,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/jameson-round-coffee-table-38002.html",
         "Product Title": "Jameson Round Coffee Table",
         "Product Images": [
@@ -1486,7 +1474,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/intrigue-rectangular-coffee-table-39302.html",
         "Product Title": "Intrigue Rectangular Coffee Table",
         "Product Images": [
@@ -1521,7 +1509,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/hyde-rectangular-side-table-92809.html",
         "Product Title": "Hyde Rectangular Side Table",
         "Product Images": [
@@ -1551,7 +1539,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/hyde-rectangular-chairside-table-92812.html",
         "Product Title": "Hyde Rectangular Chairside Table",
         "Product Images": [
@@ -1582,7 +1570,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/hawthorne-side-table-23609.html",
         "Product Title": "Hawthorne Side Table",
         "Product Images": [
@@ -1613,7 +1601,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/hawkins-square-side-table-51609.html",
         "Product Title": "Hawkins Square Side Table",
         "Product Images": [
@@ -1640,7 +1628,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-chairside-table-17212.html",
         "Product Title": "Grand Haven Chairside Table",
         "Product Images": [
@@ -1672,7 +1660,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-square-side-table-17209.html",
         "Product Title": "Grand Haven Square Side Table",
         "Product Images": [
@@ -1704,7 +1692,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/gavin-square-side-table-83209.html",
         "Product Title": "Gavin Square Side Table",
         "Product Images": [
@@ -1737,7 +1725,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-small-leg-coffee-table-59503.html",
         "Product Title": "Myra Small Leg Coffee Table",
         "Product Images": [
@@ -1769,7 +1757,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/jaylon-side-table-31309.html",
         "Product Title": "Jaylon Side Table",
         "Product Images": [
@@ -1801,7 +1789,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/windridge-angled-leg-coffee-table-76501.html",
         "Product Title": "Windridge Angled Leg Coffee Table",
         "Product Images": [
@@ -1838,7 +1826,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/weatherford-bunching-coffee-table-s7.html",
         "Product Title": "Weatherford Bunching Coffee Table",
         "Product Images": [
@@ -1878,7 +1866,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/weatherford-coffee-table-s6.html",
         "Product Title": "Weatherford Coffee Table",
         "Product Images": [
@@ -1915,7 +1903,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/viewpoint-round-coffee-table-67202.html",
         "Product Title": "Viewpoint Round Coffee Table",
         "Product Images": [
@@ -1949,7 +1937,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/truett-coffee-table-34102.html",
         "Product Title": "Truett Coffee Table",
         "Product Images": [
@@ -1992,7 +1980,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/trenton-rectangular-coffee-table-64802.html",
         "Product Title": "Trenton Rectangular Coffee Table",
         "Product Images": [
@@ -2025,7 +2013,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/windridge-chairside-chest-76513.html",
         "Product Title": "Windridge Chairside Chest",
         "Product Images": [
@@ -2061,7 +2049,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/weatherford-rectangle-side-table-s8.html",
         "Product Title": "Weatherford Rectangle Side Table",
         "Product Images": [
@@ -2095,7 +2083,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/weatherford-round-side-table-s9.html",
         "Product Title": "Weatherford Round Side Table",
         "Product Images": [
@@ -2135,7 +2123,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/traynor-rectangular-coffee-table-74502.html",
         "Product Title": "Traynor Rectangular Coffee Table",
         "Product Images": [
@@ -2167,7 +2155,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/riata-gray-coffee-table-79802.html",
         "Product Title": "Riata Gray Coffee Table",
         "Product Images": [
@@ -2206,7 +2194,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/sophie-round-coffee-table-50303.html",
         "Product Title": "Sophie Round Coffee Table",
         "Product Images": [
@@ -2249,7 +2237,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-leg-coffee-table-59501.html",
         "Product Title": "Myra Leg Coffee Table",
         "Product Images": [
@@ -2289,7 +2277,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/viewpoint-round-side-table-67209.html",
         "Product Title": "Viewpoint Round Side Table",
         "Product Images": [
@@ -2320,7 +2308,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/truett-chairside-table-34112.html",
         "Product Title": "Truett Chairside Table",
         "Product Images": [
@@ -2356,7 +2344,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/truett-side-table-34109.html",
         "Product Title": "Truett Side Table",
         "Product Images": [
@@ -2394,7 +2382,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/trenton-side-table-64809.html",
         "Product Title": "Trenton Side Table",
         "Product Images": [
@@ -2425,7 +2413,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/traynor-side-table-74509.html",
         "Product Title": "Traynor Side Table",
         "Product Images": [
@@ -2455,7 +2443,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/sophie-rectangular-side-table-50308.html",
         "Product Title": "Sophie Rectangular Side Table",
         "Product Images": [
@@ -2501,7 +2489,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/sophie-chairside-table-50312.html",
         "Product Title": "Sophie Chairside Table",
         "Product Images": [
@@ -2536,7 +2524,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/riata-gray-side-table-79809.html",
         "Product Title": "Riata Gray Side Table",
         "Product Images": [
@@ -2576,7 +2564,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/riata-gray-chairside-table-79812.html",
         "Product Title": "Riata Gray Chairside Table",
         "Product Images": [
@@ -2612,7 +2600,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-chairside-table-59513.html",
         "Product Title": "Myra Chairside Table",
         "Product Images": [
@@ -2647,7 +2635,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-leg-side-table-59508.html",
         "Product Title": "Myra Leg Side Table",
         "Product Images": [
@@ -2681,7 +2669,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/maren-side-table-18209.html",
         "Product Title": "Maren Side Table",
         "Product Images": [
@@ -2715,7 +2703,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/maisie-rectangular-side-table-50208.html",
         "Product Title": "Maisie Rectangular Side Table",
         "Product Images": [
@@ -2748,7 +2736,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/maisie-chairside-table-50212.html",
         "Product Title": "Maisie Chairside Table",
         "Product Images": [
@@ -2781,7 +2769,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/lennox-rectangular-side-table-31509.html",
         "Product Title": "Lennox Rectangular Side Table",
         "Product Images": [
@@ -2813,7 +2801,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/kara-round-side-table-13409.html",
         "Product Title": "Kara Round Side Table",
         "Product Images": [
@@ -2842,7 +2830,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/felix-round-side-table-42209.html",
         "Product Title": "Felix Round Side Table",
         "Product Images": [
@@ -2873,7 +2861,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/eliza-side-table-34909.html",
         "Product Title": "Eliza Side Table",
         "Product Images": [
@@ -2903,7 +2891,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/denali-side-table-22609.html",
         "Product Title": "Denali Side Table",
         "Product Images": [
@@ -2936,7 +2924,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/declan-square-side-table-40009.html",
         "Product Title": "Declan Square Side Table",
         "Product Images": [
@@ -2968,7 +2956,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/declan-round-side-table-40008.html",
         "Product Title": "Declan Round Side Table",
         "Product Images": [
@@ -2999,7 +2987,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/davie-chairside-table-91012.html",
         "Product Title": "Davie Chairside Table",
         "Product Images": [
@@ -3034,7 +3022,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/davie-side-table-91009.html",
         "Product Title": "Davie Side Table",
         "Product Images": [
@@ -3070,7 +3058,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/craftsman-home-side-table-2909.html",
         "Product Title": "Craftsman Home Side Table",
         "Product Images": [
@@ -3114,7 +3102,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/truett-sofa-table-34115.html",
         "Product Title": "Truett Sofa Table",
         "Product Images": [
@@ -3153,7 +3141,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/hyde-rectangular-coffee-table-92802.html",
         "Product Title": "Hyde Rectangular Coffee Table",
         "Product Images": [
@@ -3190,7 +3178,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/hawthorne-coffee-table-23602.html",
         "Product Title": "Hawthorne Coffee Table",
         "Product Images": [
@@ -3224,7 +3212,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-small-coffee-table-17201.html",
         "Product Title": "Grand Haven Small Coffee Table",
         "Product Images": [
@@ -3257,7 +3245,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/gavin-rectangular-coffee-table-83202.html",
         "Product Title": "Gavin Rectangular Coffee Table",
         "Product Images": [
@@ -3290,7 +3278,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/felix-round-coffee-table-42202.html",
         "Product Title": "Felix Round Coffee Table",
         "Product Images": [
@@ -3321,7 +3309,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/eliza-small-lift-top-coffee-table-34902.html",
         "Product Title": "Eliza Small Lift Top Coffee Table",
         "Product Images": [
@@ -3353,7 +3341,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/denali-coffee-table-22602.html",
         "Product Title": "Denali Coffee Table",
         "Product Images": [
@@ -3384,7 +3372,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/eliza-large-lift-top-coffee-table-34901.html",
         "Product Title": "Eliza Large Lift Top Coffee Table",
         "Product Images": [
@@ -3417,7 +3405,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/declan-round-nesting-coffee-table-40003.html",
         "Product Title": "Declan Round Nesting Coffee Table",
         "Product Images": [
@@ -3451,7 +3439,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/declan-nesting-coffee-table-40001.html",
         "Product Title": "Declan Nesting Coffee Table",
         "Product Images": [
@@ -3485,7 +3473,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/davie-rectangular-coffee-table-91002.html",
         "Product Title": "Davie Rectangular Coffee Table",
         "Product Images": [
@@ -3523,7 +3511,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/dara-two-rectangular-coffee-table-37002.html",
         "Product Title": "Dara Two Rectangular Coffee Table",
         "Product Images": [
@@ -3553,7 +3541,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/craftsman-home-coffee-table-2902.html",
         "Product Title": "Craftsman Home Coffee Table",
         "Product Images": [
@@ -3597,7 +3585,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/craftsman-home-lift-top-coffee-table-2903.html",
         "Product Title": "Craftsman Home Lift-Top Coffee Table",
         "Product Images": [
@@ -3631,7 +3619,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/cascade-rectangular-side-table-73408.html",
         "Product Title": "Cascade Rectangular Side Table",
         "Product Images": [
@@ -3658,7 +3646,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/capri-chairside-table-77712.html",
         "Product Title": "Capri Chairside Table",
         "Product Images": [
@@ -3690,7 +3678,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/capri-side-table-77709.html",
         "Product Title": "Capri Side Table",
         "Product Images": [
@@ -3722,7 +3710,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/capri-round-side-table-77708.html",
         "Product Title": "Capri Round Side Table",
         "Product Images": [
@@ -3760,7 +3748,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/campbell-side-table-51709.html",
         "Product Title": "Campbell Side Table",
         "Product Images": [
@@ -3788,7 +3776,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/campbell-chairside-table-51712.html",
         "Product Title": "Campbell Chairside Table",
         "Product Images": [
@@ -3816,7 +3804,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/brixen-round-side-table-19309.html",
         "Product Title": "Brixen Round Side Table",
         "Product Images": [
@@ -3848,7 +3836,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/barrington-two-tone-side-table-32309.html",
         "Product Title": "Barrington Two Tone Side Table",
         "Product Images": [
@@ -3885,7 +3873,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/barrington-two-tone-chairside-table-32312.html",
         "Product Title": "Barrington Two Tone Chairside Table",
         "Product Images": [
@@ -3922,7 +3910,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/amner-side-table-s848.html",
         "Product Title": "Amner Side Table",
         "Product Images": [
@@ -3965,7 +3953,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/adelyn-rectangular-side-table-88009.html",
         "Product Title": "Adelyn Rectangular Side Table",
         "Product Images": [
@@ -3994,7 +3982,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/trenton-sofa-table-64815.html",
         "Product Title": "Trenton Sofa Table",
         "Product Images": [
@@ -4027,7 +4015,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/traynor-sofa-table-74512.html",
         "Product Title": "Traynor Sofa Table",
         "Product Images": [
@@ -4058,7 +4046,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/rowan-sofa-table-12315.html",
         "Product Title": "Rowan Sofa Table",
         "Product Images": [
@@ -4095,7 +4083,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-sofa-table-59514.html",
         "Product Title": "Myra Sofa Table",
         "Product Images": [
@@ -4133,7 +4121,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/maren-sofa-table-18215.html",
         "Product Title": "Maren Sofa Table",
         "Product Images": [
@@ -4169,7 +4157,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/lennox-media-console-31540.html",
         "Product Title": "Lennox Media Console",
         "Product Images": [
@@ -4203,7 +4191,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/intrigue-sofa-table-39315.html",
         "Product Title": "Intrigue Sofa Table",
         "Product Images": [
@@ -4238,7 +4226,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/hyde-rectangular-console-table-92815.html",
         "Product Title": "Hyde Rectangular Console Table",
         "Product Images": [
@@ -4271,7 +4259,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/hawthorne-console-table-23615.html",
         "Product Title": "Hawthorne Console Table",
         "Product Images": [
@@ -4306,7 +4294,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/gavin-rectangular-console-table-83215.html",
         "Product Title": "Gavin Rectangular Console Table",
         "Product Images": [
@@ -4338,7 +4326,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/everly-console-table-51215.html",
         "Product Title": "Everly Console Table",
         "Product Images": [
@@ -4373,7 +4361,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/davie-sofa-table-91015.html",
         "Product Title": "Davie Sofa Table",
         "Product Images": [
@@ -4408,7 +4396,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Console & Sofa Tables",
+        "collection": "Console & Sofa Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-workstation-37216.html",
         "Product Title": "Cora Workstation",
         "Product Images": [
@@ -4449,7 +4437,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/cortland-coffee-table-82202.html",
         "Product Title": "Cortland Coffee Table",
         "Product Images": [
@@ -4486,7 +4474,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-large-coffee-table-37202.html",
         "Product Title": "Cora Large Coffee Table",
         "Product Images": [
@@ -4530,7 +4518,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-small-coffee-table-37203.html",
         "Product Title": "Cora Small Coffee Table",
         "Product Images": [
@@ -4572,7 +4560,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/capri-round-coffee-table-77701.html",
         "Product Title": "Capri Round Coffee Table",
         "Product Images": [
@@ -4611,7 +4599,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/capri-coffee-table-77702.html",
         "Product Title": "Capri Coffee Table",
         "Product Images": [
@@ -4646,7 +4634,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/campbell-coffee-table-51702.html",
         "Product Title": "Campbell Coffee Table",
         "Product Images": [
@@ -4677,7 +4665,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/brixen-round-coffee-table-19302.html",
         "Product Title": "Brixen Round Coffee Table",
         "Product Images": [
@@ -4710,7 +4698,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/briar-drum-coffee-table-28902.html",
         "Product Title": "Briar Drum Coffee Table",
         "Product Images": [
@@ -4744,7 +4732,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/barrington-two-tone-rectangular-coffee-table-32302.html",
         "Product Title": "Barrington Two Tone Rectangular Coffee Table",
         "Product Images": [
@@ -4785,7 +4773,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/barrington-two-tone-round-coffee-table-32301.html",
         "Product Title": "Barrington Two Tone Round Coffee Table",
         "Product Images": [
@@ -4816,7 +4804,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Chairside Tables",
+        "collection": "Chairside Tables",
         "Product Link": "https://www.riversidefurniture.com/zenith-chairside-table-20512.html",
         "Product Title": "Zenith Chairside Table",
         "Product Images": [
@@ -4848,7 +4836,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/amner-coffee-table-s847.html",
         "Product Title": "Amner Coffee Table",
         "Product Images": [
@@ -4891,7 +4879,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Chairside Tables",
+        "collection": "Chairside Tables",
         "Product Link": "https://www.riversidefurniture.com/lennox-rectangular-chairside-table-31512.html",
         "Product Title": "Lennox Rectangular Chairside Table",
         "Product Images": [
@@ -4924,7 +4912,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Chairside Tables",
+        "collection": "Chairside Tables",
         "Product Link": "https://www.riversidefurniture.com/maren-chairside-table-18212.html",
         "Product Title": "Maren Chairside Table",
         "Product Images": [
@@ -4960,7 +4948,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/wimberley-upholstered-desk-chair-32738.html",
         "Product Title": "Wimberley Upholstered Desk Chair",
         "Product Images": [
@@ -4997,7 +4985,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/perspectives-wood-back-upholstered-desk-chair-28127.html",
         "Product Title": "Perspectives Wood Back Upholstered Desk Chair",
         "Product Images": [
@@ -5027,7 +5015,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/vogue-upholstered-desk-chair-46238.html",
         "Product Title": "Vogue Upholstered Desk Chair",
         "Product Images": [
@@ -5065,7 +5053,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/osborne-upholstered-desk-chair-12138.html",
         "Product Title": "Osborne Upholstered Desk Chair",
         "Product Images": [
@@ -5104,7 +5092,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/maren-upholstered-desk-chair-18238.html",
         "Product Title": "Maren Upholstered Desk Chair",
         "Product Images": [
@@ -5142,7 +5130,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/maisie-upholstered-desk-chair-50238.html",
         "Product Title": "Maisie Upholstered Desk Chair",
         "Product Images": [
@@ -5187,7 +5175,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/fresh-perspectives-upholstered-desk-chair-57738.html",
         "Product Title": "Fresh Perspectives Upholstered Desk Chair",
         "Product Images": [
@@ -5234,7 +5222,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/fresh-perspectives-upholstered-desk-chair-57838.html",
         "Product Title": "Fresh Perspectives Upholstered Desk Chair",
         "Product Images": [
@@ -5270,7 +5258,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/finn-upholstered-desk-chair-28638.html",
         "Product Title": "Finn Upholstered Desk Chair",
         "Product Images": [
@@ -5307,7 +5295,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/dillon-desk-chair-96538.html",
         "Product Title": "Dillon Desk Chair",
         "Product Images": [
@@ -5351,7 +5339,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/sloane-lateral-file-cabinet-77934.html",
         "Product Title": "Sloane Lateral File Cabinet",
         "Product Images": [
@@ -5384,7 +5372,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/wimberley-lateral-file-cabinet-32734.html",
         "Product Title": "Wimberley Lateral File Cabinet",
         "Product Images": [
@@ -5415,7 +5403,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/regency-lateral-file-cabinet-64334.html",
         "Product Title": "Regency Lateral File Cabinet",
         "Product Images": [
@@ -5445,7 +5433,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/rafferty-umber-file-cabinet-38434.html",
         "Product Title": "Rafferty Umber File Cabinet",
         "Product Images": [
@@ -5480,7 +5468,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/rafferty-pavestone-file-cabinet-38334.html",
         "Product Title": "Rafferty Pavestone File Cabinet",
         "Product Images": [
@@ -5514,7 +5502,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/perspectives-mobile-file-cabinet-28236.html",
         "Product Title": "Perspectives Mobile File Cabinet",
         "Product Images": [
@@ -5549,7 +5537,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/perspectives-mobile-file-cabinet-28036.html",
         "Product Title": "Perspectives Mobile File Cabinet",
         "Product Images": [
@@ -5585,7 +5573,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/osborne-lateral-file-cabinet-12134.html",
         "Product Title": "Osborne Lateral File Cabinet",
         "Product Images": [
@@ -5613,7 +5601,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/maren-file-cabinet-18234.html",
         "Product Title": "Maren File Cabinet",
         "Product Images": [
@@ -5653,7 +5641,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/maisie-lateral-file-cabinet-50234.html",
         "Product Title": "Maisie Lateral File Cabinet",
         "Product Images": [
@@ -5690,7 +5678,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/intrigue-mobile-file-cabinet-39334.html",
         "Product Title": "Intrigue Mobile File Cabinet",
         "Product Images": [
@@ -5724,7 +5712,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/fresh-perspectives-mobile-file-cabinet-57735.html",
         "Product Title": "Fresh Perspectives Mobile File Cabinet",
         "Product Images": [
@@ -5753,7 +5741,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/fresh-perspectives-mobile-file-cabinet-57835.html",
         "Product Title": "Fresh Perspectives Mobile File Cabinet",
         "Product Images": [
@@ -5785,7 +5773,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/davie-writing-desk-91031.html",
         "Product Title": "Davie Writing Desk",
         "Product Images": [
@@ -5817,7 +5805,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/wimberley-executive-desk-32731.html",
         "Product Title": "Wimberley Executive Desk",
         "Product Images": [
@@ -5850,7 +5838,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/vogue-writing-desk-46230.html",
         "Product Title": "Vogue Writing Desk",
         "Product Images": [
@@ -5888,7 +5876,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/sophie-writing-desk-50330.html",
         "Product Title": "Sophie Writing Desk",
         "Product Images": [
@@ -5931,7 +5919,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/sheffield-writing-desk-58830.html",
         "Product Title": "Sheffield Writing Desk",
         "Product Images": [
@@ -5953,7 +5941,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/sariel-double-pedestal-dining-table-s854.html",
         "Product Title": "Sariel Double Pedestal Dining Table",
         "Product Images": [
@@ -5992,7 +5980,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/sariel-round-dining-table-s855.html",
         "Product Title": "Sariel Round Dining Table",
         "Product Images": [
@@ -6033,7 +6021,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-trestle-dining-table-30750.html",
         "Product Title": "Rosalie Trestle Dining Table",
         "Product Images": [
@@ -6080,7 +6068,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-leg-dining-table-30749.html",
         "Product Title": "Rosalie Leg Dining Table",
         "Product Images": [
@@ -6116,7 +6104,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-round-dining-table-s840.html",
         "Product Title": "Rosalie Round Dining Table",
         "Product Images": [
@@ -6160,7 +6148,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/pasadena-rectangular-dining-table-81050.html",
         "Product Title": "Pasadena Rectangular Dining Table",
         "Product Images": [
@@ -6201,7 +6189,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-round-dining-table-s462.html",
         "Product Title": "Myra Round Dining Table",
         "Product Images": [
@@ -6242,7 +6230,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-rectangular-leg-dining-table-59553.html",
         "Product Title": "Myra Rectangular Leg Dining Table",
         "Product Images": [
@@ -6274,7 +6262,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/myra-rectangle-dining-table-s463.html",
         "Product Title": "Myra Rectangle Dining Table",
         "Product Images": [
@@ -6322,7 +6310,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/monterey-rectangular-dining-table-39452.html",
         "Product Title": "Monterey Rectangular Dining Table",
         "Product Images": [
@@ -6356,7 +6344,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/lydia-round-dining-table-s835.html",
         "Product Title": "Lydia Round Dining Table",
         "Product Images": [
@@ -6397,7 +6385,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/lydia-rectangular-dining-table-27150.html",
         "Product Title": "Lydia Rectangular Dining Table",
         "Product Images": [
@@ -6429,7 +6417,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/laredo-round-dining-table-s802.html",
         "Product Title": "Laredo Round Dining Table",
         "Product Images": [
@@ -6468,7 +6456,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/laredo-round-dining-table-s803.html",
         "Product Title": "Laredo Round Dining Table",
         "Product Images": [
@@ -6508,7 +6496,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/laguna-rectangular-dining-table-37550.html",
         "Product Title": "Laguna Rectangular Dining Table",
         "Product Images": [
@@ -6547,7 +6535,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/hepburn-oval-dining-table-s851.html",
         "Product Title": "Hepburn Oval Dining Table",
         "Product Images": [
@@ -6598,7 +6586,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-parsons-upholstered-chair-92650.html",
         "Product Title": "Mix-N-Match Chairs Parsons Upholstered Chair",
         "Product Images": [
@@ -6633,7 +6621,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/davie-gathering-height-dining-table-91053.html",
         "Product Title": "Davie Gathering Height Dining Table",
         "Product Images": [
@@ -6669,7 +6657,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/pasadena-ladderback-side-chair-81058.html",
         "Product Title": "Pasadena Ladderback Side Chair",
         "Product Images": [
@@ -6701,7 +6689,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/osborne-upholstered-ladderback-side-chair-12157.html",
         "Product Title": "Osborne Upholstered Ladderback Side Chair",
         "Product Images": [
@@ -6742,7 +6730,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/myra-xx-back-upholstered-side-chair-59397.html",
         "Product Title": "Myra XX-Back Upholstered Side Chair",
         "Product Images": [
@@ -6778,7 +6766,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/myra-upholstered-arm-chair-59453.html",
         "Product Title": "Myra Upholstered Arm Chair",
         "Product Images": [
@@ -6814,7 +6802,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/myra-upholstered-side-chair-59452.html",
         "Product Title": "Myra Upholstered Side Chair",
         "Product Images": [
@@ -6850,7 +6838,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/myra-xx-back-side-chair-59347.html",
         "Product Title": "Myra XX-Back Side Chair",
         "Product Images": [
@@ -6891,7 +6879,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sophie-x-back-upholstered-side-chair-50357.html",
         "Product Title": "Sophie X-Back Upholstered Side Chair",
         "Product Images": [
@@ -6928,7 +6916,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sophie-upholstered-side-chair-50358.html",
         "Product Title": "Sophie Upholstered Side Chair",
         "Product Images": [
@@ -6965,7 +6953,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sophie-upholstered-arm-chair-50355.html",
         "Product Title": "Sophie Upholstered Arm Chair",
         "Product Images": [
@@ -7005,7 +6993,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sonora-upholstered-side-chair-54958.html",
         "Product Title": "Sonora Upholstered Side Chair",
         "Product Images": [
@@ -7043,7 +7031,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sonora-x-back-side-chair-54955.html",
         "Product Title": "Sonora X-Back Side Chair",
         "Product Images": [
@@ -7087,7 +7075,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sonora-upholstered-oval-side-chair-54957.html",
         "Product Title": "Sonora Upholstered Oval Side Chair",
         "Product Images": [
@@ -7120,7 +7108,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sariel-upholstered-host-chair-87158.html",
         "Product Title": "Sariel Upholstered Host Chair",
         "Product Images": [
@@ -7162,7 +7150,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/sariel-upholstered-side-chair-87157.html",
         "Product Title": "Sariel Upholstered Side Chair",
         "Product Images": [
@@ -7202,7 +7190,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/rosalie-side-chair-30757.html",
         "Product Title": "Rosalie Side Chair",
         "Product Images": [
@@ -7242,7 +7230,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/rosalie-woven-side-chair-30721.html",
         "Product Title": "Rosalie Woven Side Chair",
         "Product Images": [
@@ -7281,7 +7269,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/rosalie-upholstered-side-chair-30726.html",
         "Product Title": "Rosalie Upholstered Side Chair",
         "Product Images": [
@@ -7323,7 +7311,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/rosalie-side-chair-30758.html",
         "Product Title": "Rosalie Side Chair",
         "Product Images": [
@@ -7364,7 +7352,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/rosalie-upholstered-host-chair-30725.html",
         "Product Title": "Rosalie Upholstered Host Chair",
         "Product Images": [
@@ -7407,7 +7395,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/pasadena-upholstered-side-chair-81057.html",
         "Product Title": "Pasadena Upholstered Side Chair",
         "Product Images": [
@@ -7440,7 +7428,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/myra-xx-back-upholstered-arm-chair-59398.html",
         "Product Title": "Myra XX-Back Upholstered Arm Chair",
         "Product Images": [
@@ -7477,7 +7465,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/monterey-upholstered-side-chair-39457.html",
         "Product Title": "Monterey Upholstered Side Chair",
         "Product Images": [
@@ -7510,7 +7498,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/monterey-upholstered-hostess-chair-39459.html",
         "Product Title": "Monterey Upholstered Hostess Chair",
         "Product Images": [
@@ -7547,22 +7535,10 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-host-upholstered-chair-92641.html",
         "Product Title": "Mix-N-Match Chairs Host Upholstered Chair",
-        "Product Images": [
-            "https://www.riversidefurniture.com/media/catalog/product/image/1933a899/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-            "https://www.riversidefurniture.com/media/catalog/product/image/19334003/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-            "https://www.riversidefurniture.com/media/catalog/product/image/19334094/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1933a899/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/19334094/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/19335b23/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1933a602/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/19335d8c/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/1933303b/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/19332cab/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-            "https://www.riversidefurniture.com/media/catalog/product/image/19334003/mix-n-match-chairs-host-upholstered-chair.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86"
-        ],
+        "Product Images": [],
         "SKUs": [
             {
                 "name": "Mix-N-Match Chairs Host Upholstered Chair",
@@ -7587,7 +7563,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/ansel-spot-table-10007.html",
         "Product Title": "Ansel Spot Table",
         "Product Images": [
@@ -7614,7 +7590,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-clipped-top-upholstered-chair-92612.html",
         "Product Title": "Mix-N-Match Chairs Clipped Top Upholstered Chair",
         "Product Images": [
@@ -7654,7 +7630,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-scroll-back-upholstered-side-chair-36352.html",
         "Product Title": "Mix-N-Match Chairs Scroll Back Upholstered Side Chair",
         "Product Images": [
@@ -7695,7 +7671,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-slipcover-parsons-chair-36964.html",
         "Product Title": "Mix-N-Match Chairs Slipcover Parson's Chair",
         "Product Images": [
@@ -7726,7 +7702,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/davie-round-dining-table-91051.html",
         "Product Title": "Davie Round Dining Table",
         "Product Images": [
@@ -7760,7 +7736,7 @@
     },
     {
         "Category": "Occasional Tables",
-        "Collection": "Bookcases & Piers",
+        "collection": "Bookcases & Piers",
         "Product Link": "https://www.riversidefurniture.com/davie-entertainment-pier-unit-91048.html",
         "Product Title": "Davie Entertainment Pier Unit",
         "Product Images": [
@@ -7800,7 +7776,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Office Chairs",
+        "collection": "Office Chairs",
         "Product Link": "https://www.riversidefurniture.com/clinton-hill-round-back-uph-desk-chair-47138.html",
         "Product Title": "Clinton Hill Round Back Uph Desk Chair",
         "Product Images": [
@@ -7836,7 +7812,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "File Cabinets",
+        "collection": "File Cabinets",
         "Product Link": "https://www.riversidefurniture.com/finn-file-cabinet-28634.html",
         "Product Title": "Finn File Cabinet",
         "Product Images": [
@@ -7872,7 +7848,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/rosalie-writing-desk-30730.html",
         "Product Title": "Rosalie Writing Desk",
         "Product Images": [
@@ -7908,7 +7884,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/regency-executive-desk-64330.html",
         "Product Title": "Regency Executive Desk",
         "Product Images": [
@@ -7940,7 +7916,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/regency-l-desk-and-return-64332.html",
         "Product Title": "Regency L-Desk and  Return",
         "Product Images": [
@@ -7974,7 +7950,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/prelude-executive-desk-23930.html",
         "Product Title": "Prelude Executive Desk",
         "Product Images": [
@@ -8018,7 +7994,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/prelude-swivel-lift-top-l-desk-23932.html",
         "Product Title": "Prelude Swivel Lift Top L-Desk",
         "Product Images": [
@@ -8071,7 +8047,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/prelude-swivel-lift-top-l-desk-39632.html",
         "Product Title": "Prelude Swivel Lift Top L-Desk",
         "Product Images": [
@@ -8118,7 +8094,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/perspectives-single-pedestal-desk-28030.html",
         "Product Title": "Perspectives Single Pedestal Desk",
         "Product Images": [
@@ -8154,7 +8130,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/perspectives-l-desk-s193.html",
         "Product Title": "Perspectives L Desk",
         "Product Images": [
@@ -8200,7 +8176,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/perspectives-l-desk-s195.html",
         "Product Title": "Perspectives L Desk",
         "Product Images": [
@@ -8246,7 +8222,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/perspectives-single-pedestal-desk-28130.html",
         "Product Title": "Perspectives Single Pedestal Desk",
         "Product Images": [
@@ -8280,7 +8256,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/perspectives-single-pedestal-desk-28230.html",
         "Product Title": "Perspectives Single Pedestal Desk",
         "Product Images": [
@@ -8318,7 +8294,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/osborne-nesting-desks-s761.html",
         "Product Title": "Osborne Nesting Desks",
         "Product Images": [
@@ -8361,7 +8337,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-host-upholstered-chair-92642.html",
         "Product Title": "Mix-N-Match Chairs Host Upholstered Chair",
         "Product Images": [
@@ -8401,7 +8377,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-host-upholstered-chair-92640.html",
         "Product Title": "Mix-N-Match Chairs Host Upholstered Chair",
         "Product Images": [
@@ -8444,7 +8420,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-button-tufted-upholstered-chair-92632.html",
         "Product Title": "Mix-N-Match Chairs Button Tufted Upholstered Chair",
         "Product Images": [
@@ -8482,7 +8458,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-swoop-arm-upholstered-chair-92600.html",
         "Product Title": "Mix-N-Match Chairs Swoop Arm Upholstered Chair",
         "Product Images": [
@@ -8524,7 +8500,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-swoop-arm-upholstered-chair-92602.html",
         "Product Title": "Mix-N-Match Chairs Swoop Arm Upholstered Chair",
         "Product Images": [
@@ -8564,7 +8540,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-woven-side-chair-36965.html",
         "Product Title": "Mix-N-Match Chairs Woven SIde Chair",
         "Product Images": [
@@ -8607,7 +8583,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-clipped-top-upholstered-chair-92611.html",
         "Product Title": "Mix-N-Match Chairs Clipped Top Upholstered Chair",
         "Product Images": [
@@ -8644,7 +8620,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-parsons-upholstered-chair-92652.html",
         "Product Title": "Mix-N-Match Chairs Parsons Upholstered Chair",
         "Product Images": [
@@ -8679,7 +8655,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-button-tufted-upholstered-chair-92631.html",
         "Product Title": "Mix-N-Match Chairs Button Tufted Upholstered Chair",
         "Product Images": [
@@ -8718,7 +8694,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-scroll-back-upholstered-side-chair-36652.html",
         "Product Title": "Mix-N-Match Chairs Scroll Back Upholstered Side Chair",
         "Product Images": [
@@ -8762,7 +8738,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-woven-arm-chair-36966.html",
         "Product Title": "Mix-N-Match Chairs Woven Arm Chair",
         "Product Images": [
@@ -8809,7 +8785,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-clipped-top-upholstered-chair-92610.html",
         "Product Title": "Mix-N-Match Chairs Clipped Top Upholstered Chair",
         "Product Images": [
@@ -8846,7 +8822,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-parsons-upholstered-chair-92651.html",
         "Product Title": "Mix-N-Match Chairs Parsons Upholstered Chair",
         "Product Images": [
@@ -8885,7 +8861,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Bookcases",
+        "collection": "Bookcases",
         "Product Link": "https://www.riversidefurniture.com/wimberley-bunching-bookcase-32737.html",
         "Product Title": "Wimberley Bunching Bookcase",
         "Product Images": [
@@ -8916,7 +8892,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Bookcases",
+        "collection": "Bookcases",
         "Product Link": "https://www.riversidefurniture.com/perspectives-leaning-bookcase-28238.html",
         "Product Title": "Perspectives Leaning Bookcase",
         "Product Images": [
@@ -8949,7 +8925,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Bookcases",
+        "collection": "Bookcases",
         "Product Link": "https://www.riversidefurniture.com/perspectives-leaning-bookcase-28038.html",
         "Product Title": "Perspectives Leaning Bookcase",
         "Product Images": [
@@ -8981,7 +8957,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Bookcases",
+        "collection": "Bookcases",
         "Product Link": "https://www.riversidefurniture.com/maren-drawer-bookcase-18237.html",
         "Product Title": "Maren Drawer Bookcase",
         "Product Images": [
@@ -9018,7 +8994,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Bookcases",
+        "collection": "Bookcases",
         "Product Link": "https://www.riversidefurniture.com/maisie-bookcase-50237.html",
         "Product Title": "Maisie Bookcase",
         "Product Images": [
@@ -9050,7 +9026,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Display Cabinets",
+        "collection": "Display Cabinets",
         "Product Link": "https://www.riversidefurniture.com/sophie-display-cabinet-50354.html",
         "Product Title": "Sophie Display Cabinet",
         "Product Images": [
@@ -9086,7 +9062,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Display Cabinets",
+        "collection": "Display Cabinets",
         "Product Link": "https://www.riversidefurniture.com/rosalie-display-cabinet-30754.html",
         "Product Title": "Rosalie Display Cabinet",
         "Product Images": [
@@ -9126,7 +9102,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Display Cabinets",
+        "collection": "Display Cabinets",
         "Product Link": "https://www.riversidefurniture.com/davie-display-cabinet-91054.html",
         "Product Title": "Davie Display Cabinet",
         "Product Images": [
@@ -9163,7 +9139,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/davie-rectangular-dining-table-91050.html",
         "Product Title": "Davie Rectangular Dining Table",
         "Product Images": [
@@ -9187,7 +9163,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-rectangular-leg-dining-table-37250.html",
         "Product Title": "Cora Rectangular Leg Dining Table",
         "Product Images": [
@@ -9228,7 +9204,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-trestle-dining-table-37253.html",
         "Product Title": "Cora Trestle Dining Table",
         "Product Images": [
@@ -9263,7 +9239,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/cora-round-dining-table-s779.html",
         "Product Title": "Cora Round Dining Table",
         "Product Images": [
@@ -9306,7 +9282,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/cascade-round-dining-table-s704.html",
         "Product Title": "Cascade Round Dining Table",
         "Product Images": [
@@ -9345,7 +9321,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/cascade-rectangular-dining-table-s703.html",
         "Product Title": "Cascade Rectangular Dining Table",
         "Product Images": [
@@ -9388,7 +9364,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/cascade-counter-height-dining-table-s702.html",
         "Product Title": "Cascade Counter Height Dining Table",
         "Product Images": [
@@ -9434,7 +9410,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/bozeman-trestle-dining-table-s813.html",
         "Product Title": "Bozeman Trestle Dining Table",
         "Product Images": [
@@ -9478,7 +9454,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/anniston-double-pedestal-dining-table-s780.html",
         "Product Title": "Anniston Double Pedestal Dining Table",
         "Product Images": [
@@ -9531,7 +9507,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/aberdeen-round-dining-table-s1.html",
         "Product Title": "Aberdeen Round Dining Table",
         "Product Images": [
@@ -9588,7 +9564,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/osborne-writing-desk-12131.html",
         "Product Title": "Osborne Writing Desk",
         "Product Images": [
@@ -9618,7 +9594,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/osborne-30-nesting-desk-12132.html",
         "Product Title": "Osborne 30\" Nesting Desk",
         "Product Images": [
@@ -9658,7 +9634,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/osborne-36-nesting-desk-12133.html",
         "Product Title": "Osborne 36\" Nesting Desk",
         "Product Images": [
@@ -9698,7 +9674,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/maren-executive-desk-18231.html",
         "Product Title": "Maren Executive Desk",
         "Product Images": [
@@ -9737,7 +9713,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/maren-swivel-desk-s804.html",
         "Product Title": "Maren Swivel Desk",
         "Product Images": [
@@ -9783,7 +9759,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/maren-writing-desk-18230.html",
         "Product Title": "Maren Writing Desk",
         "Product Images": [
@@ -9826,7 +9802,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/maisie-writing-desk-50231.html",
         "Product Title": "Maisie Writing Desk",
         "Product Images": [
@@ -9864,7 +9840,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/maisie-executive-desk-50230.html",
         "Product Title": "Maisie Executive Desk",
         "Product Images": [
@@ -9906,7 +9882,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/intrigue-36-nesting-desk-39332.html",
         "Product Title": "Intrigue 36\" Nesting Desk",
         "Product Images": [
@@ -9939,7 +9915,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/gavin-writing-desk-83230.html",
         "Product Title": "Gavin Writing Desk",
         "Product Images": [
@@ -9972,7 +9948,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/fresh-perspectives-swivel-desk-57832.html",
         "Product Title": "Fresh Perspectives Swivel Desk",
         "Product Images": [
@@ -10007,7 +9983,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/fresh-perspectives-swivel-desk-57732.html",
         "Product Title": "Fresh Perspectives Swivel Desk",
         "Product Images": [
@@ -10041,7 +10017,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/finn-writing-desk-28630.html",
         "Product Title": "Finn Writing Desk",
         "Product Images": [
@@ -10080,7 +10056,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/finn-executive-desk-28631.html",
         "Product Title": "Finn Executive Desk",
         "Product Images": [
@@ -10117,7 +10093,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/myra-server-59556.html",
         "Product Title": "Myra Server",
         "Product Images": [
@@ -10164,7 +10140,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/rosalie-one-drawer-nightstand-30739.html",
         "Product Title": "Rosalie One Drawer Nightstand",
         "Product Images": [
@@ -10203,7 +10179,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/rosalie-two-drawer-nightstand-30738.html",
         "Product Title": "Rosalie Two Drawer Nightstand",
         "Product Images": [
@@ -10243,7 +10219,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/cascade-one-drawer-nightstand-73498.html",
         "Product Title": "Cascade One Drawer Nightstand",
         "Product Images": [
@@ -10270,7 +10246,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/vogue-credenza-and-hutch-s525.html",
         "Product Title": "Vogue Credenza and Hutch",
         "Product Images": [
@@ -10305,7 +10281,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/vogue-l-desk-with-storage-s524.html",
         "Product Title": "Vogue L Desk with Storage",
         "Product Images": [
@@ -10347,7 +10323,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/sophie-upholstered-counter-stool-50359.html",
         "Product Title": "Sophie Upholstered Counter Stool",
         "Product Images": [
@@ -10385,7 +10361,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-clipped-top-upholstered-stool-92616.html",
         "Product Title": "Mix-N-Match Chairs Clipped Top Upholstered Stool",
         "Product Images": [
@@ -10422,7 +10398,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-swoop-arm-upholstered-stool-92607.html",
         "Product Title": "Mix-N-Match Chairs Swoop Arm Upholstered Stool",
         "Product Images": [
@@ -10463,7 +10439,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-swoop-arm-upholstered-stool-92606.html",
         "Product Title": "Mix-N-Match Chairs Swoop Arm Upholstered Stool",
         "Product Images": [
@@ -10505,7 +10481,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-button-tufted-upholstered-chair-92630.html",
         "Product Title": "Mix-N-Match Chairs Button Tufted Upholstered Chair",
         "Product Images": [
@@ -10543,7 +10519,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-swoop-arm-upholstered-chair-92601.html",
         "Product Title": "Mix-N-Match Chairs Swoop Arm Upholstered Chair",
         "Product Images": [
@@ -10584,7 +10560,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/lydia-curved-upholstered-side-chair-27157.html",
         "Product Title": "Lydia Curved Upholstered Side Chair",
         "Product Images": [
@@ -10620,7 +10596,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/lydia-curved-upholstered-arm-chair-27158.html",
         "Product Title": "Lydia Curved Upholstered Arm Chair",
         "Product Images": [
@@ -10670,7 +10646,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/lydia-upholstered-side-chair-27159.html",
         "Product Title": "Lydia Upholstered Side Chair",
         "Product Images": [
@@ -10705,7 +10681,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/laguna-rush-seat-side-chair-37557.html",
         "Product Title": "Laguna Rush Seat Side Chair",
         "Product Images": [
@@ -10750,7 +10726,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/laguna-cane-upholstered-side-chair-37554.html",
         "Product Title": "Laguna Cane Upholstered Side Chair",
         "Product Images": [
@@ -10793,7 +10769,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/hepburn-oval-back-upholstered-side-chair-82558.html",
         "Product Title": "Hepburn Oval Back Upholstered Side Chair",
         "Product Images": [
@@ -10832,7 +10808,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/hepburn-upholstered-host-chair-82559.html",
         "Product Title": "Hepburn Upholstered Host Chair",
         "Product Images": [
@@ -10879,7 +10855,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/hepburn-wood-back-upholstered-side-chair-82557.html",
         "Product Title": "Hepburn Wood Back Upholstered Side Chair",
         "Product Images": [
@@ -10919,7 +10895,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/harper-x-back-side-chair-60257.html",
         "Product Title": "Harper X-Back Side Chair",
         "Product Images": [
@@ -10952,7 +10928,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/davie-upholstered-seat-side-chair-91057.html",
         "Product Title": "Davie Upholstered Seat Side Chair",
         "Product Images": [
@@ -10990,7 +10966,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/davie-upholstered-side-chair-91056.html",
         "Product Title": "Davie Upholstered Side Chair",
         "Product Images": [
@@ -11031,7 +11007,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/davie-counter-height-chair-91058.html",
         "Product Title": "Davie Counter Height Chair",
         "Product Images": [
@@ -11068,7 +11044,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/cora-ladderback-side-chair-37258.html",
         "Product Title": "Cora Ladderback Side Chair",
         "Product Images": [
@@ -11108,7 +11084,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Bookcases",
+        "collection": "Bookcases",
         "Product Link": "https://www.riversidefurniture.com/finn-drawer-bookcase-28637.html",
         "Product Title": "Finn Drawer Bookcase",
         "Product Images": [
@@ -11147,7 +11123,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Display Cabinets",
+        "collection": "Display Cabinets",
         "Product Link": "https://www.riversidefurniture.com/bozeman-display-cabinet-50554.html",
         "Product Title": "Bozeman Display Cabinet",
         "Product Images": [
@@ -11184,7 +11160,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Tables",
+        "collection": "Dining Tables",
         "Product Link": "https://www.riversidefurniture.com/aberdeen-rectangular-dining-table-21250.html",
         "Product Title": "Aberdeen Rectangular Dining Table",
         "Product Images": [
@@ -11239,7 +11215,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Desks",
+        "collection": "Desks",
         "Product Link": "https://www.riversidefurniture.com/cascade-single-pedestal-desk-73430.html",
         "Product Title": "Cascade Single Pedestal Desk",
         "Product Images": [
@@ -11283,7 +11259,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/vogue-arch-mirror-46161.html",
         "Product Title": "Vogue Arch Mirror",
         "Product Images": [
@@ -11314,7 +11290,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/talford-cotton-mirror-16461.html",
         "Product Title": "Talford Cotton Mirror",
         "Product Images": [
@@ -11344,7 +11320,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/sophie-mirror-50361.html",
         "Product Title": "Sophie Mirror",
         "Product Images": [
@@ -11382,7 +11358,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/sariel-mirror-87161.html",
         "Product Title": "Sariel Mirror",
         "Product Images": [
@@ -11420,7 +11396,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/rosalie-round-mirror-30762.html",
         "Product Title": "Rosalie Round Mirror",
         "Product Images": [
@@ -11455,7 +11431,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/rosalie-mirror-30761.html",
         "Product Title": "Rosalie Mirror",
         "Product Images": [
@@ -11491,7 +11467,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/pasadena-mirror-81061.html",
         "Product Title": "Pasadena Mirror",
         "Product Images": [
@@ -11519,7 +11495,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/monterey-mirror-39461.html",
         "Product Title": "Monterey Mirror",
         "Product Images": [
@@ -11550,7 +11526,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/maisie-mirror-50261.html",
         "Product Title": "Maisie Mirror",
         "Product Images": [
@@ -11580,7 +11556,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/intrigue-california-king-led-panel-storage-bed-s796.html",
         "Product Title": "Intrigue California King LED Panel Storage Bed",
         "Product Images": [
@@ -11642,7 +11618,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/intrigue-queen-panel-bed-s768.html",
         "Product Title": "Intrigue Queen Panel Bed",
         "Product Images": [
@@ -11690,7 +11666,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/intrigue-king-panel-bed-s769.html",
         "Product Title": "Intrigue King Panel Bed",
         "Product Images": [
@@ -11740,7 +11716,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/intrigue-king-led-panel-storage-bed-s790.html",
         "Product Title": "Intrigue King LED Panel Storage Bed",
         "Product Images": [
@@ -11802,7 +11778,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/intrigue-king-led-panel-bed-s756.html",
         "Product Title": "Intrigue King LED Panel Bed",
         "Product Images": [
@@ -11860,7 +11836,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/intrigue-queen-led-panel-storage-bed-s789.html",
         "Product Title": "Intrigue Queen LED Panel Storage Bed",
         "Product Images": [
@@ -11920,7 +11896,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/monterey-buffet-39456.html",
         "Product Title": "Monterey Buffet",
         "Product Images": [
@@ -11958,7 +11934,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/lydia-display-sideboard-27156.html",
         "Product Title": "Lydia Display Sideboard",
         "Product Images": [
@@ -12006,7 +11982,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/laguna-server-37556.html",
         "Product Title": "Laguna Server",
         "Product Images": [
@@ -12053,7 +12029,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/intrigue-server-39356.html",
         "Product Title": "Intrigue Server",
         "Product Images": [
@@ -12090,7 +12066,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/hepburn-sideboard-82555.html",
         "Product Title": "Hepburn Sideboard",
         "Product Images": [
@@ -12130,7 +12106,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/davie-accent-server-91052.html",
         "Product Title": "Davie Accent Server",
         "Product Images": [
@@ -12179,7 +12155,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/davie-server-91055.html",
         "Product Title": "Davie Server",
         "Product Images": [
@@ -12217,7 +12193,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/cora-server-37256.html",
         "Product Title": "Cora Server",
         "Product Images": [
@@ -12260,7 +12236,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/cascade-server-73456.html",
         "Product Title": "Cascade Server",
         "Product Images": [
@@ -12298,7 +12274,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/bozeman-server-50556.html",
         "Product Title": "Bozeman Server",
         "Product Images": [
@@ -12338,7 +12314,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/vogue-one-drawer-nightstand-46168.html",
         "Product Title": "Vogue One Drawer Nightstand",
         "Product Images": [
@@ -12378,7 +12354,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/vogue-three-drawer-nightstand-46199.html",
         "Product Title": "Vogue Three Drawer Nightstand",
         "Product Images": [
@@ -12418,7 +12394,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/talford-cotton-two-drawer-nightstand-16499.html",
         "Product Title": "Talford Cotton Two Drawer Nightstand",
         "Product Images": [
@@ -12451,7 +12427,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/talford-cotton-one-drawer-nightstand-16498.html",
         "Product Title": "Talford Cotton One Drawer Nightstand",
         "Product Images": [
@@ -12485,7 +12461,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/sophie-three-drawer-nightstand-50399.html",
         "Product Title": "Sophie Three Drawer Nightstand",
         "Product Images": [
@@ -12526,7 +12502,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/pasadena-king-panel-bed-with-piers-s800.html",
         "Product Title": "Pasadena King Panel Bed with Piers",
         "Product Images": [
@@ -12593,7 +12569,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/myra-california-king-louver-bed-s407.html",
         "Product Title": "Myra California King Louver Bed",
         "Product Images": [
@@ -12658,7 +12634,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/monterey-queen-upholstered-bed-s736.html",
         "Product Title": "Monterey Queen Upholstered Bed",
         "Product Images": [
@@ -12709,7 +12685,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/talford-cotton-king-louver-panel-bed-s763.html",
         "Product Title": "Talford Cotton King Louver Panel Bed",
         "Product Images": [
@@ -12766,7 +12742,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/sophie-queen-panel-bed-s353.html",
         "Product Title": "Sophie Queen Panel Bed",
         "Product Images": [
@@ -12824,7 +12800,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/sophie-king-panel-bed-s355.html",
         "Product Title": "Sophie King Panel Bed",
         "Product Images": [
@@ -12883,7 +12859,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/sariel-queen-upholstered-bed-s852.html",
         "Product Title": "Sariel Queen Upholstered Bed",
         "Product Images": [
@@ -12949,7 +12925,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/sariel-king-upholstered-bed-s853.html",
         "Product Title": "Sariel King Upholstered Bed",
         "Product Images": [
@@ -13021,7 +12997,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-full-upholstered-bed-s856.html",
         "Product Title": "Rosalie Full Upholstered Bed",
         "Product Images": [
@@ -13082,7 +13058,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-twin-panel-bed-s864.html",
         "Product Title": "Rosalie Twin Panel Bed",
         "Product Images": [
@@ -13148,7 +13124,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-queen-woven-bed-s862.html",
         "Product Title": "Rosalie Queen Woven Bed",
         "Product Images": [
@@ -13206,7 +13182,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-king-woven-bed-s863.html",
         "Product Title": "Rosalie King Woven Bed",
         "Product Images": [
@@ -13263,7 +13239,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-full-panel-bed-s865.html",
         "Product Title": "Rosalie Full Panel Bed",
         "Product Images": [
@@ -13319,7 +13295,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-twin-upholstered-bed-s857.html",
         "Product Title": "Rosalie Twin Upholstered Bed",
         "Product Images": [
@@ -13382,7 +13358,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-king-upholstered-bed-s844.html",
         "Product Title": "Rosalie King Upholstered Bed",
         "Product Images": [
@@ -13445,7 +13421,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-queen-panel-bed-s866.html",
         "Product Title": "Rosalie Queen Panel Bed",
         "Product Images": [
@@ -13502,7 +13478,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-queen-upholstered-bed-s843.html",
         "Product Title": "Rosalie Queen Upholstered Bed",
         "Product Images": [
@@ -13562,7 +13538,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/rosalie-king-panel-bed-s867.html",
         "Product Title": "Rosalie King Panel Bed",
         "Product Images": [
@@ -13619,7 +13595,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/pasadena-king-panel-bed-s792.html",
         "Product Title": "Pasadena King Panel Bed",
         "Product Images": [
@@ -13675,7 +13651,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/pasadena-queen-panel-bed-with-piers-s799.html",
         "Product Title": "Pasadena Queen Panel Bed with Piers",
         "Product Images": [
@@ -13741,7 +13717,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/pasadena-queen-panel-bed-s791.html",
         "Product Title": "Pasadena Queen Panel Bed",
         "Product Images": [
@@ -13796,7 +13772,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/pasadena-king-upholstered-bed-s798.html",
         "Product Title": "Pasadena King Upholstered Bed",
         "Product Images": [
@@ -13844,7 +13820,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/pasadena-queen-upholstered-bed-s797.html",
         "Product Title": "Pasadena Queen Upholstered Bed",
         "Product Images": [
@@ -13898,7 +13874,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/talford-cotton-queen-louver-panel-bed-s762.html",
         "Product Title": "Talford Cotton Queen Louver Panel Bed",
         "Product Images": [
@@ -13955,7 +13931,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/maisie-queen-panel-bed-s642.html",
         "Product Title": "Maisie Queen Panel Bed",
         "Product Images": [
@@ -14004,7 +13980,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/maisie-king-panel-bed-s643.html",
         "Product Title": "Maisie King Panel Bed",
         "Product Images": [
@@ -14054,7 +14030,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/vogue-queen-upholstered-bed-s311.html",
         "Product Title": "Vogue Queen Upholstered Bed",
         "Product Images": [
@@ -14115,7 +14091,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/vogue-king-upholstered-storage-bed-s316.html",
         "Product Title": "Vogue King Upholstered Storage Bed",
         "Product Images": [
@@ -14182,7 +14158,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/vogue-king-upholstered-bed-s315.html",
         "Product Title": "Vogue King Upholstered Bed",
         "Product Images": [
@@ -14245,7 +14221,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/vogue-queen-upholstered-storage-bed-s312.html",
         "Product Title": "Vogue Queen Upholstered Storage Bed",
         "Product Images": [
@@ -14308,7 +14284,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/lydia-king-upholstered-storage-bed-s839.html",
         "Product Title": "Lydia King Upholstered Storage Bed",
         "Product Images": [
@@ -14384,7 +14360,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/lydia-queen-upholstered-bed-s836.html",
         "Product Title": "Lydia Queen Upholstered Bed",
         "Product Images": [
@@ -14452,7 +14428,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/lydia-king-upholstered-bed-s837.html",
         "Product Title": "Lydia King Upholstered Bed",
         "Product Images": [
@@ -14522,7 +14498,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/lydia-queen-upholstered-storage-bed-s838.html",
         "Product Title": "Lydia Queen Upholstered Storage Bed",
         "Product Images": [
@@ -14596,7 +14572,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/laguna-queen-storage-bed-s826.html",
         "Product Title": "Laguna Queen Storage Bed",
         "Product Images": [
@@ -14666,7 +14642,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/laguna-king-storage-bed-s827.html",
         "Product Title": "Laguna King Storage Bed",
         "Product Images": [
@@ -14736,7 +14712,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/laguna-queen-panel-bed-s824.html",
         "Product Title": "Laguna Queen Panel Bed",
         "Product Images": [
@@ -14807,7 +14783,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/laguna-king-panel-bed-s825.html",
         "Product Title": "Laguna King Panel Bed",
         "Product Images": [
@@ -14878,7 +14854,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/kensington-king-sleigh-bed-s829.html",
         "Product Title": "Kensington King Sleigh Bed",
         "Product Images": [
@@ -14945,7 +14921,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/kensington-queen-sleigh-bed-s828.html",
         "Product Title": "Kensington Queen Sleigh Bed",
         "Product Images": [
@@ -15011,7 +14987,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/sophie-accent-nightstand-50398.html",
         "Product Title": "Sophie Accent Nightstand",
         "Product Images": [
@@ -15045,7 +15021,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/sariel-three-drawer-nightstand-87169.html",
         "Product Title": "Sariel Three Drawer Nightstand",
         "Product Images": [
@@ -15088,7 +15064,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/sariel-stone-top-three-drawer-nightstand-87168.html",
         "Product Title": "Sariel Stone Top Three Drawer Nightstand",
         "Product Images": [
@@ -15136,7 +15112,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/rosalie-two-drawer-nightstand-30768.html",
         "Product Title": "Rosalie Two Drawer Nightstand",
         "Product Images": [
@@ -15180,7 +15156,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/vogue-computer-credenza-46233.html",
         "Product Title": "Vogue Computer Credenza",
         "Product Images": [
@@ -15217,7 +15193,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/sloane-credenza-and-hutch-s770.html",
         "Product Title": "Sloane Credenza and Hutch",
         "Product Images": [
@@ -15247,7 +15223,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/sloane-credenza-77933.html",
         "Product Title": "Sloane Credenza",
         "Product Images": [
@@ -15285,7 +15261,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/sheffield-credenza-58833.html",
         "Product Title": "Sheffield Credenza",
         "Product Images": [
@@ -15329,7 +15305,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/regency-credenza-and-hutch-s639.html",
         "Product Title": "Regency Credenza and Hutch",
         "Product Images": [
@@ -15356,7 +15332,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/regency-credenza-desk-64333.html",
         "Product Title": "Regency Credenza Desk",
         "Product Images": [
@@ -15390,7 +15366,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/perspectives-entertainment-console-28237.html",
         "Product Title": "Perspectives Entertainment Console",
         "Product Images": [
@@ -15423,7 +15399,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-button-tufted-upholstered-stool-92636.html",
         "Product Title": "Mix-N-Match Chairs Button Tufted Upholstered Stool",
         "Product Images": [
@@ -15460,7 +15436,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-swoop-arm-upholstered-stool-92605.html",
         "Product Title": "Mix-N-Match Chairs Swoop Arm Upholstered Stool",
         "Product Images": [
@@ -15501,7 +15477,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-clipped-top-upholstered-stool-92617.html",
         "Product Title": "Mix-N-Match Chairs Clipped Top Upholstered Stool",
         "Product Images": [
@@ -15538,7 +15514,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-button-tufted-upholstered-stool-92635.html",
         "Product Title": "Mix-N-Match Chairs Button Tufted Upholstered Stool",
         "Product Images": [
@@ -15576,7 +15552,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-button-tufted-upholstered-stool-92637.html",
         "Product Title": "Mix-N-Match Chairs Button Tufted Upholstered Stool",
         "Product Images": [
@@ -15615,7 +15591,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-woven-counter-stool-36967.html",
         "Product Title": "Mix-N-Match Chairs Woven Counter Stool",
         "Product Images": [
@@ -15647,7 +15623,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/mix-n-match-chairs-clipped-top-upholstered-stool-92615.html",
         "Product Title": "Mix-N-Match Chairs Clipped Top Upholstered Stool",
         "Product Images": [
@@ -15686,7 +15662,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/cascade-upholstered-curved-back-counter-stool-73455.html",
         "Product Title": "Cascade Upholstered Curved Back Counter Stool",
         "Product Images": [
@@ -15722,7 +15698,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/cora-windsor-side-chair-37255.html",
         "Product Title": "Cora Windsor Side Chair",
         "Product Images": [
@@ -15759,7 +15735,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/cascade-upholstered-wood-back-side-chair-73457.html",
         "Product Title": "Cascade Upholstered Wood Back Side Chair",
         "Product Images": [
@@ -15796,7 +15772,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/cascade-upholstered-curved-back-side-chair-73454.html",
         "Product Title": "Cascade Upholstered Curved Back Side Chair",
         "Product Images": [
@@ -15831,7 +15807,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/cascade-upholstered-wood-back-arm-chair-73458.html",
         "Product Title": "Cascade Upholstered Wood Back Arm Chair",
         "Product Images": [
@@ -15871,7 +15847,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/bozeman-cane-back-side-chair-50557.html",
         "Product Title": "Bozeman Cane Back Side Chair",
         "Product Images": [
@@ -15910,7 +15886,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/bozeman-upholstered-hostess-chair-50558.html",
         "Product Title": "Bozeman Upholstered Hostess Chair",
         "Product Images": [
@@ -15946,7 +15922,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/aberdeen-x-back-side-chair-21258.html",
         "Product Title": "Aberdeen X-Back Side Chair",
         "Product Images": [
@@ -15985,7 +15961,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/lydia-mirror-27161.html",
         "Product Title": "Lydia Mirror",
         "Product Images": [
@@ -16018,7 +15994,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/lydia-accent-mirror-27163.html",
         "Product Title": "Lydia Accent Mirror",
         "Product Images": [
@@ -16050,7 +16026,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/laguna-mirror-37561.html",
         "Product Title": "Laguna Mirror",
         "Product Images": [
@@ -16087,7 +16063,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/kensington-mirror-44261.html",
         "Product Title": "Kensington Mirror",
         "Product Images": [
@@ -16122,7 +16098,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/intrigue-mirror-39361.html",
         "Product Title": "Intrigue Mirror",
         "Product Images": [
@@ -16152,7 +16128,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/hepburn-queen-upholstered-bed-s849.html",
         "Product Title": "Hepburn Queen Upholstered Bed",
         "Product Images": [
@@ -16219,7 +16195,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/hepburn-king-upholstered-bed-s850.html",
         "Product Title": "Hepburn King Upholstered Bed",
         "Product Images": [
@@ -16290,7 +16266,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-california-king-panel-bed-s577.html",
         "Product Title": "Grand Haven California King Panel Bed",
         "Product Images": [
@@ -16342,7 +16318,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-king-panel-bed-s576.html",
         "Product Title": "Grand Haven King Panel Bed",
         "Product Images": [
@@ -16394,7 +16370,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/elsie-king-poster-bed-s832.html",
         "Product Title": "Elsie King Poster Bed",
         "Product Images": [
@@ -16449,7 +16425,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/elsie-queen-poster-bed-s831.html",
         "Product Title": "Elsie Queen Poster Bed",
         "Product Images": [
@@ -16504,7 +16480,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/elsie-queen-platform-bed-s833.html",
         "Product Title": "Elsie Queen Platform Bed",
         "Product Images": [
@@ -16559,7 +16535,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/elsie-king-platform-bed-s834.html",
         "Product Title": "Elsie King Platform Bed",
         "Product Images": [
@@ -16614,7 +16590,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/davie-king-panel-bed-s821.html",
         "Product Title": "Davie King Panel Bed",
         "Product Images": [
@@ -16676,7 +16652,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Buffets & Servers",
+        "collection": "Buffets & Servers",
         "Product Link": "https://www.riversidefurniture.com/aberdeen-sideboard-21256.html",
         "Product Title": "Aberdeen Sideboard",
         "Product Images": [
@@ -16717,7 +16693,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/rosalie-one-drawer-nightstand-30769.html",
         "Product Title": "Rosalie One Drawer Nightstand",
         "Product Images": [
@@ -16757,7 +16733,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/pasadena-two-drawer-nightstand-81098.html",
         "Product Title": "Pasadena Two Drawer Nightstand",
         "Product Images": [
@@ -16792,7 +16768,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/pasadena-one-drawer-nightstand-81069.html",
         "Product Title": "Pasadena One Drawer Nightstand",
         "Product Images": [
@@ -16829,7 +16805,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/myra-three-drawer-nightstand-59569.html",
         "Product Title": "Myra Three Drawer Nightstand",
         "Product Images": [
@@ -16871,7 +16847,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/maisie-three-drawer-nightstand-50299.html",
         "Product Title": "Maisie Three Drawer Nightstand",
         "Product Images": [
@@ -16906,7 +16882,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/maisie-accent-nightstand-50298.html",
         "Product Title": "Maisie Accent Nightstand",
         "Product Images": [
@@ -16935,7 +16911,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/lydia-three-drawer-nightstand-27169.html",
         "Product Title": "Lydia Three Drawer Nightstand",
         "Product Images": [
@@ -16979,7 +16955,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/laguna-two-drawer-nightstand-37568.html",
         "Product Title": "Laguna Two Drawer Nightstand",
         "Product Images": [
@@ -17027,7 +17003,7 @@
     },
     {
         "Category": "Home Office",
-        "Collection": "Credenzas",
+        "collection": "Credenzas",
         "Product Link": "https://www.riversidefurniture.com/perspectives-entertainment-console-28037.html",
         "Product Title": "Perspectives Entertainment Console",
         "Product Images": [
@@ -17063,7 +17039,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Stools",
+        "collection": "Dining Stools",
         "Product Link": "https://www.riversidefurniture.com/cascade-upholstered-wood-back-counter-stool-73443.html",
         "Product Title": "Cascade Upholstered Wood Back Counter Stool",
         "Product Images": [
@@ -17098,7 +17074,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Dining Chairs",
+        "collection": "Dining Chairs",
         "Product Link": "https://www.riversidefurniture.com/aberdeen-x-back-side-chair-21358.html",
         "Product Title": "Aberdeen X-Back Side Chair",
         "Product Images": [
@@ -17133,7 +17109,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/sophie-bachelor-chest-50394.html",
         "Product Title": "Sophie Bachelor Chest",
         "Product Images": [
@@ -17158,7 +17134,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/sophie-five-drawer-chest-50395.html",
         "Product Title": "Sophie Five Drawer Chest",
         "Product Images": [
@@ -17195,7 +17171,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/hepburn-mirror-82561.html",
         "Product Title": "Hepburn Mirror",
         "Product Images": [
@@ -17232,7 +17208,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/hepburn-nightstand-mirror-82562.html",
         "Product Title": "Hepburn Nightstand Mirror",
         "Product Images": [
@@ -17264,7 +17240,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/elsie-mirror-83761.html",
         "Product Title": "Elsie Mirror",
         "Product Images": [
@@ -17297,7 +17273,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/davie-mirror-91061.html",
         "Product Title": "Davie Mirror",
         "Product Images": [
@@ -17332,7 +17308,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/cora-landscape-mirror-37263.html",
         "Product Title": "Cora Landscape Mirror",
         "Product Images": [
@@ -17366,7 +17342,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/cascade-mirror-73461.html",
         "Product Title": "Cascade Mirror",
         "Product Images": [
@@ -17399,7 +17375,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/davie-queen-panel-bed-s820.html",
         "Product Title": "Davie Queen Panel Bed",
         "Product Images": [
@@ -17454,7 +17430,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/davie-king-upholstered-bed-s823.html",
         "Product Title": "Davie King Upholstered Bed",
         "Product Images": [
@@ -17518,7 +17494,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/davie-queen-upholstered-bed-s822.html",
         "Product Title": "Davie Queen Upholstered Bed",
         "Product Images": [
@@ -17577,7 +17553,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cora-king-panel-bed-s782.html",
         "Product Title": "Cora King Panel Bed",
         "Product Images": [
@@ -17643,7 +17619,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cora-king-louver-bed-s784.html",
         "Product Title": "Cora King Louver Bed",
         "Product Images": [
@@ -17711,7 +17687,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cora-queen-panel-bed-s781.html",
         "Product Title": "Cora Queen Panel Bed",
         "Product Images": [
@@ -17771,7 +17747,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cora-queen-louver-bed-s783.html",
         "Product Title": "Cora Queen Louver Bed",
         "Product Images": [
@@ -17831,7 +17807,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-queen-panel-bed-s688.html",
         "Product Title": "Cascade Queen Panel Bed",
         "Product Images": [
@@ -17889,7 +17865,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-king-illuminated-panel-upholstered-storage-bed-s744.html",
         "Product Title": "Cascade King Illuminated Panel Upholstered Storage Bed",
         "Product Images": [
@@ -17954,7 +17930,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-queen-illuminated-panel-bed-s719.html",
         "Product Title": "Cascade Queen Illuminated Panel Bed",
         "Product Images": [
@@ -18014,7 +17990,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-king-illuminated-panel-bed-s720.html",
         "Product Title": "Cascade King Illuminated Panel Bed",
         "Product Images": [
@@ -18077,7 +18053,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-queen-panel-upholstered-storage-bed-s741.html",
         "Product Title": "Cascade Queen Panel Upholstered Storage Bed",
         "Product Images": [
@@ -18135,7 +18111,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/laguna-three-drawer-nightstand-37569.html",
         "Product Title": "Laguna Three Drawer Nightstand",
         "Product Images": [
@@ -18179,7 +18155,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/kensington-three-drawer-nightstand-44269.html",
         "Product Title": "Kensington Three Drawer Nightstand",
         "Product Images": [
@@ -18219,7 +18195,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/kensington-one-drawer-nightstand-44268.html",
         "Product Title": "Kensington One Drawer Nightstand",
         "Product Images": [
@@ -18261,7 +18237,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/intrigue-three-drawer-nightstand-39399.html",
         "Product Title": "Intrigue Three Drawer Nightstand",
         "Product Images": [
@@ -18296,7 +18272,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/intrigue-one-drawer-nightstand-39398.html",
         "Product Title": "Intrigue One Drawer Nightstand",
         "Product Images": [
@@ -18333,7 +18309,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/hepburn-three-drawer-nightstand-82569.html",
         "Product Title": "Hepburn Three Drawer Nightstand",
         "Product Images": [
@@ -18383,7 +18359,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-one-drawer-nightstand-17268.html",
         "Product Title": "Grand Haven One Drawer Nightstand",
         "Product Images": [
@@ -18418,21 +18394,10 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/elsie-one-drawer-nightstand-83769.html",
         "Product Title": "Elsie One Drawer Nightstand",
-        "Product Images": [
-        "https://www.riversidefurniture.com/media/catalog/product/image/17082484/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-        "https://www.riversidefurniture.com/media/catalog/product/image/1708e4f9/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-        "https://www.riversidefurniture.com/media/catalog/product/image/1708fea4/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=462&width=462&canvas=462:462",
-        "https://www.riversidefurniture.com/media/catalog/product/image/17082484/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-        "https://www.riversidefurniture.com/media/catalog/product/image/1708fea4/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-        "https://www.riversidefurniture.com/media/catalog/product/image/1708501a/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-        "https://www.riversidefurniture.com/media/catalog/product/image/1708dd5f/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-        "https://www.riversidefurniture.com/media/catalog/product/image/1708afbe/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-        "https://www.riversidefurniture.com/media/catalog/product/image/170871d0/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
-        "https://www.riversidefurniture.com/media/catalog/product/image/1708e4f9/elsie-one-drawer-nightstand.jpeg?quality=100&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86"
-    ],
+        "Product Images": [],
         "SKUs": [
             {
                 "name": "Elsie One Drawer Nightstand",
@@ -18455,7 +18420,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/elsie-two-drawer-nightstand-83768.html",
         "Product Title": "Elsie Two Drawer Nightstand",
         "Product Images": [
@@ -18498,7 +18463,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/davie-one-drawer-nightstand-91098.html",
         "Product Title": "Davie One Drawer Nightstand",
         "Product Images": [
@@ -18538,7 +18503,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/davie-three-drawer-nightstand-91099.html",
         "Product Title": "Davie Three Drawer Nightstand",
         "Product Images": [
@@ -18576,7 +18541,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/cora-two-drawer-nightstand-37299.html",
         "Product Title": "Cora Two Drawer Nightstand",
         "Product Images": [
@@ -18622,7 +18587,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/cora-one-drawer-nightstand-37298.html",
         "Product Title": "Cora One Drawer Nightstand",
         "Product Images": [
@@ -18668,7 +18633,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/cascade-one-drawer-nightstand-73468.html",
         "Product Title": "Cascade One Drawer Nightstand",
         "Product Images": [
@@ -18717,7 +18682,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/bozeman-one-drawer-nightstand-50598.html",
         "Product Title": "Bozeman One Drawer Nightstand",
         "Product Images": [
@@ -18759,7 +18724,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/rosalie-six-drawer-dresser-30735.html",
         "Product Title": "Rosalie Six Drawer Dresser",
         "Product Images": [
@@ -18794,7 +18759,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/rosalie-small-six-drawer-dresser-30767.html",
         "Product Title": "Rosalie Small Six Drawer Dresser",
         "Product Images": [
@@ -18836,7 +18801,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/rosalie-small-six-drawer-dresser-30766.html",
         "Product Title": "Rosalie Small Six Drawer Dresser",
         "Product Images": [
@@ -18873,7 +18838,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/vogue-seven-drawer-dresser-46192.html",
         "Product Title": "Vogue Seven Drawer Dresser",
         "Product Images": [
@@ -18913,7 +18878,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/talford-cotton-six-drawer-dresser-16490.html",
         "Product Title": "Talford Cotton Six Drawer Dresser",
         "Product Images": [
@@ -18947,7 +18912,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/sophie-dresser-50390.html",
         "Product Title": "Sophie Dresser",
         "Product Images": [
@@ -18986,7 +18951,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/sariel-nine-drawer-dresser-87160.html",
         "Product Title": "Sariel Nine Drawer Dresser",
         "Product Images": [
@@ -19036,7 +19001,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/rosalie-six-drawer-dresser-30760.html",
         "Product Title": "Rosalie Six Drawer Dresser",
         "Product Images": [
@@ -19077,7 +19042,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/myra-nine-drawer-dresser-59562.html",
         "Product Title": "Myra Nine Drawer Dresser",
         "Product Images": [
@@ -19111,7 +19076,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/maisie-eight-drawer-dresser-50290.html",
         "Product Title": "Maisie Eight Drawer Dresser",
         "Product Images": [
@@ -19144,7 +19109,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/lydia-six-drawer-dresser-27160.html",
         "Product Title": "Lydia Six Drawer Dresser",
         "Product Images": [
@@ -19186,7 +19151,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/laguna-eight-drawer-dresser-37560.html",
         "Product Title": "Laguna Eight Drawer Dresser",
         "Product Images": [
@@ -19232,7 +19197,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/vogue-five-drawer-chest-46165.html",
         "Product Title": "Vogue Five Drawer Chest",
         "Product Images": [
@@ -19270,7 +19235,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/talford-natural-five-drawer-chest-28465.html",
         "Product Title": "Talford Natural Five Drawer Chest",
         "Product Images": [
@@ -19304,7 +19269,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/talford-cotton-five-drawer-chest-16495.html",
         "Product Title": "Talford Cotton Five Drawer Chest",
         "Product Images": [
@@ -19339,7 +19304,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/sophie-bachelor-chest-50364.html",
         "Product Title": "Sophie Bachelor Chest",
         "Product Images": [
@@ -19377,7 +19342,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/sariel-five-drawer-chest-87165.html",
         "Product Title": "Sariel Five Drawer Chest",
         "Product Images": [
@@ -19422,7 +19387,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/rosalie-five-drawer-chest-30765.html",
         "Product Title": "Rosalie Five Drawer Chest",
         "Product Images": [
@@ -19462,7 +19427,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/rosalie-two-door-accent-chest-30764.html",
         "Product Title": "Rosalie Two Door Accent Chest",
         "Product Images": [
@@ -19500,7 +19465,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/rosalie-three-drawer-accent-chest-30763.html",
         "Product Title": "Rosalie Three Drawer Accent Chest",
         "Product Images": [
@@ -19538,7 +19503,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/pasadena-five-drawer-chest-81065.html",
         "Product Title": "Pasadena Five Drawer Chest",
         "Product Images": [
@@ -19569,7 +19534,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/monterey-five-drawer-chest-39465.html",
         "Product Title": "Monterey Five Drawer Chest",
         "Product Images": [
@@ -19603,7 +19568,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/maisie-five-drawer-chest-50295.html",
         "Product Title": "Maisie Five Drawer Chest",
         "Product Images": [
@@ -19634,7 +19599,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/lydia-bachelor-chest-27164.html",
         "Product Title": "Lydia Bachelor Chest",
         "Product Images": [
@@ -19680,7 +19645,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/lydia-five-drawer-chest-27165.html",
         "Product Title": "Lydia Five Drawer Chest",
         "Product Images": [
@@ -19719,7 +19684,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/laguna-five-drawer-chest-37565.html",
         "Product Title": "Laguna Five Drawer Chest",
         "Product Images": [
@@ -19761,7 +19726,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/kensington-five-drawer-chest-44265.html",
         "Product Title": "Kensington Five Drawer Chest",
         "Product Images": [
@@ -19802,7 +19767,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Mirrors",
+        "collection": "Mirrors",
         "Product Link": "https://www.riversidefurniture.com/bozeman-mirror-50561.html",
         "Product Title": "Bozeman Mirror",
         "Product Images": [
@@ -19836,7 +19801,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/sophie-upholstered-bed-bench-50362.html",
         "Product Title": "Sophie Upholstered Bed Bench",
         "Product Images": [
@@ -19870,7 +19835,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-king-panel-bed-s689.html",
         "Product Title": "Cascade King Panel Bed",
         "Product Images": [
@@ -19932,7 +19897,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-california-king-illuminated-panel-uph-storage-bed-s806.html",
         "Product Title": "Cascade California King Illuminated Panel Uph Storage Bed",
         "Product Images": [
@@ -19999,7 +19964,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-california-king-panel-upholstered-storage-bed-s805.html",
         "Product Title": "Cascade California King Panel Upholstered Storage Bed",
         "Product Images": [
@@ -20067,7 +20032,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-queen-illuminated-panel-upholstered-storage-bed-s743.html",
         "Product Title": "Cascade Queen Illuminated Panel Upholstered Storage Bed",
         "Product Images": [
@@ -20127,7 +20092,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/cascade-king-panel-upholstered-storage-bed-s742.html",
         "Product Title": "Cascade King Panel Upholstered Storage Bed",
         "Product Images": [
@@ -20193,7 +20158,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/bozeman-king-upholstered-bed-s810.html",
         "Product Title": "Bozeman King Upholstered Bed",
         "Product Images": [
@@ -20253,7 +20218,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/bozeman-queen-panel-bed-s807.html",
         "Product Title": "Bozeman Queen Panel Bed",
         "Product Images": [
@@ -20304,7 +20269,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Beds",
+        "collection": "Beds",
         "Product Link": "https://www.riversidefurniture.com/bozeman-queen-upholstered-bed-s809.html",
         "Product Title": "Bozeman Queen Upholstered Bed",
         "Product Images": [
@@ -20358,7 +20323,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Nightstands",
+        "collection": "Nightstands",
         "Product Link": "https://www.riversidefurniture.com/bozeman-three-drawer-nightstand-50599.html",
         "Product Title": "Bozeman Three Drawer Nightstand",
         "Product Images": [
@@ -20395,7 +20360,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/kensington-seven-drawer-dresser-44260.html",
         "Product Title": "Kensington Seven Drawer Dresser",
         "Product Images": [
@@ -20437,7 +20402,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/intrigue-six-drawer-dresser-39390.html",
         "Product Title": "Intrigue Six Drawer Dresser",
         "Product Images": [
@@ -20473,7 +20438,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/hepburn-nine-drawer-dresser-82560.html",
         "Product Title": "Hepburn Nine Drawer Dresser",
         "Product Images": [
@@ -20522,7 +20487,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-seven-drawer-dresser-17260.html",
         "Product Title": "Grand Haven Seven Drawer Dresser",
         "Product Images": [
@@ -20560,7 +20525,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/elsie-six-drawer-dresser-83760.html",
         "Product Title": "Elsie Six Drawer Dresser",
         "Product Images": [
@@ -20595,7 +20560,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/davie-six-drawer-dresser-91090.html",
         "Product Title": "Davie Six Drawer Dresser",
         "Product Images": [
@@ -20634,7 +20599,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/cora-seven-drawer-dresser-37290.html",
         "Product Title": "Cora Seven Drawer Dresser",
         "Product Images": [
@@ -20685,7 +20650,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/cascade-eight-drawer-dresser-73490.html",
         "Product Title": "Cascade Eight Drawer Dresser",
         "Product Images": [
@@ -20721,7 +20686,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/intrigue-five-drawer-chest-39365.html",
         "Product Title": "Intrigue Five Drawer Chest",
         "Product Images": [
@@ -20754,7 +20719,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/hepburn-five-drawer-chest-82565.html",
         "Product Title": "Hepburn Five Drawer Chest",
         "Product Images": [
@@ -20792,7 +20757,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/grand-haven-five-drawer-chest-17265.html",
         "Product Title": "Grand Haven Five Drawer Chest",
         "Product Images": [
@@ -20834,7 +20799,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/elsie-five-drawer-chest-83765.html",
         "Product Title": "Elsie Five Drawer Chest",
         "Product Images": [
@@ -20875,7 +20840,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/davie-five-drawer-chest-91095.html",
         "Product Title": "Davie Five Drawer Chest",
         "Product Images": [
@@ -20913,7 +20878,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/cora-five-drawer-chest-37295.html",
         "Product Title": "Cora Five Drawer Chest",
         "Product Images": [
@@ -20958,7 +20923,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/cora-armoire-37294.html",
         "Product Title": "Cora Armoire",
         "Product Images": [
@@ -21013,7 +20978,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/cascade-five-drawer-chest-73495.html",
         "Product Title": "Cascade Five Drawer Chest",
         "Product Images": [
@@ -21046,7 +21011,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Bookcases",
+        "collection": "Bookcases",
         "Product Link": "https://www.riversidefurniture.com/rosalie-bookcase-30737.html",
         "Product Title": "Rosalie Bookcase",
         "Product Images": [
@@ -21081,7 +21046,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Dressers",
+        "collection": "Dressers",
         "Product Link": "https://www.riversidefurniture.com/bozeman-nine-drawer-dresser-50590.html",
         "Product Title": "Bozeman Nine Drawer Dresser",
         "Product Images": [
@@ -21125,7 +21090,7 @@
     },
     {
         "Category": "Bedroom",
-        "Collection": "Chests",
+        "collection": "Chests",
         "Product Link": "https://www.riversidefurniture.com/bozeman-five-drawer-chest-50595.html",
         "Product Title": "Bozeman Five Drawer Chest",
         "Product Images": [
@@ -21154,7 +21119,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/rosalie-short-dining-bench-30724.html",
         "Product Title": "Rosalie Short Dining Bench",
         "Product Images": [
@@ -21185,7 +21150,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/pasadena-dining-bench-81053.html",
         "Product Title": "Pasadena Dining Bench",
         "Product Images": [
@@ -21215,7 +21180,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/myra-upholstered-dining-bench-59359.html",
         "Product Title": "Myra Upholstered Dining Bench",
         "Product Images": [
@@ -21248,7 +21213,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/laguna-rush-seat-dining-bench-37559.html",
         "Product Title": "Laguna Rush Seat Dining Bench",
         "Product Images": [
@@ -21287,7 +21252,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/intrigue-upholstered-dining-bench-39359.html",
         "Product Title": "Intrigue Upholstered Dining Bench",
         "Product Images": [
@@ -21319,7 +21284,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/hawthorne-dining-bench-23653.html",
         "Product Title": "Hawthorne Dining Bench",
         "Product Images": [
@@ -21357,7 +21322,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/harper-dining-bench-60259.html",
         "Product Title": "Harper Dining Bench",
         "Product Images": [
@@ -21389,7 +21354,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/davie-dining-bench-91059.html",
         "Product Title": "Davie Dining Bench",
         "Product Images": [
@@ -21425,7 +21390,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/cora-dining-bench-37259.html",
         "Product Title": "Cora Dining Bench",
         "Product Images": [
@@ -21465,7 +21430,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/cascade-upholstered-dining-bench-73444.html",
         "Product Title": "Cascade Upholstered Dining Bench",
         "Product Images": [
@@ -21497,7 +21462,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/bozeman-dining-bench-50559.html",
         "Product Title": "Bozeman Dining Bench",
         "Product Images": [
@@ -21529,7 +21494,7 @@
     },
     {
         "Category": "Dining Room",
-        "Collection": "Benches",
+        "collection": "Benches",
         "Product Link": "https://www.riversidefurniture.com/aberdeen-bench-21259.html",
         "Product Title": "Aberdeen Bench",
         "Product Images": [
@@ -21566,7 +21531,7 @@
     },
     {
         "Category": "Entertainment",
-        "Collection": "TV Consoles",
+        "collection": "TV Consoles",
         "Product Link": "https://www.riversidefurniture.com/davie-media-console-91040.html",
         "Product Title": "Davie Entertainment Console",
         "Product Images": [
@@ -21607,7 +21572,7 @@
     },
     {
         "Category": "Entertainment",
-        "Collection": "Bookcases & Piers",
+        "collection": "Bookcases & Piers",
         "Product Link": "https://www.riversidefurniture.com/windridge-pier-76548.html",
         "Product Title": "Windridge Pier",
         "Product Images": [
@@ -21639,7 +21604,7 @@
     },
     {
         "Category": "Entertainment",
-        "Collection": "TV Consoles",
+        "collection": "TV Consoles",
         "Product Link": "https://www.riversidefurniture.com/sullivan-media-console-22541.html",
         "Product Title": "Sullivan 68-Inch TV Console",
         "Product Images": [
@@ -21688,7 +21653,7 @@
     },
     {
         "Category": "Entertainment",
-        "Collection": "TV Consoles",
+        "collection": "TV Consoles",
         "Product Link": "https://www.riversidefurniture.com/zenith-media-console-20540.html",
         "Product Title": "Zenith Entertainment Console",
         "Product Images": [
@@ -21722,7 +21687,7 @@
     },
     {
         "Category": "Entertainment",
-        "Collection": "TV Consoles",
+        "collection": "TV Consoles",
         "Product Link": "https://www.riversidefurniture.com/windridge-media-console-76540.html",
         "Product Title": "Windridge Glass Door TV Console",
         "Product Images": [
@@ -21772,7 +21737,7 @@
     },
     {
         "Category": "Entertainment",
-        "Collection": "TV Consoles",
+        "collection": "TV Consoles",
         "Product Link": "https://www.riversidefurniture.com/cora-media-console-37240.html",
         "Product Title": "Cora Entertainment Console",
         "Product Images": [
@@ -21825,7 +21790,7 @@
     },
     {
         "Category": "Entertainment",
-        "Collection": "Media Centers",
+        "collection": "Media Centers",
         "Product Link": "https://www.riversidefurniture.com/windridge-wall-unit-s526.html",
         "Product Title": "Windridge Wall Unit",
         "Product Images": [
@@ -21869,7 +21834,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Accent Pieces",
+        "collection": "Accent Pieces",
         "Product Link": "https://www.riversidefurniture.com/rosalie-woven-nesting-tables-30705.html",
         "Product Title": "Rosalie Woven Nesting Tables",
         "Product Images": [
@@ -21909,7 +21874,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-woven-square-coffee-table-30703.html",
         "Product Title": "Rosalie Woven Square Coffee Table",
         "Product Images": [
@@ -21940,7 +21905,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-woven-rectangular-coffee-table-30702.html",
         "Product Title": "Rosalie Woven Rectangular Coffee Table",
         "Product Images": [
@@ -21972,7 +21937,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Coffee Tables",
+        "collection": "Coffee Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-spindle-round-coffee-table-30701.html",
         "Product Title": "Rosalie Spindle Round Coffee Table",
         "Product Images": [
@@ -22002,7 +21967,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-woven-round-chairside-table-30712.html",
         "Product Title": "Rosalie Woven Round Chairside Table",
         "Product Images": [
@@ -22031,7 +21996,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-spindle-round-side-table-30706.html",
         "Product Title": "Rosalie Spindle Round Side Table",
         "Product Images": [
@@ -22061,7 +22026,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-woven-rectangular-side-table-30709.html",
         "Product Title": "Rosalie Woven Rectangular Side Table",
         "Product Images": [
@@ -22093,7 +22058,7 @@
     },
     {
         "Category": "Occasional",
-        "Collection": "Side Tables",
+        "collection": "Side Tables",
         "Product Link": "https://www.riversidefurniture.com/rosalie-woven-cube-table-30708.html",
         "Product Title": "Rosalie Woven Cube Table",
         "Product Images": [
