@@ -6,21 +6,13 @@ class riverside(scrapy.Spider):
     name = 'river'
     category = []
 
-    def __init__(self):
-        self.driver = webdriver.Chrome()
-
     def start_requests(self):
         #categories = ['bedroom', 'dining-room','home-office', 'occasional-tables', 'home-theater', 'occasional']
         categories = ['occasional']
 
-        catkeys = {
-            'bedroom':'Bedroom',
-            'dining-room': 'Dining Room',
-            'home-office': 'Home Office', 
-            'occasional-tables': 'Occasional Tables', 
-            'home-theater': 'Entertainment', 
-            'occasional': 'Occasional'
-        }
+        catkeys = {'bedroom':'Bedroom','dining-room': 'Dining Room','home-office': 'Home Office',
+                   'occasional-tables': 'Occasional Tables','home-theater': 'Entertainment','occasional': 'Occasional' }
+        
         for category in categories:
             url =f'https://www.riversidefurniture.com/{category}.html?p=1&product_list_limit=36'
             print(f'Getting Category {category}')
@@ -40,17 +32,7 @@ class riverside(scrapy.Spider):
         except:
             pass
 
-    def parse_items(self, response):
-        selenium_response = self.driver.get(response.url)
-        while True:
-            imagepath= self.driver.find_element_by_xpath('//*[@id="maincontent"]/div[2]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div[2]/div[3]/div/img')
-            try:
-                product_images= imagepath.get_attribute('href')
-            except:
-                break
-
-        #jsondata = json.loads(response.css('script[type="application/ld+json"]::text').get())
-        #product_images = self.get_dynamic_images(response.request.url)
+    def parse_items(self, response):      
         totalSKU = len(response.css('div.field.choice'))
         SKUsInfo = []
         if totalSKU > 0:
@@ -75,12 +57,11 @@ class riverside(scrapy.Spider):
                 }
             SKUsInfo.append(info)
 
-
         yield{
             "Category": self.category,
             "Product Link": response.request.url,
             "Product Title": response.css('h1.page-title span::text').get(),
-            "Product Images": product_images,
+            #"Product Images": product_images,
             "SKUs": SKUsInfo,
             "Finish":response.css('div.finish_info span::text').get(),
 

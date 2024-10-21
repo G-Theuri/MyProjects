@@ -3,21 +3,26 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By  # Import the By class
 import time
+import logging
+import chromedriver_autoinstaller
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
 
-class riverside(scrapy.Spider):
+class RiversideSpider(scrapy.Spider):
     name = 'river'
     category = []
 
-    def __init__(self, category):
+    def __init__(self):
+        # Automatically install chromedriver if not available
+        chromedriver_autoinstaller.install()
+
         # Set up Chrome options for headless mode
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # Run Chrome in headless mode
         self.driver = webdriver.Chrome(options=chrome_options)
-        self.category = category
 
-    def start_requests(self, category):
-        categories = ['occasional']
-
+    def start_requests(self):
+        categories = ['bedroom', 'dining-room', 'home-office', 'occasional-tables', 'home-theater', 'occasional']
         catkeys = {
             'bedroom': 'Bedroom',
             'dining-room': 'Dining Room',
@@ -30,32 +35,38 @@ class riverside(scrapy.Spider):
         for category in categories:
             url = f'https://www.riversidefurniture.com/{category}.html?p=1&product_list_limit=36'
             print(f'Getting Category {category}')
-            self.category = catkeys.get(category, None)
-            yield scrapy.Request(url=url, callback=self.parse)
+            # Store the category name in a variable for later use
+            category_name = catkeys.get(category, None)
+
+            # Pass the category name through the request's meta
+            yield scrapy.Request(url=url, callback=self.parse, meta={'category': category_name})
 
     def parse(self, response):
+        # Retrieve the category from the meta
+        category = response.meta['category']
+
         products = response.css('div ol.products.list.items.product-items li')
         for product in products:
             productlink = product.css('div.product-item-info a::attr(href)').get()
-            yield response.follow(url=productlink, callback=self.parse_items)
+            # Pass the category to the parse_items function via meta
+            yield response.follow(url=productlink, callback=self.parse_items, meta={'category': category})
         
         nextpage = response.css('li.item.pages-item-next a::attr(href)').get()
-        try:
-            yield scrapy.Request(url=nextpage, callback=self.parse)
-        except:
-            pass
+        if nextpage:
+            yield scrapy.Request(url=nextpage, callback=self.parse, meta={'category': category})
 
     def parse_items(self, response):
+        # Retrieve the category from the meta
+        category = response.meta['category']
+
         # Use Selenium to load the full page
         self.driver.get(response.url)
-        
-        # Wait for the images to load (adjust time if necessary)
-        time.sleep(1)
-        
+
+        # Wait for the images to load dynamically
+        time.sleep(1)  # Adjust the time if needed
+
         # Extract image URLs using the updated syntax
-        images = self.driver.find_elements(By.XPATH, 
-            '//div/img[contains(@class,"fotorama__img")]'
-        )
+        images = self.driver.find_elements(By.XPATH, '//div/img[contains(@class,"fotorama__img")]')
 
         # Extract the 'src' attribute of each image
         image_urls = [img.get_attribute('src') for img in images]
@@ -83,9 +94,9 @@ class riverside(scrapy.Spider):
             }
             SKUsInfo.append(info)
 
-        # Yield the data
+        # Yield the data, including the category
         yield {
-            "Category": self.category,
+            "Category": category,
             "Product Link": response.request.url,
             "Product Title": response.css('h1.page-title span::text').get(),
             "Product Images": image_urls,  # Yield the list of image URLs
@@ -97,7 +108,19 @@ class riverside(scrapy.Spider):
         # Make sure to close the Selenium WebDriver when done
         self.driver.quit()
 
-    categories = ['bedroom', 'dining-room','home-office', 'occasional-tables', 'home-theater', 'occasional']
-    catkeys = {'bedroom': 'Bedroom', 'dining-room': 'Dining Room','home-office': 'Home Office',
-               'occasional-tables': 'Occasional Tables','home-theater': 'Entertainment','occasional': 'Occasional'}
-    for category in categories:
+
+# Function to run the Scrapy spider programmatically
+def run_spider():
+    # Set up the Scrapy crawler
+    process = CrawlerProcess({
+        'FEED_FORMAT': 'json',  # Output format as JSON
+        'FEED_URI': 'riverside_data.json',  # Save output to 'riverside.json'
+        'LOG_LEVEL': 'INFO',  # Set log level to INFO for less verbose output
+    })
+
+    # Start the spider
+    process.crawl(RiversideSpider)
+    process.start()  # This will block the script until the spider is finished
+
+if __name__ == '__main__':
+    run_spider()

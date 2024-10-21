@@ -1,0 +1,25 @@
+if totalSKU > 0:
+            for x in range(0, totalSKU):
+                info = {
+                    'name': response.css('div.field.choice span span.product-name::text').getall()[x],
+                    'SKU':response.css('span.child_prod_sku::text').getall()[x].replace('Model ', ''),
+                    'Dimensions':response.css('div.child_prod_measurements::text').getall()[x].strip(), 
+                    'weight(lbs)': response.css('span.child_prod_weight::text').getall()[x].replace('lbs', '').strip(),
+                    'shortdescription': response.xpath(f'//*[@id="product-options-wrapper"]/div/fieldset/div/div/div/div[{x+1}]/label/span/div/div/ul/li/text()').getall(),
+
+                }
+                SKUsInfo.append(info)
+else:
+            info = {
+                    'name': response.css('div.child_prod_name::text').get(),
+                    'SKU':response.css('span.child_prod_sku::text').get().replace('Model ', ''),
+                    'Dimensions':response.css('div.child_prod_measurements::text').get().strip(), 
+                    'weight(lbs)': response.css('span.child_prod_weight::text').get().replace('lbs', '').strip(),
+                    'shortdescription': response.xpath('//*[@id="maincontent"]/div[2]/div/div[3]/div[3]/div/ul/li/text()').getall(),
+
+                }
+            SKUsInfo.append(info)
+
+
+#jsondata = json.loads(response.css('script[type="application/ld+json"]::text').get())
+#product_images = self.get_dynamic_images(response.request.url)

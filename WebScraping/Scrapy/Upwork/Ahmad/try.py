@@ -3,21 +3,26 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By  # Import the By class
 import time
+import logging
+import chromedriver_autoinstaller
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
 
-class riverside(scrapy.Spider):
+class RiversideSpider(scrapy.Spider):
     name = 'river'
     category = []
 
-    def __init__(self, category):
+    def __init__(self):
+        # Automatically install chromedriver if not available
+        chromedriver_autoinstaller.install()
+
         # Set up Chrome options for headless mode
         chrome_options = Options()
         chrome_options.add_argument("--headless")  # Run Chrome in headless mode
         self.driver = webdriver.Chrome(options=chrome_options)
-        self.category = category
 
-    def start_requests(self, category):
-        categories = ['occasional']
-
+    def start_requests(self):
+        categories = ['bedroom', 'dining-room', 'home-office', 'occasional-tables', 'home-theater', 'occasional']
         catkeys = {
             'bedroom': 'Bedroom',
             'dining-room': 'Dining Room',
@@ -40,22 +45,18 @@ class riverside(scrapy.Spider):
             yield response.follow(url=productlink, callback=self.parse_items)
         
         nextpage = response.css('li.item.pages-item-next a::attr(href)').get()
-        try:
+        if nextpage:
             yield scrapy.Request(url=nextpage, callback=self.parse)
-        except:
-            pass
 
     def parse_items(self, response):
         # Use Selenium to load the full page
         self.driver.get(response.url)
-        
-        # Wait for the images to load (adjust time if necessary)
-        time.sleep(1)
-        
+
+        # Wait for the images to load dynamically
+        time.sleep(1)  # Adjust the time if needed
+
         # Extract image URLs using the updated syntax
-        images = self.driver.find_elements(By.XPATH, 
-            '//div/img[contains(@class,"fotorama__img")]'
-        )
+        images = self.driver.find_elements(By.XPATH, '//div/img[contains(@class,"fotorama__img")]')
 
         # Extract the 'src' attribute of each image
         image_urls = [img.get_attribute('src') for img in images]
@@ -97,7 +98,19 @@ class riverside(scrapy.Spider):
         # Make sure to close the Selenium WebDriver when done
         self.driver.quit()
 
-    categories = ['bedroom', 'dining-room','home-office', 'occasional-tables', 'home-theater', 'occasional']
-    catkeys = {'bedroom': 'Bedroom', 'dining-room': 'Dining Room','home-office': 'Home Office',
-               'occasional-tables': 'Occasional Tables','home-theater': 'Entertainment','occasional': 'Occasional'}
-    for category in categories:
+
+# Function to run the Scrapy spider programmatically
+def run_spider():
+    # Set up the Scrapy crawler
+    process = CrawlerProcess({
+        'FEED_FORMAT': 'json',  # Output format as JSON
+        'FEED_URI': 'riverside.json',  # Save output to 'riverside.json'
+        'LOG_LEVEL': 'INFO',  # You can change log level to DEBUG for more details
+    })
+
+    # Start the spider
+    process.crawl(RiversideSpider)
+    process.start()  # This will block the script until the spider is finished
+
+if __name__ == '__main__':
+    run_spider()
