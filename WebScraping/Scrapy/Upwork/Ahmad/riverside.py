@@ -7,6 +7,7 @@ import logging
 import chromedriver_autoinstaller
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
+from urllib.parse import urlsplit
 
 class RiversideSpider(scrapy.Spider):
     name = 'river'
@@ -86,8 +87,8 @@ class RiversideSpider(scrapy.Spider):
         # Extract image URLs using the updated syntax
         images = self.driver.find_elements(By.XPATH, '//div/img[contains(@class,"fotorama__img")]')
 
-        # Extract the 'src' attribute of each image
-        image_urls = [img.get_attribute('src') for img in images]
+        # Extract the 'src' attribute of each image and remove the query to enhance image quality
+        image_urls = [urlsplit(img.get_attribute('src'))._replace(query='').geturl() for img in images]
 
         # Extract SKU details
         totalSKU = len(response.css('div.field.choice'))
