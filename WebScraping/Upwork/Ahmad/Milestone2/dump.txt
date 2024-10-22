@@ -1,0 +1,10 @@
+productdescription = response.css('div#super-product-table div.grouped-product-item::text').get()
+SKUsNames(first) = response.css('div#super-product-table div.grouped-product-items div.grouped-product-name_t::text').getall()[1]
+SKUsNo(first) = response.css('div.grouped-main-info div div.product-item-name::text').getall()[1]
+Dimensions(imperial) = response.css('div.attr-value div div.imperial::text').getall()[1]
+Dimensions(metric) =  response.css('div.attr-value div div.metric::text').getall()[1]
+ShortSKUsDescription = #To be looked at.
+images = response.css('div.slider-for.slider div img').getall()
+
+categorieswithsubmenu = response.css('div.shop4 div.has-submenu')
+categorieswithoutsubmenu = response.css('div.shop4 div:not(.has-submenu)') #work around it, still not perfect
