@@ -15,7 +15,7 @@ class RiversideSpider(scrapy.Spider):
 
     def __init__(self):
         # Automatically install chromedriver if not available
-        #chromedriver_autoinstaller.install()
+        chromedriver_autoinstaller.install()
 
         # Set up Chrome options for headless mode
         chrome_options = Options()
