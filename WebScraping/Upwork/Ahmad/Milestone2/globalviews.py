@@ -11,3 +11,6 @@ class GlobalViews (scrapy.Spider):
 
     def start_requests(self):
         url = 'https://www.globalviews.com/'
+
+    def parse(self):
+        
