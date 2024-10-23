@@ -6,5 +6,5 @@ Dimensions(metric) =  response.css('div.attr-value div div.metric::text').getall
 ShortSKUsDescription = #To be looked at.
 images = response.css('div.slider-for.slider div img').getall()
 
-categorieswithsubmenu = response.css('div.shop4 div.has-submenu')
-categorieswithoutsubmenu = response.css('div.shop4 div:not(.has-submenu)') #work around it, still not perfect
+categorieswithsubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div(contains(@class, "has-submenu"))/span/a/text()').getall()
+categorieswithoutsubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[not(contains(@class, "has-submenu"))]/span/a/text()').getall()

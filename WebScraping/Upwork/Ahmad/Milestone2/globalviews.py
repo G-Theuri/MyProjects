@@ -11,6 +11,10 @@ class GlobalViews (scrapy.Spider):
 
     def start_requests(self):
         url = 'https://www.globalviews.com/'
+        yield scrapy.Request(url=url, callback=self.parse)
+    def parse(self, response):
+        pass
 
-    def parse(self):
-        
+    def parse_item(self, response):
+        pass
+    
