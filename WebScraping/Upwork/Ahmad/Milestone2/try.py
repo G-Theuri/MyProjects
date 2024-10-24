@@ -1,34 +1,35 @@
 import scrapy
 import time
-import pandas as pd
 from scrapy.crawler import CrawlerProcess
-from scrapy.utils.project import get_project_settings
+from urllib.parse import urlparse, urlunparse
+
 
 
 class GlobalViews (scrapy.Spider):
     name = 'globalviews'
 
     def start_requests(self):
-        url = 'https://www.globalviews.com/shop#'
+        url = 'https://www.globalviews.com/shop'
         yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
         noSubCategoryInfo = [] #Stores info from categories without submenus
         withSubCategoryInfo = [] #Stores info from categories with submenus
 
-        categoriesWithSubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[contains(@class, "has-submenu")]')
         categoriesWithoutSubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[not(contains(@class, "has-submenu"))]')
+        categoriesWithSubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[contains(@class, "has-submenu")]')
          
         #Gets data associated with categories that do not have submenus, i.e. the without (+) sign.
         for category in categoriesWithoutSubmenu:
             n_Info = {
-                'Category Name' : category.xpath('./span/a/text()').get(),
+                'Category Name' : category.xpath('./span/a/text()').get().strip(),
                 'Category Link' : category.xpath('./span/a/@href').get(),
                 'Collection Name' : None,
                 'Collection Link' : None
 
             }
-            noSubCategoryInfo.append(n_Info)
+            if n_Info['Category Name'] != 'New Introductions':
+                noSubCategoryInfo.append(n_Info)
 
         #Gets data associated with categories that have submenus, i.e. those with (+) sign.
         for category in categoriesWithSubmenu:
@@ -51,17 +52,24 @@ class GlobalViews (scrapy.Spider):
             url = item['Category Link']
             yield scrapy.Request(url=url, callback=self.parse_links, meta={'Category-Name': item['Category Name']})
         
+        
+        
         #follows link of categories with submenus
         for item in withSubCategoryInfo:
-            url = item['Category Link']
-            yield scrapy.Request(url=url, callback=self.parse_links, meta={'Category-Name': item['Category Name'], 'Collection-Name': item['Category Name']})
+            url = item['Collection Link']
+            collection = url.split('/')[-1]
+            print(collection)
+            print(item['Collection Name'])
+            yield scrapy.Request(url=url, callback=self.parse_links, meta={'Category-Name': item['Category Name'], 'Collection-Name': item['Collection Name']})
+    
     def parse_links(self, response):
         category = response.meta.get('Category-Name', None)
         collection = response.meta.get('Collection-Name', None)
 
         allProductLinks = set()
         for pageNumber in range(1, 25):
-            page = f'{response.request.url}?p={pageNumber}'
+            url = urlunparse(urlparse(response.request.url)._replace(query=''))
+            page = f'{url}?p={pageNumber}'
             yield scrapy.Request(url=page, callback=self.parse_links, meta={'Category-Name': category, 'Collection-Name': collection} )
             pageproductlinks = response.css('div.product-item-info-inner-list > a::attr(href)').getall()
             allProductLinks.update(pageproductlinks)
@@ -80,31 +88,50 @@ class GlobalViews (scrapy.Spider):
         totalSKUs = len(response.css('div.grouped-product-name_t::text').getall()) 
         SKUsInfo = [] #This list stores info about every single SKU
 
-        for x in range(0, totalSKUs):
+        if totalSKUs > 1:
+            for x in range(0, totalSKUs):
+                baseURL = 'https://gvimages.azureedge.net/1500images/' #Base URL for all clear images
+                commentindex = (2 * (x + 1)) #This will yield 2,4,6 which are the indexes used to extract 'Additional Comments'
+                info = {
+                    'Name':response.css('div.grouped-product-name_t::text').getall()[x], 
+                    'SKU':response.css('div.product-item-left div::text').getall()[x], 
+                    'image': baseURL + response.css('div.additional-info-left div img::attr(src)').getall()[x].split('/')[-1],
+                    'Dimensions':{
+                        "Imperial Units": response.css('div.attr-value-item div.imperial::text').getall()[x].strip(), #Imperial measuring system
+                        "Metric Units": response.css('div.attr-value-item div.metric::text').getall()[x].strip(), #Metric measuring system
+                    }, 
+                    'Additional Comments':response.xpath(f'//*[@id="super-product-table"]/div[1]/div[{commentindex}]/div[2]/div[2]/div[2]/text()').extract()
+                }
+                SKUsInfo.append(info)
+        else:
             baseURL = 'https://gvimages.azureedge.net/1500images/' #Base URL for all clear images
-            commentindex = (2 * (x + 1)) #This will yield 2,4,6 which are the indexes used to extract 'Additional Comments'
             info = {
-                'Name':response.css('div.grouped-product-name_t::text').getall()[x], 
-                'SKU':response.css('div.product-item-left div::text').getall()[x], 
-                'image': baseURL + response.css('div.additional-info-left div img::attr(src)').getall()[0].split('/')[-1],
-                'Dimensions':{
-                    "Imperial": response.css('div.attr-value-item div.imperial::text').getall()[x], #Imperial units
-                    "Metric": response.css('div.attr-value-item div.metric::text').getall()[x], #Metric units
-                }, 
-                'Additional Comment':response.xpath(f'//*[@id="super-product-table"]/div[1]/div[{commentindex}]/div[2]/div[2]/div[2]/text()').extract()
-            }
+                    'Name':response.css('div.grouped-product-name_t::text').get(), 
+                    'SKU':response.css('div.product-item-left div::text').get(), 
+                    'image': baseURL + response.css('div.additional-info-left div img::attr(src)').get().split('/')[-1],
+                    'Dimensions':{
+                        "Imperial Units": [dim.strip() for dim in response.css('div.attr-value-item div.imperial::text').getall()], #Imperial measuring system
+                        "Metric Units": [dim.strip() for dim in response.css('div.attr-value-item div.metric::text').getall()], #Metric measuring system
+                    }, 
+                    'Additional Comments':response.xpath(f'//*[@id="super-product-table"]/div[1]/div[2]/div[2]/div[2]/div[2]/text()').extract()
+                }
             SKUsInfo.append(info)
-
-        
 
         yield{
             "Category": category,
             "Collection": collection,
             "Product Link": response.request.url,
             "Product Title": response.css('div.product-name-inner > div > h1::text').get(),
-            "Product Images": response.css('div.slider-for.slider > div > img').getall(),
+            "Product Images": response.css('div.slider-for.slider > div > img::attr(src)').getall(),
             "SKUs": SKUsInfo,
             "ProductDescription": response.css('div#super-product-table > div.grouped-product-item::text').get()
         }
 
- 
+#Setup and run the spider
+process = CrawlerProcess(settings={
+    'FEED_FORMAT' : 'json',
+    'FEED_URI': 'globalviews.json', #Output file name
+    #'LOG_LEVEL': 'INFO' # Set log level to INFO for less verbose output
+})
+process.crawl(GlobalViews)
+process.start()

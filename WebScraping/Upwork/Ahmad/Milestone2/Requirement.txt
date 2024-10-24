@@ -1,0 +1,5 @@
+Step 1: Install Python
+Step 2: Install Required Dependencies:
+    (a) I.e., (Scrapy)
+
+NB: I am using VS Code.
