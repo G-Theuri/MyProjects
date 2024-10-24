@@ -74,15 +74,36 @@ class GlobalViews (scrapy.Spider):
     def parse_products(self, response):
         category = response.meta.get('Category-Name', None)
         collection = response.meta.get('Collection-Name', None)
+        
+        #Variable $totalSKUs stores the number of SKUs an individual product has. i.e. 3
+        #This number is necessary for creating a loop to extract individual SKU data.
+        totalSKUs = len(response.css('div.grouped-product-name_t::text').getall()) 
+        SKUsInfo = [] #This list stores info about every single SKU
 
-        SKUsInfo = {}
+        for x in range(0, totalSKUs):
+            baseURL = 'https://gvimages.azureedge.net/1500images/' #Base URL for all clear images
+            commentindex = (2 * (x + 1)) #This will yield 2,4,6 which are the indexes used to extract 'Additional Comments'
+            info = {
+                'Name':response.css('div.grouped-product-name_t::text').getall()[x], 
+                'SKU':response.css('div.product-item-left div::text').getall()[x], 
+                'image': baseURL + response.css('div.additional-info-left div img::attr(src)').getall()[0].split('/')[-1],
+                'Dimensions':{
+                    "Imperial": response.css('div.attr-value-item div.imperial::text').getall()[x], #Imperial units
+                    "Metric": response.css('div.attr-value-item div.metric::text').getall()[x], #Metric units
+                }, 
+                'Additional Comment':response.xpath(f'//*[@id="super-product-table"]/div[1]/div[{commentindex}]/div[2]/div[2]/div[2]/text()').extract()
+            }
+            SKUsInfo.append(info)
+
+        
+
         yield{
             "Category": category,
             "Collection": collection,
             "Product Link": response.request.url,
             "Product Title": response.css('div.product-name-inner > div > h1::text').get(),
             "Product Images": response.css('div.slider-for.slider > div > img').getall(),
-            "SKUs": None,
+            "SKUs": SKUsInfo,
             "ProductDescription": response.css('div#super-product-table > div.grouped-product-item::text').get()
         }
 

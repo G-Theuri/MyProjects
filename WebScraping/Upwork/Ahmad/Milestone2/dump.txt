@@ -8,3 +8,8 @@ images = response.css('div.slider-for.slider div img').getall()
 
 categorieswithsubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div(contains(@class, "has-submenu"))/span/a/text()').getall()
 categorieswithoutsubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[not(contains(@class, "has-submenu"))]/span/a/text()').getall()
+
+
+SKUimage = response.css('div.additional-info-left div img::attr(src)').getall()
+SKUNames = response.css('div.grouped-product-name_t::text').getall()
+
