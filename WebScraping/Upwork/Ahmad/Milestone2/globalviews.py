@@ -18,7 +18,7 @@ class GlobalViews (scrapy.Spider):
         categoriesWithoutSubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[not(contains(@class, "has-submenu"))]')
         categoriesWithSubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[contains(@class, "has-submenu")]')
          
-        #Gets data associated with categories that do not have submenus, i.e. the without (+) sign.
+        #Data associated with categories that do not have submenus, i.e. the without (+) sign.
         for category in categoriesWithoutSubmenu:
             n_Info = {
                 'Category Name' : category.xpath('./span/a/text()').get().strip(),
@@ -30,17 +30,18 @@ class GlobalViews (scrapy.Spider):
             if n_Info['Category Name'] != 'New Introductions':
                 noSubCategoryInfo.append(n_Info)
 
-        #Gets data associated with categories that have submenus, i.e. those with (+) sign.
+        #Data associated with categories that have submenus, i.e. those with (+) sign.
         for category in categoriesWithSubmenu:
-            collectionInfoPath = category.xpath('./div/span')
-            w_Info = {
-                'Category Name' : category.xpath('./span/a/text()').get(),
-                'Category Link' : category.xpath('./span/a/@href').get(),
-                'Collection Name' : collectionInfoPath.xpath('./a/text()').get(),
-                'Collection Link' : collectionInfoPath.xpath('./a/@href').get()
-            }
-            
-            withSubCategoryInfo.append(w_Info)
+            for collection in category.xpath('./div[contains(@class, "mnsub")]/span'):
+                w_Info = {
+                    'Category Name' : category.xpath('./span/a/text()').get(),
+                    'Category Link' : category.xpath('./span/a/@href').get(),
+                    'Collection Name' : collection.xpath('./a/text()').get(),
+                    'Collection Link' : collection.xpath('./a/@href').get()
+                }
+                withSubCategoryInfo.append(w_Info)
+
+        #Return the two lists to function parse_categories
         yield from self.parse_categories(noSubCategoryInfo, withSubCategoryInfo)
         
     
@@ -56,7 +57,6 @@ class GlobalViews (scrapy.Spider):
         #follows link of categories with submenus
         for item in withSubCategoryInfo:
             url = item['Collection Link']
-            collection = url.split('/')[-1]
             yield scrapy.Request(url=url, callback=self.parse_links, meta={'Category-Name': item['Category Name'], 'Collection-Name': item['Collection Name']})
     
 
@@ -65,12 +65,12 @@ class GlobalViews (scrapy.Spider):
         collection = response.meta.get('Collection-Name', None)
 
         allProductLinks = set()
-        for pageNumber in range(1, 25):
+        for pageNumber in range(2, 25):
             url = urlunparse(urlparse(response.request.url)._replace(query=''))
             page = f'{url}?p={pageNumber}'
             yield scrapy.Request(url=page, callback=self.parse_links, meta={'Category-Name': category, 'Collection-Name': collection} )
-            pageproductlinks = response.css('div.product-item-info-inner-list > a::attr(href)').getall()
-            allProductLinks.update(pageproductlinks)
+            productPageLinks = response.css('div.product-item-info-inner-list > a::attr(href)').getall()
+            allProductLinks.update(productPageLinks)
 
         for link in allProductLinks:
             yield scrapy.Request(url=link, callback=self.parse_products, meta={'Category-Name': category, 'Collection-Name': collection} )
@@ -84,6 +84,8 @@ class GlobalViews (scrapy.Spider):
         #Variable $totalSKUs stores the number of SKUs an individual product has. i.e. 3
         #This number is necessary for creating a loop to extract individual SKU data.
         totalSKUs = len(response.css('div.grouped-product-name_t::text').getall()) 
+
+
         SKUsInfo = [] #This list stores info about every single SKU
 
         if totalSKUs > 1:
@@ -133,7 +135,7 @@ class GlobalViews (scrapy.Spider):
             "Product Link": response.request.url,
             "Product Title": response.css('div.product-name-inner > div > h1::text').get(),
             "Product Images": response.css('div.slider-for.slider > div > img::attr(src)').getall(),
-            "Product Videos": videoURLs, #This is a youtube video link
+            "Product Videos": videoURLs,
             "SKUs": SKUsInfo,
             "ProductDescription": response.css('div#super-product-table > div.grouped-product-item::text').get()
         }
