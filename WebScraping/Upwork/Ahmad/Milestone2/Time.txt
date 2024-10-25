@@ -1,5 +1,5 @@
-Start Time : 2024-10-24  21:33:22 
-End Time   : 2024-10-24 22:35:39
-Time : 1 hour, 12 minutes, and 57 seconds.
+Start Time : 2024-10-25 13:10:39 
+End Time   : 2024-10-25 14:28:06
+Time : 1 hours, 17 minutes, and 27 seconds.
 
-The website has a lot of links to be crawled therefore it took a lot of time. 
+Stored json feed (3706 items) in: globalviews.json. 

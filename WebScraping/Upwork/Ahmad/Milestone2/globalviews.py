@@ -95,7 +95,7 @@ class GlobalViews (scrapy.Spider):
                 info = {
                     'Name':response.css('div.grouped-product-name_t::text').getall()[x], 
                     'SKU':response.css('div.product-item-left div::text').getall()[x], 
-                    'image': baseURL + response.css('div.additional-info-left div img::attr(src)').getall()[x].split('/')[-1],
+                    'Image': baseURL + response.css('div.additional-info-left div img::attr(src)').getall()[x].split('/')[-1],
                     'Dimensions':{
                         "Imperial Units": [response.css('div.attr-value-item:nth-of-type(1) div.imperial::text').getall()[x].strip()], #Imperial measuring system
                         "Metric Units": [response.css('div.attr-value-item:nth-of-type(1) div.metric::text').getall()[x].strip()], #Metric measuring system
@@ -109,7 +109,7 @@ class GlobalViews (scrapy.Spider):
             info = {
                     'Name':response.css('div.grouped-product-name_t::text').get(), 
                     'SKU':response.css('div.product-item-left div::text').get(), 
-                    'image': baseURL + response.css('div.additional-info-left div img::attr(src)').get().split('/')[-1],
+                    'Image': baseURL + response.css('div.additional-info-left div img::attr(src)').get().split('/')[-1],
                     'Dimensions':{
                         "Imperial Units": [dim.strip() for dim in response.css('div.attr-value-item:nth-of-type(1) div.imperial::text').getall()], #Imperial measuring system,
                         "Metric Units": [dim.strip() for dim in response.css('div.attr-value-item:nth-of-type(1) div.metric::text').getall()], #Metric measuring system,
