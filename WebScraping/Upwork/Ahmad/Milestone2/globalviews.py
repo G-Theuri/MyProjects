@@ -2,7 +2,6 @@ import scrapy
 import time
 from scrapy.crawler import CrawlerProcess
 from urllib.parse import urlparse, urlunparse
-from rich import print as rprint
 
 
 class GlobalViews (scrapy.Spider):
@@ -85,6 +84,8 @@ class GlobalViews (scrapy.Spider):
         #Variable $totalSKUs stores the number of SKUs an individual product has. i.e. 3
         #This number is necessary for creating a loop to extract individual SKU data.
         totalSKUs = len(response.css('div.grouped-product-name_t::text').getall()) 
+
+
         SKUsInfo = [] #This list stores info about every single SKU
 
         if totalSKUs > 1:
@@ -134,7 +135,7 @@ class GlobalViews (scrapy.Spider):
             "Product Link": response.request.url,
             "Product Title": response.css('div.product-name-inner > div > h1::text').get(),
             "Product Images": response.css('div.slider-for.slider > div > img::attr(src)').getall(),
-            "Product Videos": videoURLs, #This is a youtube video link
+            "Product Videos": videoURLs,
             "SKUs": SKUsInfo,
             "ProductDescription": response.css('div#super-product-table > div.grouped-product-item::text').get()
         }
