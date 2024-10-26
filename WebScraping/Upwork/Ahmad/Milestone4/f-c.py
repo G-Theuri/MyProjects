@@ -44,6 +44,21 @@ class FurnitureClassics (scrapy.Spider):
     def parse_products(self, response):
         category = response.meta.get('Category', None)
         collection = response.meta.get('Collection', None)
+
+        #Getting Item Details if they are available
+        allDetails = []
+        details = response.css('ul.label-data-list-inline.grid.grid-med li')
+        if details:
+            for detail in details:
+                data = {
+                    'Label': detail.css('span.label::text').get(default=None),
+                    'Data': detail.css('span.data::text').get(default=None)
+                }
+                allDetails.append(data)
+        else:
+            allDetails=None
+
+
         yield{
             'Category': category, 
             'Collection': collection,
@@ -51,11 +66,11 @@ class FurnitureClassics (scrapy.Spider):
             'Product Name':response.css('header.item-name h1::text').get(default=None),
             'Product SKU':response.css('header.item-name h2::text').get(default=None),
             'Product Images': {
-                                "Image Pic": response.css('div.item-images-main.carousel-inner div div.item-image-wrapper a::attr(href)').getall(),
-                                "Image PDF": response.css('div.item-images-main.carousel-inner div div.product-image-actions a::attr(href)').getall(),
+                                "Images (jpg)": response.css('div.item-images-main.carousel-inner div div.item-image-wrapper a::attr(href)').getall(),
+                                "Images (PDF}": response.css('div.item-images-main.carousel-inner div div.product-image-actions a::attr(href)').getall(),
                                },
             'Product Description':response.css('p.story-full::text').get(),
-            #'Product Dimensions',
+            'Product Dimensions/Details':allDetails,
         }
         baseURL ='https://supercat.supercatsolutions.com'
         nextProductLink = response.css('div.right ul.menu-bar-links li a::attr(href)').getall()[-1]

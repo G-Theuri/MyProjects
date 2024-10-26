@@ -7,3 +7,12 @@ url = https://supercat.supercatsolutions.com/fc/e/1/product/1418316?category_id=
 4. Get the link of the first product in every collection page
 5. Open the product link and collect its data.
 6. Find the next button url and follow it until its not there
+
+
+
+
+
+Item Weight:
+Materials:
+New Intro:
+Weight Capacity:
