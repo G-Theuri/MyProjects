@@ -1,0 +1,8 @@
+api link = 
+
+Thoughts
+1. Get API link to all SubCategories.
+2. Under the JSON file, I will find Links to individual Collection.
+4. Collect the Category name, SubCategory name and Collection name.
+5. Follow each individual collection and get its data.
+6. Sort on pagination because items are loaded dynamically.

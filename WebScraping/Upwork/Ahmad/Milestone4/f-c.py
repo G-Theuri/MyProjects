@@ -1,4 +1,3 @@
-from typing import Iterable
 import scrapy
 from scrapy.crawler import CrawlerProcess
 
