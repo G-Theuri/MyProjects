@@ -26,3 +26,6 @@ Therefore, first get the initial page the query the json to know how many items 
 are for that link and divided it by 24. This will help you know whether you should prompt a next page request.
 
 Info from the product page found in the json file is limited. Think about that.
+
+
+NB. Kindly work on the globalviews pagination
