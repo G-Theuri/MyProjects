@@ -6,3 +6,23 @@ Thoughts
 4. Collect the Category name, SubCategory name and Collection name.
 5. Follow each individual collection and get its data.
 6. Sort on pagination because items are loaded dynamically.
+
+To-Do:
+Here is an example url for items in every product page
+url = https://www.elkhome.com/api/v2/products?categoryid=82016b6f-8ba3-4ca2-92ac-ad49015f64b7&page=10
+Here is how I will format it:
+
+url = f'https://www.elkhome.com/api/v2/products?categoryid={id}&page={pageNumber}'
+
+If a SubCategory does not have a collection, then the {id} is equal to the the SubCategory id which will be parsed 
+from the alldata dictionary.
+
+If a SubCategory have a collection then the {id} is the collection id.
+This too shall be parse from the alldata dict.
+
+Every product page json has 'pagination' as a key and under it 'totalItemCount' which tell you
+how many items there are in every page. 
+Therefore, first get the initial page the query the json to know how many items there
+are for that link and divided it by 24. This will help you know whether you should prompt a next page request.
+
+Info from the product page found in the json file is limited. Think about that.

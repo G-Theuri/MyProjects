@@ -1,0 +1,261 @@
+[
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Ceiling',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/ceiling',
+        'Collection': 'Chandeliers',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/ceiling/chandeliers'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Ceiling',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/ceiling',
+        'Collection': 'Linear Chandeliers',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/ceiling/linear-chandeliers'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Ceiling',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/ceiling',
+        'Collection': 'Pendants',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/ceiling/pendants'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Ceiling',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/ceiling',
+        'Collection': 'Flush + Semi Flush',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/ceiling/flush-semi-flush'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Portable',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/portable',
+        'Collection': 'Floor Lamps',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/portable/floor-lamps'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Portable',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/portable',
+        'Collection': 'Table Lamps',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/portable/table-lamps'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Wall',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/wall',
+        'Collection': 'Bath + Vanity',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/wall/bath-vanity'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Wall',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/wall',
+        'Collection': 'Sconces',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/wall/sconces'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Outdoor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/outdoor',
+        'Collection': 'Ceiling Lights',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/outdoor/ceiling-lights'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Outdoor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/outdoor',
+        'Collection': 'Hanging Lights',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/outdoor/hanging-lights'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Outdoor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/outdoor',
+        'Collection': 'Outdoor Lamps',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/outdoor/outdoor-lamps'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Outdoor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/outdoor',
+        'Collection': 'Post Lights',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/outdoor/post-lights'
+    },
+    {
+        'Category': 'Lighting',
+        'SubCategory': 'Outdoor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/lighting/outdoor',
+        'Collection': 'Wall Lights',
+        'Collection url': 'https://www.elkhome.com//Catalog/lighting/outdoor/wall-lights'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Seating',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/seating',
+        'Collection': 'Benches + Ottomans',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/seating/benches-ottomans'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Seating',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/seating',
+        'Collection': 'Chairs',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/seating/chairs'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Seating',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/seating',
+        'Collection': 'Stools',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/seating/stools'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Storage',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/storage',
+        'Collection': 'Bookcases + Shelves',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/storage/bookcases-shelves'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Storage',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/storage',
+        'Collection': 'Cabinets + Credenzas',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/storage/cabinets-credenzas'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Storage',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/storage',
+        'Collection': 'Chests',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/storage/chests'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Tables',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/tables',
+        'Collection': 'Accent Tables',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/tables/accent-tables'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Tables',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/tables',
+        'Collection': 'Coffee Tables',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/tables/coffee-tables'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Tables',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/tables',
+        'Collection': 'Console Tables + Desks',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/tables/console-tables-desks'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Tables',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/tables',
+        'Collection': 'Dining Tables',
+        'Collection url': 'https://www.elkhome.com//Catalog/furniture/tables/dining-tables'
+    },
+    {
+        'Category': 'Furniture',
+        'SubCategory': 'Outdoor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/furniture/outdoor',
+        'Collection': None,
+        'Collection url': None
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Accessories',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/accessories',
+        'Collection': 'Baskets + Boxes',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/accessories/baskets-boxes'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Accessories',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/accessories',
+        'Collection': 'Bowls + Trays',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/accessories/bowls-trays'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Accessories',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/accessories',
+        'Collection': 'Candleholders',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/accessories/candleholders'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Accessories',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/accessories',
+        'Collection': 'Decorative Objects',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/accessories/decorative-objects'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Accessories',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/accessories',
+        'Collection': 'Frames + Easels',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/accessories/frames-easels'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Accessories',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/accessories',
+        'Collection': 'Tabletop',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/accessories/tabletop'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Accessories',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/accessories',
+        'Collection': 'Vases + Vessels',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/accessories/vases-vessels'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Planters',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/planters',
+        'Collection': None,
+        'Collection url': None
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Textiles',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/textiles',
+        'Collection': 'Pillows',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/textiles/pillows'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Textiles',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/textiles',
+        'Collection': 'Poufs',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/textiles/poufs'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Wall Decor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/wall-decor',
+        'Collection': 'Artwork',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/wall-decor/artwork'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Wall Decor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/wall-decor',
+        'Collection': 'Clocks',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/wall-decor/clocks'
+    },
+    {
+        'Category': 'Decor',
+        'SubCategory': 'Wall Decor',
+        'SubCategory url': 'https://www.elkhome.com//Catalog/decor/wall-decor',
+        'Collection': 'Mirrors',
+        'Collection url': 'https://www.elkhome.com//Catalog/decor/wall-decor/mirrors'
+    }
+]
