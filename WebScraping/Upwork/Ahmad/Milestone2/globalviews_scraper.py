@@ -77,7 +77,7 @@ class GlobalViews (scrapy.Spider):
         collection = response.meta.get('Collection-Name', None)
         totalItems = response.meta.get('Total-Items', 1)
 
-        #Calculate the number of pages a collection has
+        #Calculate the number of pages a collection has.
         pages = math.ceil(int(totalItems) / 36)
 
         allProductLinks = set()
