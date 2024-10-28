@@ -1,5 +1,5 @@
 import scrapy
-import time
+import math
 from scrapy.crawler import CrawlerProcess
 from urllib.parse import urlparse, urlunparse
 
@@ -19,12 +19,15 @@ class GlobalViews (scrapy.Spider):
         categoriesWithSubmenu = response.xpath('/html/body/div[4]/header/div/div[2]/div/div[1]/div/div/div[2]/div/nav/ul/li[2]/div/div/div[2]/div/div/div[contains(@class, "has-submenu")]')
          
         #Data associated with categories that do not have submenus, i.e. the without (+) sign.
+        #If a category does not have a collection, the category also becomes the collection.
         for category in categoriesWithoutSubmenu:
+            collectionName = category.xpath('./span/a/text()').get().strip()
             n_Info = {
                 'Category Name' : category.xpath('./span/a/text()').get().strip(),
                 'Category Link' : category.xpath('./span/a/@href').get(),
-                'Collection Name' : None,
-                'Collection Link' : None
+                'Collection Name' : collectionName,
+                'Collection Link' : category.xpath('./span/a/@href').get(),
+                'Total Items': response.css(f'ul.items.items-children.level-1.-folding li[data-label="{collectionName}"] span.count::text').get()
 
             }
             if n_Info['Category Name'] != 'New Introductions':
@@ -33,11 +36,13 @@ class GlobalViews (scrapy.Spider):
         #Data associated with categories that have submenus, i.e. those with (+) sign.
         for category in categoriesWithSubmenu:
             for collection in category.xpath('./div[contains(@class, "mnsub")]/span'):
+                collectionName = collection.xpath('./a/text()').get()
                 w_Info = {
                     'Category Name' : category.xpath('./span/a/text()').get(),
                     'Category Link' : category.xpath('./span/a/@href').get(),
-                    'Collection Name' : collection.xpath('./a/text()').get(),
-                    'Collection Link' : collection.xpath('./a/@href').get()
+                    'Collection Name' : collectionName,
+                    'Collection Link' : collection.xpath('./a/@href').get(),
+                    'Total Items': response.css(f'ul.items.items-children.level-2.-folding li[data-label="{collectionName}"] a span.count::text').get()
                 }
                 withSubCategoryInfo.append(w_Info)
 
@@ -50,22 +55,33 @@ class GlobalViews (scrapy.Spider):
         #follows link of categories without submenus
         for item in noSubCategoryInfo:
             url = item['Category Link']
-            yield scrapy.Request(url=url, callback=self.parse_links, meta={'Category-Name': item['Category Name']})
+            yield scrapy.Request(url=url, callback=self.parse_links,
+                                  meta={'Category-Name': item['Category Name'],
+                                        'Collection-Name': item['Collection Name'],
+                                          'Total-Items': item['Total Items']})
         
         
         
         #follows link of categories with submenus
         for item in withSubCategoryInfo:
             url = item['Collection Link']
-            yield scrapy.Request(url=url, callback=self.parse_links, meta={'Category-Name': item['Category Name'], 'Collection-Name': item['Collection Name']})
+            yield scrapy.Request(url=url, callback=self.parse_links,
+                                  meta={'Category-Name': item['Category Name'],
+                                         'Collection-Name': item['Collection Name'],
+                                          'Total-Items': item['Total Items']
+                                          })
     
 
     def parse_links(self, response):
         category = response.meta.get('Category-Name', None)
         collection = response.meta.get('Collection-Name', None)
+        totalItems = response.meta.get('Total-Items', 1)
+
+        #Calculate the number of pages a collection has
+        pages = math.ceil(int(totalItems) / 36)
 
         allProductLinks = set()
-        for pageNumber in range(2, 25):
+        for pageNumber in range(1, pages+1):
             url = urlunparse(urlparse(response.request.url)._replace(query=''))
             page = f'{url}?p={pageNumber}'
             yield scrapy.Request(url=page, callback=self.parse_links, meta={'Category-Name': category, 'Collection-Name': collection} )
@@ -136,14 +152,14 @@ class GlobalViews (scrapy.Spider):
             "Product Title": response.css('div.product-name-inner > div > h1::text').get(),
             "Product Images": response.css('div.slider-for.slider > div > img::attr(src)').getall(),
             "Product Videos": videoURLs,
-            "SKUs": SKUsInfo,
-            "ProductDescription": response.css('div#super-product-table > div.grouped-product-item::text').get()
+            "Variations": SKUsInfo,
+            "Product Description": response.css('div#super-product-table > div.grouped-product-item::text').get()
         }
 
 #Setup and run the spider
 process = CrawlerProcess(settings={
     'FEED_FORMAT' : 'json',
-    'FEED_URI': 'globalviews.json', #Output file name
+    'FEED_URI': 'products-data.json', #Output file name. It can be changed accordingly
     #'LOG_LEVEL': 'INFO' # Set log level to INFO for less verbose output
 })
 process.crawl(GlobalViews)
