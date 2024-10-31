@@ -94,3 +94,11 @@ class FurnitureClassics (scrapy.Spider):
         
 
 
+#Setup and run the spider
+process = CrawlerProcess(settings={
+    'FEED_FORMAT' : 'json',
+    'FEED_URI': 'fc-products-data.json', #Output file name. It can be changed accordingly
+    #'LOG_LEVEL': 'INFO' # Set log level to INFO for less verbose output
+})
+process.crawl(FurnitureClassics)
+process.start()
