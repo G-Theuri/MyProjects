@@ -16,7 +16,7 @@ class FurnitureClassics (scrapy.Spider):
             'Storage & Display':['category-1200571','category-1200551','category-1200550', 'category-4632768'],
             'Accessories': ['category-4881094', 'category-4690141', 'category-4648363'],
             'Other': ['category-4899864','category-1200578','category-4632862','category-4830236'],
-            'OPPORTUNITY BUYS':['category-4675572', 'category-4547713']
+            #'OPPORTUNITY BUYS':['category-4675572', 'category-4547713']
         }
         for categoryName in categoryKeys:
             collectionKeys=categoryKeys[categoryName]
@@ -49,11 +49,12 @@ class FurnitureClassics (scrapy.Spider):
         details = response.css('ul.label-data-list-inline.grid.grid-med li')
         if details:
             for detail in details:
-                data = {
-                    'Label': detail.css('span.label::text').get(default=None),
-                    'Data': detail.css('span.data::text').get(default=None)
-                }
-                allDetails.append(data)
+                if detail.css('span.label::text').get() != 'New Intro:':
+                    data = {
+                        'Label': detail.css('span.label::text').get(default=None),
+                        'Data': detail.css('span.data::text').get(default=None)
+                    }
+                    allDetails.append(data)
         else:
             allDetails=None
 
