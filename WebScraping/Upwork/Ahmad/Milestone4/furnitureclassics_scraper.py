@@ -35,6 +35,7 @@ class FurnitureClassics (scrapy.Spider):
         baseURL = 'https://supercat.supercatsolutions.com'
         firstProductLink = response.css('a.modal-trigger.catalog-item-detail-link::attr(href)').get()
         productURL = baseURL + firstProductLink
+        productDimesions = response.css('a.modal-trigger.catalog-item-detail-link::attr(href)').get()
 
         yield scrapy.Request(url=productURL, callback=self.parse_products,
                              meta={'Category': category, 'Collection':collectionName})
@@ -70,7 +71,7 @@ class FurnitureClassics (scrapy.Spider):
                                 "Images (PDF}": response.css('div.item-images-main.carousel-inner div div.product-image-actions a::attr(href)').getall(),
                                },
             'Product Description':response.css('p.story-full::text').get(),
-            'Product Dimensions/Details':allDetails,
+            'Product Details':allDetails,
         }
         baseURL ='https://supercat.supercatsolutions.com'
         nextProductLink = response.css('div.right ul.menu-bar-links li a::attr(href)').getall()[-1]
