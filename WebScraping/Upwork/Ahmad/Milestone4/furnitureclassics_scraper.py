@@ -1,6 +1,6 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
-
+import json
 class FurnitureClassics (scrapy.Spider):
     name = 'f-classics'
 
@@ -35,7 +35,7 @@ class FurnitureClassics (scrapy.Spider):
         baseURL = 'https://supercat.supercatsolutions.com'
         firstProductLink = response.css('a.modal-trigger.catalog-item-detail-link::attr(href)').get()
         productURL = baseURL + firstProductLink
-        productDimesions = response.css('a.modal-trigger.catalog-item-detail-link::attr(href)').get()
+        
 
         yield scrapy.Request(url=productURL, callback=self.parse_products,
                              meta={'Category': category, 'Collection':collectionName})
@@ -58,18 +58,22 @@ class FurnitureClassics (scrapy.Spider):
                     allDetails.append(data)
         else:
             allDetails=None
-
+        
+        #Get dimension data
+        dimensionsData = json.loads(response.css('div.item-actions button::attr(data-product)').get())
+        dimesions = dimensionsData['line2'][0]
 
         yield{
             'Category': category, 
             'Collection': collection,
-            'Product Link':response.request.url,
+            'Product URL':response.request.url,
             'Product Name':response.css('header.item-name h1::text').get(default=None),
             'Product SKU':response.css('header.item-name h2::text').get(default=None),
             'Product Images': {
                                 "Images (jpg)": response.css('div.item-images-main.carousel-inner div div.item-image-wrapper a::attr(href)').getall(),
                                 "Images (PDF}": response.css('div.item-images-main.carousel-inner div div.product-image-actions a::attr(href)').getall(),
                                },
+            'Product Dimensions':dimesions,
             'Product Description':response.css('p.story-full::text').get(),
             'Product Details':allDetails,
         }
