@@ -154,7 +154,7 @@ class ElkSpider (scrapy.Spider):
 #Setup and run the spider
 process = CrawlerProcess(settings={
     'FEED_FORMAT' : 'json',
-    'FEED_URI': 'revised-products-data.json', #Output file name. It can be changed accordingly
+    'FEED_URI': 'products-data.json', #Output file name. It can be changed accordingly
     #'LOG_LEVEL': 'INFO' # Set log level to INFO for less verbose output
 })
 process.crawl(ElkSpider)
