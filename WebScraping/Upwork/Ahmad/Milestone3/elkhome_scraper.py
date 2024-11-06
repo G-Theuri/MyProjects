@@ -1,4 +1,3 @@
-
 import scrapy
 import json
 from curl_cffi import requests as cureq
@@ -78,10 +77,11 @@ class ElkSpider (scrapy.Spider):
         
         for product in data['products']:
                 productID = product['id']
-                #url = baseurl + product['canonicalUrl']
+                url = baseurl + product['canonicalUrl']
+                #rprint(url)
                 url_with_variants =f'https://www.elkhome.com/api/v2/products/{productID}/variantchildren?pageSize=500&expand=content%2Cdocuments%2Cspecifications%2Cattributes%2Cbadges%2Cdetail%2Cspecifications%2Ccontent%2Cimages%2Cdocuments%2Cattributes%2Cproperties&includeAttributes=includeOnProduct'
                 info = {'Category': category, 'SubCategory':subCategory,'Collection':collection,
-                         'Page' : page, 'ID': productID}
+                         'Page' : page, 'ID': productID, 'url':url}
                 yield scrapy.Request(url_with_variants, callback=self.products_with_variants, meta=info)
 
     def products_with_variants(self, response):
@@ -90,6 +90,7 @@ class ElkSpider (scrapy.Spider):
         collection = response.meta.get('Collection', None)
         #page = response.meta.get('Page', None)
         productID = response.meta.get('ID', None)
+        productURL = response.meta.get('url', None)
 
         data = json.loads(response.text)
         if len(data['products']) >= 1:
@@ -105,7 +106,7 @@ class ElkSpider (scrapy.Spider):
                 'Variation Dimensions' : product['properties']['shortDimensions'],
                 'Variation Images' :[image['largeImagePath'] for image in product['images']] if product.get('images') else [None],
                 'Variation Specs' : [{attribute['label'] : attribute['attributeValues'][0]['valueDisplay'] }for attribute in product['attributeTypes']] if product.get('attributeTypes') else [None],
-                'Variatin Description': product['content']['htmlContent'],
+                'Variation Description': product['content']['htmlContent'],
                 }
                 variationsInfo.append(variationsdata)
 
@@ -113,13 +114,14 @@ class ElkSpider (scrapy.Spider):
                 'Category': category,
                 'Sub-Category':subCategory,
                 'Collection':collection,
+                'Product URL':productURL,
                 'Product Name':productName,
                 'Variations': variationsInfo
             }
             yield productInfo
         else:
             url_without_variants = f'https://www.elkhome.com/api/v2/products/{productID}/?pageSize=500&expand=content%2Cdocuments%2Cspecifications%2Cattributes%2Cbadges%2Cdetail%2Cspecifications%2Ccontent%2Cimages%2Cdocuments%2Cattributes%2Cproperties&includeAttributes=includeOnProduct'
-            info = {'Category': category, 'SubCategory':subCategory,'Collection':collection, 'ID': productID}
+            info = {'Category': category, 'SubCategory':subCategory,'Collection':collection, 'ID': productID, 'url':productURL}
             yield scrapy.Request(url_without_variants, callback=self.products_without_variants, meta=info)
 
     def products_without_variants(self, response):
@@ -142,15 +144,17 @@ class ElkSpider (scrapy.Spider):
             'Category': response.meta.get('Category', None),
             'Sub-Category':response.meta.get('SubCategory', None),
             'Collection':response.meta.get('Collection', None),
+            'Product URL':response.meta.get('url', None),
             'Product Name':data['productTitle'],
             'Variations': variationsdata
             
         }
         yield productInfo
+        
 #Setup and run the spider
 process = CrawlerProcess(settings={
     'FEED_FORMAT' : 'json',
-    'FEED_URI': 'products-data.json', #Output file name. It can be changed accordingly
+    'FEED_URI': 'revised-products-data.json', #Output file name. It can be changed accordingly
     #'LOG_LEVEL': 'INFO' # Set log level to INFO for less verbose output
 })
 process.crawl(ElkSpider)
