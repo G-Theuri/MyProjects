@@ -1,4 +1,3 @@
-
 import scrapy
 import json
 from curl_cffi import requests as cureq
@@ -107,7 +106,7 @@ class ElkSpider (scrapy.Spider):
                 'Variation Dimensions' : product['properties']['shortDimensions'],
                 'Variation Images' :[image['largeImagePath'] for image in product['images']] if product.get('images') else [None],
                 'Variation Specs' : [{attribute['label'] : attribute['attributeValues'][0]['valueDisplay'] }for attribute in product['attributeTypes']] if product.get('attributeTypes') else [None],
-                'Variatin Description': product['content']['htmlContent'],
+                'Variation Description': product['content']['htmlContent'],
                 }
                 variationsInfo.append(variationsdata)
 
@@ -151,6 +150,7 @@ class ElkSpider (scrapy.Spider):
             
         }
         yield productInfo
+        
 #Setup and run the spider
 process = CrawlerProcess(settings={
     'FEED_FORMAT' : 'json',
