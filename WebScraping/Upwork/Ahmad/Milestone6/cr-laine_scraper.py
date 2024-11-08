@@ -87,8 +87,8 @@ class LaineSpider(scrapy.Spider):
         all_materials = []
         for material in materials:
             data = {
-                'Material Name' : material.css('div. h4::text').get(),
-                'Material Thumbnail': base_url + material.css('div img::attr(src)').get(),
+                'Material Name' : material.css('div h4::text').get(),
+                #'Material Thumbnail': base_url + material.css('div img::attr(src)').get(),
                 'Material Thumbname': material.css('div p::text').get(),
             }
             all_materials.append(data)
@@ -99,16 +99,18 @@ class LaineSpider(scrapy.Spider):
         for item in related_items:
             title = item.css('h3::text').get()
             products = item.css('div.pure-u-1-4')
-            related_items[title] = []
+            all_related_items[title] = []
             for product in products:
                 items_info = {
-                        'product_collection' : product('center a div.nth-of-type(2) span::text').getall()[0].split(' ')[0],
-                        'product_sku' : product('center a div.nth-of-type(2) span::text').getall()[0].split(' ')[-1],
-                        'product_url' : base_url + product('center a::attr(href)').get(),
-                        'product_name' : product('center a div.nth-of-type(2) span::text').getall()[-1],
-                        'thumbnail' : base_url + product('center a div img::attr(src)').get(),
+                        'product_collection' : product.css('center a div:nth-of-type(2) span::text').getall()[0].split(' ')[0],
+                        'product_sku' : product.css('center a div:nth-of-type(2) span::text').getall()[0].split(' ')[-1],
+                        'product_url' : base_url + product.css('center a::attr(href)').get(),
+                        'product_name' : product.css('center a div:nth-of-type(2) span::text').getall()[-1],
+                        'thumbnail' : base_url + product.css('center a div img::attr(src)').get(),
                 }
                 all_related_items[title].append(items_info)
+                #
+                #
             rprint(f'Length related_items: {len(all_related_items)}')
         
         yield{
