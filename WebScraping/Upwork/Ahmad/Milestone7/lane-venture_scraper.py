@@ -23,7 +23,6 @@ class LaneVenture(scrapy.Spider):
                                      meta={'category': category_name, 'item': item_name})
                 
     def parse_products(self, response):
-        rprint(f'Getting products from: {response.request.url}')
         category = response.meta.get('category')
         item = response.meta.get('item')
 
@@ -107,7 +106,7 @@ class LaneVenture(scrapy.Spider):
         #Extract product description
         product_description = response.css('div.pdp_detail_description p:nth-of-type(3)::text').get(default=None)
 
-        page_data = {
+        yield {
             'Category' : response.meta.get('category'),
             'Type' : response.meta.get('item'),
             'Collection' : response.meta.get('collection'),
@@ -128,7 +127,8 @@ class LaneVenture(scrapy.Spider):
             'Finish Options' : finish_data
 
         }
-        rprint(page_data)
+        rprint(f'Data Extracted from: {response.request.url}')
+        
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
