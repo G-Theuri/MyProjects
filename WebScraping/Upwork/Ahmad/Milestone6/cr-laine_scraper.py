@@ -137,7 +137,7 @@ class LaineSpider(scrapy.Spider):
 #Set up the Scrapy crawler
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    'FEED_URI': 'laine-products-data.json',
+    'FEED_URI': 'products-data.json',
     'LOG_LEVEL': 'INFO' #Set Log level to INFO for less verbose output
 })
 process.crawl(LaineSpider)
