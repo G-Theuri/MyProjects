@@ -4,6 +4,7 @@ from scrapy.crawler import CrawlerProcess
 from rich import print as rprint
 from scrapy.http import Response
 base_url ='https://www.laneventure.com'
+
 class LaneVenture(scrapy.Spider):
     name = 'lane-venture'
 
@@ -57,13 +58,27 @@ class LaneVenture(scrapy.Spider):
         #https://www.laneventure.com/products/dining-chairs.aspx?page=2
         #https://www.laneventure.com/products/dining-chairs.aspx
         
+
     def extract_data(self, response):
-         pass
+         images = response.css('div.pdp_image_thumbs button img::attr(src)').getall()
+         product_description = response.css('div.pdp_detail_description p:nth-of-type(3)::text').get()
+         dimensions = response.css('div.pdp_detail_tabs_copy_item p span')
+         features = response.css('div.pdp_detail_tabs_copy_item ul li')
+
+         #make a loop of this. Use BS4 to pass the html
+         fabric_options = response.css('div.pdp_customize_swatches div.pdp_customize_swatches_item:nth-of-type(1)')
+         fabric_details = fabric_options.css('div.swatchCell button::attr(data-attributes)').get()
+         fabric_colors = fabric_options.css('div.dropdownContainer a.swatchLink::text').getall()
+         
+         #make a loop of this. Use BS4 to pass the html
+         finish_options = response.css('div.pdp_customize_swatches div.pdp_customize_swatches_item:nth-of-type(2)')
+         finish_details = finish_options.css('div.swatchCell button::attr(data-attributes)').get()
+         
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
     'FEED_URI': 'lv-products-data.json', #Output file name. It can be changed accordingly
-    #'LOG_LEVEL': 'INFO' #Set log level to INFO for less verbose output
+    'LOG_LEVEL': 'INFO', #Set log level to INFO for less verbose output
 })
 process.crawl(LaneVenture)
 process.start()
