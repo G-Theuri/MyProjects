@@ -120,7 +120,7 @@ class LaneVenture(scrapy.Spider):
                 'Dimensions': dimensions,
                 'Details': details
             },
-
+            
             #'Fabric Options' : {
                 #'Color Options': fabric_colors,
                 #'Fabric Details': fabrics
