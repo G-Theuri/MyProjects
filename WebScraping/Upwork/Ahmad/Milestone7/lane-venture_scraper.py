@@ -67,7 +67,7 @@ class LaneVenture(scrapy.Spider):
             unit_value = dimension.css('::text').getall()[-1].strip()
             dimensions[unit] = unit_value
 
-        #Extract fabric options data
+        #Extract fabric options data 
         fabric_options = response.css('div.pdp_customize_swatches div.pdp_customize_swatches_item:nth-of-type(1) div.swatchCell')
         fabric_colors = fabric_options.css('div.dropdownContainer a.swatchLink::text').getall() #Gets the color options
         fabrics = []
@@ -86,7 +86,7 @@ class LaneVenture(scrapy.Spider):
             fabrics.append(parsed_data)
         
          
-        #Extract finish details
+        #Extract finish details (This works but it is excluded in the output file)
         finish_options = response.css('div.pdp_customize_swatches div.pdp_customize_swatches_item:nth-of-type(2) div.swatchCell')
         finish_data = []
         for finish in finish_options:
@@ -103,7 +103,7 @@ class LaneVenture(scrapy.Spider):
             extracted_data['image'] = finish_image
             finish_data.append(extracted_data)
 
-        #Extract product description
+        #Extract product description (This works but it is excluded in the output file)
         product_description = response.css('div.pdp_detail_description p:nth-of-type(3)::text').get(default=None)
 
         yield {
@@ -120,11 +120,12 @@ class LaneVenture(scrapy.Spider):
                 'Dimensions': dimensions,
                 'Details': details
             },
-            'Fabric Options' : {
-                'Color Options': fabric_colors,
-                'Fabric Details': fabrics
-            },
-            'Finish Options' : finish_data
+
+            #'Fabric Options' : {
+                #'Color Options': fabric_colors,
+                #'Fabric Details': fabrics
+            #},
+            #'Finish Options' : finish_data
 
         }
         rprint(f'Data Extracted from: {response.request.url}')
@@ -132,7 +133,7 @@ class LaneVenture(scrapy.Spider):
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    'FEED_URI': 'lv-products-data.json', #Output file name. It can be changed accordingly
+    'FEED_URI': 'products-data.json', #Output file name. It can be changed accordingly
     'LOG_LEVEL': 'INFO', #Set log level to INFO for less verbose output
 })
 process.crawl(LaneVenture)
