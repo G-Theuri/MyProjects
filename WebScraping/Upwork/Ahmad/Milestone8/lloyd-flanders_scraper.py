@@ -1,13 +1,22 @@
-from typing import Any, Iterable
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from rich import print as rprint
-from scrapy.http import Response
+import undetected_chromedriver as uc
+from selenium.webdriver.chrome.options import Options
+from scrapy.http import HtmlResponse
+import time
 
 base_url ='https://www.lloydflanders.com'
 
 class LloydFunders(scrapy.Spider):
     name = 'lloyd-funders'
+    def __init__(self):
+
+        # Set up Chrome options for headless mode
+        chrome_options = uc.ChromeOptions()
+        chrome_options.add_argument("--headless")  # Run Chrome in headless mode
+        self.driver = uc.Chrome(options=chrome_options)
+
 
     def start_requests(self):
         home_page = 'https://www.lloydflanders.com/'
@@ -35,15 +44,22 @@ class LloydFunders(scrapy.Spider):
             product_name = product.css('div.item-description::text').getall()[1].strip()
             yield scrapy.Request(url=product_url, callback=self.parse_products,
                                  meta={'category': category, 'type': type})
-            rprint(f'{category} || {type} ||{product_name} || {product_url}')
+            
 
     def parse_products(self, response):
+        rprint(f'Getting data from: {response.request.url}')
+
         #images= response.css('')
+
+        #Grey text class stores product (description, availability, sku, dimensions)
+        grey_text = response.xpath('//*[@class="grey-text"]')
+
+
         product_name = response.css('div.breadcrumbs a.active::text').get()
-        product_description = response.css('div.grey-text').getall()[0]
-        finish_availability = response.css('div.grey-text').getall()[1]
-        product_sku = response.css('div.grey-text').getall()[2]
-        product_dimensions = response.css('div.grey-text').getall()[3]
+        product_description = grey_text[0].xpath('normalize-space(text())').get()
+        finish_availability = grey_text[1].xpath('normalize-space(text())').get()
+        product_sku = grey_text[2].xpath('normalize-space(text())').get()
+        product_dimensions = grey_text[3].xpath('normalize-space(text())').get()
         disclaimer = response.css('div.disclaimer.grey-text::text').get()
 
         yield{
@@ -51,18 +67,20 @@ class LloydFunders(scrapy.Spider):
             'Type':response.meta.get('type'),
             'Product URL': response.request.url,
             'Product Name': product_name,
-            'Product SKU': product_sku.strip().replace('SKU: ', '') if product_sku else None,
+            'Product SKU': product_sku.replace('SKU: ','') if product_sku else None,
             #'Product Images':,
             #'Finishes Options':,
-            #'Fabrics Options':
-            'Product Description': product_description.strip() if product_description else None,
-            'Finishes Availability': finish_availability.strip() if finish_availability else None,
-            'Product Dimensions': product_dimensions.strip().replace('\n                           ', '') if product_dimensions else None,
-            'Disclaimer': disclaimer.strip().replace('\n                       ', '') if disclaimer else None,
+            #'Fabrics Options':,
+            'Product Description': product_description if product_description else None,
+            'Finishes Availability': finish_availability if finish_availability else None,
+            'Product Dimensions': product_dimensions if product_dimensions else None,
+            'Disclaimer': disclaimer.replace('Disclaimer: ', '').strip().replace('\n                       ', '') if disclaimer else None,
 
 
 
         }
+        def extract_dynamic_content(self, url):
+            pass
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
