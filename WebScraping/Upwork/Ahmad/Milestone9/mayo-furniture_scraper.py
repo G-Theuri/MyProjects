@@ -23,7 +23,7 @@ class MayoFurniture(scrapy.Spider):
                     sub_types= type.css('ul.pure-menu-children li')
                     for sub_type in sub_types:
                         sub_type_url = base_url + sub_type.css('a::attr(href)').get()
-                        sub_type_name = type.css('a::text').get()
+                        sub_type_name = sub_type.css('a::text').get()
                         yield scrapy.Request(url=sub_type_url, callback=self.parse_categories, 
                                         meta = {'category': category_name,'type': type_name,'subtype': sub_type_name})
                 else:
@@ -31,7 +31,7 @@ class MayoFurniture(scrapy.Spider):
                                         meta = {'category': category_name,'type': type_name,'subtype': None})
 
     def parse_categories(self, response):
-        rprint(f'Getting items on: {response.request.url}')
+        #rprint(f'Getting items on: {response.request.url}')
 
         category = response.meta.get('category')
         type = response.meta.get('type')
@@ -39,14 +39,13 @@ class MayoFurniture(scrapy.Spider):
 
         all_products = response.css('div.inner_container div')
         for product in all_products:
-            product_link = product.css('a::attr(href)').get()
+            product_link = product.css('a::attr(href)')
             if product_link:
-                product_url = base_url + product_link
+                product_url = base_url + product_link.get()
             else:
                 product_url = None
-                break
+                continue
             product_name = product.css('span::text').get()
-            rprint(product_url)
             yield scrapy.Request(url=product_url, callback=self.parse_products,
                                  meta={'category': category,'type': type,
                                        'subtype': sub_type, 'productname': product_name,})
@@ -136,8 +135,8 @@ class MayoFurniture(scrapy.Spider):
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    'FEED_URI': 'products-data.json',
-    'LOG_LEVEL': 'INFO'
+    'FEED_URI': 'products-data.json',  #Output file name. It can be changed accordingly
+    'LOG_LEVEL': 'INFO' #Set log level to INFO for less verbose output
 })
 process.crawl(MayoFurniture)
 process.start()

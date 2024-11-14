@@ -6,7 +6,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from urllib.parse import urlparse, urlunparse
-from scrapy.http import HtmlResponse
 import time
 
 base_url ='https://www.lloydflanders.com'
@@ -52,6 +51,7 @@ class LloydFunders(scrapy.Spider):
 
     def parse_products(self, response):
         rprint(f'Getting data from: {response.request.url}')
+
         #Grey text class stores product (description, availability, sku, dimensions)
         grey_text = response.xpath('//*[@class="grey-text"]')
 
@@ -92,8 +92,6 @@ class LloydFunders(scrapy.Spider):
             if response.css('div.responsive-row div'):
                 page_url = response.request.url
                 images = LloydFunders.extract_dynamic_content(self, page_url=page_url)
-                print(f'First Image Loaded: {images[1]}')
-                #print(f'Total Images Loaded: {len(images)}')
             else:
                 images = response.css('div.slide a img::attr(src)').getall()
 
@@ -112,7 +110,7 @@ class LloydFunders(scrapy.Spider):
         }
     def extract_dynamic_content(self, page_url):
         self.driver.get(page_url)
-        time.sleep(7)
+        time.sleep(7) # Sleep time can be set accordingly, depending on machine performance.
 
         #Wait for the main image to be loaded
         WebDriverWait(self.driver, 8).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="viewer-container"]')))
@@ -128,18 +126,6 @@ class LloydFunders(scrapy.Spider):
             loaded_url = urlunparse(parsed_url._replace(query=""))
             image_urls.append(loaded_url)
             
-            
-            '''
-            url_str = loaded_url.decode('utf-8')
-            
-            #Checks whether all links has the scheme https 
-            if not url_str.startswith("https"):
-                url = f"https:{loaded_url}"
-                image_urls.append(url)
-            else:
-                url= loaded_url
-                image_urls.append(url)'''
-        print(f'Total Images Extracted: {len(image_urls)}')
         return image_urls
     
     def exit_driver(self):
@@ -151,13 +137,13 @@ class LloydFunders(scrapy.Spider):
             else:
                 rprint('Driver session has already been terminated!')
         except Exception as e:
-            print(f'An error occur while terminating the driver session: {e}')
+            print(f'An error occured while terminating the driver session: {e}')
         
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    'FEED_URI': 'lloyd-new-products-data.json',
-    'LOG_LEVEL': 'INFO',
+    'FEED_URI': 'products-data.json', #Output file name. It can be changed accordingly
+    'LOG_LEVEL': 'INFO', #Set log level to INFO for less verbose output
 })
 process.crawl(LloydFunders)
 process.start()
