@@ -40,14 +40,18 @@ class BenchMaster(scrapy.Spider):
 
         category = response.meta.get('category')
         subcategory = response.meta.get('sub-category')
-        products = response.css('section div.container div.row div.col-md-6 div.pd-intro')
+        
+        if category == 'All Recliners':
+            products = response.css('section div.container div.row div.col-md-6 div.pd-intro')
 
-        for product in products:
-            product_link = product.css('a.btn.btn-transparent::attr(href)').get()
-            if product_link:
-                product_url = response_url + product_link
-                yield scrapy.Request(url=product_url, callback=self.get_data,
-                                     meta ={'category':category, 'sub-category':subcategory})
+            for product in products:
+                product_link = product.css('a.btn.btn-transparent::attr(href)').get()
+                if product_link:
+                    product_url = response_url + product_link
+                    yield scrapy.Request(url=product_url, callback=self.get_data,
+                                        meta ={'category':category, 'sub-category':subcategory})
+        else:
+            products = ''
                 
     def get_data(self, response):
         product_url = response.request.url
@@ -124,7 +128,7 @@ class BenchMaster(scrapy.Spider):
                 'Product SKU' : main_sku,
                 #'Product Images':,
                 'Product Description': description,
-                'Mechanism': mechanism,
+                'Mechanism': None,
                 #'Product Details': all_details,
                 'Suite': suites_data
             }
