@@ -140,7 +140,7 @@ class BenchMaster(scrapy.Spider):
                     'Mechanism': mechanism,
                     'Product Details': all_details,
                     'Product Variations': None,
-                    'Suite': suites_data,
+                    'Suite': suites_data, #Related products
                     'Assembly Manual': pdf_url
                 }
         else:
@@ -204,7 +204,7 @@ class BenchMaster(scrapy.Spider):
                         'Product Details': None,
                         'Product Variations': table_data,                    
                         'Product Description': None,
-                        'Suites': None,
+                        'Suites': None, #Related products
                         'Assembly Manual': manuals_data
                     }
 
@@ -251,7 +251,7 @@ class BenchMaster(scrapy.Spider):
                                             },
                         'Product Variations': None,                    
                         'Product Description': None,
-                        'Suite': None,
+                        'Suite': None, #Related products
                         'Assembly Manual': manual
                     }
         

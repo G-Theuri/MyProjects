@@ -18,7 +18,7 @@ def start_requests(url, header):
     categories = tree.xpath('//*[@id="navmain"]/li[1]/ul/li')
     
     for category in categories[1:]:
-        rprint(category)
+        #rprint(category)
         type_url = category.xpath('./a/@href')[0]
         type_name = category.xpath('./a/text()')[0]
         subtypes= category.xpath('./ul/li')
@@ -29,14 +29,14 @@ def start_requests(url, header):
                 subtype_name = subtype.xpath('./a/text()')[0]
                 response = cureq.get(url=subtype_url, impersonate='chrome', headers=header)
                 time.sleep(2)
-                info = {'Type': type_name, 'Sub-Type': subtype_name}
+                info = {'Category': type_name, 'Sub-Category': subtype_name} #Type and Sub-Type denoted as Category and Sub-Category for Uniformity
                 extract(response, info, header)
                 continue
 
         else:
             response = cureq.get(url=type_url, impersonate='chrome', headers=header)
             time.sleep(2)
-            info = {'Type': type_name, 'Sub-Type': None}
+            info = {'Category': type_name, 'Sub-Category': None} #Type and Sub-Type denoted as Category and Sub-Category for Uniformity
             extract(response, info, header)
 
 def extract(response, info, header):
@@ -105,7 +105,7 @@ def transform(response, info):
 
 
     all_data = {
-        **info,
+        **info, #Type and Sub-Type denoted as Category and Sub-Category for Uniformity
         'Product URL': response.url,
         'Product SKU': sku,
         'Product Images': tree.xpath('/html/body/div/article/div[1]/figure/img/@src'),
@@ -120,7 +120,7 @@ def transform(response, info):
 
 
 def load(all_data):
-    file_name = 'leathercraft-data.json' #Output file name
+    file_name = 'leathercraft-new-data.json' #Output file name
 
     #Appends data into the output file
     if os.path.exists(file_name):
