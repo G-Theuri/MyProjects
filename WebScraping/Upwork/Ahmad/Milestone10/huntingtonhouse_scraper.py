@@ -14,10 +14,10 @@ header = {
 
 def start_requests():
     categories = {
-    #"Living": {"Sofas": 128, "Chairs": 138, "Swivels / Swivel Gliders": 154, "Settees": 4816,"Loveseats": 135,
-                #"Sleeper Sofas": 203, "Ottomans": 142},
+    "Living": {"Sofas": 128, "Chairs": 138, "Swivels / Swivel Gliders": 154, "Settees": 4816,"Loveseats": 135,
+                "Sleeper Sofas": 203, "Ottomans": 142},
     "Motion & Recliners": {"Recliners": 163, "Motion Sofas": 4820},
-    #"Dining": {"Host Chairs": 5428, "Side Chairs": 5429,"Bar Stools": 5430, "Counter Stools": 5431}
+    "Dining": {"Host Chairs": 5428, "Side Chairs": 5429,"Bar Stools": 5430, "Counter Stools": 5431}
 }
     for category, types in categories.items():
           for type, id in types.items():
@@ -38,17 +38,18 @@ def start_requests():
                 continue
 
 def extract(json_data, category, type):
-    rprint(f'{category} || {type} || {len(json_data)}')
+    rprint(f'Getting products from: (Category: {category} || Collection/Type: {type})')
     for product in json_data:
         data={
             'Category': category,
-            'Type': type,
+            'Collection': type, #Type denoted as Collection for uniformity with previous outputs
         }
         url = product['link']
         response = cureq.get(url=url, impersonate='chrome', headers=header)
         transform(response, data=data)
 
 def transform(response, data):
+    rprint(f'Getting Data From: {response.url}')
     tree = html.fromstring(response.content)
     #Get product images
     image_links = tree.xpath('//*[@id="main-content"]/div/div/div[1]/div/div/div[3]/div/div/div[3]/dl/dt/a/img/@src')
@@ -107,7 +108,7 @@ def transform(response, data):
     info = {
         **data,
         'Product URL': response.url,
-        'SKU Name': tree.xpath('//*[@id="main-content"]/div/div/div[1]/div/div/div[1]/div/h1/text()')[0],
+        'SKU': tree.xpath('//*[@id="main-content"]/div/div/div[1]/div/div/div[1]/div/h1/text()')[0], #SKU Name
         'Product Images': image_urls,
         'Product Description': description[0] if description else None,
         'Product Details': details,
@@ -118,7 +119,7 @@ def transform(response, data):
     load(info)
 
 def load(info):
-    file_name = 'products-data.json' #Output file name
+    file_name = 'hunting-products-data.json' #Output file name
     
     #Appends data into the output file
     if os.path.exists(file_name):

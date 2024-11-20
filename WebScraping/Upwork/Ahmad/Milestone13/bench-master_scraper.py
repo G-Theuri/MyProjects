@@ -1,13 +1,23 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from rich import print as rprint
-import os
+import os, time
+import undetected_chromedriver as uc
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 
 base_url = 'https://www.benchmasterfurniture.com'
 
+
 class BenchMaster(scrapy.Spider):
     name = 'bench-master'
+    def __init__(self):
+        # Open page headless
+        chrome_options = uc.ChromeOptions()
+        chrome_options.add_argument("--headless")  # Run Chrome in headless mode
+        self.driver = uc.Chrome(options=chrome_options)
 
     def start_requests(self):
         start_url = 'https://www.benchmasterfurniture.com/'
@@ -60,6 +70,7 @@ class BenchMaster(scrapy.Spider):
             main_sku = description_name[1]
 
             #Get Images
+            images = BenchMaster.extract_images(self, page_url=product_url)
             
 
             #Product description
@@ -135,7 +146,7 @@ class BenchMaster(scrapy.Spider):
                     'Product URL' : product_url,
                     'Product Name' : item_name,
                     'Product SKU' : main_sku,
-                    'Product Images':[],
+                    'Product Images':images,
                     'Product Description': description,
                     'Mechanism': mechanism,
                     'Product Details': all_details,
@@ -254,7 +265,97 @@ class BenchMaster(scrapy.Spider):
                         'Suite': None, #Related products
                         'Assembly Manual': manual
                     }
+    def extract_images(self, page_url):
+        self.driver.get(page_url)
+        time.sleep(5)
+        swatch_images = {}
+        print(f'Getting images from: {page_url}')
+    
+        #Get image urls
+        swatches = self.driver.find_elements(By.XPATH, '//*[@class="cover col-md-8"]/div[@class="swatches"]/div/div')
         
+        if swatches:
+            for swatch in swatches:
+                time.sleep(3)
+                WebDriverWait(self.driver, 8).until(EC.visibility_of_element_located((By.XPATH, '//*[@class="cover col-md-8"]/div[@class="swatches"]/div/div')))
+                try:
+                    swatch.find_element(By.XPATH,'./img').click()
+                    time.sleep(5)
+                except:
+                    swatch.click()
+                    time.sleep(5)
+
+                swatch_name = swatch.find_element(By.XPATH,'./p').text
+                urls = []
+                images = self.driver.find_elements(By.XPATH, '//*[@class="slick-list draggable"]/div[@class="slick-track"]/a')
+                for image in images:
+                    base_url = 'https://www.benchmasterfurniture.com/'
+                    url = image.get_attribute('href').replace('../../', base_url)
+                    urls.append(url)
+                swatch_images[swatch_name.replace('\n', ' ')] = urls
+                print(f'Image Count: {len(urls)}')
+        elif self.driver.find_elements(By.XPATH, '//*[@class="cover col-md-7"]/div[@class="swatches"]/div/div'):
+            swatches = self.driver.find_elements(By.XPATH, '//*[@class="cover col-md-7"]/div[@class="swatches"]/div/div')
+            for swatch in swatches:
+                WebDriverWait(self.driver, 8).until(EC.visibility_of_element_located((By.XPATH, '//*[@class="cover col-md-7"]/div[@class="swatches"]/div/div')))
+                try:
+                    swatch.find_element(By.XPATH,'./img').click()
+                    time.sleep(5)
+                except:
+                    swatch.click()
+                    time.sleep(5)
+                swatch_name = swatch.find_element(By.XPATH,'./p').text
+                urls = []
+                images = self.driver.find_elements(By.XPATH, '//*[@class="slick-list draggable"]/div[@class="slick-track"]/a')
+                for image in images:
+                    base_url = 'https://www.benchmasterfurniture.com/'
+                    url = image.get_attribute('href').replace('../../', base_url)
+                    urls.append(url)
+                swatch_images[swatch_name.replace('\n', ' ')] = urls
+                print(f'Image Count: {len(urls)}')
+                    
+
+        elif self.driver.find_elements(By.XPATH, '//*[@class="cover col-md-6"]/div[@class="swatches"]/div/div'):
+            swatches = self.driver.find_elements(By.XPATH, '//*[@class="cover col-md-6"]/div[@class="swatches"]/div/div')
+            for swatch in swatches:
+                WebDriverWait(self.driver, 8).until(EC.visibility_of_element_located((By.XPATH, '//*[@class="cover col-md-6"]/div[@class="swatches"]/div/div')))
+                try:
+                    swatch.find_element(By.XPATH,'./img').click()
+                    time.sleep(5)
+                except:
+                    swatch.click()
+                    time.sleep(5)
+                swatch_name = swatch.find_element(By.XPATH,'./p').text
+
+                urls = []
+                images = self.driver.find_elements(By.XPATH, '//*[@class="main_img"]/div/ul[@class="thumb-nav"]/li/img')
+                if images:
+                    for image in images:
+                        base_url = 'https://www.benchmasterfurniture.com/'
+                        url = image.get_attribute('src').replace('../../', base_url).replace('/80x80/', '/800x800/')
+                        urls.append(url)
+                    swatch_images[swatch_name.replace('\n', ' ')] = urls
+                    print(f'Image Count: {len(urls)}')
+                else:
+                    images = self.driver.find_elements(By.XPATH, '//*[@class="slick-list draggable"]/div[@class="slick-track"]/a')
+                    for image in images:
+                        base_url = 'https://www.benchmasterfurniture.com/'
+                        url = image.get_attribute('href').replace('../../', base_url)
+                        urls.append(url)
+                    swatch_images[swatch_name.replace('\n', ' ')] = urls
+                    print(f'Image Count: {len(urls)}')
+        return swatch_images
+    
+    def exit_driver(self):
+        #close the driver session after the extraction
+        try:
+            if self.driver is not None:
+                self.driver.quit()
+                rprint('Driver session terminated succesfully!')
+            else:
+                rprint('Driver session has already been terminated!')
+        except Exception as e:
+            print(f'An error occured while terminating the driver session: {e}')
 
 
 

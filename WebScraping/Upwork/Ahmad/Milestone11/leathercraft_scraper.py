@@ -17,7 +17,7 @@ def start_requests(url, header):
     tree = html.fromstring(response.content)
     categories = tree.xpath('//*[@id="navmain"]/li[1]/ul/li')
     
-    for category in categories[1:]:
+    for category in categories[1:]: 
         #rprint(category)
         type_url = category.xpath('./a/@href')[0]
         type_name = category.xpath('./a/text()')[0]
@@ -36,7 +36,7 @@ def start_requests(url, header):
         else:
             response = cureq.get(url=type_url, impersonate='chrome', headers=header)
             time.sleep(2)
-            info = {'Category': type_name, 'Sub-Category': None} #Type and Sub-Type denoted as Category and Sub-Category for Uniformity
+            info = {'Category': type_name, 'Sub-Category': None} #Type and Sub-Type denoted as Category and Sub-Category for Uniformity with previous outputs
             extract(response, info, header)
 
 def extract(response, info, header):
@@ -62,12 +62,12 @@ def extract(response, info, header):
             time.sleep(1.7)
 
             transform(response, info)
-        next_page(next_page[0], info, header)
+        get_next_page(next_page[0], info, header)
 
-def next_page(next_page, info, header):
+def get_next_page(next_page, info, header):
     response = cureq.get(url=next_page, impersonate='chrome', headers=header)
     time.sleep(2.1)
-    extract(response, info)
+    extract(response, info, header)
 
     
 def transform(response, info):
@@ -77,6 +77,7 @@ def transform(response, info):
     title = tree.xpath('/html/body/div/article/div[1]/h2/text()')
     if title:
         sku = title[0].split(' ')[0]
+        name = title[0].replace(sku, '').replace('- QS Frame', '').strip()
     else:
         sku = None
 
@@ -107,6 +108,7 @@ def transform(response, info):
     all_data = {
         **info, #Type and Sub-Type denoted as Category and Sub-Category for Uniformity
         'Product URL': response.url,
+        'Product Name': name,
         'Product SKU': sku,
         'Product Images': tree.xpath('/html/body/div/article/div[1]/figure/img/@src'),
         'Product Description': tree.xpath('/html/body/div/article/div[1]/div[2]/p/text()'),
@@ -120,7 +122,7 @@ def transform(response, info):
 
 
 def load(all_data):
-    file_name = 'leathercraft-new-data.json' #Output file name
+    file_name = 'leathercraft-data.json' #Output file name
 
     #Appends data into the output file
     if os.path.exists(file_name):
