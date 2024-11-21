@@ -1,7 +1,7 @@
 [
     {
         "Category": "Chairs",
-        "Sub-Category": "Accent Chairs",
+        "Collection": "Accent Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1152-wrenn-chair",
         "Product Name": "Wrenn Chair",
         "Product SKU": "1152",
@@ -30,7 +30,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Accent Chairs",
+        "Collection": "Accent Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1652-soho-chair-qs-frame",
         "Product Name": "Soho Chair",
         "Product SKU": "1652",
@@ -61,7 +61,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Accent Chairs",
+        "Collection": "Accent Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/214-02-bamba-metal-chair",
         "Product Name": "Bamba Metal Chair",
         "Product SKU": "214-02",
@@ -92,7 +92,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Accent Chairs",
+        "Collection": "Accent Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/214-02-28-bamba-chair",
         "Product Name": "Bamba Chair",
         "Product SKU": "214-02-28",
@@ -123,7 +123,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Accent Chairs",
+        "Collection": "Accent Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2398-hunter-accent-chair",
         "Product Name": "Hunter Accent Chair",
         "Product SKU": "2398",
@@ -150,7 +150,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Accent Chairs",
+        "Collection": "Accent Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2852-tate-chair-qs-frame",
         "Product Name": "Tate Chair",
         "Product SKU": "2852",
@@ -179,7 +179,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Accent Chairs",
+        "Collection": "Accent Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4302-blair-chair",
         "Product Name": "Blair Chair",
         "Product SKU": "4302",
@@ -206,7 +206,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1218-baxter-barstool",
         "Product Name": "Baxter Barstool",
         "Product SKU": "1218",
@@ -235,7 +235,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/139-willem-dining-chair-qs-frame",
         "Product Name": "Willem Dining Chair",
         "Product SKU": "139",
@@ -263,7 +263,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4828-10-charlie-armless-barstool-qs-frame",
         "Product Name": "Charlie Armless Barstool",
         "Product SKU": "4828-10",
@@ -293,7 +293,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4828l-10-charlie-armless-counter-height-barstool",
         "Product Name": "Charlie Armless Counter Height Barstool",
         "Product SKU": "4828L-10",
@@ -318,7 +318,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4829h-10-charlie-high-back-side-chair-qs-frame",
         "Product Name": "Charlie High Back Side Chair",
         "Product SKU": "4829H-10",
@@ -348,7 +348,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4829l-10-charlie-low-back-side-chair-qs-frame",
         "Product Name": "Charlie Low Back Side Chair",
         "Product SKU": "4829L-10",
@@ -378,7 +378,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/508-lowell-swivel-barstool",
         "Product Name": "Lowell Swivel Barstool",
         "Product SKU": "508",
@@ -410,7 +410,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/508-10-lowell-armless-swivel-barstool",
         "Product Name": "Lowell Armless Swivel Barstool",
         "Product SKU": "508-10",
@@ -441,7 +441,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/508r-lowell-round-swivel-barstool",
         "Product Name": "Lowell Round Swivel Barstool",
         "Product SKU": "508R",
@@ -471,7 +471,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/518-jasper-barstool-qs-frame",
         "Product Name": "Jasper Barstool",
         "Product SKU": "518",
@@ -499,7 +499,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/528-jasper-low-back-barstool",
         "Product Name": "Jasper Low Back Barstool",
         "Product SKU": "528",
@@ -527,7 +527,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/538-cosmo-barstool",
         "Product Name": "Cosmo Barstool",
         "Product SKU": "538",
@@ -554,7 +554,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/8124-hugh-bench-qs-frame",
         "Product Name": "Hugh Bench",
         "Product SKU": "8124",
@@ -585,7 +585,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/8124h-hugh-bar-height-bench",
         "Product Name": "Hugh Bar Height Bench",
         "Product SKU": "8124H",
@@ -616,7 +616,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/8124l-hugh-counter-height-bench",
         "Product Name": "Hugh Counter Height Bench",
         "Product SKU": "8124L",
@@ -647,7 +647,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/8128-hugh-barstool-qs-frame",
         "Product Name": "Hugh Barstool",
         "Product SKU": "8128",
@@ -680,7 +680,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Dining & Barstools",
+        "Collection": "Dining & Barstools",
         "Product URL": "https://leathercraft-furniture.com/upholstery/8129-hugh-dining-chair-qs-frame",
         "Product Name": "Hugh Dining Chair",
         "Product SKU": "8129",
@@ -711,7 +711,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Game Chairs",
+        "Collection": "Game Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/219c-rainer-game-chair",
         "Product Name": "Rainer Game Chair",
         "Product SKU": "219C",
@@ -740,7 +740,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/613-25-cambridge-high-back-tilt-swivel-chair",
         "Product Name": "Cambridge High Back Tilt Swivel Chair",
         "Product SKU": "613-25",
@@ -766,7 +766,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/623-18-curtis-tilt-swivel-chair",
         "Product Name": "Curtis Tilt Swivel Chair",
         "Product SKU": "623-18",
@@ -794,7 +794,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/623-38-curtis-tilt-swivel-chair",
         "Product Name": "Curtis Tilt Swivel Chair",
         "Product SKU": "623-38",
@@ -822,7 +822,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/663-15-chandler-executive-tilt-swivel-chair",
         "Product Name": "Chandler Executive Tilt Swivel Chair",
         "Product SKU": "663-15",
@@ -850,7 +850,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/7072-richmond-low-back-tilt-swivel-chair-qs-frame",
         "Product Name": "Richmond Low Back Tilt Swivel Chair",
         "Product SKU": "7072",
@@ -876,7 +876,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/7133-thornton-high-back-tilt-swivel-chair",
         "Product Name": "Thornton High Back Tilt Swivel Chair",
         "Product SKU": "7133",
@@ -902,7 +902,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/7173-hutton-executive-chair-qs-frame",
         "Product Name": "Hutton Executive Chair",
         "Product SKU": "7173",
@@ -930,7 +930,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/742-38-charleston-tilt-swivel-chair",
         "Product Name": "Charleston Tilt Swivel Chair",
         "Product SKU": "742-38",
@@ -956,7 +956,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/763-18hr-judges-tilt-swivel-chair",
         "Product Name": "Judge's Tilt Swivel Chair",
         "Product SKU": "763-18HR",
@@ -984,7 +984,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/793-18-sullivan-tilt-swivel-chair",
         "Product Name": "Sullivan Tilt Swivel Chair",
         "Product SKU": "793-18",
@@ -1012,7 +1012,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/8213-kent-executive-chair-qs-frame",
         "Product Name": "Kent Executive Chair",
         "Product SKU": "8213",
@@ -1041,7 +1041,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/9133-asher-high-back-tilt-swivel-chair",
         "Product Name": "Asher High Back Tilt Swivel Chair",
         "Product SKU": "9133",
@@ -1069,7 +1069,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Home Office/Exec.",
+        "Collection": "Home Office/Exec.",
         "Product URL": "https://leathercraft-furniture.com/upholstery/9133h-asher-extra-high-back-tilt-swivel-chair",
         "Product Name": "Asher Extra High Back Tilt Swivel Chair",
         "Product SKU": "9133H",
@@ -1097,7 +1097,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1012-st-lucia-chair",
         "Product Name": "St. Lucia Chair",
         "Product SKU": "1012",
@@ -1128,7 +1128,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1042-blayne-chair-1043-blayne-ottoman",
         "Product Name": "Blayne Chair & 1043 Blayne Ottoman",
         "Product SKU": "1042",
@@ -1160,7 +1160,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1052-bradley-chair",
         "Product Name": "Bradley Chair",
         "Product SKU": "1052",
@@ -1193,7 +1193,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1802-springhouse-chair-1803-springhouse-ottoman-greenbrier-lifestyle-collection",
         "Product Name": "Springhouse Chair / 1803 Springhouse Ottoman (Greenbrier Lifestyle Collection)",
         "Product SKU": "1802",
@@ -1222,7 +1222,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1962-livingston-chair",
         "Product Name": "Livingston Chair",
         "Product SKU": "1962",
@@ -1253,7 +1253,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2012-conrad-chair",
         "Product Name": "Conrad Chair",
         "Product SKU": "2012",
@@ -1280,7 +1280,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2562-garland-chair-qs-frame",
         "Product Name": "Garland Chair",
         "Product SKU": "2562",
@@ -1312,7 +1312,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2632-breckenridge-chair-qs-frame",
         "Product Name": "Breckenridge Chair",
         "Product SKU": "2632",
@@ -1341,7 +1341,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2672-robinson-chair-qs-frame",
         "Product Name": "Robinson Chair",
         "Product SKU": "2672",
@@ -1370,7 +1370,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2898-lodge-chair-qs-frame",
         "Product Name": "Lodge Chair",
         "Product SKU": "2898",
@@ -1399,7 +1399,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/292-19-kirkland-lounge-chair",
         "Product Name": "Kirkland Lounge Chair",
         "Product SKU": "292-19",
@@ -1428,7 +1428,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/3332-logan-chair",
         "Product Name": "Logan Chair",
         "Product SKU": "3332",
@@ -1460,7 +1460,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/3512-east-end-chair",
         "Product Name": "East End Chair",
         "Product SKU": "3512",
@@ -1487,7 +1487,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/40-2-231",
         "Product Name": "Manhattan Select Chair",
         "Product SKU": "40-2-231",
@@ -1519,7 +1519,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/920-02-manhattan-chair-qs-frame",
         "Product Name": "Manhattan Chair",
         "Product SKU": "920-02",
@@ -1556,7 +1556,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/921-02-10-manhattan-armless-chair",
         "Product Name": "Manhattan Armless Chair",
         "Product SKU": "921-02-10",
@@ -1589,7 +1589,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/926-02-926-03-cloud-nine-chair-ottoman",
         "Product Name": "& 926-03 Cloud Nine Chair & Ottoman",
         "Product SKU": "926-02",
@@ -1620,7 +1620,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Lounge Chairs",
+        "Collection": "Lounge Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/933-02-933-03-shelly-chair-ottoman",
         "Product Name": "& 933-03 Shelly Chair & Ottoman",
         "Product SKU": "933-02",
@@ -1651,7 +1651,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1652-sw-soho-swivel-chair",
         "Product Name": "Soho Swivel Chair",
         "Product SKU": "1652-SW",
@@ -1682,7 +1682,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2692-fallon-swivel-chair",
         "Product Name": "Fallon Swivel Chair",
         "Product SKU": "2692",
@@ -1709,7 +1709,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2712-acacia-swivel-chair-qs-frame",
         "Product Name": "Acacia Swivel Chair-QS Frame",
         "Product SKU": "2712",
@@ -1736,7 +1736,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2842-zander-swivel-chair-qs-frame",
         "Product Name": "Zander Swivel Chair",
         "Product SKU": "2842",
@@ -1763,7 +1763,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2852-sw-tate-swivel-chair-qs-frame",
         "Product Name": "Tate Swivel Chair",
         "Product SKU": "2852-SW",
@@ -1792,7 +1792,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/2898sw-lodge-swivel-chair-qs-frame",
         "Product Name": "Lodge Swivel Chair",
         "Product SKU": "2898SW",
@@ -1819,7 +1819,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4212-romneus-swivel-chair-qs-frame",
         "Product Name": "Romneus Swivel Chair",
         "Product SKU": "4212",
@@ -1846,7 +1846,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4342-sw-susie-q-swivel-chair-qs-frame",
         "Product Name": "Susie-Q Swivel Chair",
         "Product SKU": "4342-SW",
@@ -1875,7 +1875,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/4612-sw-roush-swivel-chair",
         "Product Name": "Roush Swivel Chair",
         "Product SKU": "4612-SW",
@@ -1902,7 +1902,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Swivel Chairs",
+        "Collection": "Swivel Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/920-02sw-manhattan-swivel-chair",
         "Product Name": "Manhattan Swivel Chair",
         "Product SKU": "920-02SW",
@@ -1937,7 +1937,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1231-17-kelly-wing-chair",
         "Product Name": "Kelly Wing Chair",
         "Product SKU": "1231-17",
@@ -1966,7 +1966,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1231-18-kelly-tufted-wing-chair",
         "Product Name": "Kelly Tufted Wing Chair",
         "Product SKU": "1231-18",
@@ -1995,7 +1995,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1241-17-alistair-wing-chair",
         "Product Name": "Alistair Wing Chair",
         "Product SKU": "1241-17",
@@ -2027,7 +2027,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1241-18-alistair-wing-chair",
         "Product Name": "Alistair Wing Chair",
         "Product SKU": "1241-18",
@@ -2059,7 +2059,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1241-38-alistair-wing-chair",
         "Product Name": "Alistair Wing Chair",
         "Product SKU": "1241-38",
@@ -2091,7 +2091,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/1261-17-kellan-wing-chair-qs-frame",
         "Product Name": "Kellan Wing Chair",
         "Product SKU": "1261-17",
@@ -2118,7 +2118,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/131-38-henry-wing-chair",
         "Product Name": "Henry Wing Chair",
         "Product SKU": "131-38",
@@ -2147,7 +2147,7 @@
     },
     {
         "Category": "Chairs",
-        "Sub-Category": "Wing Chairs",
+        "Collection": "Wing Chairs",
         "Product URL": "https://leathercraft-furniture.com/upholstery/141-38-reynolds-wing-chair",
         "Product Name": "Reynolds Wing Chair & 143-3 Reynolds Ottoman",
         "Product SKU": "141-38",
@@ -2176,7 +2176,7 @@
     },
     {
         "Category": "Home Theater",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/317-screenplay-series",
         "Product Name": "Screenplay Series",
         "Product SKU": "317",
@@ -2205,7 +2205,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/042-blayne-easeback-1043-blayne-ottoman",
         "Product Name": "Blayne Easeback & 1043 Blayne Ottoman",
         "Product SKU": "042",
@@ -2237,7 +2237,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1013-st-lucia-ottoman",
         "Product Name": "St. Lucia Ottoman",
         "Product SKU": "1013",
@@ -2266,7 +2266,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1133-bradley-ottoman",
         "Product Name": "Bradley Ottoman",
         "Product SKU": "1133",
@@ -2294,7 +2294,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1143-3-collins-ottoman",
         "Product Name": "Collins Ottoman",
         "Product SKU": "1143-3",
@@ -2319,7 +2319,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/141-38-reynolds-wing-chair",
         "Product Name": "Reynolds Wing Chair & 143-3 Reynolds Ottoman",
         "Product SKU": "141-38",
@@ -2348,7 +2348,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2143-gillham-ottoman",
         "Product Name": "Gillham Ottoman",
         "Product SKU": "2143",
@@ -2373,7 +2373,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/215-03-mia-ottoman-qs-frame",
         "Product Name": "Mia Ottoman",
         "Product SKU": "215-03",
@@ -2400,7 +2400,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2403-conner-ottoman",
         "Product Name": "Conner Ottoman",
         "Product SKU": "2403",
@@ -2427,7 +2427,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/244-brodie-ottoman-qs-frame",
         "Product Name": "Brodie Ottoman",
         "Product SKU": "244",
@@ -2454,7 +2454,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2563-garland-ottoman-qs-frame",
         "Product Name": "Garland Ottoman",
         "Product SKU": "2563",
@@ -2484,7 +2484,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2673-robinson-ottoman",
         "Product Name": "Robinson Ottoman",
         "Product SKU": "2673",
@@ -2511,7 +2511,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/3333-logan-ottoman",
         "Product Name": "Logan Ottoman",
         "Product SKU": "3333",
@@ -2541,7 +2541,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/403-julius-bench",
         "Product Name": "Julius Bench",
         "Product SKU": "403",
@@ -2566,7 +2566,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/513-poppy-ottoman-qs-frame",
         "Product Name": "Poppy Ottoman",
         "Product SKU": "513",
@@ -2593,7 +2593,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/513-30c-poppy-ottoman-w-recessed-casters",
         "Product Name": "Poppy Ottoman w/ Recessed Casters",
         "Product SKU": "513-30C",
@@ -2620,7 +2620,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/513c-poppy-ottoman-w-casters",
         "Product Name": "Poppy Ottoman w/ Casters",
         "Product SKU": "513C",
@@ -2648,7 +2648,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/523-portia-ottoman-qs-frame",
         "Product Name": "Portia Ottoman",
         "Product SKU": "523",
@@ -2675,7 +2675,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/524-rebecca-ottoman",
         "Product Name": "Rebecca Ottoman",
         "Product SKU": "524",
@@ -2700,7 +2700,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/533-feng-ottoman-qs-frame",
         "Product Name": "Feng Ottoman",
         "Product SKU": "533",
@@ -2727,7 +2727,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/553-neon-ottoman-qs-frame",
         "Product Name": "Neon Ottoman",
         "Product SKU": "553",
@@ -2756,7 +2756,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/553-18-neon-ottoman",
         "Product Name": "Neon Ottoman",
         "Product SKU": "553-18",
@@ -2785,7 +2785,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/584-brigham-ottoman",
         "Product Name": "Brigham Ottoman",
         "Product SKU": "584",
@@ -2813,7 +2813,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/584-36-brigham-ottoman",
         "Product Name": "Brigham Ottoman",
         "Product SKU": "584-36",
@@ -2843,7 +2843,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/584jb-sensation-ottoman-jarrett-bay-home-collection",
         "Product Name": "Sensation Ottoman (Jarrett Bay Home Collection)",
         "Product SKU": "584JB",
@@ -2873,7 +2873,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/911-04-bluffton-ottoman-qs-frame",
         "Product Name": "Bluffton Ottoman",
         "Product SKU": "911-04",
@@ -2898,7 +2898,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/916-04-sq1-studio-square-ottoman",
         "Product Name": "Studio Square Ottoman",
         "Product SKU": "916-04/SQ1",
@@ -2927,7 +2927,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/916-04-sq2-studio-ottoman",
         "Product Name": "Studio Ottoman",
         "Product SKU": "916-04/SQ2",
@@ -2956,7 +2956,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/918-04-rd1-vivian-round-ottoman",
         "Product Name": "Vivian Round Ottoman",
         "Product SKU": "918-04/RD1",
@@ -2985,7 +2985,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/918-04rd1b-vivian-ottoman",
         "Product Name": "Vivian Metal Base Ottoman",
         "Product SKU": "918-04RD1B",
@@ -3014,7 +3014,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/920-03-manhattan-ottoman-qs-frame",
         "Product Name": "Manhattan Ottoman",
         "Product SKU": "920-03",
@@ -3049,7 +3049,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/926-02-926-03-cloud-nine-chair-ottoman",
         "Product Name": "& 926-03 Cloud Nine Chair & Ottoman",
         "Product SKU": "926-02",
@@ -3080,7 +3080,7 @@
     },
     {
         "Category": "Ottomans/Benches",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/933-02-933-03-shelly-chair-ottoman",
         "Product Name": "& 933-03 Shelly Chair & Ottoman",
         "Product SKU": "933-02",
@@ -3111,7 +3111,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/042-blayne-easeback-1043-blayne-ottoman",
         "Product Name": "Blayne Easeback & 1043 Blayne Ottoman",
         "Product SKU": "042",
@@ -3143,7 +3143,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/052-bradley-easeback",
         "Product Name": "Bradley Ease Back Chair & 1133 Bradley Ottoman",
         "Product SKU": "052",
@@ -3172,7 +3172,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1017-blakely-recliner-qs-frame",
         "Product Name": "Blakely Recliner",
         "Product SKU": "1017",
@@ -3203,7 +3203,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1027-forrest-recliner",
         "Product Name": "Forrest Recliner",
         "Product SKU": "1027",
@@ -3230,7 +3230,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1057-bradley-recliner",
         "Product Name": "Bradley Recliner",
         "Product SKU": "1057",
@@ -3265,7 +3265,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1057-l-bradley-recliner-w-lift-mechanism",
         "Product Name": "Bradley Recliner w/ Lift Mechanism",
         "Product SKU": "1057-L",
@@ -3299,7 +3299,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1057sr-bradley-swivel-glider-recliner-qs-frame",
         "Product Name": "Bradley Swivel Glider Recliner",
         "Product SKU": "1057SG",
@@ -3332,7 +3332,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1337pop-tucker-recliner-w-pop-up-headrest",
         "Product Name": "Tucker Recliner w/ Pop-Up Headrest",
         "Product SKU": "1337POP",
@@ -3361,7 +3361,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1357-dixie-recliner-qs-frame",
         "Product Name": "Dixie Recliner",
         "Product SKU": "1357",
@@ -3390,7 +3390,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1367-sg-roth-swivel-glider-recliner",
         "Product Name": "Roth Swivel Glider Recliner",
         "Product SKU": "1367-SG",
@@ -3417,7 +3417,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1377-woody-recliner",
         "Product Name": "Woody Recliner",
         "Product SKU": "1377",
@@ -3446,7 +3446,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1387-phantom-recliner",
         "Product Name": "Phantom Recliner",
         "Product SKU": "1387",
@@ -3475,7 +3475,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1397pop-winston-recliner-w-pop-up-headrest",
         "Product Name": "Winston Recliner w/ Pop-Up Headrest",
         "Product SKU": "1397POP",
@@ -3504,7 +3504,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1447-laney-recliner-qs-frame",
         "Product Name": "Laney Recliner",
         "Product SKU": "1447",
@@ -3533,7 +3533,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1607-greg-recliner-qs-frame",
         "Product Name": "Greg Recliner",
         "Product SKU": "1607",
@@ -3560,7 +3560,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1627-anna-recliner",
         "Product Name": "Anna Recliner",
         "Product SKU": "1627",
@@ -3587,7 +3587,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/1757-cary-recliner-qs-frame",
         "Product Name": "Cary Recliner",
         "Product SKU": "1757",
@@ -3616,7 +3616,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2057srm-mathis-heavy-duty-swivel-rocker-recliner-w-motor",
         "Product Name": "Mathis Heavy Duty Swivel Glider Recliner w/ Motor",
         "Product SKU": "2057SGM",
@@ -3643,7 +3643,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2407-conner-recliner",
         "Product Name": "Conner Recliner",
         "Product SKU": "2407",
@@ -3670,7 +3670,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2427-virgil-recliner",
         "Product Name": "Virgil Recliner",
         "Product SKU": "2427",
@@ -3699,7 +3699,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2947sr-hale-swivel-glider-recliner",
         "Product Name": "Hale Swivel Glider Recliner",
         "Product SKU": "2947SG",
@@ -3728,7 +3728,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/402-conner-easeback-chair",
         "Product Name": "Conner Easeback Chair",
         "Product SKU": "402",
@@ -3759,7 +3759,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/427-recliner",
         "Product Name": "Recliner",
         "Product SKU": "427",
@@ -3788,7 +3788,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-048p-oasis-recliner",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-048P",
@@ -3825,7 +3825,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-159-oasis-recliner-program",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-157",
@@ -3862,7 +3862,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-168pc-oasis-recliner-program",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-168PC",
@@ -3899,7 +3899,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-247-oasis-recliner-program",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-247",
@@ -3936,7 +3936,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-368p-oasis-recliner-program",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-368P",
@@ -3973,7 +3973,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-ha7p-oasis-recliner-program",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-HA7P",
@@ -4010,7 +4010,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-ic7p-oasis-recliner-program",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-IC7P",
@@ -4047,7 +4047,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/537-jdo-oasis-recliner-program",
         "Product Name": "Oasis Recliner Program",
         "Product SKU": "537-JDO",
@@ -4084,7 +4084,7 @@
     },
     {
         "Category": "Recliners/Ease Backs",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/917-07-rhett-recliner",
         "Product Name": "Rhett Recliner",
         "Product SKU": "917-07",
@@ -4111,7 +4111,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2560-garland-series-sectional-qs-frame",
         "Product Name": "Garland Series Sectional",
         "Product SKU": "2560",
@@ -4145,7 +4145,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/2565-garland-series-sectional",
         "Product Name": "Garland Series Sectional",
         "Product SKU": "2565",
@@ -4174,7 +4174,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/3330-logan-series-sectional",
         "Product Name": "Logan Series Sectional",
         "Product SKU": "3330",
@@ -4208,7 +4208,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/3440-rockies-sectional",
         "Product Name": "Rockies Sectional",
         "Product SKU": "3440",
@@ -4239,7 +4239,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/920-00-manhattan-series-sectional",
         "Product Name": "Manhattan Series Sectional",
         "Product SKU": "920-00",
@@ -4276,7 +4276,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/920-05-1l-manhattan-left-arm-loveseat-920-08-15-right-arm-chaise-qs-frame",
         "Product Name": "Manhattan Left Arm Loveseat & 920-08/15 Right Arm Chaise",
         "Product SKU": "920-05-1L",
@@ -4305,7 +4305,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/921-00-manhattan-series-sectional",
         "Product Name": "Manhattan Series Sectional",
         "Product SKU": "921-00",
@@ -4339,7 +4339,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/921-00pb-manhattan-series-sectional",
         "Product Name": "Manhattan Series Sectional",
         "Product SKU": "921-00PB",
@@ -4373,7 +4373,7 @@
     },
     {
         "Category": "Sectionals",
-        "Sub-Category": null,
+        "Collection": null,
         "Product URL": "https://leathercraft-furniture.com/upholstery/933-05-1l-933-00r-shelly-left-arm-loveseat-right-arm-corner-sofa",
         "Product Name": "& 933-00R Shelly Left Arm Loveseat & Right Arm Corner Sofa",
         "Product SKU": "933-05-1L",
@@ -4405,7 +4405,7 @@
     },
     {
         "Category": "Sofas",
-        "Sub-Category": "Reclining",
+        "Collection": "Reclining",
         "Product URL": "https://leathercraft-furniture.com/upholstery/530-amr-oasis-reclining-sofa",
         "Product Name": "Oasis Reclining Sofa",
         "Product SKU": "530-AMR",
@@ -4434,7 +4434,7 @@
     },
     {
         "Category": "Sofas",
-        "Sub-Category": "Sleeper",
+        "Collection": "Sleeper",
         "Product URL": "https://leathercraft-furniture.com/upholstery/3330-68s-logan-sleeper-sofa",
         "Product Name": "Logan Sleeper Sofa",
         "Product SKU": "3330-68S",
@@ -4466,7 +4466,7 @@
     },
     {
         "Category": "Sofas",
-        "Sub-Category": "Sleeper",
+        "Collection": "Sleeper",
         "Product URL": "https://leathercraft-furniture.com/upholstery/920-00-68s-manhattan-sleeper-sofa",
         "Product Name": "Manhattan Sleeper Sofa",
         "Product SKU": "920-00-68S",
@@ -4501,7 +4501,7 @@
     },
     {
         "Category": "Sofas",
-        "Sub-Category": "Sleeper",
+        "Collection": "Sleeper",
         "Product URL": "https://leathercraft-furniture.com/upholstery/921-00-68s-manhattan-sleeper-sofa",
         "Product Name": "Manhattan Sleeper Sofa",
         "Product SKU": "921-00-68S",
