@@ -142,7 +142,7 @@ class BenchMaster(scrapy.Spider):
 
                 yield{
                     'Category' : response.meta.get('category'),
-                    'Sub-Category' : response.meta.get('category'),
+                    'Collection' : response.meta.get('sub-category'),
                     'Product URL' : product_url,
                     'Product Name' : item_name,
                     'Product SKU' : main_sku,
@@ -205,7 +205,7 @@ class BenchMaster(scrapy.Spider):
 
                     yield{
                         'Category': 'Accessories',
-                        'Sub Category': None,
+                        'Collection': None,
                         'Product URL' : response.request.url,
                         'Product Name' : name,
                         'Product SKU' : 'T030 / T030A / T031',
@@ -361,7 +361,7 @@ class BenchMaster(scrapy.Spider):
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    'FEED_URI': 'bm-products-data.json', #Output file name. It can be changed accordingly
+    'FEED_URI': 'products-data.json', #Output file name. It can be changed accordingly
     'LOG_LEVEL': 'INFO', #Set log level to INFO for less verbose output
 })
 process.crawl(BenchMaster)

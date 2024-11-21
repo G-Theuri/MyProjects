@@ -4,6 +4,8 @@ from lxml import html
 import time, os, json
 
 start_url = 'https://leathercraft-furniture.com/'
+
+#You can change the user-agent and the cookie accordingly
 header = {
     #"cookie":"products=; CRAFT_CSRF_TOKEN=77532ba957a0d48a4c79fcf8df36b7785e191e76b289b997ca19a1235b5d902fa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A40%3A%222a2fiP2z-uXH0BjCKYd8hQxzVhgtA6UOVmrv9E_I%22%3B%7D",
     "authority": 'leathercraft-furniture.com',
@@ -29,14 +31,14 @@ def start_requests(url, header):
                 subtype_name = subtype.xpath('./a/text()')[0]
                 response = cureq.get(url=subtype_url, impersonate='chrome', headers=header)
                 time.sleep(2)
-                info = {'Category': type_name, 'Sub-Category': subtype_name} #Type and Sub-Type denoted as Category and Sub-Category for Uniformity
+                info = {'Category': type_name, 'Collection': subtype_name} #Type and Sub-Type denoted as Category and Collection for Uniformity
                 extract(response, info, header)
                 continue
 
         else:
             response = cureq.get(url=type_url, impersonate='chrome', headers=header)
             time.sleep(2)
-            info = {'Category': type_name, 'Sub-Category': None} #Type and Sub-Type denoted as Category and Sub-Category for Uniformity with previous outputs
+            info = {'Category': type_name, 'Collection': None} #Type and Sub-Type denoted as Category and Collection for Uniformity with previous outputs
             extract(response, info, header)
 
 def extract(response, info, header):
@@ -122,7 +124,7 @@ def transform(response, info):
 
 
 def load(all_data):
-    file_name = 'leathercraft-data.json' #Output file name
+    file_name = 'products-data.json' #Output file name
 
     #Appends data into the output file
     if os.path.exists(file_name):

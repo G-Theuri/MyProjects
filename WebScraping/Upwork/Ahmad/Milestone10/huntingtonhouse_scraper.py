@@ -3,8 +3,8 @@ from rich import print as rprint
 from lxml import html
 import json, time, os
 import urllib.parse
-from scrapy.crawler import CrawlerProcess
 
+#You can change the user-agent and the cookie accordingly
 header = {
     "cookie":'_I_=3ea25219599ce15ff2477f03ec85dd3a-1731734532; _gid=GA1.2.2123595520.1731734534; _gat_gtag_UA_42671107_1=1; _ga_DNZ9VE4NG3=GS1.1.1731734534.1.1.1731735299.0.0.0; _ga=GA1.1.1330993192.1731734534',
     "authority": 'huntingtonhouse.com',
@@ -119,7 +119,7 @@ def transform(response, data):
     load(info)
 
 def load(info):
-    file_name = 'hunting-products-data.json' #Output file name
+    file_name = 'products-data.json' #Output file name
     
     #Appends data into the output file
     if os.path.exists(file_name):
