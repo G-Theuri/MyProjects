@@ -73,20 +73,31 @@ async def extract_data(driver, url, subcategory, type):
     await new_context.get(url)
     time.sleep(3)
 
-    #Get Collection Name
+    #Get Collection Name and Product Name
     '''col_name = await new_context.find_element(By.XPATH, '//*[@id="__next"]/main/div[1]/div[1]/div[2]/div/div[1]/div[1]/span[1]')
     collection_name = await col_name.text'''
-    
-    #Get Collection Owner
-    '''col_owner = await new_context.find_element(By.CSS, 'div.css-0 span.css-1m8iww1')
-    collection_owner = await col_owner.text'''
-
-    #Get Product URL
-    product_url = url
-
-    #Get Product Name
     name = await new_context.find_element(By.CSS, 'div.css-wd1htn h1.chakra-heading.css-pqyfn7')
-    product_name = await name.text
+    prod_name = await name.text
+    collections = [
+    "20Twenty", "Adapt", "Atlas", "Calcutta", "Flight", "Fremont", "Fusion", "H", "Juno", "Kantan",
+    "Lisbon", "Luca", "Moto", "Oliver", "Oscar", "Parkway", "Pasadena", "Softscape", "Sol Y Luna", "Still",
+    "Stretch", "Summit", "Swim", "Trentino", "Venetian", "Walter Lamb" 
+    ]
+    for collection in collections:
+        if collection in product_name:
+            product_name = prod_name.replace('collection', '').strip()
+            collection_name = collection
+
+    #Get Collection Owner
+    col_owner = await new_context.find_element(By.CSS, 'div.css-0 span.css-1m8iww1')
+    try:
+        collection_owner = await col_owner.text
+    except:
+        collection_owner = None
+
+    '''#Get Product Name
+    name = await new_context.find_element(By.CSS, 'div.css-wd1htn h1.chakra-heading.css-pqyfn7')
+    product_name = await name.text'''
 
     #Get Product SKU
     p_sku = await new_context.find_element(By.CSS, 'div.css-rwifi5')
@@ -112,8 +123,8 @@ async def extract_data(driver, url, subcategory, type):
     data = {
         'Category': subcategory,
         'Type': type,
-        #'Collection': collection_name,
-        #'Collection Owner': collection_owner,
+        'Collection': collection_name,
+        'Collection Owner': collection_owner,
         'Product URL': url,
         'Product Name': product_name,#.replace(collection_name, '').strip() ,
         'Product SKU': product_sku,
