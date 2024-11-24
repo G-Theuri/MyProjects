@@ -1,0 +1,6 @@
+Step 1: Install Python
+Step 2: Install Required Dependencies:
+    (a) scrapy- i.e. <pip install scrapy>
+    (b) Rich-  i.e. <pip install rich>
+    
+
