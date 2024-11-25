@@ -80,7 +80,7 @@ class Hallmart(scrapy.Spider):
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    'FEED_URI': 'hallmart-products-data.json',
+    'FEED_URI': 'products-data.json', #Name of the output file.
     'LOG_LEVEL': 'INFO',
 })
 process.crawl(Hallmart)

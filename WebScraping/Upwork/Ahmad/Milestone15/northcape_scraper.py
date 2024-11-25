@@ -19,7 +19,7 @@ class NorthCape(scrapy.Spider):
 
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    'FEED_URI': 'northcape-products-data.json',
+    #'FEED_URI': 'northcape-products-data.json',
     'LOG_LEVEL': 'INFO',
 })
 process.crawl(NorthCape),
