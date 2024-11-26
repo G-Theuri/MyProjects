@@ -1,4 +1,3 @@
-from typing import Iterable
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from rich import print as rprint
@@ -31,15 +30,66 @@ class NorthCape(scrapy.Spider):
         for product in products:
             product_url = product.css('div.col-inner div.product-small.box div.box-image div.image-none a::attr("href")').get()
             product_name = product.css('div.col-inner div.product-small.box div.box-image div.image-none a::attr("aria-label")').get()
-            rprint(product_name, product_url)
+            #rprint(product_name, product_url)
             yield scrapy.Request(url =product_url, callback=self.extract_data,
                                  meta= {'category':category, 'collection':collection})
             
     def extract_data(self, response):
-        pass
+        #Get Collection Name
+        collection_name = response.meta.get('collection')
+        
+        #Get product name
+        name = response.css('div.product-info.summary.col-fit.col.entry-summary.product-summary h1::text').get()
+        if collection_name in name:
+            product_name = name.replace(collection_name, '').strip()
+        else:
+            product_name = name.strip() if name else None
+
+        #Get SKU
+        sku = response.css('div.product-info.summary.col-fit.col.entry-summary.product-summary div.product_meta span.sku_wrapper span.sku::text').get()
+
+        #Short Description
+        short_descriptions = response.css('div.product-info.summary.col-fit.col.entry-summary.product-summary div.product-short-description p::text')
+        short_descs = []
+        for desc in short_descriptions:
+            description = desc.get().strip()
+            short_descs.append(description)
+        
+        #Main Description
+        main_descs = response.css('div.tab-panels div#tab-description p::text').get()
+
+        #Features, Product Details and others
+        headings = response.css('div.tab-panels h4')
+        ul_tags = response.css('div.tab-panels ul')
+        all_info = {}
+        for heading, ul_tag in zip(headings, ul_tags):
+            title = heading.css('::text').get()
+            ul_data = ul_tag.css('li::text').getall()
+            all_info[title] = ul_data
+        #Gather Images
+        try:
+            images = response.css('div.product-container div.product-gallery.col.large-8 div.woocommerce-product-gallery__wrapper a::attr("href")').getall()
+        except:
+            images = None
+
+
+        #Gather data
+        rprint('Getting Data From: ',response.request.url)
+        yield {
+            'Category': response.meta.get('category'),
+            'Collection': collection_name,
+            'Product URL': response.request.url,
+            'Product Name': product_name,
+            'Product SKU': sku,
+            'Product Images': images,
+            'Short Description': short_descs,
+            'Main Description': main_descs,
+            'More Info': all_info
+        }
+
 process = CrawlerProcess(settings={
     'FEED_FORMAT': 'json',
-    #'FEED_URI': 'northcape-products-data.json',
+    'FEED_URI': 'products-data.json',
     'LOG_LEVEL': 'INFO',
 })
 process.crawl(NorthCape),
