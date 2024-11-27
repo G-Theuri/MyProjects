@@ -138,7 +138,6 @@ async def extract_data(driver, url, subcategory, type):
             product_description = p_descr.strip()
         except:
             product_description = None
-            '//*[@id="__next"]/main/div[1]/div[2]/div[2]/div/div[3]/text()'
 
         rprint('Getting Data From: ',url)
         data = {
