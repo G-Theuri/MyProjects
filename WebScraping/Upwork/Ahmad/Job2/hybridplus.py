@@ -8,13 +8,21 @@ from rich import print
 def get_rtos(page, url):
     print(f"[bold green]Visiting URL:[/bold green] {url}")
     page.goto(url)
+    #page.wait_for_load_state('networkidle')
+
+    #Increase results per page
+    page.get_by_role("combobox", name="Results per page").locator("span").nth(1).click()
+    page.get_by_text("100").click()
+    time.sleep(4)
     page.wait_for_load_state('networkidle')
+
     rto_links = []
 
     next_page_enabled = True
     count = 0
     # We limit to 1 page for now (can adjust the loop as needed)
     while count < 1:
+    #while next_page_enabled:
         # Extract all RTO links
         rtos = page.query_selector_all('div.card-inner div.card-copy')
         for rto in rtos:
@@ -124,7 +132,8 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                     contact_entries = page.query_selector_all('xpath=//*[contains(@id, "contactstab_11")]/div/div/ul/li')
                     for entry in contact_entries:
                         category = entry.query_selector('xpath=//h2').text_content().strip().replace('0', '')
-                        contacts_data[category] = {}
+                        if category != 'Managerial agents':
+                            contacts_data[category] = {}
                         table_rows = entry.query_selector_all('xpath=//table/tbody/tr')
                         if table_rows:
                             for row in table_rows:
@@ -132,9 +141,12 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                                 value = row.query_selector('xpath=//td[2]').text_content().strip()
                                 contacts_data[category][label] = value
                         else:
-                            label = entry.query_selector('xpath=//*[contains(@class, "row mb-1 title")]/div/strong').text_content().strip()
-                            value = entry.query_selector('xpath=//*[contains(@class, "row gy-1 grid grid-2-column")]/span').text_content().strip()
-                            contacts_data[category][label] = value
+                            #This code was used to extract 'Managerial agents' data
+
+                            #label = entry.query_selector('xpath=//*[contains(@class, "row mb-1 title")]/div/strong').text_content().strip()
+                            #value = entry.query_selector('xpath=//*[contains(@class, "row gy-1 grid grid-2-column")]/span').text_content().strip()
+                            #contacts_data[category][label] = value
+                            pass
 
                     # Convert contacts data into a pandas DataFrame
                     unique_keys = set()
@@ -239,6 +251,8 @@ def main():
     # Ensure the download directory exists
     if not os.path.exists(download_path):
         os.makedirs(download_path)
+    
+    
 
     # Start Playwright and navigate the landing page
     with sync_playwright() as p:
@@ -246,11 +260,12 @@ def main():
         context = browser.new_context(accept_downloads=True)
         page = browser.new_page()
 
+
         # Get all RTO links from the landing page
         rto_links = get_rtos(page, landing_page_url)
 
         # Iterate through each RTO link, visit it and download CSV for each tab
-        for rto_url in rto_links[0:2]: #first 2 links
+        for rto_url in rto_links[0:5]: #first 2 links
             # Extract RTO ID from URL, which is the numeric part at the end of the URL
             rto_id = rto_url.split("/")[-1]
             workbook_filename = os.path.join(download_path, f"{rto_id}.xlsx")  # Use RTO ID for the filename

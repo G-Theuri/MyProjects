@@ -8,13 +8,21 @@ from rich import print
 def get_rtos(page, url):
     print(f"[bold green]Visiting URL:[/bold green] {url}")
     page.goto(url)
-    page.wait_for_load_state('networkidle')
-    rto_links = []
 
+    #Increase results per page
+    page.get_by_role("combobox", name="Results per page").locator("span").nth(1).click()
+    page.get_by_text("100").click()
+    time.sleep(4)
+
+    #Wait for the page to load with a 10-second timeout
+    page.wait_for_load_state('networkidle', timeout=8000)
+
+    rto_links = []
     next_page_enabled = True
     count = 0
-    # We limit to 1 page for now (can adjust the loop as needed)
+
     while count < 1:
+    #while next_page_enabled:
         # Extract all RTO links
         rtos = page.query_selector_all('div.card-inner div.card-copy')
         for rto in rtos:
@@ -43,8 +51,8 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
     print(f"[bold green]Visiting RTO page:[/bold green] {rto_url}")
     page.goto(rto_url)
 
-    # Wait for the page to load
-    page.wait_for_load_state('networkidle')
+    #Wait for the page to load with a 10-second timeout
+    page.wait_for_load_state('networkidle', timeout=10000)
 
     tabs = [
         ("Contacts", "Contacts"),
@@ -124,7 +132,8 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                     contact_entries = page.query_selector_all('xpath=//*[contains(@id, "contactstab_11")]/div/div/ul/li')
                     for entry in contact_entries:
                         category = entry.query_selector('xpath=//h2').text_content().strip().replace('0', '')
-                        contacts_data[category] = {}
+                        if category != 'Managerial agents':
+                            contacts_data[category] = {}
                         table_rows = entry.query_selector_all('xpath=//table/tbody/tr')
                         if table_rows:
                             for row in table_rows:
@@ -132,9 +141,12 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                                 value = row.query_selector('xpath=//td[2]').text_content().strip()
                                 contacts_data[category][label] = value
                         else:
-                            label = entry.query_selector('xpath=//*[contains(@class, "row mb-1 title")]/div/strong').text_content().strip()
-                            value = entry.query_selector('xpath=//*[contains(@class, "row gy-1 grid grid-2-column")]/span').text_content().strip()
-                            contacts_data[category][label] = value
+                            #This code was used to extract 'Managerial agents' data
+
+                            #label = entry.query_selector('xpath=//*[contains(@class, "row mb-1 title")]/div/strong').text_content().strip()
+                            #value = entry.query_selector('xpath=//*[contains(@class, "row gy-1 grid grid-2-column")]/span').text_content().strip()
+                            #contacts_data[category][label] = value
+                            pass
 
                     # Convert contacts data into a pandas DataFrame
                     unique_keys = set()
@@ -203,7 +215,7 @@ def delete_and_merge_xlsx_files(download_path):
                 df = xl.parse(sheet_name)
 
                 # Add a new column with the identifier (filename without extension)
-                df['Source File'] = file.split('.')[0]  # Extracting the file identifier (e.g., '0022' from '0022.xlsx')
+                df['RTO ID'] = file.split('.')[0]  # Extracting the rto id (e.g., '0022')
                 
                 # If this sheet is already in the dictionary, append the new data, otherwise create a new entry
                 if sheet_name not in all_sheets_data:
@@ -211,6 +223,7 @@ def delete_and_merge_xlsx_files(download_path):
                 else:
                     all_sheets_data[sheet_name] = pd.concat([all_sheets_data[sheet_name], df], ignore_index=True)
             xl.close()
+            
         # Now, save the merged data to a new workbook
         with pd.ExcelWriter(os.path.join(complete_path, 'Merged_RTOs.xlsx'), engine='xlsxwriter') as writer:
             for sheet_name, data in all_sheets_data.items():
@@ -246,7 +259,7 @@ def main():
         rto_links = get_rtos(page, landing_page_url)
 
         # Iterate through each RTO link, visit it and download CSV for each tab
-        for rto_url in rto_links[0:2]: #first 2 links
+        for rto_url in rto_links[0:5]: #first 5 links
             # Extract RTO ID from URL, which is the numeric part at the end of the URL
             rto_id = rto_url.split("/")[-1]
             workbook_filename = os.path.join(download_path, f"{rto_id}.xlsx")  # Use RTO ID for the filename
