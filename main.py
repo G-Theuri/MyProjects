@@ -8,13 +8,19 @@ from rich import print
 def get_rtos(page, url):
     print(f"[bold green]Visiting URL:[/bold green] {url}")
     page.goto(url)
-    page.wait_for_load_state('networkidle')
-    rto_links = []
 
+    # Increase results per page
+    page.get_by_role("combobox", name="Results per page").locator("span").nth(1).click()
+    page.get_by_text("100").click()
+    time.sleep(4)
+
+    # Wait for the page to load with a 10-second timeout
+    page.wait_for_load_state('networkidle', timeout=8000)
+
+    rto_links = []
     next_page_enabled = True
-    count = 0
-    # We limit to 1 page for now (can adjust the loop as needed)
-    while count < 1:
+
+    while next_page_enabled:
         # Extract all RTO links
         rtos = page.query_selector_all('div.card-inner div.card-copy')
         for rto in rtos:
@@ -30,7 +36,6 @@ def get_rtos(page, url):
         next_page = page.query_selector('button.pager-button.next')
         if next_page and next_page.is_enabled():
             next_page.click()
-            count += 1
             time.sleep(4)
         else:
             print("[bold red]No more pages![/bold red]")
@@ -38,8 +43,8 @@ def get_rtos(page, url):
 
     return rto_links
 
-# Function to visit each RTO link, extract CSVs from 5 tabs, and save to Excel
-def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
+# Function to visit each RTO link, extract CSVs from 5 tabs, and save data directly to Excel
+def visit_rto_and_add_to_excel(page, rto_url, workbook_filename):
     print(f"[bold green]Visiting RTO page:[/bold green] {rto_url}")
     page.goto(rto_url)
 
@@ -55,156 +60,153 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
         ("Units", "Units"),
         ("Courses", "Courses"),
     ]
+    
+    # Create an empty dictionary to store DataFrames for each tab
+    all_data = {}
 
-    # Create a workbook for this specific RTO
-    with pd.ExcelWriter(workbook_filename, engine='xlsxwriter') as workbook:
+    for tab_name, sheet_name in tabs:
+        try:
+            # Click on the tab
+            page.get_by_role("tab", name=tab_name).click(timeout=5000)
+            time.sleep(2)
 
-        for tab_name, sheet_name in tabs:
-            try:
-                # Click on the tab
-                page.get_by_role("tab", name=tab_name).click()
-                time.sleep(2)
+            # Click the export button
+            if tab_name in ['Scope overview', 'Qualifications', 'Skill sets', 'Units', 'Courses']:
+                page.get_by_role("button", name="Export").click(timeout=5000)
 
-                # Click the export button
-                if tab_name in ['Scope overview', 'Qualifications', 'Skill sets', 'Units', 'Courses']:
-                    page.get_by_role("button", name="Export").click()
+                # Trigger the download and wait for it to complete
+                with page.expect_download() as download_info:
+                    if sheet_name != 'Scope Overview':
+                        try:
+                            page.get_by_role("menuitem", name="Export as CSV").click(timeout=5000)
+                        except:
+                            pass  # No CSV export option found
+                    else:
+                        try:
+                            page.get_by_role("menuitem", name="Export all as CSV").click(timeout=5000)
+                        except:
+                            pass  # No CSV export option found
 
-                    # Trigger the download and wait for it to complete
-                    with page.expect_download() as download_info:
-                        if sheet_name != 'Scope Overview':
-                            try:
-                                # Try both export button names based on the tab
-                                page.get_by_role("menuitem", name="Export as CSV").click()
-                            except:
-                                pass  # No CSV export option found
-                        else:
-                            try:
-                                page.get_by_role("menuitem", name="Export all as CSV").click()
-                            except:
-                                pass  # No CSV export option found
-              
+                # Check if the download was successful
+                download = download_info.value
+                download_filename = f"{sheet_name.lower().replace(' ', '_')}.csv"
+                download_file_path = download_filename  # In-memory or temporary location
 
-                    # Check if the download was successful
-                    download = download_info.value
-                    download_filename = f"{sheet_name.lower().replace(' ', '_')}.csv"
-                    download_file_path = os.path.join(download_path, download_filename)
-                    download.save_as(download_file_path)
+                download.save_as(download_file_path)  # Save to a temporary location
 
-                    # Read the CSV and append it as a sheet in the Excel file
-                    df = pd.read_csv(download_file_path)
-                    df.to_excel(workbook, sheet_name=sheet_name, index=False)
-                    print(f"[bold green]'{sheet_name}' Sheet Added![/bold green]")
+                # Read the CSV directly into a DataFrame
+                df = pd.read_csv(download_file_path)
 
-                elif tab_name == 'Addresses':
-                    #Check if there is the load more button
-                    more = page.get_by_role("button", name="Show more records")
-                    if more:
-                        more.click()
+                # Store the DataFrame in the dictionary
+                all_data[sheet_name] = df
+                print(f"[bold green]'{sheet_name}' Data Added![/bold green]")
 
-                    address_data = []
-                    address_table = page.query_selector('xpath=//*[contains(@id, "table--14")]')
-                    headers = [header.text_content().strip().replace('sortableunfold_more', '')\
-                                for header in address_table.query_selector_all('xpath=//thead/tr/th')]
-                    rows = address_table.query_selector_all('xpath=//tbody//tr')
+            elif tab_name == 'Addresses':
+                # Handle the "Addresses" tab as done previously
+                # Check if there is the load more button
+                try:
+                    page.get_by_role("button", name="Show more records")
+                except:
+                    pass
 
-                    for row in rows:
-                        cells = row.query_selector_all('xpath=//td/div[2]')
-                        row_data = [cell.text_content().strip() for cell in cells]
-                        address_data.append(row_data)
+                address_data = []
+                address_table = page.query_selector('xpath=//*[contains(@id, "table--14")]')
+                headers = [header.text_content().strip().replace('sortableunfold_more', '') \
+                            for header in address_table.query_selector_all('xpath=//thead/tr/th')]
+                rows = address_table.query_selector_all('xpath=//tbody//tr')
 
-                    # Convert the address data into a pandas DataFrame
-                    address_df = pd.DataFrame(address_data, columns=headers)
-                    address_df.to_excel(workbook, sheet_name=sheet_name, index=False)
-                    print(f"[bold green]'{sheet_name}' Sheet Added![/bold green]")
+                for row in rows:
+                    cells = row.query_selector_all('xpath=//td/div[2]')
+                    row_data = [cell.text_content().strip() for cell in cells]
+                    address_data.append(row_data)
 
+                # Convert the address data into a pandas DataFrame
+                address_df = pd.DataFrame(address_data, columns=headers)
+                all_data[sheet_name] = address_df
+                print(f"[bold green]'{sheet_name}' Data Added![/bold green]")
 
-                elif tab_name == 'Contacts':
-                    contacts_data = {}
-                    contact_entries = page.query_selector_all('xpath=//*[contains(@id, "contactstab_11")]/div/div/ul/li')
-                    for entry in contact_entries:
-                        category = entry.query_selector('xpath=//h2').text_content().strip()
+            elif tab_name == 'Contacts':
+                contacts_data = {}
+                contact_entries = page.query_selector_all('xpath=//*[contains(@id, "contactstab_11")]/div/div/ul/li')
+                for entry in contact_entries:
+                    category = entry.query_selector('xpath=//h2').text_content().strip().replace('0', '')
+                    if category != 'Managerial agents':  # Remove if "Managerial agents" data is needed
                         contacts_data[category] = {}
-                        table_rows = entry.query_selector_all('xpath=//table/tbody/tr')
-                        if table_rows:
-                            for row in table_rows:
-                                label = row.query_selector('xpath=//td/strong').text_content().strip()
-                                value = row.query_selector('xpath=//td[2]').text_content().strip()
-                                contacts_data[category][label] = value
-                        else:
-                            label = entry.query_selector('xpath=//*[contains(@class, "row mb-1 title")]/div/strong').text_content().strip()
-                            value = entry.query_selector('xpath=//*[contains(@class, "row gy-1 grid grid-2-column")]/span').text_content().strip()
+                    table_rows = entry.query_selector_all('xpath=//table/tbody/tr')
+                    if table_rows:
+                        for row in table_rows:
+                            label = row.query_selector('xpath=//td/strong').text_content().strip()
+                            value = row.query_selector('xpath=//td[2]').text_content().strip()
                             contacts_data[category][label] = value
+                    else:
+                        pass  # No rows in the table
 
-                    # Convert contacts data into a pandas DataFrame
-                    unique_keys = set()
-                    for cat, details in contacts_data.items():
-                        unique_keys.update(details.keys())
-                    headers = ['Categories'] + list(unique_keys)
+                # Convert contacts data into a pandas DataFrame
+                unique_keys = set()
+                for cat, details in contacts_data.items():
+                    unique_keys.update(details.keys())
+                headers = ['Categories'] + list(unique_keys)
 
-                    # Prepare the contact data to write into the Excel file
-                    contact_rows = []
-                    for cat, details in contacts_data.items():
-                        row = [cat]
-                        for key in headers[1:]:
-                            row.append(details.get(key, ''))
-                        contact_rows.append(row)
+                # Prepare the contact data to write into the Excel file
+                contact_rows = []
+                for cat, details in contacts_data.items():
+                    row = [cat]
+                    for key in headers[1:]:
+                        row.append(details.get(key, ''))
+                    contact_rows.append(row)
 
-                    contact_df = pd.DataFrame(contact_rows, columns=headers)
-                    contact_df.to_excel(workbook, sheet_name=sheet_name, index=False)
-                    print(f"[bold green]'{sheet_name}' Sheet Added![/bold green]")
+                contact_df = pd.DataFrame(contact_rows, columns=headers)
+                all_data[sheet_name] = contact_df
+                print(f"[bold green]'{sheet_name}' Data Added![/bold green]")
 
+        except Exception as e:
+            print(f"[bold red]Error processing tab: {tab_name}, Error: {e}[/bold red]")
 
-                
+    # After processing all tabs for this RTO, save the collected data to an Excel file
+    with pd.ExcelWriter(workbook_filename, engine='xlsxwriter') as writer:
+        for sheet_name, df in all_data.items():
+            df.to_excel(writer, sheet_name=sheet_name, index=False)
+        print(f"[bold green]Data Saved for RTO: {rto_url}[/bold green]")
 
-                                
-            except Exception as e:
-                # If no download button exists, create an empty sheet in the workbook
-                print(f"[bold yellow]An empty sheet for [bold green]'{sheet_name}'[/bold green] Added.[/bold yellow]")
-                empty_df = pd.DataFrame()
-                empty_df.to_excel(workbook, sheet_name=sheet_name, index=False)
+# Function to process all RTO links and add data to a single Excel file
+def process_all_rtos(page, rto_links, download_path, final_excel_filename):
+    # Create an empty Excel writer to combine all RTO data
+    with pd.ExcelWriter(final_excel_filename, engine='xlsxwriter') as writer:
+        for rto_url in rto_links:
+            workbook_filename = os.path.join(download_path, f"RTO_{rto_url.split('/')[-1]}.xlsx")
+            visit_rto_and_add_to_excel(page, rto_url, workbook_filename)
 
-    # After processing this RTO, delete all CSV files in the download folder
-    delete_csv_files(download_path)
+            # Load the data from the RTO-specific workbook into the final workbook
+            xl = pd.ExcelFile(workbook_filename)
+            for sheet_name in xl.sheet_names:
+                df = xl.parse(sheet_name)
+                df.to_excel(writer, sheet_name=sheet_name, index=False)
+            xl.close()
 
-# Function to delete all CSV files in the download folder
-def delete_csv_files(download_path):
-    try:
-        for filename in os.listdir(download_path):
-            if filename.endswith(".csv"):
-                file_path = os.path.join(download_path, filename)
-                os.remove(file_path)
-                print(f"[bold red]Deleted file: {filename}[/bold red]")
-    except Exception as e:
-        print(f"[bold red]Error deleting CSV files: {e}[/bold red]")
+    print(f"[bold green]All RTO Data Added to: {final_excel_filename}[/bold green]")
 
-# Main function that orchestrates the process
+# Main function to control the entire process
 def main():
-    landing_page_url = "https://training.gov.au/search?searchText=&searchType=RTO&status=0&status=2&rtoTypeCode=31&rtoTypeCode=21&rtoTypeCode=25&rtoTypeCode=27&rtoTypeCode=61&rtoTypeCode=51&rtoTypeCode=53&rtoTypeCode=91&rtoTypeCode=93&rtoTypeCode=95&rtoTypeCode=97&rtoTypeCode=99&deliveredLocationState=Vic"
-    download_path = "C:/MyProjects/downloads"  # Specify the download directory
+    try:
+        download_path = "C:/MyProjects/downloads"
+        final_excel_filename = "C:/MyProjects/downloads/complete/Merged_RTOs.xlsx"
+        
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=False)
+            page = browser.new_page()
 
-    # Ensure the download directory exists
-    if not os.path.exists(download_path):
-        os.makedirs(download_path)
+            url = "https://training.gov.au/search?searchText=&searchType=RTO&status=0&status=2&rtoTypeCode=31&rtoTypeCode=21&rtoTypeCode=25&rtoTypeCode=27&rtoTypeCode=61&rtoTypeCode=51&rtoTypeCode=53&rtoTypeCode=91&rtoTypeCode=93&rtoTypeCode=95&rtoTypeCode=97&rtoTypeCode=99&deliveredLocationState=Vic"
+            rto_links = get_rtos(page, url)
 
-    # Start Playwright and navigate the landing page
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context(accept_downloads=True)
-        page = browser.new_page()
+            # Process each RTO and add data to the final Excel file
+            process_all_rtos(page, rto_links, download_path, final_excel_filename)
 
-        # Get all RTO links from the landing page
-        rto_links = get_rtos(page, landing_page_url)
+            browser.close()
+            print("[bold green]Process Completed Successfully![/bold green]")
 
-        # Iterate through each RTO link, visit it and download CSV for each tab
-        for rto_url in rto_links[-2:]: #last 2 links
-            # Extract RTO ID from URL, which is the numeric part at the end of the URL
-            rto_id = rto_url.split("/")[-1]
-            workbook_filename = os.path.join(download_path, f"{rto_id}.xlsx")  # Use RTO ID for the filename
+    except Exception as e:
+        print(f"[bold red]Error in main process: {e}[/bold red]")
 
-            visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename)
-
-        # Close the browser after processing
-        browser.close()
-
+# Run the main function
 if __name__ == "__main__":
     main()
