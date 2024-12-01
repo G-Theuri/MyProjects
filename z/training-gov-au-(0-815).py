@@ -75,19 +75,19 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
 
                 # Click the export button
                 if tab_name in ['Scope overview', 'Qualifications', 'Skill sets', 'Units', 'Courses']:
-                    page.get_by_role("button", name="Export").click(timeout=5000)
+                    page.get_by_role("button", name="Export").click()
 
                     # Trigger the download and wait for it to complete
                     with page.expect_download() as download_info:
                         if sheet_name != 'Scope Overview':
                             try:
                                 # Try both export button names based on the tab
-                                page.get_by_role("menuitem", name="Export as CSV").click(timeout=5000)
+                                page.get_by_role("menuitem", name="Export as CSV").click()
                             except:
                                 pass  # No CSV export option found
                         else:
                             try:
-                                page.get_by_role("menuitem", name="Export all as CSV").click(timeout=5000)
+                                page.get_by_role("menuitem", name="Export all as CSV").click()
                             except:
                                 pass  # No CSV export option found
 
@@ -283,7 +283,7 @@ def main():
             rto_links = get_rtos(page, url)
 
             # Loop through all RTO links to download necessary CSVs and save as Excel
-            for rto_url in rto_links[814:816]:#[0:816] #0-815 
+            for rto_url in rto_links[0:816]: #0-815 
                 workbook_filename = os.path.join(download_path, f"RTO_{rto_url.split('/')[-1]}.xlsx")
                 visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename)
 
