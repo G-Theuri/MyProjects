@@ -105,7 +105,7 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                 elif tab_name == 'Addresses':
                     # Check if there is the load more button
                     try:
-                        page.get_by_role("button", name="Show more records")
+                        page.get_by_role("button", name="Show more records").click()
                     except:
                         pass
 
