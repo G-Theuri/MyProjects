@@ -71,7 +71,7 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
             try:
                 # Click on the tab
                 page.get_by_role("tab", name=tab_name).click(timeout=5000)
-                time.sleep(4)
+                time.sleep(2)
 
                 # Click the export button
                 if tab_name in ['Scope overview', 'Qualifications', 'Skill sets', 'Units', 'Courses']:
