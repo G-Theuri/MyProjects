@@ -280,7 +280,7 @@ def main():
             rto_links = get_rtos(page, url)
 
             # Loop through all RTO links to download necessary CSVs and save as Excel
-            for rto_url in rto_links[408:]:
+            for rto_url in rto_links:
                 workbook_filename = os.path.join(download_path, f"RTO_{rto_url.split('/')[-1]}.xlsx")
                 visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename)
 
