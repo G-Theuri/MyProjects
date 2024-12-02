@@ -15,7 +15,7 @@ def get_rtos(page, url):
     time.sleep(4)
 
     # Wait for the page to load with a 10-second timeout
-    page.wait_for_load_state('networkidle', timeout=8000)
+    page.wait_for_load_state('networkidle', timeout=20000)
 
     rto_links = []
     next_page_enabled = True
@@ -52,7 +52,7 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
     page.goto(rto_url)
 
     # Wait for the page to load with a 10-second timeout
-    page.wait_for_load_state('networkidle', timeout=10000)
+    page.wait_for_load_state('networkidle')
 
     tabs = [
         ("Contacts", "Contacts"),
@@ -283,7 +283,7 @@ def main():
             rto_links = get_rtos(page, url)
 
             # Loop through all RTO links to download necessary CSVs and save as Excel
-            for rto_url in rto_links[0:816]: #0-815 
+            for rto_url in rto_links[760:815]: #0-815 #Timeout-762 Missed- First-30980
                 workbook_filename = os.path.join(download_path, f"RTO_{rto_url.split('/')[-1]}.xlsx")
                 visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename)
 
