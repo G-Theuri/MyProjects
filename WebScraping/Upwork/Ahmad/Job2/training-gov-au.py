@@ -19,10 +19,10 @@ def get_rtos(page, url):
 
     rto_links = []
     next_page_enabled = True
-    #count = 0
+    count = 0
 
-    #while count < 1: meant for testing purposes.
-    while next_page_enabled:
+    while count < 1: #meant for testing purposes.
+    #while next_page_enabled:
         # Extract all RTO links
         rtos = page.query_selector_all('div.card-inner div.card-copy')
         for rto in rtos:
@@ -39,7 +39,7 @@ def get_rtos(page, url):
         if next_page and next_page.is_enabled():
             next_page.click()
             time.sleep(4)
-            #count += 1
+            count += 1
         else:
             print("[bold red]No more pages![/bold red]")
             next_page_enabled = False
@@ -280,7 +280,7 @@ def main():
             rto_links = get_rtos(page, url)
 
             # Loop through all RTO links to download necessary CSVs and save as Excel
-            for rto_url in rto_links:
+            for rto_url in rto_links[0]:
                 workbook_filename = os.path.join(download_path, f"RTO_{rto_url.split('/')[-1]}.xlsx")
                 visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename)
 
