@@ -14,8 +14,8 @@ def get_rtos(page, url):
     page.get_by_text("100").click()
     time.sleep(4)
 
-    # Wait for the page to load with a 10-second timeout
-    page.wait_for_load_state('networkidle', timeout=8000)
+    # Wait for the page to load with a 20-second timeout
+    page.wait_for_load_state('networkidle', timeout=20000)
 
     rto_links = []
     next_page_enabled = True
@@ -52,7 +52,7 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
     page.goto(rto_url)
 
     # Wait for the page to load with a 10-second timeout
-    page.wait_for_load_state('networkidle', timeout=10000)
+    page.wait_for_load_state('networkidle')
 
     tabs = [
         ("Contacts", "Contacts"),
@@ -135,12 +135,12 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                         category = entry.query_selector('xpath=//h2').text_content().strip().replace('0', '')
                         if category != 'Managerial agents': #can be removed incase "Managerial agents" data is required.
                             contacts_data[category] = {}
-                        table_rows = entry.query_selector_all('xpath=//table/tbody/tr')
-                        if table_rows:
-                            for row in table_rows:
-                                label = row.query_selector('xpath=//td/strong').text_content().strip()
-                                value = row.query_selector('xpath=//td[2]').text_content().strip()
-                                contacts_data[category][label] = value
+                            table_rows = entry.query_selector_all('xpath=//table/tbody/tr')
+                            if table_rows:
+                                for row in table_rows:
+                                    label = row.query_selector('xpath=//td/strong').text_content().strip()
+                                    value = row.query_selector('xpath=//td[2]').text_content().strip()
+                                    contacts_data[category][label] = value
                         else:
                             #This code was used to extract 'Managerial agents' data
                             '''
@@ -283,7 +283,7 @@ def main():
             rto_links = get_rtos(page, url)
 
             # Loop through all RTO links to download necessary CSVs and save as Excel
-            for rto_url in rto_links[815:1631]: #815-1630
+            for rto_url in rto_links[1562:1631]: #815-1630 #Timeout-749 Missed-_ First-41392
                 workbook_filename = os.path.join(download_path, f"RTO_{rto_url.split('/')[-1]}.xlsx")
                 visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename)
 
