@@ -15,25 +15,15 @@ def get_rtos(page, url):
     time.sleep(4)
 
     # Wait for the page to load with a 10-second timeout
-<<<<<<< HEAD
     page.wait_for_load_state('networkidle')
-=======
-    page.wait_for_load_state('networkidle', timeout=8000)
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
 
     rto_links = []
     next_page_enabled = True
     count = 0
 
-<<<<<<< HEAD
     # Extract all RTO links
     while count < 1: #meant for testing purposes. Can be used to divide tasks by pages
     #while next_page_enabled:
-=======
-    while count < 1: #meant for testing purposes.
-    #while next_page_enabled:
-        # Extract all RTO links
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
         rtos = page.query_selector_all('div.card-inner div.card-copy')
         for rto in rtos:
             a_tag = rto.query_selector('a')
@@ -80,40 +70,24 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
         for tab_name, sheet_name in tabs:
             try:
                 # Click on the tab
-<<<<<<< HEAD
                 page.get_by_role("tab", name=tab_name).click()
-=======
-                page.get_by_role("tab", name=tab_name).click(timeout=5000)
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
                 time.sleep(2)
 
                 # Click the export button
                 if tab_name in ['Scope overview', 'Qualifications', 'Skill sets', 'Units', 'Courses']:
-<<<<<<< HEAD
                     page.get_by_role("button", name="Export").click()
-=======
-                    page.get_by_role("button", name="Export").click(timeout=5000)
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
 
                     # Trigger the download and wait for it to complete
                     with page.expect_download() as download_info:
                         if sheet_name != 'Scope Overview':
                             try:
                                 # Try both export button names based on the tab
-<<<<<<< HEAD
                                 page.get_by_role("menuitem", name="Export as CSV").click()
-=======
-                                page.get_by_role("menuitem", name="Export as CSV").click(timeout=5000)
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
                             except:
                                 pass  # No CSV export option found
                         else:
                             try:
-<<<<<<< HEAD
                                 page.get_by_role("menuitem", name="Export all as CSV").click()
-=======
-                                page.get_by_role("menuitem", name="Export all as CSV").click(timeout=5000)
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
                             except:
                                 pass  # No CSV export option found
 
@@ -131,16 +105,11 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                 elif tab_name == 'Addresses':
                     # Check if there is the load more button
                     try:
-<<<<<<< HEAD
                         page.get_by_role("button", name="Show more records").click()
-=======
-                        page.get_by_role("button", name="Show more records")
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
                     except:
                         pass
 
                     address_data = []
-<<<<<<< HEAD
 
                     #some have a div with class "table--14" others "table--13"
                     if page.query_selector('xpath=//*[contains(@id, "table--14")]'):
@@ -148,9 +117,6 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                     else:
                         address_table = page.query_selector('xpath=//*[contains(@id, "table--13")]')
 
-=======
-                    address_table = page.query_selector('xpath=//*[contains(@id, "table--14")]')
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
                     headers = [header.text_content().strip().replace('sortableunfold_more', '') \
                                 for header in address_table.query_selector_all('xpath=//thead/tr/th')]
                     rows = address_table.query_selector_all('xpath=//tbody//tr')
@@ -226,24 +192,14 @@ def delete_csv_files(download_path):
                 print(f"[bold red]Deleted File: {filename}[/bold red]")
     except Exception as e:
         print(f"[bold red]Error deleting CSV files: {e}[/bold red]")
-
-# Function to merge then delete all xlsx files in the download folder
-<<<<<<< HEAD
 # Function to merge then delete all xlsx files in the download folder
 def delete_and_merge_xlsx_files(download_path):
     try:
         complete_path = "C:/MyProjects/downloads/complete"
-=======
-def delete_and_merge_xlsx_files(download_path):
-    try:
-        complete_path = "C:/MyProjects/downloads/complete"
-        # Ensure the complete directory exists
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
         if not os.path.exists(complete_path):
             os.makedirs(complete_path)
 
         files = [f for f in os.listdir(download_path) if f.endswith('.xlsx')]
-<<<<<<< HEAD
 
         all_sheets_data = {}
         scope_overview_data = []
@@ -276,58 +232,12 @@ def delete_and_merge_xlsx_files(download_path):
                     units_data.append(df)
 
                 else:
-=======
-        
-        # Create an empty dictionary to store DataFrames for each sheet
-        all_sheets_data = {}
-
-        sheet_order = ["Contacts", "Delivery Locations",  "Scope Overview", "Qualifications", "Skill Sets", "Units", "Courses"]
-        
-        # Set row limit for Excel sheets (Excel has a max row limit of 1,048,576)
-        ROW_LIMIT = 1048576  
-        current_row_count = 0
-        file_number = 1  # To keep track of the number of merged files
-
-        for file in files:
-            file_path = os.path.join(download_path, file)
-            
-            # Read the excel file and iterate through each sheet
-            xl = pd.ExcelFile(file_path)
-            
-            for sheet_name in xl.sheet_names:
-                df = xl.parse(sheet_name)
-
-                # Add a new column with the identifier (filename without extension)
-                df['RTO ID'] = file.split('.')[0].replace('RTO_','')  # Extracting the rto id (e.g., '0022')
-
-                
-                current_row_count += len(df) #Track the number of rows added in the current sheet
-
-                # Check if the current sheet exceeds the row limit
-                if current_row_count >= ROW_LIMIT:
-                    with pd.ExcelWriter(os.path.join(complete_path, f'Merged_RTOs_{file_number}.xlsx'), engine='xlsxwriter') as writer:
-                        
-                        for sheet_name in sheet_order:
-                            if sheet_name in all_sheets_data:
-                                all_sheets_data[sheet_name].to_excel(writer, sheet_name=sheet_name, index=False)
-                    
-                    print(f"[bold green]File Merged and Saved: Merged_RTOs_{file_number}.xlsx[/bold green]")
-
-                    # Reset for the next file
-                    current_row_count = len(df)  # Set the row count for the new file (current df)
-                    all_sheets_data = {sheet_name: df}  # Start the new file with the current sheet
-                    file_number += 1  # Increment file number for the next file
-
-                else:
-                    # If row count hasn't exceeded the limit, simply add the current sheet's data
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
                     if sheet_name not in all_sheets_data:
                         all_sheets_data[sheet_name] = df
                     else:
                         all_sheets_data[sheet_name] = pd.concat([all_sheets_data[sheet_name], df], ignore_index=True)
 
             xl.close()
-<<<<<<< HEAD
 
         if scope_overview_data:
             all_scope_overview_data = pd.concat(scope_overview_data, ignore_index=True)
@@ -360,46 +270,22 @@ def delete_and_merge_xlsx_files(download_path):
             print(f"[bold green]File Merged and Saved: Other_Sheets.xlsx[/bold green]")
                 
 
-=======
-        
-        # Save any remaining data (if any) to the last workbook
-        if all_sheets_data:
-            with pd.ExcelWriter(os.path.join(complete_path, f'Merged_RTOs_{file_number}.xlsx'), engine='xlsxwriter') as writer:
-                for sheet_name in sheet_order:
-                    all_sheets_data[sheet_name].to_excel(writer, sheet_name=sheet_name, index=False)
-
-            print(f"[bold green]Final File Merged and Saved: Merged_RTOs_{file_number}.xlsx[/bold green]")
-
-        # Delete the xlsx files after processing
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
         try:
             for file in files:
                 os.remove(os.path.join(download_path, file))
             print(f"[bold red]Deleted All Workbooks[/bold red]")
         except Exception as e:
-<<<<<<< HEAD
             print(f"Error Deleting Workbooks: {e}")
 
     except Exception as e:
         print(f"Error Creating a Complete Workbook: {e}")
 
-=======
-            print(f"[bold red]Error Deleting Workbooks: {e}[/bold red]")
-
-    except Exception as e:
-        print(f"[bold red]Error Creating a Complete Workbook: {e}[/bold red]")
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
 
 
 # Main function to control the entire process
 def main():
     try:
-<<<<<<< HEAD
         download_path = "C:/MyProjects/downloads" #can be changed accordingly.
-=======
-        download_path = "C:/MyProjects/downloads"
-        complete_path = "C:/MyProjects/downloads/complete"
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
         
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=False)
@@ -409,11 +295,7 @@ def main():
             rto_links = get_rtos(page, url)
 
             # Loop through all RTO links to download necessary CSVs and save as Excel
-<<<<<<< HEAD
             for rto_url in rto_links[0:1]:
-=======
-            for rto_url in rto_links[0]:
->>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
                 workbook_filename = os.path.join(download_path, f"RTO_{rto_url.split('/')[-1]}.xlsx")
                 visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename)
 

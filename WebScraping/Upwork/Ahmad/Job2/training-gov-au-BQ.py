@@ -241,8 +241,8 @@ def delete_csv_files(download_path):
 
 # Main function to integrate everything
 def main():
-    project_id = 'your-project-id'
-    instance_id = 'your-instance-id'
+    project_id = 'webscraping-445215'
+    instance_id = 'rtos-webscraping'
     download_path = 'your/download/path'
     landing_page_url = 'https://www.training.gov.au/Training/OrganizationSearch'
 
