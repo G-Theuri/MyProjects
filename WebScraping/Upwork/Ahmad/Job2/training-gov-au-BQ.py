@@ -244,7 +244,7 @@ def main():
     project_id = 'webscraping-445215'
     instance_id = 'rtos-webscraping'
     download_path = 'your/download/path'
-    landing_page_url = 'https://www.training.gov.au/Training/OrganizationSearch'
+    landing_page_url = "https://training.gov.au/search?searchText=&searchType=RTO&status=0&status=2&rtoTypeCode=31&rtoTypeCode=21&rtoTypeCode=25&rtoTypeCode=27&rtoTypeCode=61&rtoTypeCode=51&rtoTypeCode=53&rtoTypeCode=91&rtoTypeCode=93&rtoTypeCode=95&rtoTypeCode=97&rtoTypeCode=99&deliveredLocationState=Vic"
 
     # Initialize Bigtable client and create tables
     instance = get_bigtable_client(project_id, instance_id)
