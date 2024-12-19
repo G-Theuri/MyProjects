@@ -1,0 +1,509 @@
+MatchID,MatchCustomID,Round,Date,StartTime,SeasonID,MatchStatus,HomeScoreFT,AwayScoreFT,Tournament,TeamType,TeamID,TeamName,NameCode,PrimaryColor,SecondaryColor,SeasonName,TournamentID
+5022474,JufbsNufb,1,2014-02-15,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5022472,PufbsUufb,1,2014-02-15,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5022476,BufbsYufb,1,2014-02-15,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5022470,Hufbsavfb,1,2014-02-15,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5022478,zufbsFufb,1,2014-02-16,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5022480,RufbsWufb,1,2014-02-16,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5022484,IDFsDufb,1,2014-02-19,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5022482,gLdbsLufb,1,2014-02-20,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5065702,DufbsFufb,2,2014-02-22,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5065704,BufbsJufb,2,2014-02-22,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5065706,RufbsUufb,2,2014-02-22,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5065708,Wufbsavfb,2,2014-02-22,16:15,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5065710,NufbsPufb,2,2014-02-23,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5065714,IDFsYufb,2,2014-02-23,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5065716,gLdbsHufb,2,2014-02-23,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5065712,zufbsLufb,2,2014-02-23,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5090546,NufbsUufb,3,2014-03-01,14:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5090544,zufbsHufb,3,2014-03-01,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5090542,Rufbsavfb,3,2014-03-01,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5090548,DufbsLufb,3,2014-03-02,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5090550,BufbsPufb,3,2014-03-02,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5090552,FufbsYufb,3,2014-03-02,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5090554,IDFsJufb,3,2014-03-12,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5090556,gLdbsWufb,3,2014-03-26,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5135170,zufbsWufb,4,2014-03-08,14:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5135172,DufbsHufb,4,2014-03-08,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5135174,LufbsYufb,4,2014-03-08,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5135176,Fufbsavfb,4,2024-09-30,15:40,2014,Finished,-,-,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5136124,FufbsJufb,4,2014-03-08,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5135244,BufbsNufb,4,2014-03-09,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5135246,Uufbsavfb,4,2014-03-09,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5135248,gLdbsRufb,4,2014-03-19,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5135250,IDFsPufb,4,2014-03-19,16:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5166980,zufbsRufb,5,2014-03-15,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5166978,FufbsPufb,5,2014-03-15,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5166982,HufbsYufb,5,2014-03-15,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5166984,DufbsWufb,5,2014-03-16,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5166990,BufbsUufb,5,2014-03-16,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5166988,JufbsLufb,5,2014-03-16,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5166986,IDFsNufb,5,2014-03-16,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5166992,gLdbsavfb,5,2014-03-16,16:15,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5199192,WufbsYufb,6,2014-03-22,14:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5199194,gLdbsUufb,6,2014-03-22,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5199196,IDFsBufb,6,2014-03-22,16:15,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5199198,LufbsPufb,6,2014-03-23,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5199200,HufbsJufb,6,2014-03-23,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5199202,DufbsRufb,6,2014-03-23,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5199204,zufbsavfb,6,2014-03-23,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5199206,FufbsNufb,6,2014-03-23,16:15,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5248766,IDFsUufb,7,2014-03-29,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5248760,BufbsFufb,7,2014-03-29,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5248758,Dufbsavfb,7,2014-03-29,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5248764,JufbsWufb,7,2014-03-29,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5248762,LufbsNufb,7,2014-03-29,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5248770,gLdbszufb,7,2014-03-30,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5248772,HufbsPufb,7,2014-03-30,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5248768,RufbsYufb,7,2014-03-30,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5310034,JufbsRufb,8,2014-04-09,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5310038,IDFsFufb,8,2014-04-09,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5310040,HufbsNufb,8,2014-04-09,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5310036,BufbsLufb,8,2014-04-09,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5310046,zufbsUufb,8,2014-04-09,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5310044,PufbsWufb,8,2014-04-09,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5310042,Yufbsavfb,8,2014-04-09,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5310048,gLdbsDufb,8,2014-04-09,16:15,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5310020,FufbsUufb,9,2014-04-12,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5310022,IDFsLufb,9,2014-04-12,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5310024,BufbsHufb,9,2014-04-12,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5310026,zufbsDufb,9,2014-04-12,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5310018,NufbsWufb,9,2014-04-13,14:00,2014,Finished,4,4,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5310028,Jufbsavfb,9,2014-04-13,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5310032,PufbsRufb,9,2014-04-13,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5310030,gLdbsYufb,9,2014-04-13,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5378296,NufbsRufb,10,2014-04-23,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5378298,zufbsYufb,10,2014-04-23,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5378300,gLdbsJufb,10,2014-04-23,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5378302,FufbsLufb,10,2014-04-23,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5378304,DufbsUufb,10,2014-04-23,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5378306,BufbsWufb,10,2014-04-23,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5378308,Pufbsavfb,10,2014-04-23,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5378310,IDFsHufb,10,2014-04-23,16:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5404378,IDFsWufb,11,2014-05-03,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5404374,BufbsRufb,11,2014-05-03,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5404380,DufbsYufb,11,2014-05-03,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5404382,FufbsHufb,11,2014-05-04,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5404384,zufbsJufb,11,2014-05-04,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5404424,Nufbsavfb,11,2014-05-04,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5404376,gLdbsPufb,11,2014-05-04,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5404386,LufbsUufb,11,2014-05-04,16:15,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5429490,gLdbsNufb,12,2014-05-10,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5429488,Bufbsavfb,12,2014-05-10,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5429492,DufbsJufb,12,2014-05-11,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5429494,zufbsPufb,12,2014-05-11,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5429500,HufbsLufb,12,2014-05-11,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5429498,UufbsYufb,12,2014-05-11,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5429496,FufbsWufb,12,2014-05-11,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5429502,IDFsRufb,12,2014-05-11,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5475070,zufbsNufb,13,2014-05-21,13:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5475072,FufbsRufb,13,2014-05-21,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5475074,JufbsYufb,13,2014-05-21,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5475076,LufbsWufb,13,2014-05-21,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5475078,HufbsUufb,13,2014-05-21,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5475080,gLdbsBufb,13,2014-05-22,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5475082,DufbsPufb,13,2014-05-24,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5475084,IDFsavfb,13,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5621452,IDFsavfb,13,2014-07-02,19:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5519866,Fufbsavfb,14,2014-06-06,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5519868,LufbsRufb,14,2014-06-07,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5519870,PufbsYufb,14,2014-06-07,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5519876,IDFsgLdb,14,2014-06-08,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5519878,DufbsNufb,14,2014-06-08,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5519874,JufbsUufb,14,2014-06-08,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5519872,HufbsWufb,14,2014-06-08,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5519880,zufbsBufb,14,2014-06-09,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5562574,Lufbsavfb,15,2014-06-14,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5562576,gLdbsFufb,15,2014-06-14,16:15,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5562578,BufbsDufb,15,2014-06-15,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5562584,HufbsRufb,15,2014-06-15,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5562582,NufbsYufb,15,2014-06-15,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5562580,JufbsPufb,15,2014-06-15,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5562588,IDFszufb,15,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5562586,UufbsWufb,15,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5621404,UufbsWufb,15,2014-07-02,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5621406,IDFszufb,15,2014-07-09,16:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5621376,zufbsBufb,16,2014-07-04,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5621380,PufbsUufb,16,2014-07-05,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5621382,HufbsJufb,16,2014-07-05,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5621396,DufbsNufb,16,2014-07-05,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5621378,IDFsYufb,16,2014-07-05,16:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5621398,FufbsLufb,16,2014-07-06,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5621400,Wufbsavfb,16,2014-07-06,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5621402,gLdbsRufb,16,2014-07-06,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5676228,BufbsLufb,17,2014-07-11,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5676230,PufbsWufb,17,2014-07-12,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5676232,gLdbsavfb,17,2014-07-12,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5676238,FufbsUufb,17,2014-07-13,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5676240,IDFsHufb,17,2014-07-13,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5676234,zufbsJufb,17,2014-07-13,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5676236,DufbsRufb,17,2014-07-13,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5676242,NufbsYufb,17,2014-07-13,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5701982,HufbsYufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5701984,Rufbsavfb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5701986,DufbsWufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5701988,gLdbsUufb,18,2014-07-16,16:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5701992,IDFsLufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5701990,BufbsNufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5701994,zufbsFufb,18,2014-07-17,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5701996,JufbsPufb,18,2014-07-18,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5730406,HufbsYufb,18,2014-07-23,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5730408,Rufbsavfb,18,2014-07-23,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5730414,IDFsLufb,18,2014-07-23,16:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5730412,BufbsNufb,18,2014-07-23,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5730410,DufbsWufb,18,2014-07-23,16:15,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5741644,LufbsYufb,19,2014-07-26,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5741646,DufbsHufb,19,2014-07-26,15:00,2014,Finished,4,4,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5741648,JufbsUufb,19,2014-07-26,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5741654,IDFsgLdb,19,2014-07-27,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5741650,zufbsWufb,19,2014-07-27,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5741658,BufbsPufb,19,2014-07-27,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5741652,FufbsRufb,19,2014-07-27,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5741656,Nufbsavfb,19,2014-07-27,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5791882,Fufbsavfb,20,2014-08-01,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5791884,DufbsLufb,20,2014-08-01,16:15,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5791888,BufbsJufb,20,2014-08-02,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5791890,zufbsHufb,20,2014-08-06,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5791892,gLdbsYufb,20,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5791896,NufbsRufb,20,2014-08-06,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5791894,IDFsPufb,20,2014-08-06,15:00,2014,Postponed,0,0,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5791886,UufbsWufb,20,2014-08-06,16:15,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5988494,gLdbsYufb,20,2014-09-17,16:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6217412,IDFsPufb,20,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6351960,IDFsPufb,20,2014-11-05,15:00,2014,Postponed,3,3,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6506214,IDFsPufb,20,2024-09-30,15:41,2014,Finished,-,-,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5825368,gLdbsDufb,21,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5825366,JufbsYufb,21,2014-08-08,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5825370,Lufbsavfb,21,2014-08-09,13:30,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5825372,IDFsFufb,21,2014-08-09,15:45,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5825380,zufbsNufb,21,2014-08-10,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5825378,BufbsWufb,21,2014-08-10,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5825376,PufbsRufb,21,2014-08-10,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5825374,HufbsUufb,21,2014-08-10,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5859762,gLdbsDufb,21,2014-08-28,16:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5854198,FufbsYufb,22,2014-08-13,16:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5854200,NufbsUufb,22,2014-08-15,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5854208,BufbsHufb,22,2014-08-16,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5854206,Pufbsavfb,22,2014-08-16,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5854242,DufbsJufb,22,2014-08-17,11:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5854246,LufbsRufb,22,2014-08-17,14:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5854212,IDFsWufb,22,2014-08-17,16:15,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5854202,gLdbszufb,22,2014-09-24,16:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5883240,DufbsFufb,23,2014-08-22,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5883250,zufbsLufb,23,2014-08-23,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5883254,Bufbsavfb,23,2014-08-23,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5883260,gLdbsPufb,23,2014-08-24,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5883256,RufbsUufb,23,2014-08-24,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5883252,HufbsNufb,23,2014-08-27,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5883262,IDFsJufb,23,2014-08-27,16:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5883258,WufbsYufb,23,2014-09-25,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5997918,DufbsYufb,24,2014-09-12,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5997920,LufbsNufb,24,2014-09-12,16:15,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5997926,JufbsRufb,24,2014-09-13,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5997924,BufbsUufb,24,2014-09-13,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5997922,IDFsavfb,24,2014-09-13,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5997928,FufbsHufb,24,2014-09-14,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5997930,zufbsPufb,24,2014-09-14,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5997932,gLdbsWufb,24,2014-09-14,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+6092650,FufbsPufb,25,2014-09-19,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+6092652,LufbsWufb,25,2014-09-19,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+6092654,IDFsDufb,25,2014-09-20,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6092660,zufbsavfb,25,2014-09-20,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+6092656,gLdbsBufb,25,2014-09-20,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6092658,UufbsYufb,25,2014-09-21,14:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+6092662,JufbsNufb,25,2014-09-21,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+6092664,HufbsRufb,25,2014-09-21,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+6128576,BufbsYufb,26,2014-10-03,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+6128570,HufbsWufb,26,2014-10-04,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+6128574,FufbsJufb,26,2014-10-04,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+6128584,Dufbsavfb,26,2014-10-04,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+6128578,gLdbsLufb,26,2014-10-04,16:15,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+6128572,IDFsUufb,26,2014-10-05,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+6128580,NufbsPufb,26,2014-10-05,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6128582,zufbsRufb,26,2014-10-05,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+6198042,FufbsNufb,27,2014-10-16,15:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+6198040,IDFsRufb,27,2014-10-17,16:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6198044,Yufbsavfb,27,2014-10-18,14:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+6198038,zufbsUufb,27,2014-10-18,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+6198046,gLdbsHufb,27,2014-10-19,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6198050,LufbsPufb,27,2014-10-19,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6198048,BufbsDufb,27,2014-10-19,17:30,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+6198052,JufbsWufb,27,2014-10-19,20:00,2014,Canceled,0,0,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+6290922,FufbsWufb,28,2014-10-24,18:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+6290974,JufbsLufb,28,2014-10-24,20:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+6290978,RufbsYufb,28,2014-10-25,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+6290980,Uufbsavfb,28,2014-10-25,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+6291008,HufbsPufb,28,2014-10-26,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+6291012,zufbsDufb,28,2014-10-26,15:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+6291010,IDFsBufb,28,2014-10-26,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+6291014,gLdbsNufb,28,2014-10-26,16:15,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+6328994,IDFsNufb,29,2014-11-01,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6328992,gLdbsJufb,29,2014-11-01,14:00,2014,Finished,1,1,Kenyan Premier League,HomeTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+6329006,BufbsFufb,29,2014-11-01,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+6328990,zufbsYufb,29,2014-11-01,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+6328996,DufbsPufb,29,2014-11-02,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+6329002,Hufbsavfb,29,2014-11-02,15:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+6328998,LufbsUufb,29,2014-11-02,15:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+6329004,RufbsWufb,29,2014-11-02,16:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+6329362,IDFszufb,30,2014-11-08,14:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+6329350,gLdbsFufb,30,2014-11-08,14:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6329354,DufbsUufb,30,2014-11-08,14:00,2014,Finished,3,3,Kenyan Premier League,HomeTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+6329364,HufbsLufb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+6329360,PufbsYufb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6329358,BufbsRufb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+6329352,NufbsWufb,30,2014-11-08,14:00,2014,Finished,2,2,Kenyan Premier League,HomeTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+6329356,Jufbsavfb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,HomeTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5022474,JufbsNufb,1,2014-02-15,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5022472,PufbsUufb,1,2014-02-15,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5022476,BufbsYufb,1,2014-02-15,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5022470,Hufbsavfb,1,2014-02-15,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5022478,zufbsFufb,1,2014-02-16,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5022480,RufbsWufb,1,2014-02-16,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5022484,IDFsDufb,1,2014-02-19,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5022482,gLdbsLufb,1,2014-02-20,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5065702,DufbsFufb,2,2014-02-22,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5065704,BufbsJufb,2,2014-02-22,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5065706,RufbsUufb,2,2014-02-22,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5065708,Wufbsavfb,2,2014-02-22,16:15,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5065710,NufbsPufb,2,2014-02-23,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5065714,IDFsYufb,2,2014-02-23,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5065716,gLdbsHufb,2,2014-02-23,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5065712,zufbsLufb,2,2014-02-23,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5090546,NufbsUufb,3,2014-03-01,14:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5090544,zufbsHufb,3,2014-03-01,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5090542,Rufbsavfb,3,2014-03-01,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5090548,DufbsLufb,3,2014-03-02,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5090550,BufbsPufb,3,2014-03-02,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5090552,FufbsYufb,3,2014-03-02,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5090554,IDFsJufb,3,2014-03-12,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5090556,gLdbsWufb,3,2014-03-26,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5135170,zufbsWufb,4,2014-03-08,14:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5135172,DufbsHufb,4,2014-03-08,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5135174,LufbsYufb,4,2014-03-08,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5135176,Fufbsavfb,4,2024-09-30,15:40,2014,Finished,-,-,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5136124,FufbsJufb,4,2014-03-08,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5135244,BufbsNufb,4,2014-03-09,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5135246,Uufbsavfb,4,2014-03-09,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5135248,gLdbsRufb,4,2014-03-19,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5135250,IDFsPufb,4,2014-03-19,16:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5166980,zufbsRufb,5,2014-03-15,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5166978,FufbsPufb,5,2014-03-15,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5166982,HufbsYufb,5,2014-03-15,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5166984,DufbsWufb,5,2014-03-16,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5166990,BufbsUufb,5,2014-03-16,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5166988,JufbsLufb,5,2014-03-16,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5166986,IDFsNufb,5,2014-03-16,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5166992,gLdbsavfb,5,2014-03-16,16:15,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5199192,WufbsYufb,6,2014-03-22,14:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5199194,gLdbsUufb,6,2014-03-22,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5199196,IDFsBufb,6,2014-03-22,16:15,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5199198,LufbsPufb,6,2014-03-23,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5199200,HufbsJufb,6,2014-03-23,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5199202,DufbsRufb,6,2014-03-23,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5199204,zufbsavfb,6,2014-03-23,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5199206,FufbsNufb,6,2014-03-23,16:15,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5248766,IDFsUufb,7,2014-03-29,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5248760,BufbsFufb,7,2014-03-29,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5248758,Dufbsavfb,7,2014-03-29,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5248764,JufbsWufb,7,2014-03-29,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5248762,LufbsNufb,7,2014-03-29,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5248770,gLdbszufb,7,2014-03-30,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5248772,HufbsPufb,7,2014-03-30,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5248768,RufbsYufb,7,2014-03-30,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5310034,JufbsRufb,8,2014-04-09,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5310038,IDFsFufb,8,2014-04-09,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5310040,HufbsNufb,8,2014-04-09,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5310036,BufbsLufb,8,2014-04-09,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5310046,zufbsUufb,8,2014-04-09,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5310044,PufbsWufb,8,2014-04-09,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5310042,Yufbsavfb,8,2014-04-09,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5310048,gLdbsDufb,8,2014-04-09,16:15,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5310020,FufbsUufb,9,2014-04-12,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5310022,IDFsLufb,9,2014-04-12,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5310024,BufbsHufb,9,2014-04-12,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5310026,zufbsDufb,9,2014-04-12,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5310018,NufbsWufb,9,2014-04-13,14:00,2014,Finished,4,4,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5310028,Jufbsavfb,9,2014-04-13,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5310032,PufbsRufb,9,2014-04-13,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5310030,gLdbsYufb,9,2014-04-13,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5378296,NufbsRufb,10,2014-04-23,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5378298,zufbsYufb,10,2014-04-23,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5378300,gLdbsJufb,10,2014-04-23,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5378302,FufbsLufb,10,2014-04-23,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5378304,DufbsUufb,10,2014-04-23,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5378306,BufbsWufb,10,2014-04-23,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5378308,Pufbsavfb,10,2014-04-23,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5378310,IDFsHufb,10,2014-04-23,16:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5404378,IDFsWufb,11,2014-05-03,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5404374,BufbsRufb,11,2014-05-03,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5404380,DufbsYufb,11,2014-05-03,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5404382,FufbsHufb,11,2014-05-04,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5404384,zufbsJufb,11,2014-05-04,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5404424,Nufbsavfb,11,2014-05-04,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5404376,gLdbsPufb,11,2014-05-04,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5404386,LufbsUufb,11,2014-05-04,16:15,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5429490,gLdbsNufb,12,2014-05-10,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5429488,Bufbsavfb,12,2014-05-10,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5429492,DufbsJufb,12,2014-05-11,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5429494,zufbsPufb,12,2014-05-11,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5429500,HufbsLufb,12,2014-05-11,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5429498,UufbsYufb,12,2014-05-11,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5429496,FufbsWufb,12,2014-05-11,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5429502,IDFsRufb,12,2014-05-11,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5475070,zufbsNufb,13,2014-05-21,13:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5475072,FufbsRufb,13,2014-05-21,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5475074,JufbsYufb,13,2014-05-21,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5475076,LufbsWufb,13,2014-05-21,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5475078,HufbsUufb,13,2014-05-21,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5475080,gLdbsBufb,13,2014-05-22,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5475082,DufbsPufb,13,2014-05-24,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5475084,IDFsavfb,13,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5621452,IDFsavfb,13,2014-07-02,19:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5519866,Fufbsavfb,14,2014-06-06,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5519868,LufbsRufb,14,2014-06-07,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5519870,PufbsYufb,14,2014-06-07,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5519876,IDFsgLdb,14,2014-06-08,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5519878,DufbsNufb,14,2014-06-08,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5519874,JufbsUufb,14,2014-06-08,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5519872,HufbsWufb,14,2014-06-08,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5519880,zufbsBufb,14,2014-06-09,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5562574,Lufbsavfb,15,2014-06-14,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5562576,gLdbsFufb,15,2014-06-14,16:15,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5562578,BufbsDufb,15,2014-06-15,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5562584,HufbsRufb,15,2014-06-15,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5562582,NufbsYufb,15,2014-06-15,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5562580,JufbsPufb,15,2014-06-15,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5562588,IDFszufb,15,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5562586,UufbsWufb,15,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5621404,UufbsWufb,15,2014-07-02,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5621406,IDFszufb,15,2014-07-09,16:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5621376,zufbsBufb,16,2014-07-04,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5621380,PufbsUufb,16,2014-07-05,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5621382,HufbsJufb,16,2014-07-05,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5621396,DufbsNufb,16,2014-07-05,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5621378,IDFsYufb,16,2014-07-05,16:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5621398,FufbsLufb,16,2014-07-06,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5621400,Wufbsavfb,16,2014-07-06,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5621402,gLdbsRufb,16,2014-07-06,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5676228,BufbsLufb,17,2014-07-11,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5676230,PufbsWufb,17,2014-07-12,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5676232,gLdbsavfb,17,2014-07-12,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5676238,FufbsUufb,17,2014-07-13,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5676240,IDFsHufb,17,2014-07-13,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5676234,zufbsJufb,17,2014-07-13,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5676236,DufbsRufb,17,2014-07-13,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5676242,NufbsYufb,17,2014-07-13,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5701982,HufbsYufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5701984,Rufbsavfb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5701986,DufbsWufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5701988,gLdbsUufb,18,2014-07-16,16:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5701992,IDFsLufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5701990,BufbsNufb,18,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5701994,zufbsFufb,18,2014-07-17,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5701996,JufbsPufb,18,2014-07-18,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5730406,HufbsYufb,18,2014-07-23,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5730408,Rufbsavfb,18,2014-07-23,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5730414,IDFsLufb,18,2014-07-23,16:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5730412,BufbsNufb,18,2014-07-23,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5730410,DufbsWufb,18,2014-07-23,16:15,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5741644,LufbsYufb,19,2014-07-26,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5741646,DufbsHufb,19,2014-07-26,15:00,2014,Finished,4,4,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5741648,JufbsUufb,19,2014-07-26,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5741654,IDFsgLdb,19,2014-07-27,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5741650,zufbsWufb,19,2014-07-27,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5741658,BufbsPufb,19,2014-07-27,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5741652,FufbsRufb,19,2014-07-27,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5741656,Nufbsavfb,19,2014-07-27,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5791882,Fufbsavfb,20,2014-08-01,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5791884,DufbsLufb,20,2014-08-01,16:15,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5791888,BufbsJufb,20,2014-08-02,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5791890,zufbsHufb,20,2014-08-06,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5791892,gLdbsYufb,20,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5791896,NufbsRufb,20,2014-08-06,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5791894,IDFsPufb,20,2014-08-06,15:00,2014,Postponed,0,0,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5791886,UufbsWufb,20,2014-08-06,16:15,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5988494,gLdbsYufb,20,2014-09-17,16:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+6217412,IDFsPufb,20,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6351960,IDFsPufb,20,2014-11-05,15:00,2014,Postponed,3,3,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6506214,IDFsPufb,20,2024-09-30,15:41,2014,Finished,-,-,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5825368,gLdbsDufb,21,2024-09-30,15:41,2014,Postponed,-,-,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5825366,JufbsYufb,21,2014-08-08,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5825370,Lufbsavfb,21,2014-08-09,13:30,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5825372,IDFsFufb,21,2014-08-09,15:45,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5825380,zufbsNufb,21,2014-08-10,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5825378,BufbsWufb,21,2014-08-10,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5825376,PufbsRufb,21,2014-08-10,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5825374,HufbsUufb,21,2014-08-10,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5859762,gLdbsDufb,21,2014-08-28,16:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+5854198,FufbsYufb,22,2014-08-13,16:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5854200,NufbsUufb,22,2014-08-15,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5854208,BufbsHufb,22,2014-08-16,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5854206,Pufbsavfb,22,2014-08-16,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5854242,DufbsJufb,22,2014-08-17,11:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+5854246,LufbsRufb,22,2014-08-17,14:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5854212,IDFsWufb,22,2014-08-17,16:15,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5854202,gLdbszufb,22,2014-09-24,16:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5883240,DufbsFufb,23,2014-08-22,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5883250,zufbsLufb,23,2014-08-23,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+5883254,Bufbsavfb,23,2014-08-23,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+5883260,gLdbsPufb,23,2014-08-24,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+5883256,RufbsUufb,23,2014-08-24,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+5883252,HufbsNufb,23,2014-08-27,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+5883262,IDFsJufb,23,2014-08-27,16:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+5883258,WufbsYufb,23,2014-09-25,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+5997918,DufbsYufb,24,2014-09-12,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+5997920,LufbsNufb,24,2014-09-12,16:15,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+5997926,JufbsRufb,24,2014-09-13,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+5997924,BufbsUufb,24,2014-09-13,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+5997922,IDFsavfb,24,2014-09-13,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+5997928,FufbsHufb,24,2014-09-14,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+5997930,zufbsPufb,24,2014-09-14,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+5997932,gLdbsWufb,24,2014-09-14,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6092650,FufbsPufb,25,2014-09-19,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6092652,LufbsWufb,25,2014-09-19,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+6092654,IDFsDufb,25,2014-09-20,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+6092660,zufbsavfb,25,2014-09-20,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+6092656,gLdbsBufb,25,2014-09-20,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+6092658,UufbsYufb,25,2014-09-21,14:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+6092662,JufbsNufb,25,2014-09-21,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+6092664,HufbsRufb,25,2014-09-21,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+6128576,BufbsYufb,26,2014-10-03,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+6128570,HufbsWufb,26,2014-10-04,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+6128574,FufbsJufb,26,2014-10-04,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+6128584,Dufbsavfb,26,2014-10-04,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+6128578,gLdbsLufb,26,2014-10-04,16:15,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6128572,IDFsUufb,26,2014-10-05,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6128580,NufbsPufb,26,2014-10-05,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+6128582,zufbsRufb,26,2014-10-05,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+6198042,FufbsNufb,27,2014-10-16,15:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+6198040,IDFsRufb,27,2014-10-17,16:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+6198044,Yufbsavfb,27,2014-10-18,14:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+6198038,zufbsUufb,27,2014-10-18,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+6198046,gLdbsHufb,27,2014-10-19,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+6198050,LufbsPufb,27,2014-10-19,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+6198048,BufbsDufb,27,2014-10-19,17:30,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+6198052,JufbsWufb,27,2014-10-19,20:00,2014,Canceled,0,0,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+6290922,FufbsWufb,28,2014-10-24,18:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138496,Tusker,TUS,#ffdf00,#000000,SSN-2014,1
+6290974,JufbsLufb,28,2014-10-24,20:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1
+6290978,RufbsYufb,28,2014-10-25,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+6290980,Uufbsavfb,28,2014-10-25,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+6291008,HufbsPufb,28,2014-10-26,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6291012,zufbsDufb,28,2014-10-26,15:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138478,Kenya Commercial Bank,KCB,#00dd00,#004165,SSN-2014,1
+6291010,IDFsBufb,28,2014-10-26,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6291014,gLdbsNufb,28,2014-10-26,16:15,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6328994,IDFsNufb,29,2014-11-01,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+6328992,gLdbsJufb,29,2014-11-01,14:00,2014,Finished,1,1,Kenyan Premier League,AwayTeamID,134306,Gor Mahia FC,GOR,#008000,#000000,SSN-2014,1
+6329006,BufbsFufb,29,2014-11-01,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+6328990,zufbsYufb,29,2014-11-01,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138474,Bandari FC,BAN,#3050c6,#ffffff,SSN-2014,1
+6328996,DufbsPufb,29,2014-11-02,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138490,Sony Sugar,SSU,#008633,#ffffff,SSN-2014,1
+6329002,Hufbsavfb,29,2014-11-02,15:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138500,Western Stima FC,WST,#ffff00,#0000ff,SSN-2014,1
+6328998,LufbsUufb,29,2014-11-02,15:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138486,Nairobi City Stars FC,NCS,#273887,#f74f00,SSN-2014,1
+6329004,RufbsWufb,29,2014-11-02,16:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138492,Thika United,TUN,#374df5,#374df5,SSN-2014,1
+6329362,IDFszufb,30,2014-11-08,14:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,76433,AFC Leopards SC,LDS,#ffffff,#0000ff,SSN-2014,1
+6329350,gLdbsFufb,30,2014-11-08,14:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138480,Kenya Rev. Authority,KAU,#374df5,#374df5,SSN-2014,1
+6329354,DufbsUufb,30,2014-11-08,14:00,2014,Finished,3,3,Kenyan Premier League,AwayTeamID,138494,Top Fry Nakuru,TFN,#374df5,#374df5,SSN-2014,1
+6329364,HufbsLufb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138482,Mathare United,MAU,#ffff00,#006600,SSN-2014,1
+6329360,PufbsYufb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138498,Ulinzi Stars,ULS,#ff0000,#ffffff,SSN-2014,1
+6329358,BufbsRufb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138476,Chemelil Sugar,CSU,#ffff00,#000000,SSN-2014,1
+6329352,NufbsWufb,30,2014-11-08,14:00,2014,Finished,2,2,Kenyan Premier League,AwayTeamID,138488,Sofapaka,SOF,#ffffff,#0000ff,SSN-2014,1
+6329356,Jufbsavfb,30,2014-11-08,14:00,2014,Finished,0,0,Kenyan Premier League,AwayTeamID,138484,Muhoroni Youth FC,MUY,#374df5,#374df5,SSN-2014,1

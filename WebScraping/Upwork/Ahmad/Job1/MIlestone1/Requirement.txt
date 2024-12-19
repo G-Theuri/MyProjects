@@ -1,0 +1,11 @@
+Step 1: Install Python
+Step 2: Install Required Dependencies:
+    (a) They include; (Scrapy, Selenium, chromedriver-autoinstaller)
+    - Heres how:
+        run -> pip install scrapy selenium chromedriver-autoinstaller
+Step 3: Install Google Chrome and ChromeDriver
+        - < chromedriver-autoinstaller > module in the script automatically installs it. You don't have to do anything.
+
+
+
+NB: I am using VS Code.

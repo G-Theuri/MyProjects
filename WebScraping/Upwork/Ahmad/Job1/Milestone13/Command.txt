@@ -1,0 +1,5 @@
+- The file can be run using the run button on your development environment.
+
+
+- Alternatively, use the command "python bench-master_scraper.py" to run the file from the terminal. 
+(Make sure you open the terminal from the folder where the python file is located before running the command)

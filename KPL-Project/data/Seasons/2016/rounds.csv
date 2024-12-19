@@ -1,0 +1,241 @@
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Kenyan Premier League,2016,1,2016-02-13,14:00,6990983,PufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2016,1,2016-02-13,15:00,7000345,avfbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,2016,1,2016-02-13,15:00,6990984,FufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2016,1,2016-02-13,15:00,6990981,RufbsWufb,Finished,Thika United,TUN,138492,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,1,2016-02-14,14:00,7000346,JufbsfxKb,Finished,Posta Rangers,PRA,213605,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,1,2016-02-14,16:15,6990982,IDFsHufb,Finished,AFC Leopards SC,LDS,76433,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2016,1,2016-02-17,15:00,6990986,gLdbsBufb,Finished,Chemelil Sugar,CSU,138476,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,1,2016-02-18,16:00,6990985,zufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,2016,2,2016-02-20,15:00,7006195,FufbsRufb,Finished,Kenya Rev. Authority,KAU,138480,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,2,2016-02-20,15:00,7006193,JufbsNufb,Finished,Muhoroni Youth FC,MUY,138484,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,2,2016-02-20,15:00,7006191,WufbsYufb,Finished,Tusker,TUS,138496,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2016,2,2016-02-21,14:00,7006190,BufbsHufb,Finished,Mathare United,MAU,138482,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,2,2016-02-21,15:00,7006196,zufbsexKb,Finished,Bandari FC,BAN,138474,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,2016,2,2016-02-21,15:00,7006194,Lufbsavfb,Finished,Western Stima FC,WST,138500,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,2016,2,2016-02-21,16:15,7006192,gLdbsfxKb,Finished,Gor Mahia FC,GOR,134306,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,2016,2,2016-02-22,15:00,7006197,IDFsPufb,Finished,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,3,2016-02-27,14:00,7012395,HufbsNufb,Finished,Sofapaka,SOF,138488,Mathare United,MAU,138482,2,2
+Kenyan Premier League,2016,3,2016-02-27,15:00,7012397,FufbsPufb,Finished,Sony Sugar,SSU,138490,Kenya Rev. Authority,KAU,138480,0,0
+Kenyan Premier League,2016,3,2016-02-27,16:15,7012398,LufbsWufb,Finished,Nairobi City Stars FC,NCS,138486,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,3,2016-02-28,14:00,7012402,JufbsRufb,Finished,Thika United,TUN,138492,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2016,3,2016-02-28,15:00,7012401,BufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2016,3,2016-02-28,15:00,7012396,avfbsfxKb,Finished,Posta Rangers,PRA,213605,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2016,3,2016-03-02,19:00,7012399,IDFszufb,Finished,AFC Leopards SC,LDS,76433,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2016,3,2016-03-03,16:00,7012400,gLdbsYufb,Finished,Ulinzi Stars,ULS,138498,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,4,2016-03-05,14:00,7019203,HufbsexKb,Finished,Mathare United,MAU,138482,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,2016,4,2016-03-05,15:00,7019202,BufbsLufb,Finished,Chemelil Sugar,CSU,138476,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2016,4,2016-03-05,15:00,7019197,JufbsWufb,Finished,Muhoroni Youth FC,MUY,138484,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,4,2016-03-05,15:00,7019196,Rufbsavfb,Finished,Western Stima FC,WST,138500,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,4,2016-03-05,16:15,7019200,NufbsfxKb,Finished,Posta Rangers,PRA,213605,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,4,2016-03-06,15:00,7019201,zufbsPufb,Finished,Bandari FC,BAN,138474,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,4,2016-03-06,15:00,7019199,IDFsgLdb,Finished,Gor Mahia FC,GOR,134306,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,2016,4,2016-03-06,15:00,7019198,FufbsYufb,Finished,Kenya Rev. Authority,KAU,138480,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2016,5,2016-03-12,14:00,7024729,gLdbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,2016,5,2016-03-12,15:00,7024730,exKbsfxKb,Finished,Kakamega Homeboyz,KAH,213604,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,2016,5,2016-03-12,15:00,7024726,JufbsPufb,Finished,Sony Sugar,SSU,138490,Muhoroni Youth FC,MUY,138484,0,0
+Kenyan Premier League,2016,5,2016-03-12,15:00,7024725,Yufbsavfb,Finished,Ulinzi Stars,ULS,138498,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2016,5,2016-03-13,14:00,7024723,FufbsWufb,Finished,Tusker,TUS,138496,Kenya Rev. Authority,KAU,138480,2,2
+Kenyan Premier League,2016,5,2016-03-13,15:00,7024728,IDFsBufb,Finished,AFC Leopards SC,LDS,76433,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,5,2016-03-13,15:00,7024727,HufbsRufb,Finished,Thika United,TUN,138492,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2016,5,2016-03-13,16:15,7024724,zufbsNufb,Finished,Sofapaka,SOF,138488,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2016,6,2016-03-30,15:00,7029876,zufbsYufb,Finished,Bandari FC,BAN,138474,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,6,2016-03-30,15:00,7029874,BufbsWufb,Finished,Chemelil Sugar,CSU,138476,Tusker,TUS,138496,0,0
+Kenyan Premier League,2016,6,2016-03-30,15:00,7029872,FufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2016,6,2016-03-30,15:00,7029877,PufbsfxKb,Finished,Posta Rangers,PRA,213605,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,6,2016-03-30,15:00,7029873,Nufbsavfb,Finished,Western Stima FC,WST,138500,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,6,2016-03-30,16:00,7029871,HufbsLufb,Finished,Mathare United,MAU,138482,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2016,6,2016-03-30,19:00,7029875,IDFsexKb,Finished,AFC Leopards SC,LDS,76433,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,2016,6,2016-04-06,19:00,7029878,gLdbsRufb,Finished,Gor Mahia FC,GOR,134306,Thika United,TUN,138492,2,2
+Kenyan Premier League,2016,7,2016-04-02,14:00,7039906,gLdbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,7,2016-04-02,14:00,7039911,BufbsNufb,Finished,Sofapaka,SOF,138488,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,7,2016-04-02,15:00,7039910,RufbsfxKb,Finished,Thika United,TUN,138492,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,7,2016-04-02,16:15,7039909,zufbsWufb,Finished,Tusker,TUS,138496,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2016,7,2016-04-03,14:00,7039905,FufbsHufb,Finished,Kenya Rev. Authority,KAU,138480,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2016,7,2016-04-03,15:00,7039907,Pufbsavfb,Finished,Sony Sugar,SSU,138490,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2016,7,2016-04-03,16:15,7039908,IDFsLufb,Finished,Nairobi City Stars FC,NCS,138486,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,7,2016-04-04,15:00,7039912,JufbsYufb,Finished,Ulinzi Stars,ULS,138498,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,8,2016-04-09,14:00,7046357,IDFsNufb,Finished,AFC Leopards SC,LDS,76433,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,2016,8,2016-04-09,15:00,7046355,LufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2016,8,2016-04-09,15:00,7046356,Wufbsavfb,Finished,Western Stima FC,WST,138500,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,8,2016-04-09,16:15,7046359,HufbsPufb,Finished,Mathare United,MAU,138482,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,8,2016-04-10,13:00,7046358,BufbsRufb,Finished,Chemelil Sugar,CSU,138476,Thika United,TUN,138492,0,0
+Kenyan Premier League,2016,8,2016-04-10,14:00,7046360,YufbsfxKb,Finished,Posta Rangers,PRA,213605,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,8,2016-04-10,15:00,7046361,zufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2016,8,2016-04-10,16:15,7046362,gLdbsFufb,Finished,Gor Mahia FC,GOR,134306,Kenya Rev. Authority,KAU,138480,0,0
+Kenyan Premier League,2016,9,2016-04-16,13:00,7050398,Jufbsavfb,Finished,Muhoroni Youth FC,MUY,138484,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2016,9,2016-04-16,15:00,7050400,zufbsfxKb,Finished,Bandari FC,BAN,138474,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,2016,9,2016-04-16,15:00,7050397,BufbsPufb,Finished,Sony Sugar,SSU,138490,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,9,2016-04-16,15:00,7050393,gLdbsWufb,Finished,Tusker,TUS,138496,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,2016,9,2016-04-17,14:00,7050396,HufbsYufb,Finished,Ulinzi Stars,ULS,138498,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2016,9,2016-04-17,15:00,7050394,NufbsexKb,Finished,Sofapaka,SOF,138488,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,9,2016-04-17,15:00,7050399,LufbsRufb,Finished,Thika United,TUN,138492,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2016,9,2016-04-17,16:15,7050395,IDFsFufb,Finished,Kenya Rev. Authority,KAU,138480,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,10,2016-04-23,13:00,7055442,BufbsFufb,Finished,Chemelil Sugar,CSU,138476,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2016,10,2016-04-23,14:00,7055440,gLdbsPufb,Finished,Gor Mahia FC,GOR,134306,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,10,2016-04-23,14:00,7055445,RufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Thika United,TUN,138492,2,2
+Kenyan Premier League,2016,10,2016-04-23,15:00,7055438,zufbsavfb,Finished,Western Stima FC,WST,138500,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,2016,10,2016-04-23,16:15,7055441,IDFsYufb,Canceled,AFC Leopards SC,LDS,76433,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2016,10,2016-04-23,16:15,7055449,LufbsNufb,Finished,Nairobi City Stars FC,NCS,138486,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2016,10,2016-04-24,14:00,7055444,WufbsfxKb,Finished,Posta Rangers,PRA,213605,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,10,2016-04-24,16:15,7055443,HufbsJufb,Finished,Mathare United,MAU,138482,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2016,11,2016-04-27,15:00,7055439,IDFsavfb,Finished,Western Stima FC,WST,138500,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,2016,11,2016-04-28,13:00,7055448,JufbsLufb,Finished,Muhoroni Youth FC,MUY,138484,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,2016,11,2016-04-28,14:00,7055453,FufbsfxKb,Finished,Kenya Rev. Authority,KAU,138480,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,11,2016-04-28,15:00,7055450,gLdbszufb,Finished,Bandari FC,BAN,138474,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,11,2016-04-28,15:00,7055452,PufbsexKb,Finished,Sony Sugar,SSU,138490,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,11,2016-04-28,15:00,7055451,BufbsYufb,Finished,Ulinzi Stars,ULS,138498,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,2016,11,2016-04-28,16:00,7055447,NufbsRufb,Finished,Thika United,TUN,138492,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2016,11,2016-04-28,16:15,7055446,HufbsWufb,Finished,Tusker,TUS,138496,Mathare United,MAU,138482,2,2
+Kenyan Premier League,2016,12,2016-05-06,15:00,7065328,WufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Tusker,TUS,138496,0,0
+Kenyan Premier League,2016,12,2016-05-07,14:00,7065330,gLdbsJufb,Finished,Gor Mahia FC,GOR,134306,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,12,2016-05-07,15:00,7065324,zufbsBufb,Finished,Chemelil Sugar,CSU,138476,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2016,12,2016-05-07,15:00,7065323,FufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Kenya Rev. Authority,KAU,138480,0,0
+Kenyan Premier League,2016,12,2016-05-07,15:00,7065325,NufbsPufb,Finished,Sofapaka,SOF,138488,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2016,12,2016-05-08,14:00,7065329,Hufbsavfb,Finished,Mathare United,MAU,138482,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,2016,12,2016-05-08,15:00,7065327,RufbsYufb,Finished,Thika United,TUN,138492,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,12,2016-05-08,16:15,7065326,IDFsfxKb,Finished,AFC Leopards SC,LDS,76433,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,13,2016-05-14,14:00,7065331,IDFsJufb,Finished,Muhoroni Youth FC,MUY,138484,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,13,2016-05-14,15:00,7065335,BufbsfxKb,Finished,Posta Rangers,PRA,213605,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2016,13,2016-05-14,15:00,7065333,PufbsRufb,Finished,Sony Sugar,SSU,138490,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,13,2016-05-14,16:15,7065334,NufbsWufb,Finished,Tusker,TUS,138496,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,13,2016-05-15,14:00,7065337,gLdbsavfb,Finished,Western Stima FC,WST,138500,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,13,2016-05-15,15:00,7065336,zufbsHufb,Finished,Bandari FC,BAN,138474,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2016,13,2016-05-15,15:00,7065338,FufbsexKb,Finished,Kenya Rev. Authority,KAU,138480,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,13,2016-05-15,15:00,7065332,LufbsYufb,Finished,Ulinzi Stars,ULS,138498,Nairobi City Stars FC,NCS,138486,3,3
+Kenyan Premier League,2016,14,2016-05-21,14:00,7070212,PufbsWufb,Finished,Tusker,TUS,138496,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,14,2016-05-21,15:00,7070214,Bufbsavfb,Finished,Chemelil Sugar,CSU,138476,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2016,14,2016-05-21,15:00,7070213,JufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,14,2016-05-21,15:00,7070210,NufbsYufb,Finished,Sofapaka,SOF,138488,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,14,2016-05-21,15:00,7070208,IDFsRufb,Finished,Thika United,TUN,138492,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,2016,14,2016-05-21,16:15,7070211,zufbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2016,14,2016-05-22,14:00,7070215,LufbsfxKb,Finished,Nairobi City Stars FC,NCS,138486,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,14,2016-05-22,16:15,7070209,gLdbsHufb,Finished,Mathare United,MAU,138482,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,15,2016-05-25,14:00,7070218,gLdbsNufb,Finished,Gor Mahia FC,GOR,134306,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,2016,15,2016-05-25,15:00,7070223,IDFsWufb,Finished,AFC Leopards SC,LDS,76433,Tusker,TUS,138496,2,2
+Kenyan Premier League,2016,15,2016-05-26,15:00,7070222,zufbsRufb,Finished,Bandari FC,BAN,138474,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,15,2016-05-26,15:00,7070216,BufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,15,2016-05-26,15:00,7070220,HufbsfxKb,Finished,Posta Rangers,PRA,213605,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2016,15,2016-05-26,15:00,7070221,LufbsPufb,Finished,Sony Sugar,SSU,138490,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,2016,15,2016-05-26,15:00,7070219,YufbsexKb,Finished,Ulinzi Stars,ULS,138498,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,15,2016-05-26,15:00,7070217,Fufbsavfb,Finished,Western Stima FC,WST,138500,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2016,16,2016-07-02,14:00,7080949,FufbsPufb,Finished,Kenya Rev. Authority,KAU,138480,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,2016,16,2016-07-02,15:00,7080942,IDFsBufb,Finished,Chemelil Sugar,CSU,138476,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,16,2016-07-02,15:00,7080943,zufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2016,16,2016-07-02,15:00,7080948,JufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2016,16,2016-07-02,15:00,7080945,Nufbsavfb,Finished,Sofapaka,SOF,138488,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2016,16,2016-07-02,16:15,7080944,HufbsYufb,Finished,Mathare United,MAU,138482,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,16,2016-07-03,14:00,7080946,WufbsfxKb,Finished,Tusker,TUS,138496,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,2016,16,2016-07-03,16:15,7080947,gLdbsRufb,Finished,Thika United,TUN,138492,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,2016,17,2016-07-09,15:00,7110845,IDFsRufb,Finished,AFC Leopards SC,LDS,76433,Thika United,TUN,138492,4,4
+Kenyan Premier League,2016,17,2016-07-09,15:00,7110849,zufbsFufb,Finished,Bandari FC,BAN,138474,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2016,17,2016-07-09,15:00,7110843,BufbsNufb,Finished,Chemelil Sugar,CSU,138476,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,2016,17,2016-07-09,15:00,7110848,Hufbsavfb,Finished,Western Stima FC,WST,138500,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2016,17,2016-07-10,14:00,7110844,gLdbsexKb,Finished,Gor Mahia FC,GOR,134306,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,17,2016-07-10,14:00,7110842,LufbsfxKb,Finished,Posta Rangers,PRA,213605,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2016,17,2016-07-10,15:00,7110847,JufbsPufb,Finished,Muhoroni Youth FC,MUY,138484,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,2016,17,2016-07-10,16:15,7110846,WufbsYufb,Finished,Ulinzi Stars,ULS,138498,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,18,2016-07-16,14:00,7116333,LufbsYufb,Finished,Nairobi City Stars FC,NCS,138486,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,18,2016-07-16,15:00,7116329,Rufbsavfb,Finished,Thika United,TUN,138492,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2016,18,2016-07-16,16:15,7116327,IDFsHufb,Finished,Mathare United,MAU,138482,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,18,2016-07-17,14:00,7116328,BufbsWufb,Finished,Tusker,TUS,138496,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,2016,18,2016-07-17,15:00,7116330,NufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,18,2016-07-17,15:00,7116332,JufbsfxKb,Finished,Muhoroni Youth FC,MUY,138484,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,2016,18,2016-07-17,15:00,7116326,zufbsPufb,Finished,Sony Sugar,SSU,138490,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2016,18,2016-07-17,16:15,7116331,gLdbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,19,2016-07-23,14:00,7127407,HufbsRufb,Finished,Mathare United,MAU,138482,Thika United,TUN,138492,0,0
+Kenyan Premier League,2016,19,2016-07-23,15:00,7127411,BufbsexKb,Finished,Chemelil Sugar,CSU,138476,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,2016,19,2016-07-23,15:00,7127408,avfbsfxKb,Finished,Western Stima FC,WST,138500,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,19,2016-07-23,16:15,7127405,IDFsPufb,Finished,AFC Leopards SC,LDS,76433,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,19,2016-07-24,14:00,7127412,NufbsWufb,Finished,Sofapaka,SOF,138488,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,19,2016-07-24,15:00,7127410,zufbsJufb,Finished,Bandari FC,BAN,138474,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,19,2016-07-24,15:00,7127409,FufbsYufb,Finished,Ulinzi Stars,ULS,138498,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2016,19,2016-07-24,16:15,7127406,gLdbsLufb,Finished,Gor Mahia FC,GOR,134306,Nairobi City Stars FC,NCS,138486,2,2
+Kenyan Premier League,2016,20,2016-08-03,14:00,7146908,Fufbsavfb,Finished,Kenya Rev. Authority,KAU,138480,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2016,20,2016-08-03,15:00,7146910,zufbsNufb,Finished,Bandari FC,BAN,138474,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,20,2016-08-03,15:00,7146914,HufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Mathare United,MAU,138482,2,2
+Kenyan Premier League,2016,20,2016-08-03,15:00,7146912,JufbsYufb,Finished,Muhoroni Youth FC,MUY,138484,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,20,2016-08-03,15:00,7146913,BufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2016,20,2016-08-03,15:00,7146916,gLdbsPufb,Finished,Sony Sugar,SSU,138490,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,20,2016-08-03,16:15,7146909,RufbsWufb,Finished,Tusker,TUS,138496,Thika United,TUN,138492,0,0
+Kenyan Premier League,2016,20,2016-08-03,19:00,7146911,IDFsfxKb,Finished,Posta Rangers,PRA,213605,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,21,2016-08-06,14:00,7146922,IDFsFufb,Finished,AFC Leopards SC,LDS,76433,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2016,21,2016-08-06,15:00,7146917,Pufbsavfb,Finished,Western Stima FC,WST,138500,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2016,21,2016-08-06,16:15,7146921,HufbsWufb,Finished,Mathare United,MAU,138482,Tusker,TUS,138496,0,0
+Kenyan Premier League,2016,21,2016-08-07,14:00,7146923,gLdbszufb,Finished,Gor Mahia FC,GOR,134306,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2016,21,2016-08-07,15:00,7146918,BufbsJufb,Finished,Chemelil Sugar,CSU,138476,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2016,21,2016-08-07,15:00,7146915,LufbsNufb,Finished,Sofapaka,SOF,138488,Nairobi City Stars FC,NCS,138486,5,5
+Kenyan Premier League,2016,21,2016-08-07,15:00,7146920,RufbsexKb,Finished,Thika United,TUN,138492,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,21,2016-08-24,15:00,7146919,YufbsfxKb,Finished,Ulinzi Stars,ULS,138498,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,22,2016-08-10,15:00,7162199,zufbsBufb,Finished,Bandari FC,BAN,138474,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,2016,22,2016-08-13,15:00,7162198,FufbsNufb,Finished,Kenya Rev. Authority,KAU,138480,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,2016,22,2016-08-13,15:00,7162202,JufbsRufb,Finished,Muhoroni Youth FC,MUY,138484,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,22,2016-08-13,15:00,7162200,Wufbsavfb,Finished,Tusker,TUS,138496,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2016,22,2016-08-14,14:00,7162201,HufbsLufb,Finished,Nairobi City Stars FC,NCS,138486,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2016,22,2016-08-14,15:00,7162204,IDFsexKb,Finished,Kakamega Homeboyz,KAH,213604,AFC Leopards SC,LDS,76433,4,4
+Kenyan Premier League,2016,22,2016-08-14,16:15,7162203,gLdbsfxKb,Finished,Posta Rangers,PRA,213605,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,22,2016-09-07,15:00,7162205,PufbsYufb,Finished,Sony Sugar,SSU,138490,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2016,23,2016-08-20,15:00,7177606,BufbsPufb,Finished,Chemelil Sugar,CSU,138476,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,23,2016-08-20,15:00,7177603,FufbsHufb,Finished,Mathare United,MAU,138482,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2016,23,2016-08-21,14:00,7177604,WufbsexKb,Finished,Tusker,TUS,138496,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,23,2016-08-21,15:00,7177607,NufbsfxKb,Finished,Sofapaka,SOF,138488,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,23,2016-08-21,15:00,7177605,Jufbsavfb,Finished,Western Stima FC,WST,138500,Muhoroni Youth FC,MUY,138484,3,3
+Kenyan Premier League,2016,23,2016-08-21,16:15,7177608,IDFsLufb,Finished,AFC Leopards SC,LDS,76433,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2016,23,2016-08-24,16:00,7177609,zufbsRufb,Finished,Thika United,TUN,138492,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,2016,23,2016-09-14,16:15,7177602,gLdbsYufb,Finished,Gor Mahia FC,GOR,134306,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,24,2016-09-10,15:00,7186569,IDFszufb,Finished,Bandari FC,BAN,138474,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,2016,24,2016-09-10,15:00,7186566,gLdbsBufb,Finished,Gor Mahia FC,GOR,134306,Chemelil Sugar,CSU,138476,3,3
+Kenyan Premier League,2016,24,2016-09-10,15:00,7186565,JufbsexKb,Finished,Muhoroni Youth FC,MUY,138484,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,2016,24,2016-09-11,14:00,7186567,Lufbsavfb,Finished,Nairobi City Stars FC,NCS,138486,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2016,24,2016-09-11,15:00,7186564,RufbsfxKb,Finished,Posta Rangers,PRA,213605,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,24,2016-09-11,15:00,7186563,HufbsPufb,Finished,Sony Sugar,SSU,138490,Mathare United,MAU,138482,2,2
+Kenyan Premier League,2016,24,2016-09-11,15:00,7186568,NufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sofapaka,SOF,138488,3,3
+Kenyan Premier League,2016,24,2016-09-11,16:15,7186570,FufbsWufb,Finished,Kenya Rev. Authority,KAU,138480,Tusker,TUS,138496,1,1
+Kenyan Premier League,2016,25,2016-09-23,14:00,7230744,JufbsWufb,Finished,Tusker,TUS,138496,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,25,2016-09-24,14:00,7230747,BufbsYufb,Finished,Chemelil Sugar,CSU,138476,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,25,2016-09-24,15:00,7230743,IDFsavfb,Finished,AFC Leopards SC,LDS,76433,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,2016,25,2016-09-24,15:00,7230746,zufbsLufb,Finished,Bandari FC,BAN,138474,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2016,25,2016-09-24,15:00,7230745,FufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2016,25,2016-09-25,14:00,7230748,HufbsfxKb,Finished,Mathare United,MAU,138482,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,2016,25,2016-09-25,15:00,7230749,PufbsRufb,Finished,Thika United,TUN,138492,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,25,2016-09-25,16:15,7231688,gLdbsNufb,Finished,Sofapaka,SOF,138488,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,26,2016-10-12,15:00,7217960,HufbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Mathare United,MAU,138482,0,0
+Kenyan Premier League,2016,26,2016-10-14,14:00,7217959,IDFsYufb,Finished,Ulinzi Stars,ULS,138498,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,2016,26,2016-10-15,14:00,7217954,BufbsFufb,Finished,Kenya Rev. Authority,KAU,138480,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,26,2016-10-15,15:00,7217955,zufbsWufb,Finished,Bandari FC,BAN,138474,Tusker,TUS,138496,0,0
+Kenyan Premier League,2016,26,2016-10-15,15:00,7217961,exKbsfxKb,Finished,Posta Rangers,PRA,213605,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,2016,26,2016-10-15,15:00,7217956,NufbsPufb,Finished,Sony Sugar,SSU,138490,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,2016,26,2016-10-15,16:15,7217958,LufbsRufb,Finished,Nairobi City Stars FC,NCS,138486,Thika United,TUN,138492,0,0
+Kenyan Premier League,2016,26,2016-10-19,16:15,7217957,gLdbsavfb,Finished,Gor Mahia FC,GOR,134306,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,2016,27,2016-10-21,15:00,7217947,JufbsNufb,Finished,Sofapaka,SOF,138488,Muhoroni Youth FC,MUY,138484,2,2
+Kenyan Premier League,2016,27,2016-10-22,14:00,7217950,zufbsHufb,Finished,Mathare United,MAU,138482,Bandari FC,BAN,138474,3,3
+Kenyan Premier League,2016,27,2016-10-22,15:00,7217946,PufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,2016,27,2016-10-23,15:00,7217948,IDFsgLdb,Finished,AFC Leopards SC,LDS,76433,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,27,2016-10-23,15:00,7217953,BufbsfxKb,Finished,Chemelil Sugar,CSU,138476,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,2016,27,2016-10-23,15:00,7217952,FufbsRufb,Finished,Thika United,TUN,138492,Kenya Rev. Authority,KAU,138480,1,1
+Kenyan Premier League,2016,27,2016-10-23,15:00,7217949,LufbsWufb,Finished,Tusker,TUS,138496,Nairobi City Stars FC,NCS,138486,1,1
+Kenyan Premier League,2016,27,2016-10-23,15:00,7217951,Yufbsavfb,Finished,Western Stima FC,WST,138500,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,2016,28,2016-10-28,15:00,7260337,IDFsNufb,Finished,Sofapaka,SOF,138488,AFC Leopards SC,LDS,76433,3,3
+Kenyan Premier League,2016,28,2016-10-29,14:00,7260342,PufbsWufb,Finished,Sony Sugar,SSU,138490,Tusker,TUS,138496,0,0
+Kenyan Premier League,2016,28,2016-10-29,15:00,7260339,FufbsJufb,Finished,Kenya Rev. Authority,KAU,138480,Muhoroni Youth FC,MUY,138484,0,0
+Kenyan Premier League,2016,28,2016-10-29,15:00,7260340,zufbsfxKb,Finished,Posta Rangers,PRA,213605,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,2016,28,2016-10-29,15:00,7260336,Bufbsavfb,Finished,Western Stima FC,WST,138500,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,28,2016-10-30,14:00,7260341,LufbsexKb,Finished,Nairobi City Stars FC,NCS,138486,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,2016,28,2016-10-30,15:00,7260338,RufbsYufb,Finished,Ulinzi Stars,ULS,138498,Thika United,TUN,138492,1,1
+Kenyan Premier League,2016,28,2016-10-30,16:15,7260343,gLdbsHufb,Finished,Gor Mahia FC,GOR,134306,Mathare United,MAU,138482,2,2
+Kenyan Premier League,2016,29,2016-11-04,15:00,7269329,FufbsLufb,Finished,Kenya Rev. Authority,KAU,138480,Nairobi City Stars FC,NCS,138486,0,0
+Kenyan Premier League,2016,29,2016-11-05,14:00,7270259,gLdbsJufb,Finished,Muhoroni Youth FC,MUY,138484,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,2016,29,2016-11-05,15:00,7270255,zufbsavfb,Finished,Bandari FC,BAN,138474,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,2016,29,2016-11-05,15:00,7270254,YufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,2016,29,2016-11-05,15:00,7270258,HufbsNufb,Finished,Mathare United,MAU,138482,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,2016,29,2016-11-05,15:00,7270256,PufbsfxKb,Finished,Sony Sugar,SSU,138490,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,2016,29,2016-11-05,15:00,7270257,BufbsRufb,Finished,Thika United,TUN,138492,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,2016,29,2016-11-06,14:00,7270252,IDFsWufb,Finished,Tusker,TUS,138496,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273269,IDFsJufb,Finished,AFC Leopards SC,LDS,76433,Muhoroni Youth FC,MUY,138484,1,1
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273270,BufbsHufb,Finished,Chemelil Sugar,CSU,138476,Mathare United,MAU,138482,1,1
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273274,gLdbsWufb,Finished,Gor Mahia FC,GOR,134306,Tusker,TUS,138496,0,0
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273268,LufbsPufb,Finished,Nairobi City Stars FC,NCS,138486,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273271,FufbsfxKb,Finished,Posta Rangers,PRA,213605,Kenya Rev. Authority,KAU,138480,3,3
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273267,NufbsRufb,Finished,Sofapaka,SOF,138488,Thika United,TUN,138492,5,5
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273273,zufbsYufb,Finished,Ulinzi Stars,ULS,138498,Bandari FC,BAN,138474,4,4
+Kenyan Premier League,2016,30,2016-11-19,15:00,7273272,avfbsexKb,Finished,Western Stima FC,WST,138500,Kakamega Homeboyz,KAH,213604,0,0

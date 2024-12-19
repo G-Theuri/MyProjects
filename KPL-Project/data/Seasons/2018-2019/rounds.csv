@@ -1,0 +1,313 @@
+Tournament,Season,Round,Date,StartTime,MatchID,MatchCustomID,MatchStatus,HomeTeamName,HomeTeamNameCode,HomeTeamID,AwayTeamName,AwayTeamNameCode,AwayTeamID,HomeScoreFT,AwayScoreFT
+Kenyan Premier League,18/19,1,2018-12-08,15:00,8078960,gLdbszufb,Finished,Bandari FC,BAN,138474,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,18/19,1,2018-12-08,15:00,8078959,DufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,18/19,1,2018-12-08,15:00,8078967,BufbsHufb,Finished,Mathare United,MAU,138482,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,1,2018-12-08,15:00,8078961,avfbsfxKb,Finished,Posta Rangers,PRA,213605,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,18/19,1,2018-12-09,14:00,8078962,NufbsFRid,Finished,Dandora Love,DLO,397130,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,18/19,1,2018-12-09,15:00,8078966,Yufbsladc,Finished,Mulembe United,MUD,257511,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,18/19,1,2018-12-09,15:00,8078963,PufbsWufb,Finished,Sony Sugar,SSU,138490,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,1,2018-12-09,15:00,8078964,IvYbsnTid,Finished,Zoo F.C.,ZFC,397163,Nzoia United,NZO,246033,0,0
+Kenyan Premier League,18/19,1,2018-12-09,16:15,8078965,IDFsHvYb,Finished,AFC Leopards SC,LDS,76433,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,18/19,2,2018-12-12,16:00,8081033,gLdbsnTid,Finished,Gor Mahia FC,GOR,134306,Zoo F.C.,ZFC,397163,4,4
+Kenyan Premier League,18/19,2,2018-12-15,13:00,8081028,HufbsIvYb,Finished,Nzoia United,NZO,246033,Mathare United,MAU,138482,0,0
+Kenyan Premier League,18/19,2,2018-12-15,14:00,8081025,Bufbsladc,Finished,Chemelil Sugar,CSU,138476,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,2,2018-12-15,15:15,8081023,IDFsexKb,Finished,Kakamega Homeboyz,KAH,213604,AFC Leopards SC,LDS,76433,3,3
+Kenyan Premier League,18/19,2,2018-12-16,14:00,8081026,fxKbsFRid,Finished,Dandora Love,DLO,397130,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,18/19,2,2018-12-16,15:00,8081032,zufbsNufb,Finished,Sofapaka,SOF,138488,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,18/19,2,2018-12-16,15:00,8081027,Wufbsavfb,Finished,Western Stima FC,WST,138500,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,2,2018-12-16,16:15,8081022,DufbsYufb,Finished,Ulinzi Stars,ULS,138498,Kenya Commercial Bank,KCB,138478,3,3
+Kenyan Premier League,18/19,2,2018-12-18,15:00,8081030,PufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,18/19,3,2018-12-22,14:00,8087014,zufbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,18/19,3,2018-12-22,15:00,8087012,HufbsYufb,Finished,Mathare United,MAU,138482,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,18/19,3,2018-12-22,15:00,8087015,avfbsexKb,Finished,Western Stima FC,WST,138500,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,18/19,3,2018-12-22,16:15,8087009,IDFsNufb,Finished,Sofapaka,SOF,138488,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,18/19,3,2018-12-23,15:00,8087013,Pufbsladc,Finished,Mulembe United,MUD,257511,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,18/19,3,2018-12-23,15:00,8088577,WufbsFRid,Finished,Tusker,TUS,138496,Dandora Love,DLO,397130,3,3
+Kenyan Premier League,18/19,3,2018-12-23,15:00,8087016,BufbsnTid,Finished,Zoo F.C.,ZFC,397163,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,3,2018-12-26,14:00,8087010,HvYbsIvYb,Finished,Nzoia United,NZO,246033,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,18/19,3,2024-09-30,15:46,8087011,gLdbsfxKb,Canceled,Gor Mahia FC,GOR,134306,Posta Rangers,PRA,213605,-,-
+Kenyan Premier League,18/19,3,2019-01-09,16:00,8090323,gLdbsfxKb,Finished,Gor Mahia FC,GOR,134306,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,18/19,4,2018-12-29,14:00,8090394,DufbsWufb,Finished,Kenya Commercial Bank,KCB,138478,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,4,2018-12-29,14:00,8090390,HufbsfxKb,Finished,Posta Rangers,PRA,213605,Mathare United,MAU,138482,1,1
+Kenyan Premier League,18/19,4,2018-12-29,15:00,8090392,zufbsavfb,Finished,Bandari FC,BAN,138474,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,18/19,4,2018-12-29,15:00,8090391,BufbsFRid,Finished,Chemelil Sugar,CSU,138476,Dandora Love,DLO,397130,2,2
+Kenyan Premier League,18/19,4,2018-12-29,15:00,8090393,exKbsIvYb,Finished,Kakamega Homeboyz,KAH,213604,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,4,2018-12-29,15:00,8090396,gLdbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,18/19,4,2018-12-29,15:00,8090395,PufbsnTid,Finished,Sony Sugar,SSU,138490,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,18/19,4,2018-12-29,16:15,8090389,IDFsladc,Finished,AFC Leopards SC,LDS,76433,Mulembe United,MUD,257511,0,0
+Kenyan Premier League,18/19,4,2018-12-29,16:15,8090388,NufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,18/19,5,2019-01-02,13:30,8090399,HvYbsFRid,Finished,Dandora Love,DLO,397130,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,18/19,5,2019-01-02,15:00,8090404,DufbsHufb,Finished,Mathare United,MAU,138482,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,18/19,5,2019-01-02,15:00,8090400,YufbsIvYb,Finished,Nzoia United,NZO,246033,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,18/19,5,2019-01-02,15:00,8090397,IDFsfxKb,Finished,Posta Rangers,PRA,213605,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,18/19,5,2019-01-02,15:00,8090403,PufbsexKb,Finished,Sony Sugar,SSU,138490,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,18/19,5,2019-01-02,15:00,8090398,Wufbsladc,Finished,Tusker,TUS,138496,Mulembe United,MUD,257511,2,2
+Kenyan Premier League,18/19,5,2019-01-02,15:00,8090401,Nufbsavfb,Finished,Western Stima FC,WST,138500,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,18/19,5,2019-01-02,15:00,8090402,zufbsnTid,Finished,Zoo F.C.,ZFC,397163,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,18/19,5,2019-01-02,16:00,8090405,gLdbsBufb,Finished,Gor Mahia FC,GOR,134306,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,6,2019-01-05,15:00,8094732,NufbsWufb,Finished,Sofapaka,SOF,138488,Tusker,TUS,138496,2,2
+Kenyan Premier League,18/19,6,2019-01-06,13:00,8094727,ladcsFRid,Finished,Mulembe United,MUD,257511,Dandora Love,DLO,397130,1,1
+Kenyan Premier League,18/19,6,2019-01-06,14:00,8094734,DufbsHvYb,Finished,Kenya Commercial Bank,KCB,138478,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,18/19,6,2019-01-06,15:00,8094728,zufbsPufb,Finished,Bandari FC,BAN,138474,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,18/19,6,2019-01-06,15:00,8094730,Bufbsavfb,Finished,Chemelil Sugar,CSU,138476,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,18/19,6,2019-01-06,15:00,8094729,gLdbsHufb,Finished,Mathare United,MAU,138482,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,18/19,6,2019-01-06,15:00,8094733,YufbsnTid,Finished,Ulinzi Stars,ULS,138498,Zoo F.C.,ZFC,397163,0,0
+Kenyan Premier League,18/19,6,2019-01-06,15:15,8094735,exKbsfxKb,Finished,Kakamega Homeboyz,KAH,213604,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,18/19,6,2019-01-06,16:15,8094731,IDFsIvYb,Finished,AFC Leopards SC,LDS,76433,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,7,2019-01-12,14:00,8095981,zufbsFRid,Finished,Dandora Love,DLO,397130,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,18/19,7,2024-09-30,15:46,8095980,gLdbsIvYb,Canceled,Nzoia United,NZO,246033,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,18/19,7,2019-01-12,15:00,8095986,HufbsWufb,Finished,Tusker,TUS,138496,Mathare United,MAU,138482,1,1
+Kenyan Premier League,18/19,7,2019-01-12,16:00,8095982,exKbsnTid,Finished,Kakamega Homeboyz,KAH,213604,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,18/19,7,2019-01-12,16:15,8095984,IDFsDufb,Finished,AFC Leopards SC,LDS,76433,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,18/19,7,2019-01-13,14:00,8095985,avfbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,18/19,7,2019-01-13,15:00,8095988,PufbsYufb,Finished,Sony Sugar,SSU,138490,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,18/19,7,2019-01-13,16:00,8095987,Nufbsladc,Finished,Mulembe United,MUD,257511,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,18/19,7,2019-01-13,16:15,8095983,BufbsfxKb,Finished,Posta Rangers,PRA,213605,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,18/19,7,2019-05-15,15:00,8214970,gLdbsIvYb,Finished,Nzoia United,NZO,246033,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,18/19,8,2019-01-16,16:00,8100453,gLdbsFRid,Finished,Gor Mahia FC,GOR,134306,Dandora Love,DLO,397130,4,4
+Kenyan Premier League,18/19,8,2019-01-17,15:00,8100456,zufbsfxKb,Finished,Bandari FC,BAN,138474,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,18/19,8,2019-01-17,15:00,8100457,IDFsBufb,Finished,Chemelil Sugar,CSU,138476,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,18/19,8,2019-01-17,15:00,8100465,HvYbsnTid,Finished,Zoo F.C.,ZFC,397163,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,18/19,8,2019-01-19,14:00,8100452,Dufbsladc,Finished,Kenya Commercial Bank,KCB,138478,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,8,2019-01-19,15:00,8100450,HufbsexKb,Finished,Mathare United,MAU,138482,Kakamega Homeboyz,KAH,213604,3,3
+Kenyan Premier League,18/19,8,2019-01-19,16:15,8100451,NufbsPufb,Finished,Sofapaka,SOF,138488,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,18/19,8,2019-01-20,15:00,8100455,WufbsYufb,Finished,Ulinzi Stars,ULS,138498,Tusker,TUS,138496,0,0
+Kenyan Premier League,18/19,8,2019-01-20,15:00,8100454,avfbsIvYb,Finished,Western Stima FC,WST,138500,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,18/19,9,2019-01-23,15:00,8100464,YufbsFRid,Finished,Dandora Love,DLO,397130,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,18/19,9,2019-01-23,15:00,8100461,IvYbsladc,Finished,Mulembe United,MUD,257511,Nzoia United,NZO,246033,0,0
+Kenyan Premier League,18/19,9,2019-01-23,15:00,8100459,NufbsfxKb,Finished,Posta Rangers,PRA,213605,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,9,2019-01-23,15:00,8100466,BufbsWufb,Finished,Tusker,TUS,138496,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,9,2019-01-23,15:00,8100458,Dufbsavfb,Finished,Western Stima FC,WST,138500,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,18/19,9,2019-01-30,15:00,8100460,zufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Bandari FC,BAN,138474,4,4
+Kenyan Premier League,18/19,9,2019-01-30,15:00,8100462,HufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Mathare United,MAU,138482,0,0
+Kenyan Premier League,18/19,9,2019-01-30,15:00,8100463,IDFsnTid,Finished,Zoo F.C.,ZFC,397163,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,18/19,9,2019-01-30,16:00,8100468,gLdbsPufb,Finished,Gor Mahia FC,GOR,134306,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,18/19,10,2019-01-27,14:00,8102030,NufbsnTid,Finished,Sofapaka,SOF,138488,Zoo F.C.,ZFC,397163,3,3
+Kenyan Premier League,18/19,10,2019-01-27,15:00,8102031,Hufbsladc,Finished,Mathare United,MAU,138482,Mulembe United,MUD,257511,3,3
+Kenyan Premier League,18/19,10,2019-01-27,15:00,8102027,IvYbsFRid,Finished,Nzoia United,NZO,246033,Dandora Love,DLO,397130,2,2
+Kenyan Premier League,18/19,10,2019-01-27,15:00,8102028,PufbsfxKb,Finished,Sony Sugar,SSU,138490,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,18/19,10,2019-01-27,15:00,8102038,YufbsexKb,Finished,Ulinzi Stars,ULS,138498,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,10,2019-01-27,16:15,8102033,gLdbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,18/19,10,2019-03-23,15:00,8102032,IDFsavfb,Finished,AFC Leopards SC,LDS,76433,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,18/19,10,2019-03-23,15:00,8102029,zufbsBufb,Finished,Chemelil Sugar,CSU,138476,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,18/19,10,2019-03-27,15:00,8102034,WufbsHvYb,Finished,Tusker,TUS,138496,Kariobangi Sharks,KAR,246032,3,3
+Kenyan Premier League,18/19,11,2019-02-02,14:00,8102099,HufbsFRid,Finished,Dandora Love,DLO,397130,Mathare United,MAU,138482,2,2
+Kenyan Premier League,18/19,11,2019-02-02,15:00,8102094,WufbsfxKb,Finished,Posta Rangers,PRA,213605,Tusker,TUS,138496,0,0
+Kenyan Premier League,18/19,11,2019-02-02,16:15,8102098,BufbsYufb,Finished,Ulinzi Stars,ULS,138498,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,18/19,11,2019-02-03,15:00,8102095,IDFszufb,Finished,Bandari FC,BAN,138474,AFC Leopards SC,LDS,76433,4,4
+Kenyan Premier League,18/19,11,2019-02-03,15:00,8102102,exKbsladc,Finished,Kakamega Homeboyz,KAH,213604,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,11,2019-02-03,15:00,8102096,NufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,11,2019-02-03,15:00,8102101,PufbsIvYb,Finished,Nzoia United,NZO,246033,Sony Sugar,SSU,138490,3,3
+Kenyan Premier League,18/19,11,2019-02-03,15:00,8102097,DufbsnTid,Finished,Zoo F.C.,ZFC,397163,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,18/19,11,2019-02-20,16:00,8102100,gLdbsavfb,Finished,Gor Mahia FC,GOR,134306,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,18/19,12,2019-02-06,15:00,8102109,IDFsFRid,Finished,AFC Leopards SC,LDS,76433,Dandora Love,DLO,397130,1,1
+Kenyan Premier League,18/19,12,2019-02-06,15:00,8102107,gLdbsladc,Finished,Mulembe United,MUD,257511,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,18/19,12,2019-02-06,15:00,8102112,avfbsnTid,Finished,Western Stima FC,WST,138500,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,18/19,12,2019-02-07,14:00,8102106,NufbsIvYb,Finished,Sofapaka,SOF,138488,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,12,2019-02-07,15:00,8102104,BufbsexKb,Finished,Chemelil Sugar,CSU,138476,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,12,2019-02-07,15:00,8102105,YufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Ulinzi Stars,ULS,138498,3,3
+Kenyan Premier League,18/19,12,2019-02-07,15:00,8102110,HufbsPufb,Finished,Sony Sugar,SSU,138490,Mathare United,MAU,138482,1,1
+Kenyan Premier League,18/19,12,2019-02-07,15:00,8102111,zufbsWufb,Finished,Tusker,TUS,138496,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,18/19,12,2019-02-07,16:15,8102108,DufbsfxKb,Finished,Kenya Commercial Bank,KCB,138478,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,18/19,13,2019-02-09,15:00,8102116,IDFsgLdb,Finished,Gor Mahia FC,GOR,134306,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,18/19,13,2019-02-10,15:00,8102120,WufbsnTid,Finished,Zoo F.C.,ZFC,397163,Tusker,TUS,138496,0,0
+Kenyan Premier League,18/19,13,2019-02-11,15:00,8102119,DufbsFRid,Finished,Dandora Love,DLO,397130,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,18/19,13,2019-02-11,15:00,8102114,BufbsPufb,Finished,Sony Sugar,SSU,138490,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,18/19,13,2019-02-11,15:00,8102117,Yufbsavfb,Finished,Ulinzi Stars,ULS,138498,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,18/19,13,2019-02-12,15:00,8102115,zufbsladc,Finished,Bandari FC,BAN,138474,Mulembe United,MUD,257511,2,2
+Kenyan Premier League,18/19,13,2019-02-12,15:00,8102113,exKbsHvYb,Finished,Kakamega Homeboyz,KAH,213604,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,18/19,13,2019-02-12,15:00,8102118,HufbsNufb,Finished,Mathare United,MAU,138482,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,18/19,13,2019-02-12,15:00,8102121,fxKbsIvYb,Finished,Posta Rangers,PRA,213605,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,18/19,14,2019-02-16,15:00,8102123,zufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,18/19,14,2019-02-16,15:00,8102126,BufbsIvYb,Finished,Nzoia United,NZO,246033,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,18/19,14,2019-02-16,15:00,8102127,WufbsexKb,Finished,Tusker,TUS,138496,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,14,2019-02-17,14:00,8102122,DufbsPufb,Finished,Kenya Commercial Bank,KCB,138478,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,18/19,14,2019-02-17,15:00,8102128,fxKbsladc,Finished,Mulembe United,MUD,257511,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,18/19,14,2019-02-17,15:00,8102125,gLdbsNufb,Finished,Sofapaka,SOF,138488,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,18/19,14,2019-02-17,15:00,8102130,avfbsFRid,Finished,Western Stima FC,WST,138500,Dandora Love,DLO,397130,2,2
+Kenyan Premier League,18/19,14,2019-02-17,15:00,8102129,HufbsnTid,Finished,Zoo F.C.,ZFC,397163,Mathare United,MAU,138482,0,0
+Kenyan Premier League,18/19,14,2019-02-17,16:15,8102124,IDFsYufb,Finished,AFC Leopards SC,LDS,76433,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,18/19,15,2019-02-23,14:00,8102133,YufbsfxKb,Finished,Posta Rangers,PRA,213605,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,18/19,15,2019-02-23,15:00,8102134,zufbsIvYb,Finished,Bandari FC,BAN,138474,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,15,2019-02-23,15:00,8102135,BufbsDufb,Finished,Chemelil Sugar,CSU,138476,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,18/19,15,2019-02-23,15:00,8102132,NufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,18/19,15,2019-02-23,16:15,8102136,IDFsHufb,Finished,Mathare United,MAU,138482,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,18/19,15,2019-02-24,15:00,8102137,FRidsnTid,Finished,Dandora Love,DLO,397130,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,18/19,15,2019-02-24,15:00,8102139,HvYbsladc,Finished,Mulembe United,MUD,257511,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,18/19,15,2019-02-24,15:00,8102138,Pufbsavfb,Finished,Sony Sugar,SSU,138490,Western Stima FC,WST,138500,4,4
+Kenyan Premier League,18/19,15,2019-02-27,16:00,8102140,gLdbsWufb,Finished,Gor Mahia FC,GOR,134306,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,16,2019-03-02,15:00,8102147,IDFsPufb,Finished,AFC Leopards SC,LDS,76433,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,18/19,16,2019-03-02,15:00,8102148,zufbsHufb,Finished,Bandari FC,BAN,138474,Mathare United,MAU,138482,0,0
+Kenyan Premier League,18/19,16,2019-03-02,15:00,8102153,exKbsFRid,Finished,Dandora Love,DLO,397130,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,16,2019-03-02,15:00,8102152,BufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,16,2019-03-02,15:00,8102150,WufbsIvYb,Finished,Nzoia United,NZO,246033,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,16,2019-03-02,15:00,8102145,avfbsladc,Finished,Western Stima FC,WST,138500,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,16,2019-03-03,15:00,8152611,DufbsNufb,Finished,Sofapaka,SOF,138488,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,18/19,16,2019-03-03,15:00,8102149,fxKbsnTid,Finished,Zoo F.C.,ZFC,397163,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,18/19,16,2024-09-30,15:47,8102151,gLdbsYufb,Canceled,Ulinzi Stars,ULS,138498,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,18/19,16,2019-04-29,15:00,8202505,gLdbsYufb,Finished,Ulinzi Stars,ULS,138498,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,18/19,17,2019-03-09,14:00,8102173,BufbsNufb,Finished,Chemelil Sugar,CSU,138476,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,17,2019-03-09,14:00,8102175,fxKbsHvYb,Finished,Posta Rangers,PRA,213605,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,18/19,17,2019-03-09,15:00,8102174,Hufbsavfb,Finished,Mathare United,MAU,138482,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,18/19,17,2019-03-09,15:00,8102171,PufbsFRid,Finished,Sony Sugar,SSU,138490,Dandora Love,DLO,397130,1,1
+Kenyan Premier League,18/19,17,2019-03-09,16:15,8102177,IDFsWufb,Finished,Tusker,TUS,138496,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,18/19,17,2019-03-10,15:00,8102176,DufbsIvYb,Finished,Kenya Commercial Bank,KCB,138478,Nzoia United,NZO,246033,2,2
+Kenyan Premier League,18/19,17,2019-03-10,15:00,8102179,ladcsnTid,Finished,Mulembe United,MUD,257511,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,18/19,17,2019-03-10,15:00,8102178,zufbsYufb,Finished,Ulinzi Stars,ULS,138498,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,18/19,17,2019-03-14,16:00,8102172,gLdbsexKb,Finished,Gor Mahia FC,GOR,134306,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,18/19,18,2019-03-13,15:00,8102187,IDFsNufb,Finished,AFC Leopards SC,LDS,76433,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,18,2019-03-13,15:00,8102186,HvYbsIvYb,Finished,Kariobangi Sharks,KAR,246032,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,18,2019-03-13,15:00,8102183,Bufbsavfb,Finished,Western Stima FC,WST,138500,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,18/19,18,2019-03-16,15:00,8102188,ladcsFRid,Finished,Dandora Love,DLO,397130,Mulembe United,MUD,257511,2,2
+Kenyan Premier League,18/19,18,2019-03-17,13:00,8102185,HufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Mathare United,MAU,138482,2,2
+Kenyan Premier League,18/19,18,2024-09-30,15:47,8102184,DufbsfxKb,Canceled,Posta Rangers,PRA,213605,Kenya Commercial Bank,KCB,138478,-,-
+Kenyan Premier League,18/19,18,2019-03-20,15:00,8102180,zufbsPufb,Finished,Sony Sugar,SSU,138490,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,18/19,18,2019-03-20,15:00,8102181,WufbsYufb,Finished,Tusker,TUS,138496,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,18/19,18,2019-03-24,15:00,8170300,DufbsfxKb,Finished,Posta Rangers,PRA,213605,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,18/19,18,2019-03-27,15:00,8171024,gLdbsnTid,Finished,Zoo F.C.,ZFC,397163,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,18/19,19,2019-03-20,15:00,8102204,IvYbsnTid,Finished,Nzoia United,NZO,246033,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,18/19,19,2019-03-27,14:00,8102198,NufbsFRid,Finished,Sofapaka,SOF,138488,Dandora Love,DLO,397130,3,3
+Kenyan Premier League,18/19,19,2019-03-27,15:00,8102196,zufbsexKb,Finished,Bandari FC,BAN,138474,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,18/19,19,2019-03-27,15:00,8102200,IDFsladc,Finished,Mulembe United,MUD,257511,AFC Leopards SC,LDS,76433,2,2
+Kenyan Premier League,18/19,19,2019-03-27,15:00,8102203,PufbsYufb,Finished,Ulinzi Stars,ULS,138498,Sony Sugar,SSU,138490,2,2
+Kenyan Premier League,18/19,19,2019-03-27,16:15,8102199,Dufbsavfb,Finished,Kenya Commercial Bank,KCB,138478,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,18/19,19,2019-03-28,15:00,8102202,HufbsfxKb,Finished,Mathare United,MAU,138482,Posta Rangers,PRA,213605,3,3
+Kenyan Premier League,18/19,19,2019-03-30,15:00,8102197,BufbsWufb,Finished,Chemelil Sugar,CSU,138476,Tusker,TUS,138496,2,2
+Kenyan Premier League,18/19,19,2019-03-30,15:00,8102201,gLdbsHvYb,Finished,Gor Mahia FC,GOR,134306,Kariobangi Sharks,KAR,246032,2,2
+Kenyan Premier League,18/19,20,2019-04-03,14:00,8102224,Wufbsavfb,Finished,Tusker,TUS,138496,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,18/19,20,2019-04-03,15:00,8102263,zufbsFRid,Finished,Bandari FC,BAN,138474,Dandora Love,DLO,397130,3,3
+Kenyan Premier League,18/19,20,2019-04-03,15:00,8102207,YufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,18/19,20,2019-04-03,15:00,8102262,gLdbsPufb,Finished,Sony Sugar,SSU,138490,Gor Mahia FC,GOR,134306,2,2
+Kenyan Premier League,18/19,20,2019-04-03,16:15,8102290,DufbsHufb,Finished,Kenya Commercial Bank,KCB,138478,Mathare United,MAU,138482,1,1
+Kenyan Premier League,18/19,20,2019-04-04,11:00,8102216,HvYbsnTid,Finished,Kariobangi Sharks,KAR,246032,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,18/19,20,2019-04-04,14:00,8102231,Nufbsladc,Finished,Sofapaka,SOF,138488,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,20,2019-04-04,15:00,8102277,fxKbsIvYb,Finished,Nzoia United,NZO,246033,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,18/19,20,2019-04-04,16:15,8102250,IDFsBufb,Finished,AFC Leopards SC,LDS,76433,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,21,2019-04-06,15:00,8102251,HufbsWufb,Finished,Mathare United,MAU,138482,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,21,2024-09-30,15:47,8102232,gLdbszufb,Canceled,Gor Mahia FC,GOR,134306,Bandari FC,BAN,138474,-,-
+Kenyan Premier League,18/19,21,2019-04-07,13:00,8102279,Dufbsladc,Finished,Mulembe United,MUD,257511,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,18/19,21,2019-04-07,14:00,8102217,PufbsfxKb,Finished,Posta Rangers,PRA,213605,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,18/19,21,2019-04-07,15:00,8102208,NufbsnTid,Finished,Zoo F.C.,ZFC,397163,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,21,2019-04-07,15:15,8102291,BufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,21,2019-04-07,16:00,8102265,IDFsYufb,Finished,Ulinzi Stars,ULS,138498,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,18/19,21,2019-04-07,16:15,8102258,IvYbsFRid,Finished,Dandora Love,DLO,397130,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,21,2019-04-11,15:00,8102268,avfbsHvYb,Finished,Western Stima FC,WST,138500,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,18/19,21,2019-04-23,16:00,8196594,gLdbszufb,Finished,Gor Mahia FC,GOR,134306,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,18/19,22,2019-04-07,15:00,8102266,zufbsHvYb,Finished,Bandari FC,BAN,138474,Kariobangi Sharks,KAR,246032,1,1
+Kenyan Premier League,18/19,22,2019-04-10,14:00,8102233,NufbsYufb,Finished,Sofapaka,SOF,138488,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,18/19,22,2019-04-10,15:00,8102209,BufbsfxKb,Finished,Chemelil Sugar,CSU,138476,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,18/19,22,2024-09-30,15:47,8102292,gLdbsFRid,Canceled,Dandora Love,DLO,397130,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,18/19,22,2019-04-10,15:00,8102267,HufbsPufb,Finished,Mathare United,MAU,138482,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,18/19,22,2019-04-10,16:15,8102260,IDFsexKb,Finished,AFC Leopards SC,LDS,76433,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,18/19,22,2019-04-11,15:00,8102218,IvYbsladc,Finished,Nzoia United,NZO,246033,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,22,2019-04-11,15:00,8102280,DufbsWufb,Finished,Tusker,TUS,138496,Kenya Commercial Bank,KCB,138478,1,1
+Kenyan Premier League,18/19,22,2019-04-25,15:00,8198391,gLdbsFRid,Finished,Dandora Love,DLO,397130,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,18/19,22,2019-05-15,15:00,8102225,avfbsnTid,Finished,Zoo F.C.,ZFC,397163,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,18/19,23,2019-04-14,14:00,8102252,fxKbsFRid,Finished,Posta Rangers,PRA,213605,Dandora Love,DLO,397130,6,6
+Kenyan Premier League,18/19,23,2019-04-14,15:00,8102234,BufbsnTid,Finished,Chemelil Sugar,CSU,138476,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,18/19,23,2019-04-14,15:00,8102270,WufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Tusker,TUS,138496,0,0
+Kenyan Premier League,18/19,23,2019-04-14,15:00,8102281,exKbsladc,Finished,Mulembe United,MUD,257511,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,23,2019-04-14,15:00,8102293,IDFsPufb,Canceled,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,18/19,23,2019-04-14,15:00,8102210,HufbsYufb,Finished,Ulinzi Stars,ULS,138498,Mathare United,MAU,138482,2,2
+Kenyan Premier League,18/19,23,2019-04-14,15:00,8102269,zufbsavfb,Finished,Western Stima FC,WST,138500,Bandari FC,BAN,138474,1,1
+Kenyan Premier League,18/19,23,2019-04-14,16:15,8102226,DufbsNufb,Finished,Kenya Commercial Bank,KCB,138478,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,23,2019-05-12,12:00,8207947,IDFsPufb,Finished,Sony Sugar,SSU,138490,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,18/19,24,2019-04-17,15:00,8102227,zufbsDufb,Finished,Bandari FC,BAN,138474,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,18/19,24,2019-04-17,15:00,8102282,BufbsFRid,Finished,Dandora Love,DLO,397130,Chemelil Sugar,CSU,138476,4,4
+Kenyan Premier League,18/19,24,2019-04-17,15:00,8102211,HufbsIvYb,Finished,Mathare United,MAU,138482,Nzoia United,NZO,246033,3,3
+Kenyan Premier League,18/19,24,2019-04-17,15:00,8102261,Yufbsavfb,Finished,Western Stima FC,WST,138500,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,18/19,24,2019-04-17,15:00,8102253,ladcsnTid,Finished,Zoo F.C.,ZFC,397163,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,24,2019-04-18,11:00,8102272,IDFsfxKb,Finished,AFC Leopards SC,LDS,76433,Posta Rangers,PRA,213605,3,3
+Kenyan Premier League,18/19,24,2019-04-18,14:00,8102220,NufbsHvYb,Finished,Sofapaka,SOF,138488,Kariobangi Sharks,KAR,246032,0,0
+Kenyan Premier League,18/19,24,2019-04-18,16:15,8102294,PufbsWufb,Finished,Tusker,TUS,138496,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,18/19,24,2024-09-30,15:47,8102235,gLdbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Gor Mahia FC,GOR,134306,-,-
+Kenyan Premier League,18/19,25,2019-04-21,11:00,8102393,fxKbsnTid,Finished,Posta Rangers,PRA,213605,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,18/19,25,2024-09-30,15:47,8102236,Hufbsladc,Finished,Mulembe United,MUD,257511,Mathare United,MAU,138482,-,-
+Kenyan Premier League,18/19,25,2019-04-21,13:00,8102228,NufbsPufb,Finished,Sony Sugar,SSU,138490,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,25,2019-04-21,16:15,8102271,gLdbsYufb,Finished,Gor Mahia FC,GOR,134306,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,18/19,25,2019-04-22,14:00,8102221,exKbsFRid,Finished,Kakamega Homeboyz,KAH,213604,Dandora Love,DLO,397130,1,1
+Kenyan Premier League,18/19,25,2019-04-24,15:00,8102283,IDFsHvYb,Finished,Kariobangi Sharks,KAR,246032,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,18/19,25,2019-04-24,15:00,8102212,BufbsDufb,Finished,Kenya Commercial Bank,KCB,138478,Chemelil Sugar,CSU,138476,1,1
+Kenyan Premier League,18/19,25,2019-04-24,15:00,8102254,avfbsIvYb,Finished,Nzoia United,NZO,246033,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,18/19,25,2019-05-16,15:00,8102264,zufbsWufb,Finished,Bandari FC,BAN,138474,Tusker,TUS,138496,3,3
+Kenyan Premier League,18/19,26,2019-04-24,15:00,8102229,Yufbsladc,Finished,Ulinzi Stars,ULS,138498,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,26,2019-04-27,13:00,8102213,BufbsIvYb,Finished,Chemelil Sugar,CSU,138476,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,26,2019-04-27,14:00,8102391,DufbsexKb,Finished,Kenya Commercial Bank,KCB,138478,Kakamega Homeboyz,KAH,213604,1,1
+Kenyan Premier League,18/19,26,2019-04-27,15:00,8102273,fxKbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Posta Rangers,PRA,213605,1,1
+Kenyan Premier League,18/19,26,2019-04-27,15:00,8102222,Pufbsavfb,Finished,Western Stima FC,WST,138500,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,18/19,26,2019-04-27,16:15,8102389,gLdbsWufb,Finished,Tusker,TUS,138496,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,18/19,26,2019-04-28,14:00,8102284,HufbsNufb,Finished,Sofapaka,SOF,138488,Mathare United,MAU,138482,2,2
+Kenyan Premier League,18/19,26,2019-04-28,15:00,8102237,FRidsnTid,Finished,Zoo F.C.,ZFC,397163,Dandora Love,DLO,397130,2,2
+Kenyan Premier League,18/19,26,2019-04-28,16:15,8102295,IDFszufb,Finished,AFC Leopards SC,LDS,76433,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,18/19,27,2019-05-01,13:00,8102274,BufbsHvYb,Finished,Chemelil Sugar,CSU,138476,Kariobangi Sharks,KAR,246032,2,2
+Kenyan Premier League,18/19,27,2019-05-01,13:00,8102214,Pufbsladc,Finished,Sony Sugar,SSU,138490,Mulembe United,MUD,257511,3,3
+Kenyan Premier League,18/19,27,2019-05-01,14:00,8102331,avfbsFRid,Finished,Dandora Love,DLO,397130,Western Stima FC,WST,138500,0,0
+Kenyan Premier League,18/19,27,2019-05-01,14:00,8102256,IDFsIvYb,Finished,Nzoia United,NZO,246033,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,18/19,27,2019-05-01,15:00,8102388,HufbsnTid,Finished,Mathare United,MAU,138482,Zoo F.C.,ZFC,397163,3,3
+Kenyan Premier League,18/19,27,2019-05-01,16:15,8102392,WufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,27,2019-05-01,16:15,8102296,NufbsfxKb,Finished,Sofapaka,SOF,138488,Posta Rangers,PRA,213605,3,3
+Kenyan Premier League,18/19,27,2019-05-02,15:00,8102285,zufbsYufb,Finished,Bandari FC,BAN,138474,Ulinzi Stars,ULS,138498,1,1
+Kenyan Premier League,18/19,27,2019-05-02,15:00,8102223,gLdbsDufb,Finished,Gor Mahia FC,GOR,134306,Kenya Commercial Bank,KCB,138478,3,3
+Kenyan Premier League,18/19,28,2019-05-04,15:00,8102255,Bufbsladc,Finished,Mulembe United,MUD,257511,Chemelil Sugar,CSU,138476,2,2
+Kenyan Premier League,18/19,28,2019-05-05,14:00,8102215,IDFsHufb,Finished,AFC Leopards SC,LDS,76433,Mathare United,MAU,138482,0,0
+Kenyan Premier League,18/19,28,2019-05-05,14:00,8102230,zufbsfxKb,Finished,Posta Rangers,PRA,213605,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,18/19,28,2019-05-05,15:00,8102297,exKbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,28,2019-05-05,15:00,8102275,gLdbsavfb,Finished,Western Stima FC,WST,138500,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,18/19,28,2019-05-05,15:00,8102286,PufbsnTid,Finished,Zoo F.C.,ZFC,397163,Sony Sugar,SSU,138490,0,0
+Kenyan Premier League,18/19,28,2019-05-05,16:15,8102394,NufbsWufb,Finished,Tusker,TUS,138496,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,28,2019-05-06,15:00,8102330,DufbsFRid,Finished,Kenya Commercial Bank,KCB,138478,Dandora Love,DLO,397130,2,2
+Kenyan Premier League,18/19,28,2019-05-06,15:00,8102412,YufbsIvYb,Finished,Ulinzi Stars,ULS,138498,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,29,2019-05-08,14:00,8102387,Nufbsavfb,Finished,Sofapaka,SOF,138488,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,18/19,29,2019-05-08,15:00,8102298,HufbsHvYb,Finished,Mathare United,MAU,138482,Kariobangi Sharks,KAR,246032,2,2
+Kenyan Premier League,18/19,29,2019-05-08,15:00,8102396,zufbsladc,Finished,Mulembe United,MUD,257511,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,18/19,29,2019-05-08,16:15,8102257,IDFsnTid,Finished,AFC Leopards SC,LDS,76433,Zoo F.C.,ZFC,397163,1,1
+Kenyan Premier League,18/19,29,2019-05-08,16:15,8102287,gLdbsBufb,Finished,Chemelil Sugar,CSU,138476,Gor Mahia FC,GOR,134306,0,0
+Kenyan Premier League,18/19,29,2019-05-09,13:00,8102240,DufbsPufb,Finished,Sony Sugar,SSU,138490,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,18/19,29,2019-05-09,14:00,8102238,exKbsIvYb,Finished,Nzoia United,NZO,246033,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,29,2024-09-30,15:47,8102239,WufbsFRid,Finished,Dandora Love,DLO,397130,Tusker,TUS,138496,-,-
+Kenyan Premier League,18/19,29,2019-05-09,15:00,8102241,YufbsfxKb,Finished,Ulinzi Stars,ULS,138498,Posta Rangers,PRA,213605,0,0
+Kenyan Premier League,18/19,30,2019-05-12,11:00,8102245,fxKbsladc,Finished,Posta Rangers,PRA,213605,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,30,2019-05-12,14:00,8102242,avfbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Western Stima FC,WST,138500,2,2
+Kenyan Premier League,18/19,30,2019-05-12,15:00,8102299,HufbsFRid,Finished,Mathare United,MAU,138482,Dandora Love,DLO,397130,2,2
+Kenyan Premier League,18/19,30,2019-05-12,15:00,8102276,WufbsIvYb,Finished,Tusker,TUS,138496,Nzoia United,NZO,246033,1,1
+Kenyan Premier League,18/19,30,2019-05-12,15:00,8102243,YufbsnTid,Finished,Zoo F.C.,ZFC,397163,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,18/19,30,2019-05-12,16:15,8102390,gLdbsNufb,Finished,Gor Mahia FC,GOR,134306,Sofapaka,SOF,138488,2,2
+Kenyan Premier League,18/19,30,2019-05-14,15:00,8102397,zufbsBufb,Finished,Bandari FC,BAN,138474,Chemelil Sugar,CSU,138476,3,3
+Kenyan Premier League,18/19,30,2019-05-15,13:00,8219421,PufbsHvYb,Finished,Sony Sugar,SSU,138490,Kariobangi Sharks,KAR,246032,2,2
+Kenyan Premier League,18/19,30,2019-05-15,15:00,8219491,IDFsDufb,Finished,Kenya Commercial Bank,KCB,138478,AFC Leopards SC,LDS,76433,1,1
+Kenyan Premier League,18/19,31,2019-05-18,14:00,8102259,PufbsFRid,Finished,Dandora Love,DLO,397130,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,18/19,31,2019-05-18,15:00,8102278,DufbsHvYb,Finished,Kariobangi Sharks,KAR,246032,Kenya Commercial Bank,KCB,138478,2,2
+Kenyan Premier League,18/19,31,2019-05-18,15:00,8102395,NufbsIvYb,Finished,Nzoia United,NZO,246033,Sofapaka,SOF,138488,1,1
+Kenyan Premier League,18/19,31,2019-05-18,16:15,8102247,exKbsfxKb,Finished,Posta Rangers,PRA,213605,Kakamega Homeboyz,KAH,213604,0,0
+Kenyan Premier League,18/19,31,2019-05-19,14:00,8102300,Hufbsavfb,Finished,Western Stima FC,WST,138500,Mathare United,MAU,138482,0,0
+Kenyan Premier League,18/19,31,2019-05-19,15:00,8102248,zufbsnTid,Finished,Bandari FC,BAN,138474,Zoo F.C.,ZFC,397163,3,3
+Kenyan Premier League,18/19,31,2019-05-19,15:00,8102249,BufbsYufb,Finished,Chemelil Sugar,CSU,138476,Ulinzi Stars,ULS,138498,0,0
+Kenyan Premier League,18/19,31,2019-05-19,15:00,8102289,Wufbsladc,Finished,Mulembe United,MUD,257511,Tusker,TUS,138496,1,1
+Kenyan Premier League,18/19,31,2019-05-19,16:15,8102246,IDFsgLdb,Finished,AFC Leopards SC,LDS,76433,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,18/19,32,2019-05-22,14:00,8102302,DufbsIvYb,Finished,Nzoia United,NZO,246033,Kenya Commercial Bank,KCB,138478,0,0
+Kenyan Premier League,18/19,32,2019-05-22,14:00,8102306,BufbsNufb,Finished,Sofapaka,SOF,138488,Chemelil Sugar,CSU,138476,0,0
+Kenyan Premier League,18/19,32,2019-05-22,15:00,8102304,PufbsexKb,Finished,Kakamega Homeboyz,KAH,213604,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,18/19,32,2019-05-22,15:00,8102316,zufbsHufb,Finished,Mathare United,MAU,138482,Bandari FC,BAN,138474,0,0
+Kenyan Premier League,18/19,32,2019-05-22,15:00,8224067,YufbsHvYb,Finished,Ulinzi Stars,ULS,138498,Kariobangi Sharks,KAR,246032,3,3
+Kenyan Premier League,18/19,32,2019-05-22,15:00,8102305,avfbsfxKb,Finished,Western Stima FC,WST,138500,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,18/19,32,2019-05-22,16:15,8102313,gLdbsladc,Finished,Gor Mahia FC,GOR,134306,Mulembe United,MUD,257511,1,1
+Kenyan Premier League,18/19,32,2019-05-23,15:00,8102311,IDFsFRid,Finished,Dandora Love,DLO,397130,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,18/19,32,2019-05-23,15:00,8102318,WufbsnTid,Finished,Tusker,TUS,138496,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,18/19,33,2019-05-25,13:00,8102312,PufbsIvYb,Finished,Sony Sugar,SSU,138490,Nzoia United,NZO,246033,0,0
+Kenyan Premier League,18/19,33,2019-05-25,15:00,8102319,BufbsHufb,Finished,Chemelil Sugar,CSU,138476,Mathare United,MAU,138482,0,0
+Kenyan Premier League,18/19,33,2019-05-25,16:05,8102325,gLdbsfxKb,Finished,Posta Rangers,PRA,213605,Gor Mahia FC,GOR,134306,1,1
+Kenyan Premier League,18/19,33,2019-05-26,13:00,8102314,zufbsNufb,Finished,Bandari FC,BAN,138474,Sofapaka,SOF,138488,0,0
+Kenyan Premier League,18/19,33,2019-05-26,14:00,8102308,DufbsYufb,Finished,Kenya Commercial Bank,KCB,138478,Ulinzi Stars,ULS,138498,2,2
+Kenyan Premier League,18/19,33,2019-05-26,14:00,8102309,avfbsladc,Finished,Mulembe United,MUD,257511,Western Stima FC,WST,138500,1,1
+Kenyan Premier League,18/19,33,2019-05-26,15:00,8102315,HvYbsFRid,Finished,Kariobangi Sharks,KAR,246032,Dandora Love,DLO,397130,3,3
+Kenyan Premier League,18/19,33,2019-05-26,15:00,8102303,exKbsnTid,Finished,Zoo F.C.,ZFC,397163,Kakamega Homeboyz,KAH,213604,3,3
+Kenyan Premier League,18/19,33,2019-05-26,16:15,8102328,IDFsWufb,Finished,AFC Leopards SC,LDS,76433,Tusker,TUS,138496,0,0
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102323,BufbsPufb,Finished,Chemelil Sugar,CSU,138476,Sony Sugar,SSU,138490,1,1
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102322,gLdbsHufb,Finished,Gor Mahia FC,GOR,134306,Mathare United,MAU,138482,2,2
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102320,HvYbsladc,Finished,Kariobangi Sharks,KAR,246032,Mulembe United,MUD,257511,4,4
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102326,DufbsnTid,Finished,Kenya Commercial Bank,KCB,138478,Zoo F.C.,ZFC,397163,2,2
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102310,zufbsIvYb,Finished,Nzoia United,NZO,246033,Bandari FC,BAN,138474,2,2
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102327,NufbsexKb,Finished,Sofapaka,SOF,138488,Kakamega Homeboyz,KAH,213604,2,2
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102324,WufbsfxKb,Finished,Tusker,TUS,138496,Posta Rangers,PRA,213605,2,2
+Kenyan Premier League,18/19,34,2019-05-29,14:00,8102321,IDFsavfb,Finished,Western Stima FC,WST,138500,AFC Leopards SC,LDS,76433,0,0
+Kenyan Premier League,18/19,34,2019-06-02,15:00,8102317,YufbsFRid,Finished,Ulinzi Stars,ULS,138498,Dandora Love,DLO,397130,4,4

@@ -1,0 +1,6 @@
+Start Time : 2024-10-22 00:31:29
+End Time   : 2024-10-22 00:02:51
+Time : 29 minutes 22 seconds
+
+I had to integrate selenium to my scrapy code so as to extract product images which are rendered dynamically.
+For this reason(adding selenium) It take a lot of time but it might vary with computer power. 

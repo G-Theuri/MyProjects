@@ -1,0 +1,45 @@
+api link = 
+
+Thoughts
+1. Get API link to all SubCategories.
+2. Under the JSON file, I will find Links to individual Collection.
+4. Collect the Category name, SubCategory name and Collection name.
+5. Follow each individual collection and get its data.
+6. Sort on pagination because items are loaded dynamically.
+
+To-Do:
+Here is an example url for items in every product page
+url = https://www.elkhome.com/api/v2/products?categoryid=82016b6f-8ba3-4ca2-92ac-ad49015f64b7&page=10
+Here is how I will format it:
+
+url = f'https://www.elkhome.com/api/v2/products?categoryid={id}&page={pageNumber}'
+
+If a SubCategory does not have a collection, then the {id} is equal to the the SubCategory id which will be parsed 
+from the alldata dictionary.
+
+If a SubCategory have a collection then the {id} is the collection id.
+This too shall be parse from the alldata dict.
+
+Every product page json has 'pagination' as a key and under it 'totalItemCount' which tell you
+how many items there are in every page. 
+Therefore, first get the initial page the query the json to know how many items there
+are for that link and divided it by 24. This will help you know whether you should prompt a next page request.
+
+Info from the product page found in the json file is limited. Think about that.
+
+
+
+link  = f'https://www.elkhome.com/api/v2/products/{id}/variantchildren?pageSize=500&expand=content%2Cdocuments%2Cspecifications%2Cattributes%2Cbadges%2Cdetail%2Cspecifications%2Ccontent%2Cimages%2Cdocuments%2Cattributes%2Cproperties&includeAttributes=includeOnProduct'
+
+
+
+example id = 8a83ca35-6998-4846-9b07-adb40026ba12
+80e34114-87d8-11ee-95bf-7bc0c9f4a5a1
+
+no = f'https://www.elkhome.com/api/v2/products/{id}/?pageSize=500&expand=content%2Cdocuments%2Cspecifications%2Cattributes%2Cbadges%2Cdetail%2Cspecifications%2Ccontent%2Cimages%2Cdocuments%2Cattributes%2Cproperties&includeAttributes=includeOnProduct'
+with = f'https://www.elkhome.com/api/v2/products/{id}variantchildren?pageSize=500&expand=content%2Cdocuments%2Cspecifications%2Cattributes%2Cbadges%2Cdetail%2Cspecifications%2Ccontent%2Cimages%2Cdocuments%2Cattributes%2Cproperties&includeAttributes=includeOnProduct'
+
+
+For this product (https://www.elkhome.com/Product/menlow-park-configurable-multi-pendant-60044-1-elk) it has different variations.
+Each variation has a different link. i.e. [3-Light Linear Pendant Slim] has a link (https://www.elkhome.com/Product/menlow-park-configurable-multi-pendant-60044-1-elk?option=60044-3L)
+There I decided to treat each variation as a single product since the only thing that is common amonst them is only the name.

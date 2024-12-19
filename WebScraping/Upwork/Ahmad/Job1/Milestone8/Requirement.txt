@@ -1,0 +1,7 @@
+Step 1: Install Python
+Step 2: Install Required Dependencies:
+    (a) They include; (Scrapy, Selenium, undetected-chromedriver, rich)
+    - Heres how:
+        run -> pip install scrapy rich undetected-chromedriver selenium
+
+NB: I am using VS Code.

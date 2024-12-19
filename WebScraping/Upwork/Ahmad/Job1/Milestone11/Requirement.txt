@@ -1,0 +1,6 @@
+Step 1: Install Python
+Step 2: Install Required Dependencies:
+    (a) curl_cffi- i.e. <pip install curl_cffi>
+    (b) Rich-  i.e. <pip install rich>
+    (c) lxml-  i.e. <pip install lxml>
+

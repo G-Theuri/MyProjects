@@ -1,0 +1,41 @@
+productImages = response.css('div.pure-g div div.style_thumbs_detail img::attr(zoom)').getall()
+resourceInfo = response.css('div.portalResourcesBody.content div')
+resourceName = resourceItem.css('a::text') for resourceItem in resourceInfo
+resourceURL = resourceItem.css('a::attr(href)') for resourceItem in resourceInfo
+
+#removing the div after the long class works too
+materialNames = response.css('div h4::text').getall()
+materialThumbNails = response.css('div.pure-u-9-24.pure-u-md-7-24.pure-u-lg-5-24.pure-u-xl-5-24 div img::attr(src)').getall()
+materialThumbNames =response.css('div.pure-u-9-24.pure-u-md-7-24.pure-u-lg-5-24.pure-u-xl-5-24 div p::text').getall()
+shown_with_tab = response.css('div.pure-u-9-24.pure-u-md-7-24.pure-u-lg-5-24.pure-u-xl-5-24').getall()
+
+
+shownWith = []
+if len shown_with_tab > 0:
+for x in range(0, len(shown_with_tab))
+    item = shown_with_tab[x]
+    data= {
+            'Detail': materialNames[x],
+            'ThumbNail': baseurl + item.css(img::attr(src)').get(),
+            'ThumbName': item.css(p::text').get() #else None,
+        }
+        shownWith.append(data)
+        
+
+specs = response.css('div.dimtable.contentDivider div')
+for spec in specs:
+    'specsLabel': spec.css('span.detailInfoLabel::text').get(),
+    'specsLabelData':spec.css('span.nth-of-type(2)::text').get(),
+
+comments = response.css('ul.prod-Comments li::text').getall()
+
+relatedItems =  response.css('div.relatedProducts')
+for relatedItem in relatedItems:
+    detailTitle = relatedItems.css('h3::text').get()
+    for item in relatedItem.css('div.pure-u-1-4'):
+        itemCollection = item.css('center a div:nth-of-type(2) span::text')
+        itemSKU = item.css('center a div:nth-of-type(2) span::text')
+        itemName = item.css('center a div:nth-of-type(2) span::text')
+        itemURL = item.css('center a::attr(href)')
+        itemThumbnail = baseurl + response.css('div.relatedProducts div.pure-u-1-4 center a::attr(href)').get()
+
