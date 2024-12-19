@@ -1,0 +1,3 @@
+Step 1: Install Python
+Step 2: Install Required Dependencies:
+    (a) Scrapy- i.e. <pip install scrapy>

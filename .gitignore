@@ -1,4 +1,8 @@
 /venv
 /DE
+<<<<<<< HEAD
 /Airflow-Docker/logs/
 /original
+=======
+/Airflow-Docker/logs/
+>>>>>>> 1ff89e236cfa99f3b6d17dd1e3f685fc56a56747
