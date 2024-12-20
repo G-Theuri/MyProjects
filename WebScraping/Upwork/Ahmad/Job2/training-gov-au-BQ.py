@@ -52,27 +52,34 @@ def create_bigtable_tables(instance):
 # Function to upload Excel data to Bigtable
 def upload_excel_to_bigtable(tables, excel_path):
     df = pd.read_excel(excel_path, sheet_name=None)  # Load all sheets into a dictionary of DataFrames
-    rows = []
+    #rows = []
     
     for sheet_name, sheet_df in df.items():
         if sheet_name in tables:
             table = tables[sheet_name]
             print(f"[bold green]Uploading data for sheet: {sheet_name}[/bold green]")
-            
+
             for index, row in sheet_df.iterrows():
                 row_key = str(index).encode('utf-8')  # Using the row index as the row key
                 
-                # Clean each cell in the row by replacing non-breaking spaces
-                row_data = [(col, str(value).replace('\xa0', ' ').encode('utf-8')) for col, value in row.items()]
-                
+                # Clean each cell in the row by replacing non-breaking spaces in both column and value
+                row_data = [
+                    (
+                        str(col).replace('\xa0', ' ').encode('utf-8'),  # Clean the column name
+                        str(value).replace('\xa0', ' ').encode('utf-8') if isinstance(value, str) else str(value)  # Clean the value
+                    )
+                    for col, value in row.items()
+                ]
                 # Instead of using mutate_rows, insert each row individually
-                row = table.row(row_key)
+                bigtable_row = table.row(row_key)
                 for col, value in row_data:
-                    row.set_cell("data", col, value)
-                row.commit()
-                print(f"[bold green]Uploaded row with key: {row_key.decode('utf-8')}[/bold green]")
-
-    rows.clear()
+                    bigtable_row.set_cell("data", col, value)
+                try:
+                    bigtable_row.commit()
+                    print(f"Successfully committed row with key: {row_key.decode('utf-8')}")
+                except Exception as e:
+                    print(f"Error committing row with key {row_key.decode('utf-8')}: {e}")
+                #print(f"[bold green]Uploaded row with key: {row_key.decode('utf-8')}[/bold green]")
 
 # Function to visit the landing page and get all RTO links
 def get_rtos(page, url):
@@ -173,7 +180,7 @@ def visit_rto_and_download_csv(page, rto_url, download_path, workbook_filename):
                     contacts_data = {}
                     contact_entries = page.query_selector_all('xpath=//*[contains(@id, "contactstab_11")]/div/div/ul/li')
                     for entry in contact_entries:
-                        category = entry.query_selector('xpath=//h2').text_content().strip()
+                        category = entry.query_selector('xpath=//h2').text_content().strip().replace('0', '')
                         if category != 'Managerial agents':
                             contacts_data[category] = {}
                         table_rows = entry.query_selector_all('xpath=//table/tbody/tr')
