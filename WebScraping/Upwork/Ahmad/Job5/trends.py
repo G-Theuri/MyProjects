@@ -43,16 +43,16 @@ path_ = "C:/MyProjects/WebScraping/Upwork/Ahmad/Job5"
 os.chdir(path_)
 
 # Load the dataset with incidents
-sample = pd.read_csv('C:/MyProjects/WebScraping/Upwork/Ahmad/Job5/MPVDatasetDownload.csv', encoding='latin1')
+sample = pd.read_csv('MPVDatasetDownload.csv', encoding='latin1')
 
 # Convert the date column to datetime format
 sample['Date of Incident (month/day/year)'] = pd.to_datetime(sample['Date of Incident (month/day/year)'], errors='coerce')
 
 # Filter rows between 2013 and 2016
-filtered_sample = sample[(
-    sample['Date of Incident (month/day/year)'].dt.year >= 2013) & 
+filtered_sample = sample[
+    (sample['Date of Incident (month/day/year)'].dt.year >= 2013) & 
     (sample['Date of Incident (month/day/year)'].dt.year <= 2016)
-]
+    ]
 
 columns_to_keep = ["Victim's name", "Date of Incident (month/day/year)", "Agency responsible for death"]
 filtered_sample = filtered_sample[columns_to_keep]
@@ -99,7 +99,12 @@ filtered_sample = filtered_sample[~filtered_sample['Last Name'].str.lower().eq('
 pytrends = TrendReq(hl='en-US', tz=360)
 
 # Get Google Trends for four items at a time including "Michael Brown"
-for i in range(0, len(filtered_sample[0:40]), 4):
+items_processed = 0
+batch_count = 1
+
+# Set a threshold for when to create a new CSV file (every 100 items)
+threshhold = 100
+for i in range(0, len(filtered_sample), 4):
     # Create a list of the first 4 names
     kw_list = [
         f"{filtered_sample.iloc[j]['First Name']} {filtered_sample.iloc[j]['Last Name']}"
@@ -110,13 +115,34 @@ for i in range(0, len(filtered_sample[0:40]), 4):
     if "Michael Brown" not in kw_list:
         kw_list.append("Michael Brown")
     
-    # Try-except block for error handling
-    try:
-        pytrends.build_payload(kw_list, cat=0, geo='US', timeframe='2012-01-01 2016-12-31')
-        data = pytrends.interest_over_time()
-    except Exception as e:
-        print(f"Error with batch {i}: {e}")
-        continue  # Skip this batch and move to the next
+    #Initialize retry count and maximum number of retries
+    retries = 10
+    backoff_factor = 1  # Exponential backoff factor
+    
+    for attempt in range(retries):
+        try:
+            # Build the payload with your keyword list
+            pytrends.build_payload(kw_list, cat=0, geo='US', timeframe='2012-01-01 2016-12-31')
+            # Fetch interest over time
+            data = pytrends.interest_over_time()
+            
+            # If successful, break out of the retry loop
+            break
+        except Exception as e:
+            print(f"Error fetching data for {kw_list}: {e}")
+            if attempt < retries - 1:
+                # Exponential backoff: Wait (2^attempt * backoff_factor) seconds
+                wait_time = (2 ** attempt) * backoff_factor + random.uniform(0, 1)
+                print(f"Retrying after {wait_time:.2f} seconds...")
+                time.sleep(wait_time)
+            else:
+                print(f"Failed after {retries} attempts.")
+                data = None  # If failed after retries, set data to None
+                break  # Break the retry loop and move to the next batch
+    
+    if data is None:
+        print(f"Skipping batch {i} due to repeated errors.")
+        continue  # Skip this batch and move to the next   continue  # Skip this batch and move to the next
     
     # Reset the index to make 'date' a regular column
     data = data.reset_index()
@@ -142,13 +168,25 @@ for i in range(0, len(filtered_sample[0:40]), 4):
     wide_data = wide_data.drop("Michael Brown")
     
     # Save the initial DataFrame (wide_data) to a CSV file
-    output_path = "C:/MyProjects/WebScraping/Upwork/Ahmad/Job5/rawdata/GoogleTrends_MPV.csv"
+    output_path = f"rawdata/GoogleTrends_MPV_{batch_count}.csv"
     
+
     # For appending in future iterations:
-    if i == 0:  # Write headers only for the first batch
+    if items_processed == 0:  # Write headers only for the first batch
         wide_data.to_csv(output_path, mode='w', header=True, index=True)
     else:
         wide_data.to_csv(output_path, mode='a', header=False, index=True)
     
     print(f"Processed batch {i//4 + 1}: {kw_list}")
-    time.sleep(1)
+
+    #update the counters for items processed
+    items_processed += len(kw_list)-1
+
+
+    if items_processed >= threshhold:
+        print(f'Saving a new file for the next 100 items: {output_path}')
+        batch_count += 1
+        items_processed = 0
+
+    #Add a brief pause between requests
+    time.sleep(2)
