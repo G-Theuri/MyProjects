@@ -36,18 +36,55 @@ class MavinScraper(scrapy.Spider):
                                          meta={'category':category_name, 'collection':category_name})
 
     def parse_products(self, response):
+        category = response.meta.get('category')
         collection = response.meta.get('collection')
-        if collection == 'Bedroom Collections' :
-            products = response.css('div.vc_column-inner div.wpb_wrapper div')
-        elif collection == 'Benches & Barstools':
-             products = response.xpath('//*[@id="benches post-8693"]/div/div')[2:]
+
+        if collection == 'Benches & Barstools':
+             types = response.xpath('//*[@id="benches post-8693"]/div/div')[2:]
+             for  type in types:
+                pass
+                #sub_type_name = type.css('div.wpb_wrapper h2::text').get()
+                #products = type.xpath('.//div[@class = "vc_pageable-slide-wrapper vc_clearfix"]/div')
+                #products = type.xpath('.//div[@class = "vc_grid-item-mini vc_clearfix "]').getall()
+                #print(sub_type_name, products)
+
+                #yield scrapy.Request(product_url, callback=self.extract,
+                                         #meta={'category':category, 'collection':collection})
+
         elif collection == 'Dining Tables':
-             products = response.xpath('//*[@id="tables post-8691"]/div/div[3]/div')
+             products = response.xpath('//*[@id="tables post-8691"]/div/div[3]/div').get()
+             for product in products:
+                pass
+                #yield scrapy.Request(product_url, callback=self.extract,
+                                         #meta={'category':category, 'collection':collection})
+             
+        elif collection == 'Bedroom Collections' :
+            products = response.xpath('//*[@id="bedrooms post-8689"]/div/div[2]/div/div/div/div')
+            for product in products:
+                product_url = product.css('a::attr(href)').get()
+                product_name = response.xpath('.//figure/figcaption/text()').get()
+
+                yield scrapy.Request(product_url, callback=self.extract,
+                                         meta={'category':category, 'collection':collection, 'name':product_name})
+
         else:
             products = response.css('div.vc_pageable-slide-wrapper.vc_clearfix div.vc_grid-item')
-        #print(f'[green]{response.meta.get('collection')}[/green]')
-        print(f'[green]{response.meta.get('collection')}[/green] has [yellow]{len(products)}[/yellow] products.')
+            for product in products:
+                product_url = product.css('div.vc_gitem-animated-block div a::attr(href)').get()
 
+                yield scrapy.Request(product_url, callback=self.extract,
+                                         meta={'category':category, 'collection':collection})
+                
+    def extract(self, response):
+        product_name = response.xpath('//*[@id="adrienne post-3947"]/div/div[1]/div[2]/div/div/div[2]/text()').get()
+        data = {
+            'Category': response.meta.get('category'),
+            'Collection': response.meta.get('category'),
+            'Product URL': response.request.url,
+            'Product Name':product_name
+            #'Images':,
+        }
+        print(data)
 process = CrawlerProcess(settings={
     "FEED_FORMAT": "csv",
     #"FEED_URI": "products_data.csv",
