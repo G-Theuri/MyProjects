@@ -1,6 +1,5 @@
 from typing import Any
 import json
-import time
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from requests import Response, Request
@@ -328,15 +327,17 @@ class CurreyCompanySpider(scrapy.Spider):
         return None
     
     def closed(self):
-        #Ensures the driver is properly closed when the spider finishes
+        #EClose the driver when the spider finishes
         self.driver.quit()
-    
+
+
+
+
+#Run/Start the spider    
 process = CrawlerProcess(settings={
         'FEED_FORMAT': 'json',  
         'FEED_URI': 'output.json',
         'LOG_LEVEL':'INFO'
     })
-
-# Start the spider
 process.crawl(CurreyCompanySpider)
 process.start()
