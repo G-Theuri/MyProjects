@@ -1,7 +1,7 @@
 import scrapy
 import re
 from scrapy.crawler import CrawlerProcess
-from rich import print as rprint
+from rich import print
 
 base_url ="https://www.hancockandmoore.com"
 columns = [
@@ -57,6 +57,25 @@ class Hancock(scrapy.Spider):
             product_url = base_url + product.css('::attr(href)').get()
             yield scrapy.Request(url=product_url, callback=self.extract,
                                     meta={'category': category})
+        
+
+        #Checks if a collection has more than one page     
+        next_pages = response.css('ul.pagination li')
+        if next_pages:
+            page_links = next_pages.css('a.page-link::attr(href)').getall()
+            for page_link in page_links:
+                page_url = base_url + page_link
+                page_number = int(page_link.split('&Page=')[-1])
+
+                try:
+                    current_page = response.url
+                    current_page_num = int(current_page.split('&Page=')[-1])
+                except:
+                    current_page_num = 1
+
+                if page_number > current_page_num:
+                    yield scrapy.Request(url=page_url, callback=self.parse_products,
+                                        meta={'category':category})
     
     def extract(self, response):
         
@@ -133,7 +152,8 @@ class Hancock(scrapy.Spider):
         for name, image_url in image_data.items():
             row[name] = image_url
         
-        return row
+        yield row
+    
     
 process = CrawlerProcess(settings={
     "FEED_FORMAT": "csv",
