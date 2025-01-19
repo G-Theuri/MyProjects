@@ -8,8 +8,8 @@ async def client():
 
     ## You can comment this `login`` part out after the first time you run the script (and you have the `cookies.json`` file)
     '''await client.login(
-        auth_info_1='erastus84991376',
-        password='19987704',
+        auth_info_1='username',
+        password='password',
     )
 
     client.save_cookies('cookies.json')'''
