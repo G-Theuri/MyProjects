@@ -1,29 +1,53 @@
 from playwright.sync_api import sync_playwright
 import itertools, time, os
+import pandas as pd
 
-def get_data(listing, url, page):
+def get_data(listing, url, page, search_term):
     #xpaths
     address_xpath = 'xpath=//button[@data-item-id="address"]//div[contains(@class, "fontBodyMedium")]'
     website_xpath = 'xpath=//a[@data-item-id="authority"]//div[contains(@class, "fontBodyMedium")]'
     phone_xpath = 'xpath=//button[contains(@data-item-id, "phone:tel:")]//div[contains(@class, "fontBodyMedium")]'
 
-
     name = listing.get_attribute('aria-label')
+
     #ratings = listing.locator('.//span[contains(text(), "reviews")]]/span').first
-    address = page.locator(address_xpath).first.inner_text() if page.locator(address_xpath).first.inner_text() else 'No Address'
-    website = page.locator(website_xpath).first.inner_text() if page.locator(website_xpath).first.inner_text() else 'No Website'
-    phone_number = page.locator(phone_xpath).first.inner_text() if page.locator(phone_xpath).first.inner_text() else 'No Phone Number'
-    #reviews_count = ''
-    #reviews_average = ''
+    #address = page.locator(address_xpath).first.inner_text() if page.locator(address_xpath).first.inner_text() else 'No Address'
+    #website = page.locator(website_xpath).first.inner_text() if page.locator(website_xpath).first.inner_text() else 'No Website'
+    #phone_number = page.locator(phone_xpath).first.inner_text() if page.locator(phone_xpath).first.inner_text() else 'No Phone Number'
+    reviews_count = '4'
+    reviews_average = '23'
     
     coordinates = url.split('@')[-1].split('/')[0]
     latitude = float(coordinates.split(',')[0])
     longitude = float(coordinates.split(',')[1])
     #print(f'Name: {name} | Latitude: {latitude} | Longitude: {longitude}')
-    print(f'Name: {name} | Address: {address} | Website: {website} | Phone: {phone_number}')
+    print(f'Name: {name} | Latitude: {latitude} | Longitude: {longitude}') #| Address: {address} | Website: {website} | Phone: {phone_number}')
+
+    data = {
+        'Name': name,
+        #'Address': address,
+        #'Website': website,
+        #'PhoneNumber': phone_number,
+        'Review average': reviews_average,
+        'Review count': reviews_count,
+        'Latitude': latitude,
+        'Longitude': longitude
+    }
+
+    load(data, search_term)
+
+def load(data, search_term):
+    #with open('googlemaps-data.csv', 'w', newline='') as file:
+        #pass
+    file_name = search_term.split(',')[0]
+    df = pd.DataFrame(data, index=[0])
+    try:
+        df.to_csv(f'{file_name}.csv', mode='a', header=False, index=False)
+    except:
+        df.to_csv(f'{file_name}.csv', mode='w', header=True, index=False)
 
 
-def get_listings(page, total_items):
+def get_listings(page, total_items, search_term):
     time.sleep(4)
     page.locator('//div/a[contains(@href, "https://www.google.com/maps/place")]').all()
     listings = page.locator('//div/a[contains(@href, "https://www.google.com/maps/place")]').all()
@@ -36,7 +60,7 @@ def get_listings(page, total_items):
         time.sleep(3)
         page.wait_for_load_state('networkidle')
         url = page.url
-        get_data(listing, url, page)
+        get_data(listing, url, page, search_term)
         time.sleep(2)
 
 def scroll_page(page, total_items):
@@ -62,7 +86,6 @@ def scroll_page(page, total_items):
         else:
             listings = current_listings
             retry_attempts = 0
-    
 def main():
     search_term = input('Enter Your Search Term: ')
     while True:
@@ -84,7 +107,7 @@ def main():
         page.wait_for_load_state('networkidle')
 
         scroll_page(page, total_items)
-        get_listings(page, total_items)
+        get_listings(page, total_items, search_term)
 
         time.sleep(5)
         browser.close()
