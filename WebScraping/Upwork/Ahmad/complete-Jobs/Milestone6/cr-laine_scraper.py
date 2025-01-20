@@ -52,6 +52,17 @@ class LaineSpider(scrapy.Spider):
             
     def parse_data(self, response):
         rprint(f'Getting data from : {response.request.url}')
+        product_type =response.meta.get('type')
+
+        #get sku
+        if product_type == 'Sectionals':
+            product_sku = response.css('div.pure-u-1.pure-u-lg-1-3.full-width div::text').get().strip()
+            prod_name = response.css('div.pure-u-1.pure-u-lg-1-3.full-width h2.centeronmobile.detail_prodname::text').get().strip()
+
+        else:
+            product_sku = response.meta.get('sku')
+            prod_name = response.meta.get('name')
+
 
         #extract image urls
         product_images = response.css('div.pure-g div div.style_thumbs_detail img::attr(zoom)').getall()
@@ -110,27 +121,68 @@ class LaineSpider(scrapy.Spider):
             all_related_items[title] = []
             for product in products:
                 items_info = {
-                        'product_collection' : product.css('center a div:nth-of-type(2) span::text').getall()[0].split(' ')[0],
-                        'product_sku' : product.css('center a div:nth-of-type(2) span::text').getall()[0].split(' ')[-1],
+                        'product_collection' : product.css('center a div:nth-of-type(2) span::text').getall()[0],
+                        'product_sku' : product.css('center a div:nth-of-type(2) span::text').getall()[-1],
                         'product_url' : base_url + product.css('center a::attr(href)').get(),
                         'product_name' : ' '.join(product.css('center a div:nth-of-type(2) span::text').getall()[1:]),
                         'thumbnail' : base_url + product.css('center a div img::attr(src)').get(),
                 }
                 all_related_items[title].append(items_info)
+
+
+        #sectional comments
+        sectional_comments = []
+        try:
+            sec_comments = response.css('div.sectionalComments div::text').getall()
+            sectional_comments = [comments.strip() for comments in sec_comments]
+        except:
+            pass
+
+        #sectional components
+        sectional_images = []
+        try:
+            sec_images = response.css('div.sectionalComponents div center img.sectionalComponent.pure-img::attr(src)').getall()
+            if sec_images:
+                sectional_images = [base_url + image for image in sec_images]
+        except:
+            pass
+
+        #sectional table
+        sectional_table = []
+        try:
+            cols = response.css('table.ui.celled.unstackable.table thead tr th::text').getall()
+            columns = ['Product'] + [column for column in cols]
+        
+            trows = response.css('table.ui.celled.unstackable.table tbody tr')
+            for tr in trows:
+                tdata = tr.css('td')
+                rowdata = {}
+                
+                for col, td in zip(columns, tdata):
+                    cell_data = td.css('::text').get()
+                    rowdata[col] = cell_data
+                sectional_table.append(rowdata)
+        except:
+            pass
+        
                 
         #Organize all formated data in one place then load it into a json file
         yield{
-            'Type': response.meta.get('type'),
+            'Type': product_type,
             'Collection': response.meta.get('collection'), 
-            'Product SKU': response.meta.get('sku'),
+            'Product SKU': product_sku,
             'Product URL': response.request.url,
-            'Product Name': response.meta.get('name'),
+            'Product Name': prod_name,
             'Product Images': image_urls,
             'Product Comments': response.css('ul.prod-Comments li::text').getall(),
             'Product Materials': all_materials,
             'Product Resources': all_resources,
             'Product Specifications': all_specs,
             'Related Items': all_related_items,
+            'Sectional Components': sectional_images,
+            'Sectional Comments': sectional_comments,
+            'Sectional Components Dimensions': sectional_table
+        
         }
                 
 
