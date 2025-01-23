@@ -11,14 +11,14 @@ chrome_options.add_argument("--headless")  # Run Chrome in headless mode
 driver = uc.Chrome(options=chrome_options)
 driver.maximize_window()
 
-page_url = 'https://www.mavinfurniture.com/products/chairs/dutton/'
+page_url = 'https://www.mavinfurniture.com/products/cases/kiawah/'
 
 driver.get(page_url)
 time.sleep(2)
 
 data = {}
 try:
-    images = driver.find_elements(By.XPATH, '//div[@class="vc_btn3-container  pageButton vc_btn3-inline"]/a[@title]')
+    images = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, '//div[@class="vc_btn3-container  pageButton vc_btn3-inline"]/a[@title]')))
     for i in images:
         title = i.get_attribute('title')
         image = i.get_attribute('href')

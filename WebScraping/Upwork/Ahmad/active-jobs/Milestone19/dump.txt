@@ -1,0 +1,60 @@
+# Iterate through the dynamic data and extract SKU, Additional Info, and Collection Image
+            try:
+                for image, info in data.items():
+                    sku_match = re.search(r'\b[A-Za-z]{3}\d{4}\b', info.get('caption', ''))
+                    sku = sku_match.group(0) if sku_match else None
+                    info['sku'] = sku
+
+                    # Set additional info and collection image
+                    additional_info = info.get('caption') if not sku else additional_info
+                    info['Additional Info'] = additional_info
+                    col_image = image if additional_info else None
+                    info['Collection Image'] = col_image
+
+                    # Skip adding product if SKU already exists
+                    if sku:
+                        existing_product = next((product for product in products if product['sku'] == sku), None)
+                        if existing_product:
+                            existing_product['image_urls'].append(image)
+                        else:
+                            product_info = {
+                                'product_name': info.get('caption').replace(sku, '').strip(),
+                                'sku': sku,
+                                'image_urls': [image]
+                            }
+                            products.append(product_info)
+
+                    # Set the collection image only once (first time it finds additional_info)
+                    if additional_info and not collection_image:
+                        collection_image = image
+
+            except Exception as e:
+                print('[red]Unsuccessful![/red]', e)
+
+
+
+
+        '''if collection == 'Benches & Barstools':
+            yield scrapy.Request(response.url, callback=self.extract,
+                                meta={'category':category, 'collection':collection})'''
+
+
+                                
+        '''if collection == 'Benches & Barstools':
+            data = self.benches_barstools(collection_url, collection)
+            yield data''' #Getting selectors for benches & barstools has proven to be difficult.
+
+
+            '''def benches_barstools(self, page_url, collection):
+        self.driver.get(page_url)
+        time.sleep(2)
+        data = {}'''
+            
+     '''yield {
+                'Category': response.meta.get('category'),
+                'Collection': response.meta.get('collection'),
+                'Collection URL': response.url,
+                'Name': response.meta.get('name'),
+                'Description': description.strip() if description else None,
+                'Images' : images,
+            }'''
