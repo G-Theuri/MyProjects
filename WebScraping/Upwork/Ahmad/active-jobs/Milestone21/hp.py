@@ -50,6 +50,7 @@ def extract(page):
 
         html_content = page.content()
         soup = BeautifulSoup(html_content, 'html.parser')
+        
         all_specs = {}
         specs = soup.select('section#detailedSpecs div.Fn-Fr_gf')
         for spec in specs:

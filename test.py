@@ -18,7 +18,7 @@ time.sleep(2)
 
 data = {}
 try:
-    images = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, '//div[@class="vc_btn3-container  pageButton vc_btn3-inline"]/a[@title]')))
+    images = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, '//div[@class="shop ac-cards"]/a[@title]')))
     for i in images:
         title = i.get_attribute('title')
         image = i.get_attribute('href')
