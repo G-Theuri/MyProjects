@@ -1,64 +1,71 @@
-from playwright.sync_api import sync_playwright
-import time, os
-import pandas as pd
+import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+import time, os, random, requests
 from rich import print
-from bs4 import BeautifulSoup
+import pandas as pd
+from openpyxl import load_workbook
+from openpyxl.drawing.image import Image
+from PIL import Image as PILImage
 
-
-def start_request(main_page, context, search_term):
+def get_data(driver, url, image_path):
+    driver.execute_script(f'window.open("{url}", "_blank");')
+    driver.switch_to.window(driver.window_handles[1])
+    time.sleep(3)
+    
+    #close the location enquiries dialog box
     try:
-        main_page.get_by_role('button', name='close').click()
+        WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, '//button[@class="ot-close-icon"]'))).click()
+    except:
+        pass
+    
+
+
+    #Get products data
+    try:
+        title = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//div[@class="pdp-title-section v2"]/h1'))).text
+    except:
+        title =''
+    try:
+        image = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, '//button[@class="Ub-Mh_gf"]/img'))).get_attribute('src')
+
+    except:
+        image =''
+    try:
+        price = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, '//div[@class="sale-subscription-price-block"]/span'))).text
+    except:
+        price =''
+    try:
+        description = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, '//section[@id="overview"]/div/div/div/div'))).text
+    except:
+        description =''
+
+
+    all_specs = {}
+    try:
+        specs = driver.find_elements(By.XPATH, '//*[@id="detailedSpecs"]/div/div/div/div')
+        for spec in specs:
+            label = spec.find_element(By.XPATH, './/div[@class ="Ea-Ee_gf"]/p').text
+            value = spec.find_element(By.XPATH, './/p[@class ="Cv-B_gf Cv-C7_gf Ea-Eg_gf Cv-K_gf"]/span').text
+            all_specs[label] = value
     except:
         pass
 
-    #search
-    #search_bar = page.get_by_role('searchbox', name='Search HP.com').click()
-    search_bar = main_page.locator('div.Rectangle-426 input#search_focus_desktop')
-    search_bar.fill('') #clear the search field
-    search_bar.fill(search_term)
-    #search_bar.press('Enter')
-
-    time.sleep(5)
-    try:
-        main_page.wait_for_selector('div.result__right.product div#ac-second-section', timeout=5000)
-        print(f'[yellow]{search_term}[/yellow] [green]Found![/green]')
-
+    if image:
         try:
-            suggestion_url = main_page.locator('div.result__right.product div#ac-second-section div.shop.ac-cards a').get_attribute('href')
-        except:
-            suggestion_url = main_page.locator('div.result__right.product div#ac-third-section div.support.no-images.ac-cards a').get_attribute('href')
+            response = requests.get(image)
+            if response.status_code == 200:
+                with open(image_path, 'wb') as file:
+                    file.write(response.content)
 
-
-        product_page = context.new_page()
-        product_page.goto(suggestion_url)
-        product_page.wait_for_load_state('domcontentloaded')
-        data = extract(product_page)
-        
-        product_page.close()
-        return data
-    except:
-        print(f'[yellow]{search_term}[/yellow] [red]Not found![/red]')
-        return None
-
-def extract(page):
-    try:
-        title = page.locator('div.pdp-title-section.v2 h1').text_content()
-        url = page.url
-        image = page.wait_for_selector('button.Ub-Mh_gf img', timeout=5000).get_attribute('src')
-        price = page.locator('div.sale-subscription-price-block span').text_content()
-        description = page.wait_for_selector('section#overview div div div div', timeout=5000).text_content()
-
-        html_content = page.content()
-        soup = BeautifulSoup(html_content, 'html.parser')
-        
-        all_specs = {}
-        specs = soup.select('section#detailedSpecs div.Fn-Fr_gf')
-        for spec in specs:
-            label = spec.select_one('div.Ea-Ee_gf p').get_text(strip=True)
-            value = spec.select_one('p.Cv-B_gf.Cv-C7_gf.Ea-Eg_gf.Cv-K_gf span').get_text(strip=True)
-            all_specs[label] = value
-
-        data ={
+            
+        except Exception as e:
+            print(f"Error downloading image: {e}")
+            
+    #load acquired data into a dictionary
+    data ={
             'Title': title,
             'URL': url,
             'Image': image, 
@@ -66,49 +73,157 @@ def extract(page):
             'Description': description,
             'Specs': all_specs
         }
-        print(data)
-        return data
-    except Exception as e:
-        print(f"Error extracting data: {e}")
-        return None
+
+    return data
+
+def add_image_to_excel(image_path, wb, excel_file, row, column_name):
+    
+    #wb = load_workbook(excel_file)
+    sheet = wb.active
+
+    #column_index =sheet.columns.index(sheet[column_name]) + 1
+
+    img = Image(image_path)
+    sheet.add_image(img, f'{column_name}{row}')
+
+    img_width, img_height = img.width, img.height
+    scale_factor = 0.75
+    sheet.row_dimensions[row].height = img_height * scale_factor
+
+    column_width = img_width / 7
+    sheet.column_dimensions['AN'].width = column_width
+
+    #wb.save(excel_file)
+
+
 
 def main():
     filepath = 'C:/Users/TG/Downloads/WebScrape-Content-Template.xlsx'
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context(accept_downloads=True)
 
-        main_page = context.new_page()
+    if not os.path.exists('images'):
+        os.makedirs('images')
+    
+    options =uc.ChromeOptions()
+    options.add_argument('--disable-popup-blocking')
+    driver =uc.Chrome(options)
+    driver.maximize_window()
 
-        url = 'https://www.hp.com/us-en/home.html'
-        main_page.goto(url)
-        
+    max_retries = 2
+    retry_delay = 1
+    excel_filename = 'new-updated_file.xlsx'
 
-        #Iterate through product models in the excel sheet
+    try:
+        if not os.path.exists(excel_filename):
+            df = pd.read_excel(filepath, sheet_name='HP')
+            # Ensure the Excel file is created from the existing DataFrame
+            df.to_excel(excel_filename, index=False, sheet_name='HP')
+
+        driver.get('https://www.hp.com/us-en/home.html')
+        try:
+            WebDriverWait(driver, 3).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-close-btn-container"]/button'))).click()
+        except:
+            pass
+
+        searchbar = driver.find_element(By.XPATH, '//*[@id="search_focus_desktop"]')
+        searchbar.clear()
+
         df = pd.read_excel(filepath, sheet_name='HP')
-        for index, row in df.iterrows():
+        wb = load_workbook(excel_filename)
+        for index, row in df.head(4).iterrows():
+            model_name = row['model name']
             model_number = row['mfr number']
+            image_path = f'images/{model_number}.jpg'
 
+            searchbar.clear()
+            searchbar.send_keys(model_number)
+            time.sleep(4)
             
-            data = start_request(main_page, context, model_number) #search for item by model number
+            retries = 0
+            success = False
 
-            #load the acquired data
-            if data:
-                df.at[index, 'unit cost'] = data['Price']
-                df.at[index, 'Product Image'] = data['Image']
-                df.at[index, 'product description'] = data['Description']
-            
-            main_page.bring_to_front() #Return to the mainpage to begin another search
+            while retries < max_retries and not success:
+                try:
+                    
+                    #Check if searching using model_number yields any suggestion and if not, use the model_name
+                    try:
+                        suggestion = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, '//div[@class="shop ac-cards"]/a')))
+                    except:
+                        searchbar.clear()
+                        searchbar.send_keys(model_name)
+                        time.sleep(2)
+                        suggestion = WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.XPATH, '//div[@class="shop ac-cards"]/a')))
 
-        df.to_excel('updated_file.xlsx', index=False)
+                    item_url = suggestion.get_attribute('href')
+                    data = get_data(driver, item_url, image_path)
 
-        #search_term = "2DW53AA"#"6H1W8AA"
+                    if data:
+                        print(f"[yellow]{model_number}[/yellow]: {data}")
 
-        #close the browser
-        browser.close()
+                        #resize image
+                        image = PILImage.open(image_path)
+                        image = image.convert("RGB")
+                        image = image.resize((250, 150), PILImage.Resampling.LANCZOS) 
+                        image.save(image_path, quality =95)
 
+                        #load the acquired data
+                        df.at[index, 'Product URL'] = data['URL']
+                        df.at[index, 'unit cost'] = data['Price'].replace('$', '')
+                        df.at[index, 'Product Image'] = data['Image']
+                        df.at[index, 'product description'] = data['Description']
+                        
+                        try:
+                            df.at[index, 'weight'] = data['Specs']['Weight']
+                        except:
+                            pass
+
+                        try:
+                            dimension= data['Specs']['Dimensions (W X D X H)'].split(' x ')
+        
+                            df.at[index, 'depth'] = dimension[1]
+                            df.at[index, 'height'] = dimension[-1].replace(' in', '')
+                            df.at[index, 'width'] = dimension[0]
+                        except:
+                            pass
+
+                        #df.to_excel(excel_filename, index=False, sheet_name='HP')
+
+                        if data['Image'] != '':
+                            add_image_to_excel(image_path, wb, excel_filename, row=index +2, column_name='AN')
+
+                        success = True
+                        driver.close()
+                        driver.switch_to.window(driver.window_handles[0])
+
+                    else:
+                        print(f"No data returned for {model_number}")
+                        break # Exit retry loop if no data is returned
+
+                except (NoSuchElementException, TimeoutException) as e:
+                    retries += 1
+
+                    if retries < max_retries:
+                        time.sleep(retry_delay)
+                    else:
+                        print(f'[yellow]{model_number}[/yellow] [red]Not found![/red]')
+                        break # Exit loop after retries are exhausted
+
+                except Exception as e:
+                    print(f"[yellow]{model_number}[/yellow] [red]Unexpected error: {str(e)}[/red]")
+                    break  # Exit loop for any other unexpected errors
+
+                
+
+        df.to_excel(excel_filename, index=False, sheet_name='HP')
+        wb.save(excel_filename)
+
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+
+    finally:
+        driver.quit()
 
 
 if __name__ == "__main__":
     main()
-
