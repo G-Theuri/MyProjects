@@ -15,6 +15,7 @@ async def start_requests():
 async def main():
     filepath = 'C:/Users/TG/Downloads/WebScrape-Content-Template.xlsx'
     options = webdriver.ChromeOptions()
+    
     async with webdriver.Chrome(options=options) as driver:
         await driver.get('https://www.hp.com/us-en/home.html', wait_load=True)
         
