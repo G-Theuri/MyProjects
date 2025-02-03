@@ -90,7 +90,6 @@ async def get_data(driver, item_url, dfindex, df, excel_filename):
 
                     except:
                         dimensions = data['Specifications']['Net Dimensions (W x D x H)']
-                        print(dimensions)
                         if dimensions:
                             dimensions = dimensions.split(' x ')
                             height = dimensions[-1].replace(' inches', '')
@@ -114,7 +113,7 @@ async def get_data(driver, item_url, dfindex, df, excel_filename):
                 break
 
             
-        df.to_excel(excel_filename, index=False, sheet_name='HP')
+        df.to_excel(excel_filename, index=False, sheet_name='Justrite')
         await new_context.close()
 
     except:
