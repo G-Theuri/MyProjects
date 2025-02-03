@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 rate_limiter = Limiter(1/20)
 
 async def get_data(driver, item_url, dfindex, df, excel_filename):    
-    await asyncio.sleep(3)
+    await asyncio.sleep(5)
     await rate_limiter.wait()
     new_context = await driver.new_context()
 
@@ -19,7 +19,7 @@ async def get_data(driver, item_url, dfindex, df, excel_filename):
         await new_context.get(item_url)
 
         print(f'[green] Visiting: [/green] {item_url}')
-        await asyncio.sleep(5)
+        await asyncio.sleep(8)
 
         try:
             unit_cost = await new_context.find_element(By.CSS, 'div.price-main div span span.price-wrapper span')
