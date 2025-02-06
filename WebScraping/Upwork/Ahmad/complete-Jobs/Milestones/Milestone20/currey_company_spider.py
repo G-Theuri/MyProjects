@@ -101,6 +101,7 @@ class CurreyCompanySpider(scrapy.Spider):
                 'shipping_detail': self.get_shipping_info(),
                 'care_info': self.get_care_info(),
                 'rating_info': self.get_rating_info(),
+                'item_url': prod['product_link'],
                 'resource_link': resource_link,
                 'sku': sku,
                 'title': title,
@@ -320,16 +321,16 @@ class CurreyCompanySpider(scrapy.Spider):
     def get_resolution_img(self):
         try:
             return self.driver.find_element(By.XPATH,
-                '//div[@id="resourcesSection"]//a'
+                '//div[@id="resourcesSection"]//a[@data-text="High Resolution Image"]'
             ).get_attribute('href')
         except:
             pass
         return None
     
-    def closed(self):
-        #EClose the driver when the spider finishes
-        self.driver.quit()
-
+    def closed(self, reason):
+        self.logger.info(f"Spider closed because: {reason}")
+        self.driver.quit() # Close the Selenium driver
+ 
 
 
 
