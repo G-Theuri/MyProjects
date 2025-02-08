@@ -117,7 +117,7 @@ def main():
                         df.at[index, 'Product URL'] = data['URL']
                         df.at[index, 'unit cost'] = data['Price'].replace('$', '')
                         df.at[index, 'Product Image'] = data['Image URL']  # Use image path or URL
-                        df.at[index, 'product description'] = data['Description']
+                        df.at[index, 'Product URL'] = data['Description']
                         
                         try:
                             df.at[index, 'weight'] = data['Specs']['Weight']
