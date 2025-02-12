@@ -1,7 +1,0 @@
-cats = response.css('ul#menu-main-menu li a span.menu-text::text').getall()
-descr = response.css('div.summary-container h1::text').get()
-product_descr = response.css('div.post-content.woocommerce-product-details__short-description p::text').get()
-sku = response.css('div.product_meta p:nth-of-type(1)::text').get().replace(':', '').strip()
-dimensions = response.css('div.product_meta p:nth-of-type(2)::text').get().replace(':', '').replace('in', '').strip()
-additional_info = response.css('div#tab-description ul li::text').getall()
-images = response.xpath('//div[@class="woocommerce-product-gallery__wrapper"]/div/a[1]/@href').getall()
