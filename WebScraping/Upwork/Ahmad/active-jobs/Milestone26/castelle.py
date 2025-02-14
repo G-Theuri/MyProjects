@@ -39,7 +39,6 @@ with SB(uc=True,page_load_strategy='eager',do_not_track=True,headless=True,ad_bl
             row['Products Starting Link']=sub_categ.find('a')['href']
             if not SOURCE_SITE in row['Products Starting Link']:
                 row['Products Starting Link']=SOURCE_SITE+row['Products Starting Link']
-            print(row)
             prods=[]
             try:
                 print('Scraping links from -->'+row['Products Starting Link'])
@@ -95,9 +94,10 @@ with SB(uc=True,page_load_strategy='eager',do_not_track=True,headless=True,ad_bl
                     while True:
                         if chktime-time.time()>=30:
                             break
+                        
                         try:
                             soup=BeautifulSoup(driver.page_source,'html.parser')
-                            prod['SKU']=soup.find('h1').findNextSibling('p').text.split(':')[1].strip()
+                            prod['SKU'] = soup.find('h1').findNextSibling('p').text.split(':')[1].strip()
                             break
                         except:
                             continue
@@ -174,9 +174,7 @@ with SB(uc=True,page_load_strategy='eager',do_not_track=True,headless=True,ad_bl
                         json.dump(DATA , fout,indent=4,ensure_ascii=False)
                     print('=========================Saved in output\\{}========================'.format(FILENAME))
                     print('Do not open it while running, copy it and paste outside, then open it to check')
-                    while True:
-                        if time.time()-st_time>=1.2:
-                            break
+
                 except:
                     traceback.print_exc()
                     print('ERROR in this product-->'+prod['Product Link'])

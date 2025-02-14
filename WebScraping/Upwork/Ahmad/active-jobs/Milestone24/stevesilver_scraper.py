@@ -107,17 +107,21 @@ class SteveSilver(scrapy.Spider):
         row = {field: "" for field in columns} #Loop through columns of the excel file
 
         info = response.meta.get('info')
+        info['PRODUCT_GROUP1'] = ''
         bundled_products = response.css('table.bundled_products tr')
 
         if bundled_products:
             print(f'[yellow]Getting Bundled products found at:[/yellow] {response.url}')
             for product in bundled_products:
+                product_group = response.css('div.summary-container h1::text').get()
                 product_url = product.css('div.details h4 span.bundled_product_title_link a::attr(href)').get()
+                
                 if product_url:
+                    info['PRODUCT_GROUP1'] = product_group
                     yield scrapy.Request(url= product_url, callback=self.extract,
                                             meta={'info':info})
+                    
                 else: #when the bundled products have no follow links
-                    collection = response.css('div.summary-container h1::text').get()
                     additional_info = response.css('div#tab-description ul li::text').getall()
                     product_descr = response.css('div.post-content.woocommerce-product-details__short-description p::text').get()
                     images = response.xpath('//div[@class="woocommerce-product-gallery__wrapper"]/div/a[1]/@href').getall()
@@ -150,7 +154,7 @@ class SteveSilver(scrapy.Spider):
                     row['CATEGORY2'] = info['Category 2']
                     row['CATEGORY3'] = info['Category 3']
                     row['CATEGORY4'] = info['Category 4']
-                    row['COLLECTION'] = collection
+                    row['PRODUCT_GROUP1'] = product_group
                     row['ITEM_URL'] = response.url
                     row['DESCRIPTION'] = descr
                     row['ADDITIONAL_INFORMATION'] = additional_info
@@ -193,6 +197,7 @@ class SteveSilver(scrapy.Spider):
             row['CATEGORY2'] = info['Category 2']
             row['CATEGORY3'] = info['Category 3']
             row['CATEGORY4'] = info['Category 4']
+            row['PRODUCT_GROUP1'] = info['PRODUCT_GROUP1']
             row['ITEM_URL'] = response.url
             row['SKU'] = sku.replace(':', '').strip() if sku else None
             row['DESCRIPTION'] = descr
