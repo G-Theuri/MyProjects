@@ -1,0 +1,4 @@
+rich==13.9.4
+selenium==4.28.1
+undetected_chromedriver==3.5.5
+yt_dlp==2025.1.26
