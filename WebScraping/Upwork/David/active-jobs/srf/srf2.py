@@ -16,7 +16,8 @@ def download_video(video_url, video_path):
         'outtmpl': os.path.join(video_path),  # Save file with the video title
         'format': 'best',  # Download the best quality available
         'retries': 5,
-        'retry_wait': 10
+        'retry_wait': 10,
+        
     }
     try:
         # Create a yt-dlp object and download the video
@@ -68,6 +69,7 @@ def main():
     driver.get('https://www.srf.ch/play/tv/sendung/tagesschau?id=ff969c14-c5a7-44ab-ab72-14d4c9e427a9')
     time.sleep(2)
 
+    processed_urls = set()
     data = []
     load = True
     match_count = 0
@@ -100,13 +102,15 @@ def main():
                         'Publication Date': publication_date_obj_str,
                     }
                     #data = data + (info, )
-                    if any(metadata['Video URL'] == video_url or info in data for metadata in saved_metadata ):
+                    
+                    if video_url not in processed_urls:
+                        data.append(info)
+                        processed_urls.add(video_url)
+                        logging.info(f"Found new video url: {video_name}")
+
+                    else:
                         match_count += 1
                         #logging.info(f"Match found for video: {video_name}")
-                    
-                    else:
-                        data.append(info)
-                        logging.info(f"Found new video url: {video_name}")
                 
                 # If we've reached 20 matches, stop the process
                 if match_count >= max_matches or publication_date_obj.year == 2024:
