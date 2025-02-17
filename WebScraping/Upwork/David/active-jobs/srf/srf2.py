@@ -94,7 +94,7 @@ def main():
                 else:
                     publication_date_obj = datetime.strptime(publication_date, '%d.%m.%Y')
 
-                if publication_date_obj.year != 2024:
+                if publication_date_obj.year == 2024: #Use == to get video for a specific year and != to get videos from a range of years
                     publication_date_obj_str = publication_date_obj.strftime('%Y-%m-%d')
                     info = {
                         'Video Name': video_name,
@@ -109,13 +109,18 @@ def main():
                         logging.info(f"Found new video url: {video_name}")
 
                     else:
-                        match_count += 1
-                        #logging.info(f"Match found for video: {video_name}")
+                        if any(metadata['Video URL'] == video_url for metadata in saved_metadata):
+                            match_count += 1
+                            #logging.info(f"Match found for video: {video_name}")
                 
                 # If we've reached 20 matches, stop the process
-                if match_count >= max_matches or publication_date_obj.year == 2024:
+                elif match_count >= max_matches:
                     load = False
                     break
+                elif publication_date_obj.year != 2024:
+                    #If its a specific year use '!=' then 'continue' but if its a range, use '==' then 'break'
+                    #break
+                    continue
 
         except Exception as e:
             logging.error(f'Failed due to: {e}')
