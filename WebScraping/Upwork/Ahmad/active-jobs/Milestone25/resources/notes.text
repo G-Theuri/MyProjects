@@ -1,0 +1,5 @@
+If mfr number has / split at / and search the first
+
+if '/' in mfr_number:
+    mfr_number = mfr_number.split('/)[0]
+    

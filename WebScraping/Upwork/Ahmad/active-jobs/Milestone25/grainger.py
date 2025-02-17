@@ -8,6 +8,14 @@ import time, os
 from rich import print
 import pandas as pd
 
+def get_elements(driver, xpath, multiple, timeout=4):
+    try:
+        if multiple:
+            return WebDriverWait(driver, timeout).until(EC.presence_of_all_elements_located((By.XPATH, xpath)))
+        else:
+            return WebDriverWait(driver, timeout).until(EC.presence_of_element_located((By.XPATH, xpath)))
+    except TimeoutException:
+        return [] if multiple else None
 
 def search_items(driver, model_number):
     searchbar = driver.find_element(By.XPATH, '//div/input[@aria-label="Search Query"]')
@@ -25,9 +33,23 @@ def search_items(driver, model_number):
                 time.sleep(3)
 
                 item_url = driver.current_url
-                sku = WebDriverWait(driver, 4).until(EC.presence_of_element_located((By.XPATH, '//div[@class="vDgTDH"]/dd')))
-                print(sku.text, item_url)
 
+                sku = get_elements(driver, '//div[@class="vDgTDH"]/dd', multiple=False)
+                image = get_elements(driver, '//div[@data-testid="product-image-to-zoom"]/img', multiple=False)
+                price = get_elements(driver, '//div/span[@class="HANkB IuSbF N5ad3 xqCG3 a0SF- _4TUUj"]', multiple=False)
+                shipping_weight = get_elements(driver, '//div[@data-testid="shipping-weight"]/strong', multiple=False)
+                documents = get_elements(driver, '//div[@data-testid="product-documents-list"]/div/a', multiple=True)
+                details = get_elements(driver, '//div/dl[@data-testid="product-techs"]/div', multiple=True)
+
+                # if sku.text == model_number.strip():
+                #     #print(sku.text, item_url)
+                info = {
+                        'SKU':sku.text,
+                        'Image':image.get_attribute('src'),
+                        'Price':price.text,
+                        'Shipping Weight':shipping_weight.text,
+                    }
+                print(info)
                 success=True
                 driver.back()
             except:
@@ -61,8 +83,9 @@ def main():
         time.sleep(4)
 
         df = pd.read_excel(filepath, sheet_name='Master')
-        for index, row in df.iterrows():
+        for index, row in df.tail(5).iterrows():
             model_number = row['mfr number']
+            print(model_number)
             search_items(driver, model_number)
             time.sleep(2)
 

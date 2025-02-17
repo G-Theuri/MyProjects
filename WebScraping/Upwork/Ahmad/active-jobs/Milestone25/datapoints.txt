@@ -1,0 +1,38 @@
+amps = Amperage/current
+volts = Voltage
+watts = Power Output
+phase = Phase
+hertz = Frequency
+plug_type = Plug Type
+emergency_power Required (Y/N) = 
+dedicated_circuit Required (Y/N) =
+tech_conect Required =
+btu = 
+dissipation_type = 	
+water_cold Required (Y/N) =	
+water_hot  Required (Y/N) =	
+drain Required (Y/N) =	
+water_treated (Y/N) = 
+steam  Required(Y/N) =
+vent  Required (Y/N) = 
+vacuum Required (Y/N) =
+ship_weight = shipping weight
+weight = Weight/ Tool Weight
+depth = Overall Depth / Depth/ Housing Sz (H x W x D)[-1]/Handle Length/Overall Length
+height = Overall Height / Width / Width/Diameter/ Housing Sz (H x W x D)[0]
+width = Overall Width/ Height/ Housing Sz (H x W x D)[1]
+ada compliant (Y/N) =
+green certification? (Y/N) =	
+antimicrobial coating (Y/N) =	
+Specification Sheet (pdf) = Specification Sheet
+Brochure (pdf) = Sell sheet
+Manual/IFU (pdf) = Manual
+Product URL = URL
+CAD (dwg) =
+REVIT (rfa) =
+Seismic document =
+Product Image (jpg) = image url
+Product Image = image url
+
+
+Reached - 4NCV3
