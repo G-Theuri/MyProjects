@@ -1,8 +1,8 @@
-amps = Amperage/current
-volts = Voltage
-watts = Power Output
+amps = Amperage/current/Amps AC/Amps
+volts = Voltage/ Operating Voltage/ Rated Voltage/ Output Amplitude
+watts = Power Output/Power Consumption/ Cooking Wattage/ Wattage/ Watts
 phase = Phase
-hertz = Frequency
+hertz = Frequency/Hz
 plug_type = Plug Type
 emergency_power Required (Y/N) = 
 dedicated_circuit Required (Y/N) =
@@ -17,16 +17,16 @@ steam  Required(Y/N) =
 vent  Required (Y/N) = 
 vacuum Required (Y/N) =
 ship_weight = shipping weight
-weight = Weight/ Tool Weight
-depth = Overall Depth / Depth/ Housing Sz (H x W x D)[-1]/Handle Length/Overall Length
-height = Overall Height / Width / Width/Diameter/ Housing Sz (H x W x D)[0]
-width = Overall Width/ Height/ Housing Sz (H x W x D)[1]
-ada compliant (Y/N) =
+weight = Weight/ Tool Weight/ Table Weight
+depth = Overall Depth / Depth/ Housing Sz (H x W x D)[-1]/Handle Length/Overall Length/ Table Length/Body Depth/ Tool Length/ Outside Depth/ Base Length
+height = Overall Height / Width / Width/Diameter / Housing Sz (H x W x D)[0]/Overall Fixed Height/ Table Height/Body Height/ Outside Height/ Stowed Height/ Overall Height - Maximum
+width = Overall Width/ Height/ Housing Sz (H x W x D)[1]/ Table Width/Body Width/ Outside Width/ Base Width
+ada compliant (Y/N) = ADA Compliant/ADA Compliance(Non-ADA Compliant)
 green certification? (Y/N) =	
-antimicrobial coating (Y/N) =	
-Specification Sheet (pdf) = Specification Sheet
-Brochure (pdf) = Sell sheet
-Manual/IFU (pdf) = Manual
+antimicrobial coating (Y/N) =	Antimicrobial(No)/ Features(Antimicrobial)
+Specification Sheet (pdf) = Specification Sheet/ Technical Data Sheet/ Tech Sheet
+Brochure (pdf) = Sell sheet/ Selection Guide
+Manual/IFU (pdf) = Manual/ Parts Diagram/ OIPM / Assembly Instructions
 Product URL = URL
 CAD (dwg) =
 REVIT (rfa) =
@@ -35,4 +35,4 @@ Product Image (jpg) = image url
 Product Image = image url
 
 
-Reached - 4NCV3
+Reached - 
