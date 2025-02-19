@@ -4,92 +4,100 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
-import time, os
+import time, os, random
 from rich import print
 import pandas as pd
 
-def parse_documents(documents, df, index):
-    manual_key = ['Manual', 'Parts Diagram', 'OIPM', 'Assembly Instructions']
+def parse_documents(driver, xpath, df, index):
+    documents = get_elements(driver, xpath, multiple=True)
+
+    manual_key = ['Manual', 'Operating Manual', 'Parts Diagram', 'OIPM', 'Assembly Instructions', 'User Guide']
     brochure_key = ['Sell sheet', 'Selection Guide']
-    specssheet_key = ['Specification Sheet', 'Technical Data Sheet', 'Tech Sheet']
+    specssheet_key = ['Specification Sheet', 'Technical Data Sheet', 'Tech Sheet', 'Datasheet']
+    #docs = {}
     if documents:
         for document in documents:
             doc_name = document.text
             doc_url = document.get_attribute('href')
 
             if any(br_key.lower() in doc_name.lower() for br_key in brochure_key) :
-                df.at[index, 'Brochure (pdf)'] = doc_url
+                df.at[index, 'Brochure (pdf)'] = str(doc_url)
 
             elif any(m_key.lower() in doc_name.lower() for m_key in manual_key ):
-                df.at[index, 'Manual/IFU (pdf)'] = doc_url
+                df.at[index, 'Manual/IFU (pdf)'] = str(doc_url)
 
             elif any(ss_key.lower()  in doc_name.lower() for ss_key in specssheet_key):
-                df.at[index, 'Specification Sheet (pdf)'] = doc_url
+                df.at[index, 'Specification Sheet (pdf)'] = str(doc_url)
 
-            else:
-                pass
     return df
 
-def parse_details(details, df, index):
+def parse_details(driver, xpath, df, index):
+    #Keys
     amp_keys = ['Amperage', 'current', 'Amps AC', 'Amps']
     volt_keys = ['Voltage', 'Operating Voltage', 'Rated Voltage', 'Output Amplitude']
     watt_keys = ['Power Output', 'Power Consumption', 'Cooking Wattage', 'Wattage', 'Watts']
     phase_keys = ['Phase']
     hertz_keys = ['Frequency', 'Hz']
     plug_type_keys = ['Plug Type']
+    weight_keys = ['Weight', 'Tool Weight', 'Table Weight']
     depth_keys = ['Overall Depth', 'Depth',  'Housing Sz (H x W x D)', 'Handle Length', 'Overall Length', 'Table Length', 'Body Depth', 'Tool Length', 'Outside Depth', 'Base Length']
     height_keys = ['Overall Height', 'Width', 'Width/Diameter', 'Housing Sz (H x W x D)', 'Overall Fixed Height', 'Table Height', 'Body Height', 'Outside Height', 'Stowed Height', 'Overall Height - Maximum']
     width_keys = ['Overall Width/ Height/ Housing Sz (H x W x D)/ Table Width/Body Width/ Outside Width/ Base Width']
     ada_compliant_keys = ['ADA Compliant', 'ADA Compliance']
     antimicrobial_coating_keys=	['Antimicrobial', 'Features']
 
+    #Get details again due to stale element reference
+    details = get_elements(driver, xpath, multiple=True)
     if details:
         for detail in details:
-            key = WebDriverWait(detail, 2).until(EC.presence_of_element_located((By.XPATH, './dt')))
-            value = WebDriverWait(detail, 2).until(EC.presence_of_element_located((By.XPATH, './dd')))
+            key = WebDriverWait(detail, 2).until(EC.presence_of_element_located((By.XPATH, './dt'))).text
+            value = WebDriverWait(detail, 2).until(EC.presence_of_element_located((By.XPATH, './dd'))).text
 
             if any(amp_key.lower() in key.lower() for amp_key in amp_keys) :
-                df.at[index, 'amps'] = value
+                df.at[index, 'amps'] = str(value)
 
             elif any(volt_key.lower() in key.lower() for volt_key in volt_keys) :
-                df.at[index, 'volts'] = value
+                df.at[index, 'volts'] = str(value)
             
 
             elif any(watt_key.lower() in key.lower() for watt_key in watt_keys) :
-                df.at[index, 'watts'] = value
+                df.at[index, 'watts'] = str(value)
 
             elif any(phase_key.lower() in key.lower() for phase_key in phase_keys) :
-                df.at[index, 'phase'] = value
+                df.at[index, 'phase'] = str(value)
             
             
             elif any(hertz_key.lower() in key.lower() for hertz_key in hertz_keys) :
-                df.at[index, 'hertz'] = value
+                df.at[index, 'hertz'] = str(value)
 
             elif any(plug_type_key.lower() in key.lower() for plug_type_key in plug_type_keys) :
-                df.at[index, 'plug_type'] = value
+                df.at[index, 'plug_type'] = str(value)
+
+            elif any(weight_key.lower() in key.lower() for weight_key in weight_keys) :
+                df.at[index, 'weight'] = str(value)
             
             
             elif any(depth_key.lower() in key.lower() for depth_key in depth_keys) :
                 if 'x' in value:
                     value = value.split('x')[-1]
-                    df.at[index, 'depth'] = value
+                    df.at[index, 'depth'] = str(value)
                 else:
-                    df.at[index, 'depth'] = value
+                    df.at[index, 'depth'] = str(value)
 
             elif any(height_key.lower() in key.lower() for height_key in height_keys) :
                 if 'x' in value:
                     value = value.split('x')[0]
-                    df.at[index, 'height'] = value
+                    df.at[index, 'height'] = str(value)
                 else:
-                    df.at[index, 'height'] = value
+                    df.at[index, 'height'] = str(value)
            
             
             elif any(width_key.lower() in key.lower() for width_key in width_keys) :
                 if 'x' in value:
                     value = value.split('x')[1]
-                    df.at[index, 'width'] = value
+                    df.at[index, 'width'] = str(value)
                 else:
-                    df.at[index, 'width'] = value
+                    df.at[index, 'width'] = str(value)
             
             
             elif any(ada_key.lower() in key.lower() for ada_key in ada_compliant_keys) :
@@ -102,10 +110,6 @@ def parse_details(details, df, index):
                     df.at[index, 'antimicrobial coating (Y/N)'] = 'N'
                 elif value.lower == 'antimicrobial' or value.lower == 'yes':
                     df.at[index, 'antimicrobial coating (Y/N)'] = 'Y'
-
-            
-            else:
-                pass             
         
     return df
 
@@ -119,7 +123,7 @@ def get_elements(driver, xpath, multiple, timeout=4):
     except TimeoutException:
         return [] if multiple else None
 
-def search_items(driver, model_number, df, row, index):
+def search_items(driver, model_number, df, index, excel_filename):
     searchbar = driver.find_element(By.XPATH, '//div/input[@aria-label="Search Query"]')
     max_retries = 2
     retry_delay = 1
@@ -133,38 +137,36 @@ def search_items(driver, model_number, df, row, index):
                 searchbar.send_keys(model_number) #Type in the Model-Number 
                 searchbar.send_keys(Keys.RETURN) #Hit ENTER 
                 time.sleep(3)
-
+                
+                #Fetch Data Points
                 item_url = driver.current_url
-
-                sku = get_elements(driver, '//div[@class="vDgTDH"]/dd', multiple=False)
                 image = get_elements(driver, '//div[@data-testid="product-image-to-zoom"]/img', multiple=False)
-                price = get_elements(driver, '//div/span[@class="HANkB IuSbF N5ad3 xqCG3 a0SF- _4TUUj"]', multiple=False)
                 shipping_weight = get_elements(driver, '//div[@data-testid="shipping-weight"]/strong', multiple=False)
 
                 documents = get_elements(driver, '//div[@data-testid="product-documents-list"]/div/a', multiple=True)
                 if documents:
-                    df = parse_documents(documents, df, index)
+                    xpath = '//div[@data-testid="product-documents-list"]/div/a'
+                    df = parse_documents(driver, xpath, df, index) #Load documents and update into df
 
                 details = get_elements(driver, '//div/dl[@data-testid="product-techs"]/div', multiple=True)
                 if details:
-                    df = parse_details(details, df, index)
+                    xpath = '//div/dl[@data-testid="product-techs"]/div'
+                    df = parse_details(driver, xpath, df, index) #Load details and update into df
 
-                # if sku.text == model_number.strip():
-                #     #print(sku.text, item_url)
-                info = {
-                        'SKU':sku.text if sku else '',
-                        'Image':image.get_attribute('src') if image else '',
-                        'Price':price.text if price else '',
-                        'Shipping Weight':shipping_weight.text if shipping_weight else '',
-                    }
-                if info:
-                    df.at[index, 'Product URL'] = item_url
-                    df.at[index, 'Product Image (jpg)'] = info['Image']
-                    df.at[index, 'Product Image'] = info['Image']
-                    df.at[index, 'Shipping Weight'] = info['Shipping Weight']
+                #Load other data points into df
+                df.at[index, 'Product URL'] = str(item_url)
+                df.at[index, 'Product Image (jpg)'] = str(image.get_attribute('src')) if image else ''
+                df.at[index, 'Product Image'] = str(image.get_attribute('src')) if image else ''
+                df.at[index, 'ship_weight'] = str(shipping_weight.text) if shipping_weight else ''
+
+                
+                #save df to excel for every product
+                df.to_excel(excel_filename, index=False, sheet_name='Grainger')
+                time.sleep(5)
 
                 success=True
                 driver.back()
+                
             except Exception as e:
                 retries += 1
                 if retries < max_retries:
@@ -173,9 +175,11 @@ def search_items(driver, model_number, df, row, index):
                 else:
                     print(f'[yellow]{model_number}[/yellow] [red]Not found![/red] >>>>>>>>> error: {e}')
                     break  # Exit loop after retries are exhausted
+
     except Exception as e:
         print(f'An error occured: {e}')
         pass
+
 
 
 def main():
@@ -189,19 +193,32 @@ def main():
     excel_filename = 'Grainger-Output.xlsx'
     try:
         if not os.path.exists(excel_filename):
-            df = pd.read_excel(filepath, sheet_name='Master')
+            df = pd.read_excel(filepath, sheet_name='Master', dtype='str')
             # Ensure the Excel file is created from the existing DataFrame
             df.to_excel(excel_filename, index=False, sheet_name='Grainger')
 
         driver.get('https://www.grainger.com/')
         time.sleep(4)
 
+
+        count = 0
+        MAX_REQUESTS = 2
+        BASE_SLEEP_TIME = 180
+
         df = pd.read_excel(filepath, sheet_name='Master')
-        for index, row in df.tail(5).iterrows():
+        for index, row in df.head(3).iterrows():
             model_number = row['mfr number']
-            print(model_number)
-            search_items(driver, model_number, df, row, index)
+            if '/' in model_number:
+                model_number = model_number.split('/')[0]
+            search_items(driver, model_number, df, index, excel_filename)
+            count += 1
             time.sleep(2)
+
+            if count >= MAX_REQUESTS:
+                sleep_time = BASE_SLEEP_TIME + random.randint(-30, 30) + (count % 10)
+                print(f"Rate limiting: sleeping for {sleep_time} seconds...")
+                time.sleep(sleep_time) # sleep for four minutes to avoid rate limiting
+                count = 0
 
     except Exception as e:
         print(f"An error occurred: {e}")

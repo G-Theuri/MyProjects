@@ -94,7 +94,7 @@ def main():
                 else:
                     publication_date_obj = datetime.strptime(publication_date, '%d.%m.%Y')
 
-                if publication_date_obj.year == 2024: #Use == to get video for a specific year and != to get videos from a range of years
+                if publication_date_obj.year != 2019: #Use == to get video for a specific year and != to get videos from a range of years
                     publication_date_obj_str = publication_date_obj.strftime('%Y-%m-%d')
                     info = {
                         'Video Name': video_name,
@@ -117,10 +117,10 @@ def main():
                 elif match_count >= max_matches:
                     load = False
                     break
-                elif publication_date_obj.year != 2024:
+                elif publication_date_obj.year == 2019:
                     #If its a specific year use '!=' then 'continue' but if its a range, use '==' then 'break'
-                    #break
-                    continue
+                    break
+                    # continue
 
         except Exception as e:
             logging.error(f'Failed due to: {e}')

@@ -43,7 +43,7 @@ def start_requests(url, header):
             parse_products(response, info, header)
 
 def parse_products(response, info, header):
-    rprint(f'Current Products Page: {response.url}')
+    rprint(f'[yellow]Current Products Page[/yellow]: {response.url}')
     tree = html.fromstring(response.content)
     next_page = tree.xpath('/html/body/div/div/nav/a[contains(text(), "Next Page")]/@href')
     products = tree.xpath('/html/body/div/section/a')
@@ -55,7 +55,6 @@ def parse_products(response, info, header):
             time.sleep(0.4)
             response = cureq.get(url=product_url, impersonate='chrome', headers=header)
             transform(response, info)
-            visited_urls.add(product_url)
             time.sleep(1.4)
     else:
         for product in products:
@@ -64,9 +63,8 @@ def parse_products(response, info, header):
             time.sleep(0.4)
             response = cureq.get(url=product_url, impersonate='chrome', headers=header)
             time.sleep(1.7)
-
             transform(response, info)
-            visited_urls.add(product_url)
+            
 
         get_next_page(next_page[0], info, header)
 
@@ -78,7 +76,8 @@ def get_next_page(next_page, info, header):
     
 def transform(response, info):
     if response.url not in visited_urls:
-        rprint(f'Getting data from : {response.url}')
+        rprint(f'[green]Getting data from[/green] : {response.url}')
+        visited_urls.add(response.url)
         time.sleep(2)
         tree = html.fromstring(response.content)
 
@@ -109,25 +108,18 @@ def transform(response, info):
 
         #Extract Pricing Information
         keys = tree.xpath('//div[contains(@class, "product-pricing")]//p//strong/text()')
-        values = tree.xpath('//div[contains(@class, "product-pricing")]//p//strong/following-sibling::text()')
 
         pricing_data = {}
-        for k, val in zip(keys, values):
-            key = k.strip(':').strip()
-            value = val.strip()
-            pricing_data[key] = value
-
-
-        # fields = ["Yardage", "CTN WT", "STD Finish", "Exposed Wood", "STD Trim", "STD Seat Cushion", "STD Back Cushion"]
-        # pricing_data = {}
-        # for field in fields:
-        #     xpath_expr = f'//div[contains(@class, "product-pricing")]/p/strong[contains(text(), "{field}:")]/following-sibling::text()'
-        #     value = tree.xpath(xpath_expr)
-        #     if value:
-        #         pricing_data[field] = value[0].strip()
-        #     else:
-        #         pricing_data[field] = None
-
+        if keys:
+            for k in keys:
+                xpath_expr = f'//div[contains(@class, "product-pricing")]/p/strong[contains(text(), "{k}")]/following-sibling::text()'
+                val = tree.xpath(xpath_expr)
+                key = k.strip(':').strip()
+                if val:
+                    value = val[0].strip()
+                    pricing_data[key] = value
+                else:
+                    pricing_data[key] = None
 
         all_data = {
             **info, #Type and Sub-Type denoted as Category and Sub-Category for Uniformity
@@ -136,14 +128,13 @@ def transform(response, info):
             'Product SKU': sku,
             'Product Images': tree.xpath('/html/body/div/article/div[1]/figure/img/@src'),
             'Product Description': tree.xpath('/html/body/div/article/div[1]/div[2]/p/text()'),
-            'Schemtic PDF':tree.xpath('/html/body/div/article/div[1]/div[2]/p/a[contains(@class, "pdf-link")]/@href'),
+            'Schemtic PDF':tree.xpath('//p/a[contains(@class, "pdf-link")]/@href'),
             'Product Dimesions':all_dimensions,
             'Suite': suites,
             'Pricing Information': pricing_data,
         }
 
         load(all_data)
-        #rprint(all_data)
 
 def get_suites(info, suite_urls):
     for suite_url in suite_urls:
@@ -152,7 +143,7 @@ def get_suites(info, suite_urls):
 
 
 def load(all_data):
-    file_name = 'new-products-data.json' #Output file name
+    file_name = 'updated-products-data.json' #Output file name
 
     #Appends data into the output file
     if os.path.exists(file_name):

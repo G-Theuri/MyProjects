@@ -1,0 +1,44 @@
+2025-02-18 23:45:08,536 - INFO - patching driver executable C:\Users\TG\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-02-18 23:45:19,747 - INFO - Found new video url: Tagesschau vom 18.02.2025: Hauptausgabe
+2025-02-18 23:45:19,868 - INFO - Found new video url: Tagesschau vom 18.02.2025: Mittagsausgabe
+2025-02-18 23:45:19,984 - INFO - Found new video url: Tagesschau vom 17.02.2025: Hauptausgabe
+2025-02-18 23:45:20,125 - INFO - Found new video url: Tagesschau vom 17.02.2025: Mittagsausgabe
+2025-02-18 23:45:20,238 - INFO - Found new video url: Tagesschau vom 16.02.2025: Spätausgabe
+2025-02-18 23:45:20,370 - INFO - Found new video url: Tagesschau vom 16.02.2025: Hauptausgabe
+2025-02-18 23:45:20,491 - INFO - Found new video url: Tagesschau vom 15.02.2025: Spätausgabe
+2025-02-18 23:45:20,651 - INFO - Found new video url: Tagesschau vom 15.02.2025: Hauptausgabe
+2025-02-18 23:45:20,802 - INFO - Found new video url: Tagesschau vom 14.02.2025: Hauptausgabe
+2025-02-18 23:45:20,949 - INFO - Found new video url: Tagesschau vom 14.02.2025: Mittagsausgabe
+2025-02-18 23:45:21,068 - INFO - Found new video url: Tagesschau vom 13.02.2025: Hauptausgabe
+2025-02-18 23:45:21,190 - INFO - Found new video url: Tagesschau vom 13.02.2025: Mittagsausgabe
+2025-02-18 23:45:21,315 - INFO - Found new video url: Tagesschau vom 12.02.2025: Hauptausgabe
+2025-02-18 23:45:21,450 - INFO - Found new video url: Tagesschau vom 12.02.2025: Mittagsausgabe
+2025-02-18 23:45:21,576 - INFO - Found new video url: Tagesschau vom 11.02.2025: Hauptausgabe
+2025-02-18 23:45:21,684 - INFO - Found new video url: Tagesschau vom 11.02.2025: Mittagsausgabe
+2025-02-18 23:45:21,810 - INFO - Found new video url: Tagesschau vom 10.02.2025: Hauptausgabe
+2025-02-18 23:45:21,918 - INFO - Found new video url: Tagesschau vom 10.02.2025: Mittagsausgabe
+2025-02-18 23:45:22,037 - INFO - Found new video url: Tagesschau vom 09.02.2025: Spätausgabe
+2025-02-18 23:45:22,160 - INFO - Found new video url: Tagesschau vom 09.02.2025: Hauptausgabe
+2025-02-18 23:45:22,277 - INFO - Found new video url: Tagesschau vom 08.02.2025: Spätausgabe
+2025-02-18 23:45:22,432 - INFO - Found new video url: Tagesschau vom 08.02.2025: Hauptausgabe
+2025-02-18 23:45:22,551 - INFO - Found new video url: Tagesschau vom 07.02.2025: Hauptausgabe
+2025-02-18 23:45:22,667 - INFO - Found new video url: Tagesschau vom 07.02.2025: Mittagsausgabe
+2025-02-18 23:45:22,784 - INFO - Found new video url: Tagesschau vom 06.02.2025: Hauptausgabe
+2025-02-18 23:45:22,920 - INFO - Found new video url: Tagesschau vom 06.02.2025: Mittagsausgabe
+2025-02-18 23:45:23,088 - INFO - Found new video url: Tagesschau vom 05.02.2025: Hauptausgabe
+2025-02-18 23:45:23,226 - INFO - Found new video url: Tagesschau vom 05.02.2025: Mittagsausgabe
+2025-02-18 23:45:23,370 - INFO - Found new video url: Tagesschau vom 04.02.2025: Hauptausgabe
+2025-02-18 23:45:23,501 - INFO - Found new video url: Tagesschau vom 04.02.2025: Mittagsausgabe
+2025-02-18 23:45:23,668 - INFO - Found new video url: Tagesschau vom 03.02.2025: Hauptausgabe
+2025-02-18 23:45:23,798 - INFO - Found new video url: Tagesschau vom 03.02.2025: Mittagsausgabe
+2025-02-18 23:45:23,918 - INFO - Found new video url: Tagesschau vom 02.02.2025: Spätausgabe
+2025-02-18 23:45:24,033 - INFO - Found new video url: Tagesschau vom 02.02.2025: Hauptausgabe
+2025-02-18 23:45:24,151 - INFO - Found new video url: Tagesschau vom 01.02.2025: Spätausgabe
+2025-02-18 23:45:24,279 - INFO - Found new video url: Tagesschau vom 01.02.2025: Hauptausgabe
+2025-02-18 23:45:24,427 - INFO - Found new video url: Tagesschau vom 31.01.2025: Hauptausgabe
+2025-02-18 23:45:24,568 - INFO - Found new video url: Tagesschau vom 31.01.2025: Mittagsausgabe
+2025-02-18 23:45:24,693 - INFO - Found new video url: Tagesschau vom 30.01.2025: Hauptausgabe
+2025-02-18 23:45:24,834 - INFO - Found new video url: Tagesschau vom 30.01.2025: Mittagsausgabe
+2025-02-18 23:45:24,835 - INFO - Collected 40 videos since 2019.
+2025-02-18 23:45:25,753 - INFO - Processing 40 videos after reaching the target year.
+2025-02-18 23:45:25,768 - INFO - Downloading video: Tagesschau vom 18.02.2025: Hauptausgabe
