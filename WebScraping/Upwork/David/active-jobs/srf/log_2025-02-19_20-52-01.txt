@@ -1,0 +1,13 @@
+2025-02-19 20:52:07,450 - INFO - patching driver executable C:\Users\TG\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-02-19 20:52:22,946 - INFO - Latest Publishing Date Loaded: [2025-01-30], Loading more...
+2025-02-19 20:52:28,306 - INFO - Latest Publishing Date Loaded: [2025-01-20], Loading more...
+2025-02-19 20:52:33,488 - INFO - Latest Publishing Date Loaded: [2025-01-10], Loading more...
+2025-02-19 20:52:40,289 - INFO - <<<<<<<<<<  Succesfully Loaded all videos between: [2025-01-01 00:00:00 - 2025-01-19 00:00:00] >>>>>>>>>
+2025-02-19 20:52:40,290 - INFO - Processing 100 Videos Found Between: [2025-01-01 00:00:00 - 2025-01-19 00:00:00]. This Might Take a While ...
+2025-02-19 20:52:47,892 - INFO - Found 38 Unique Videos Between: [2025-01-01 00:00:00 - 2025-01-19 00:00:00] 
+2025-02-19 20:52:48,417 - INFO - Video already exists: Tagesschau vom 19.01.2025: Spätausgabe. Skipping download.
+2025-02-19 20:52:48,417 - INFO - Video already exists: Tagesschau vom 19.01.2025: Hauptausgabe. Skipping download.
+2025-02-19 20:52:48,418 - INFO - Downloading video: Tagesschau vom 18.01.2025: Spätausgabe
+2025-02-19 20:55:02,831 - INFO - Downloading video: Tagesschau vom 18.01.2025: Hauptausgabe
+2025-02-19 21:01:06,726 - INFO - Downloading video: Tagesschau vom 17.01.2025: Hauptausgabe
+2025-02-19 21:06:55,554 - INFO - Downloading video: Tagesschau vom 17.01.2025: Mittagsausgabe

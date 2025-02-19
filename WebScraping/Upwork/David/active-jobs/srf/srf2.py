@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import logging
 from rich import print as print
-import time, re, json, os
+import time, re, json, os, random
 from datetime import datetime, timedelta
 import yt_dlp  # Import yt-dlp for video downloading
 
@@ -43,7 +43,26 @@ def save_to_json(filepath, data):
     with open(filepath, 'w') as file:
         json.dump(data, file, indent=4)
 
+def load_publication_date(publication_date):
+    if publication_date.lower() == 'heute':
+        publication_date_obj = datetime.today()
+    elif publication_date.lower() == 'gestern':
+        publication_date_obj = datetime.today() - timedelta(days=1)
+    else:
+        publication_date_obj = datetime.strptime(publication_date, '%d.%m.%Y')
 
+    return publication_date_obj
+
+def get_video_metadata(video):
+    video_url = WebDriverWait(video, 10).until(EC.presence_of_element_located((By.XPATH, './a'))).get_attribute('href')
+    video_name = WebDriverWait(video, 10).until(EC.presence_of_element_located((By.XPATH, './a//h3[@class="MediaTeaserPartsstyles__Title-sc-o4w8g6-0 ghiziG"]'))).text
+    publication_date = WebDriverWait(video, 10).until(EC.presence_of_element_located((By.XPATH, './a//div[@class="MediaTeaserPartsstyles__MetaData-sc-o4w8g6-4 fRdWvo"]/span'))).text
+    
+    return {
+        'Video URL': video_url,
+        'Video Name': video_name,
+        'Publication Date': publication_date
+    }
 
 def main():  
     #Dynamically create log file name based on current date and time
@@ -69,62 +88,68 @@ def main():
     driver.get('https://www.srf.ch/play/tv/sendung/tagesschau?id=ff969c14-c5a7-44ab-ab72-14d4c9e427a9')
     time.sleep(2)
 
-    processed_urls = set()
     data = []
     load = True
-    match_count = 0
-    max_matches = 1000
+    
+    ########--- These Dates are in the Format of YEAR, MONTH, DAY (YYYY, M, D) ---##################
+    start_date = datetime(2025, 1, 1)  #----> This is the oldest date, eg. Yesterday
+    end_date = datetime(2025, 1, 19)   #----> This is most recent date, eg. Today
+    ##########################--- Change Accordingly ---############################################
+
+    load_more = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//div[@class = "LoadMore__LinkContainer-sc-1m7lrrf-0 WtKTp"]/button')))
+    load_more.click()
+    time.sleep(4)
 
     while load:
         try: 
-            load_more = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//div[@class = "LoadMore__LinkContainer-sc-1m7lrrf-0 WtKTp"]/button')))
-            load_more.click()
-            time.sleep(4)
             videos = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, '//div[@class = "GridView__Layout-sc-1sywot3-0 irotzs"]/section')))
-            for video in videos:
-                video_url = WebDriverWait(video, 10).until(EC.presence_of_element_located((By.XPATH, './a'))).get_attribute('href')
-                video_name = WebDriverWait(video, 10).until(EC.presence_of_element_located((By.XPATH, './a//h3[@class="MediaTeaserPartsstyles__Title-sc-o4w8g6-0 ghiziG"]'))).text
-                publication_date = WebDriverWait(video, 10).until(EC.presence_of_element_located((By.XPATH, './a//div[@class="MediaTeaserPartsstyles__MetaData-sc-o4w8g6-4 fRdWvo"]/span'))).text
 
-                # Handle publication date to convert it to datetime object
-                if publication_date.lower() == 'heute':
-                    publication_date_obj = datetime.today()
-                elif publication_date.lower() == 'gestern':
-                    publication_date_obj = datetime.today() - timedelta(days=1)
-                else:
-                    publication_date_obj = datetime.strptime(publication_date, '%d.%m.%Y')
+            #Check only the last video
+            last_video = videos[-1]
+            metadata = get_video_metadata(last_video)
+            lastvideo_publication_date = metadata['Publication Date']
 
-                if publication_date_obj.year != 2019: #Use == to get video for a specific year and != to get videos from a range of years
-                    publication_date_obj_str = publication_date_obj.strftime('%Y-%m-%d')
-                    info = {
-                        'Video Name': video_name,
-                        'Video URL': video_url,
-                        'Publication Date': publication_date_obj_str,
-                    }
-                    #data = data + (info, )
-                    
-                    if video_url not in processed_urls:
-                        data.append(info)
-                        processed_urls.add(video_url)
-                        logging.info(f"Found new video url: {video_name}")
+            # Handle publication date to convert it to datetime object
+            lastvideo_publication_date_obj = load_publication_date(lastvideo_publication_date)
 
-                    else:
-                        if any(metadata['Video URL'] == video_url for metadata in saved_metadata):
-                            match_count += 1
-                            #logging.info(f"Match found for video: {video_name}")
-                
-                # If we've reached 20 matches, stop the process
-                elif match_count >= max_matches:
-                    load = False
-                    break
-                elif publication_date_obj.year == 2019:
-                    #If its a specific year use '!=' then 'continue' but if its a range, use '==' then 'break'
-                    break
-                    # continue
+            if start_date.date() >= lastvideo_publication_date_obj.date() and lastvideo_publication_date_obj.date() <= end_date.date(): 
+                logging.info(f"<<<<<<<<<<  Succesfully Loaded all videos between: [{start_date} - {end_date}] >>>>>>>>>")
+                load = False
+            else:
+                logging.info(f"Latest Publishing Date Loaded: [{lastvideo_publication_date_obj.date()}], Loading more...")
+                load_more.click()
+                time.sleep(random.uniform(4, 7))
 
         except Exception as e:
             logging.error(f'Failed due to: {e}')
             load = False
+
+    processed_urls = set()
+    logging.info(f"Processing {len(videos)} Videos Found Between: [{start_date} - {end_date}]. This Might Take a While ...")
+    for video in videos:
+        metadata = get_video_metadata(video)
+        video_url = metadata['Video URL']
+        video_name = metadata['Video Name']
+        publication_date = metadata['Publication Date']
+
+        # Handle publication date to convert it to datetime object
+        publication_date_obj = load_publication_date(publication_date)
+
+        # Process only if it satisfies the date range condition
+        if start_date.date() <= publication_date_obj.date() and publication_date_obj.date() <= end_date.date():
+            if video_url not in processed_urls:
+                # Save the metadata if not processed yet
+                video_info = {
+                    'Video URL': video_url,
+                    'Video Name': video_name,
+                    'Publication Date': publication_date_obj.strftime('%Y-%m-%d')
+                }
+                data.append(video_info)
+                processed_urls.add(video_url)
+            else:
+                pass
+                #logging.info(f"Video already processed: {video_name}")
+    logging.info(f"Found {len(processed_urls)} Unique Videos Between: [{start_date} - {end_date}] ")
 
     # Close the browser now that all links are loaded
     driver.quit()
