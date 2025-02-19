@@ -128,7 +128,7 @@ def get_elements(driver, xpath, multiple, timeout=4):
 def search_items(driver, model_number, df, index, excel_filename):
     searchbar = driver.find_element(By.XPATH, '//div/input[@aria-label="Search Query"]')
     max_retries = 3
-    retry_delay = random.uniform(1.0, 3.0)
+    retry_delay = random.uniform(4.0, 7.0)
 
     try:   
         retries = 0
@@ -138,7 +138,7 @@ def search_items(driver, model_number, df, index, excel_filename):
                 searchbar.clear()
                 searchbar.send_keys(model_number) #Type in the Model-Number 
                 searchbar.send_keys(Keys.RETURN) #Hit ENTER 
-                time.sleep(3)
+                time.sleep(4)
 
 
                 item_url = driver.current_url
