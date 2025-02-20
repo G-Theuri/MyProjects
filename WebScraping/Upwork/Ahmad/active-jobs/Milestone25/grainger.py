@@ -25,6 +25,23 @@ def initialize_driver():
 
         return driver
 
+def format_modelnumber(model_number):
+    model_replacements = {
+    '500-030': '38NT18',
+    '21431': '1WEA1',
+    '54613': '22FX25',
+    'GA-3200-0DMH': '822TM9',
+    '714BK': '10G848'}
+
+    # Replace model_number if it matches a key in the dictionary
+    model_number = model_replacements.get(model_number, model_number)
+
+    # Handle the split if '/' is in the model_number
+    if '/' in model_number:
+        model_number = model_number.split('/')[0]
+
+    return model_number
+
 def parse_documents(driver, xpath, df, index):
     documents = get_elements(driver, xpath, multiple=True)
 
@@ -158,38 +175,37 @@ def search_items(driver, model_number, df, index, excel_filename):
             searchbar.send_keys(Keys.RETURN) #Hit ENTER 
             time.sleep(4)
 
-            item_url = driver.current_url
-            print(f'[green]Extracting data from: [/green][yellow]{model_number}[/yellow]  >>>  [cyan]URL [/cyan]: {item_url}')
-
-                
             #Fetch Data Points
-            image = get_elements(driver, '//div[@data-testid="product-image-to-zoom"]/img', multiple=False)
-            shipping_weight = get_elements(driver, '//div[@data-testid="shipping-weight"]/strong', multiple=False)
+            image = get_elements(driver, '//div[@data-testid="product-image-to-zoom"]/img', multiple=False, timeout=10)
+            if image:
+                item_url = driver.current_url 
+                shipping_weight = get_elements(driver, '//div[@data-testid="shipping-weight"]/strong', multiple=False)
 
-            documents = get_elements(driver, '//div[@data-testid="product-documents-list"]/div/a', multiple=True)
-            if documents:
-                xpath = '//div[@data-testid="product-documents-list"]/div/a'
-                df = parse_documents(driver, xpath, df, index) #Load documents and update into df
+                documents = get_elements(driver, '//div[@data-testid="product-documents-list"]/div/a', multiple=True)
+                if documents:
+                    xpath = '//div[@data-testid="product-documents-list"]/div/a'
+                    df = parse_documents(driver, xpath, df, index) #Load documents and update into df
 
-            details = get_elements(driver, '//div/dl[@data-testid="product-techs"]/div', multiple=True)
-            if details:
-                xpath = '//div/dl[@data-testid="product-techs"]/div'
-                df = parse_details(driver, xpath, df, index) #Load details and update into df
+                details = get_elements(driver, '//div/dl[@data-testid="product-techs"]/div', multiple=True)
+                if details:
+                    xpath = '//div/dl[@data-testid="product-techs"]/div'
+                    df = parse_details(driver, xpath, df, index) #Load details and update into df
 
-            #Load other data points into df
-            df.at[index, 'Product URL'] = str(item_url)
-            df.at[index, 'Product Image (jpg)'] = str(image.get_attribute('src')) if image else ''
-            df.at[index, 'Product Image'] = str(image.get_attribute('src')) if image else ''
-            df.at[index, 'ship_weight'] = str(shipping_weight.text) if shipping_weight else ''
+                #Load other data points into df
+                df.at[index, 'Product URL'] = str(item_url)
+                df.at[index, 'Product Image (jpg)'] = str(image.get_attribute('src')) if image else ''
+                df.at[index, 'Product Image'] = str(image.get_attribute('src')) if image else ''
+                df.at[index, 'ship_weight'] = str(shipping_weight.text) if shipping_weight else ''
 
-            #save df to excel for every product
-            df.to_excel(excel_filename, index=False, sheet_name='Grainger')
-            time.sleep(5)
+                #save df to excel for every product
+                df.to_excel(excel_filename, index=False, sheet_name='Grainger')
+                time.sleep(5)
 
-            success=True
-            retries = 0
-            driver.back()
-            time.sleep(2)
+                success=True
+                print(f'[green]Extracted data from: [/green][yellow]{model_number}[/yellow]  >>>  [cyan]URL [/cyan]: {item_url}')
+                retries = 0
+                driver.back()
+                time.sleep(2)
                 
         except Exception as e:
             retries += 1
@@ -239,11 +255,8 @@ def main():
             
             try:
                 model_number = row['mfr number']
-                if '/' in model_number:
-                    model_number = model_number.split('/')[0]
-
-                if model_number == '500-030':
-                    model_number = '38NT18'
+                model_number = format_modelnumber(model_number)                    
+                    
                 driver = search_items(current_driver, model_number, df, index, excel_filename)
                 count += 1
                 time.sleep(2)
@@ -263,7 +276,9 @@ def main():
                 else:
                     print(f'[yellow]{model_number}[/yellow] [red]Not found![/red] >>>>>>>>> error: {e}')
                     break  # Exit loop after retries are exhausted
-
+        
+        print(f'[green]>>>>>>>> Process Complete! <<<<<<<<[/green]')
+        break # Exit while loop after running succesfuly
 
 
 if __name__ == "__main__":
