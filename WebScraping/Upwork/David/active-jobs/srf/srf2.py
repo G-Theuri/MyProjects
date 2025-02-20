@@ -81,12 +81,13 @@ def main():
         os.makedirs(download_path)
                         
     options = uc.ChromeOptions()
-    options.add_argument('--disable-popup-blocking')
+    #options.add_argument('--disable-popup-blocking')
     driver = uc.Chrome(options)
     driver.maximize_window()
 
     driver.get('https://www.srf.ch/play/tv/sendung/tagesschau?id=ff969c14-c5a7-44ab-ab72-14d4c9e427a9')
     time.sleep(2)
+
 
     data = []
     load = True
@@ -100,6 +101,7 @@ def main():
     load_more.click()
     time.sleep(4)
 
+    logging.info("-" * 110)
     while load:
         try: 
             videos = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.XPATH, '//div[@class = "GridView__Layout-sc-1sywot3-0 irotzs"]/section')))
@@ -113,10 +115,11 @@ def main():
             lastvideo_publication_date_obj = load_publication_date(lastvideo_publication_date)
 
             if start_date.date() >= lastvideo_publication_date_obj.date() and lastvideo_publication_date_obj.date() <= end_date.date(): 
-                logging.info(f"<<<<<<<<<<  Succesfully Loaded all videos between: [{start_date} - {end_date}] >>>>>>>>>")
+                logging.info("-" * 110)
+                logging.info(f"<<<<<  Succesfully Loaded all videos between: [{start_date} - {end_date}]  >>>>>")
                 load = False
             else:
-                logging.info(f"Latest Publishing Date Loaded: [{lastvideo_publication_date_obj.date()}], Loading more...")
+                logging.info(f"Fetched Videos Upto: [ {lastvideo_publication_date_obj.date()} ], Loading more...")
                 load_more.click()
                 time.sleep(random.uniform(4, 7))
 
@@ -125,7 +128,10 @@ def main():
             load = False
 
     processed_urls = set()
-    logging.info(f"Processing {len(videos)} Videos Found Between: [{start_date} - {end_date}]. This Might Take a While ...")
+    
+    logging.info("-" * 110)
+    logging.info("-" * 110)
+    logging.info(f"Processing [{len(videos)}] Videos Found Between: [{start_date} - {end_date}]. This Might Take a While ...")
     for video in videos:
         metadata = get_video_metadata(video)
         video_url = metadata['Video URL']
@@ -147,9 +153,16 @@ def main():
                 data.append(video_info)
                 processed_urls.add(video_url)
             else:
-                pass
                 #logging.info(f"Video already processed: {video_name}")
-    logging.info(f"Found {len(processed_urls)} Unique Videos Between: [{start_date} - {end_date}] ")
+                pass
+
+    logging.info("-" * 110)
+    logging.info("-" * 110)
+    logging.info("-" * 110)
+    logging.info(f"Found [{len(processed_urls)}] Unique Videos Between: [{start_date} - {end_date}] ")
+    logging.info("-" * 110)
+    logging.info("-" * 110)
+    logging.info("-" * 110)
 
     # Close the browser now that all links are loaded
     driver.quit()
@@ -175,6 +188,8 @@ def main():
                 logging.info(f"Downloading video: {video_name}")
                 download_video(video_url, video_path)  # Download the video using yt-dlp
 
+        logging.info("-" * 110)
+        logging.info(f">>>>>>>>>>    Process Completed!   <<<<<<<<<<< {video_name}")
 
 if __name__ == '__main__':
     main()

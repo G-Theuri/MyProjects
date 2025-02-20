@@ -10,6 +10,20 @@ import pandas as pd
 import warnings
 
 warnings.filterwarnings("ignore")
+current_driver = None
+
+def initialize_driver():
+    global current_driver
+    if current_driver is None:
+        options = uc.ChromeOptions()
+        options.add_argument('--disable-popup-blocking')
+
+        driver = uc.Chrome(options)
+        driver.maximize_window()
+        driver.get('https://www.grainger.com/')
+        time.sleep(4)
+
+        return driver
 
 def parse_documents(driver, xpath, df, index):
     documents = get_elements(driver, xpath, multiple=True)
@@ -116,7 +130,7 @@ def parse_details(driver, xpath, df, index):
     return df
 
 
-def get_elements(driver, xpath, multiple, timeout=4):
+def get_elements(driver, xpath, multiple, timeout=5):
     try:
         if multiple:
             return WebDriverWait(driver, timeout).until(EC.presence_of_all_elements_located((By.XPATH, xpath)))
@@ -125,20 +139,24 @@ def get_elements(driver, xpath, multiple, timeout=4):
     except TimeoutException:
         return [] if multiple else None
 
-def search_items(driver, options, model_number, df, index, excel_filename):
-    searchbar = driver.find_element(By.XPATH, '//div/input[@aria-label="Search Query"]')
-    max_retries = 3
+def search_items(driver, model_number, df, index, excel_filename):
+    global current_driver
+    max_retries = 5
     retry_delay = random.uniform(4.0, 7.0)
-
     retries = 0
     success = False
     while retries < max_retries and not success:
         try:
+            #searchbar = driver.find_element(By.XPATH, '//div/input[@aria-label="Search Query"]')
+            #searchbar = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//div/input[@aria-label="Search Query"]')))
+            time.sleep(2)
+            searchbar = get_elements(driver, '//div/input[@aria-label="Search Query"]', multiple=False)
+
             searchbar.clear()
             searchbar.send_keys(model_number) #Type in the Model-Number 
+            time.sleep(0.5)
             searchbar.send_keys(Keys.RETURN) #Hit ENTER 
             time.sleep(4)
-
 
             item_url = driver.current_url
             print(f'[green]Extracting data from: [/green][yellow]{model_number}[/yellow]  >>>  [cyan]URL [/cyan]: {item_url}')
@@ -169,24 +187,30 @@ def search_items(driver, options, model_number, df, index, excel_filename):
             time.sleep(5)
 
             success=True
+            retries = 0
             driver.back()
+            time.sleep(2)
                 
         except Exception as e:
             retries += 1
-            if retries < max_retries:
+            if retries <= max_retries:
                 print(f"[yellow]Retrying... Attempt {retries}/{max_retries}[/yellow]")
-                print(f"[orange]The Browser is Restarting...[/orange]")
-                driver.quit()
-                time.sleep(retry_delay)
 
-                driver = uc.Chrome(options)
-                driver.maximize_window()
-                driver.get('https://www.grainger.com/')
+                #Quit the Driver
+                if driver:
+                    driver.quit()
+                    current_driver = driver = None
+                    time.sleep(retry_delay)
+
+                # Re-initialize the Driver
+                driver = initialize_driver()
+                current_driver = driver
+                
                 time.sleep(4)
             else:
                 print(f'[yellow]{model_number}[/yellow] [red]Not found![/red] >>>>>>>>> error: {e}')
                 break  # Exit loop after retries are exhausted
-
+    return driver
 
 def main():
     filepath ='resources/Grainger Content.xlsx'
@@ -196,16 +220,10 @@ def main():
         # Ensure the Excel file is created from the existing DataFrame
         df.to_excel(excel_filename, index=False, sheet_name='Grainger')
 
-
-    options = uc.ChromeOptions()
-    options.add_argument('--disable-popup-blocking')
-    #options.add_argument('--headless')
-    driver = uc.Chrome(options)
-    driver.maximize_window()
-
-    driver.get('https://www.grainger.com/')
-    time.sleep(4)
-
+    #Initialize the Driver
+    global current_driver
+    driver = initialize_driver()
+    current_driver = driver
 
     count = 0
     MAX_REQUESTS = random.randint(45, 50)
@@ -217,38 +235,34 @@ def main():
 
     df = pd.read_excel(filepath, sheet_name='Master', dtype='str')
     while retries < max_retries:
-            for index, row in df.iterrows():
-                try:
-                    model_number = row['mfr number']
-                    if '/' in model_number:
-                        model_number = model_number.split('/')[0]
+        for index, row in df.iterrows():
+            
+            try:
+                model_number = row['mfr number']
+                if '/' in model_number:
+                    model_number = model_number.split('/')[0]
 
-                    if model_number == '500-030':
-                        model_number = '38NT18'
+                if model_number == '500-030':
+                    model_number = '38NT18'
+                driver = search_items(current_driver, model_number, df, index, excel_filename)
+                count += 1
+                time.sleep(2)
 
-                    search_items(driver, options, model_number, df, index, excel_filename)
-                    count += 1
-                    time.sleep(2)
+                if count >= MAX_REQUESTS:
+                    sleep_time = max(10, BASE_SLEEP_TIME + random.uniform(-30, 30) + (count % 10))
+                    print(f"Rate limiting: sleeping for {sleep_time} seconds...")
+                    time.sleep(sleep_time) # sleep for four minutes to avoid rate limiting
+                    count = 0
+                retries = 0
 
-                    if count >= MAX_REQUESTS:
-                        sleep_time = max(10, BASE_SLEEP_TIME + random.uniform(-30, 30) + (count % 10))
-                        print(f"Rate limiting: sleeping for {sleep_time} seconds...")
-                        time.sleep(sleep_time) # sleep for four minutes to avoid rate limiting
-                        count = 0
-
-                except Exception as e:
-                    retries += 1
-                    if retries < max_retries:
-                        print(f"[yellow]Retrying... Attempt {retries}/{max_retries}[/yellow]")
-                        driver.quit()
-                        time.sleep(retry_delay)
-                        driver = uc.Chrome(options)
-                        driver.maximize_window()
-                        driver.get('https://www.grainger.com/')
-                        time.sleep(4)
-                    else:
-                        print(f'[yellow]{model_number}[/yellow] [red]Not found![/red] >>>>>>>>> error: {e}')
-                        break  # Exit loop after retries are exhausted
+            except Exception as e:
+                retries += 1
+                if retries < max_retries:
+                    print(f"[yellow]Retrying... Attempt {retries}/{max_retries}[/yellow]")
+                    time.sleep(retry_delay)
+                else:
+                    print(f'[yellow]{model_number}[/yellow] [red]Not found![/red] >>>>>>>>> error: {e}')
+                    break  # Exit loop after retries are exhausted
 
 
 
