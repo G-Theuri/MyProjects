@@ -21,14 +21,8 @@ for index, row in df_clean.iterrows():
     if pd.notna(row[0]):  # Model column
         current_data['Model'] = current_data.get('Model', '') + " " + str(row[0]).strip()
 
-    if pd.notna(row[1]):  # Description column
-        description = str(row[1]).strip()
-        if 'shelves' in description:
-            description = description.replace('35.7"', '')
-            current_data['Description'] = current_data.get('Description', '') + " " + description
-
     if pd.notna(row[2]):  # Dimensions column
-        current_data['Dimensions'] = current_data.get('Dimensions', '') + " " + str(row[2]).strip()
+        current_data['External Dimensions'] = current_data.get('External Dimensions', '') + " " + str(row[2]).strip()
 
     if pd.notna(row[3]):  # Voltage column
         current_data['Voltage'] = current_data.get('Voltage', '') + " " + str(row[3]).strip()
@@ -39,21 +33,28 @@ for index, row in df_clean.iterrows():
     if pd.notna(row[6]):  # Amps column
         current_data['Amps'] = current_data.get('Amps', '') + " " + str(row[6]).strip()
 
-    if pd.notna(row[7]):  # Plug column
-        plug_type = str(row[7]).strip()
-        if plug_type:
-            current_data['Plug Type'] = current_data.get('Plug Type', '') + "[" + plug_type + "], "
-
     if pd.notna(row[8]):  # Shipping Weight column
-        current_data['Ship Weight'] = current_data.get('Ship Weight', '') + " " + str(row[8]).strip()
+        current_data['Shipping Weight'] = current_data.get('Shipping Weight', '') + " " + str(row[8]).strip()
+        
+    if pd.notna(row[7]):  # Plugs column
+        plug_type = str(row[7]).strip()
+        if 'NEMA' in plug_type:
+            current_data['NEMA Connection'] = current_data.get('NEMA Connection', '') + " " + plug_type
+
+
+    if pd.notna(row[1]):  # Description column
+        description = str(row[1]).strip()
+        if 'shelves' in description:
+            description = description.replace('35.7"', '')
+            current_data['Description'] = current_data.get('Description', '') + " " + description
 
 if current_data:
     data_points.append(current_data)
 
 # Clean extra spaces in all data points
 for entry in data_points:
-    if 'Plug Type' in entry:
-        entry['Plug Type'] = entry['Plug Type'].rstrip(', ')
+    if 'NEMA Connection' in entry:
+        entry['NEMA Connection'] = entry['NEMA Connection'].rstrip(', ')
     for key, value in entry.items():
         # Replace multiple spaces with a single space and strip leading/trailing spaces
         entry[key] = re.sub(r'\s+', ' ', value.strip())
@@ -61,10 +62,8 @@ for entry in data_points:
         if key in ['Voltage', 'Watts', 'Amps']:
             entry[key] = ', '.join(value.split())
 
-        if key == 'Dimensions' or key == 'Ship Weight':
+        if key == 'External Dimensions' or key == 'Ship Weight':
             entry[key] = value.strip()
 
 df_data_points = pd.DataFrame(data_points)
-
-print(df_clean)
-print(data_points)
+df_data_points.to_csv('HATCO-SPEC-SHEET.csv', index=False, encoding='utf-8')
