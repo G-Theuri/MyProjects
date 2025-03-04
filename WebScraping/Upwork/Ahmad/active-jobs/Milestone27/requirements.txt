@@ -1,3 +1,4 @@
 camelot_py==1.0.0
+openpyxl==3.1.5
 pandas==2.2.3
 rich==13.9.4
